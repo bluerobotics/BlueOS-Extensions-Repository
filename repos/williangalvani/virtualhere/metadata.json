@@ -1,0 +1,6 @@
+{
+    "name": "VirtualHere",
+    "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+    "docker": "williangalvani/blueos-extension-virtualhere",
+    "description": "VirtualHere extension for exposing USB devices over IP"
+}

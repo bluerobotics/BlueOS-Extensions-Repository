@@ -1,0 +1,49 @@
+# This file is used only for setting up CI. no deployment is done with it
+
+[tool.poetry]
+name = "blueos-extensions-repository"
+version = "0.0.1"
+description = "Blue Robotics BlueOS Extensions Repository"
+authors = ["Blue Robotics <software@bluerobotics.com>"]
+license = "MIT"
+packages = [{include = "blueos_repository"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "3.7.4"
+pylint = "2.14.5"
+mypy = "0.941"
+isort = "5.10.1"
+black = "22.3.0"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint]
+    [tool.pylint.master]
+    enable = "all"
+    disable = [
+        "line-too-long", # We already have this in black.
+        "locally-disabled", # We know what we are doing, necessary to load plugins in runtime
+        "missing-class-docstring",
+        "missing-function-docstring",
+        "missing-module-docstring",
+        "suppressed-message",
+        "wrong-import-position",
+        ]
+
+    [tool.pylint.miscellaneous]
+    notes = [ "FIXME" ] # TODO is removed for internal development
+
+[tool.mypy]
+allow_untyped_decorators = true
+disallow_subclassing_any = false
+ignore_missing_imports = true
+strict = true
+warn_unreachable = true
+warn_unused_ignores = false
+plugins = "pydantic.mypy"
+
