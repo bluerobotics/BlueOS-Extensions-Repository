@@ -155,6 +155,7 @@
             "v1.0": {
                 "permissions": {
                     "NetworkMode": "host",
+                    "Privileged": true,
                     "CapAdd": [
                         "SYS_ADMIN",
                         "NET_ADMIN"
