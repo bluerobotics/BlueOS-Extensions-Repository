@@ -165,9 +165,11 @@
                             "mode": "rw"
                         }
                     },
-                    "Devices": [
-                        "/dev/net/tun:/dev/net/tun"
-                    ]
+                    "HostConfig": {
+                        "Devices": [
+                            "/dev/net/tun:/dev/net/tun"
+                        ]
+                    }
                 },
                 "requirements": "core >= 1",
                 "tag": "v1.0"
