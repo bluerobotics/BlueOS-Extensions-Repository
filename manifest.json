@@ -154,19 +154,19 @@
         "versions": {
             "v1.0": {
                 "permissions": {
-                    "NetworkMode": "host",
                     "Privileged": true,
-                    "CapAdd": [
-                        "SYS_ADMIN",
-                        "NET_ADMIN"
-                    ],
-                    "Volumes": {
-                        "/var/lib/zerotier-one": {
-                            "bind": "/var/lib/zerotier-one",
-                            "mode": "rw"
-                        }
-                    },
                     "HostConfig": {
+                        "NetworkMode": "host",
+                        "CapAdd": [
+                            "SYS_ADMIN",
+                            "NET_ADMIN"
+                        ],
+                        "Volumes": {
+                            "/var/lib/zerotier-one": {
+                                "bind": "/var/lib/zerotier-one",
+                                "mode": "rw"
+                            }
+                        },
                         "Devices": [
                             {
                                 "PathOnHost": "/dev/net/tun",
