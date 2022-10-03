@@ -166,7 +166,7 @@
                         }
                     },
                     "Devices": [
-                        "/dev/net/tun"
+                        "/dev/net/tun:/dev/net/tun"
                     ]
                 },
                 "requirements": "core >= 1",
