@@ -1,0 +1,269 @@
+[
+    {
+        "name": "Water Linked DVL Integration",
+        "description": "BlueOS integration for Water Linked's DVLs",
+        "docker": "bluerobotics/blueos-water-linked-dvl",
+        "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
+        "versions": {
+            "v1.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0"
+            },
+            "latest": {
+                "permissions": null,
+                "requirements": null,
+                "tag": "latest"
+            }
+        },
+        "support": null,
+        "docs": null,
+        "authors": [
+            {
+                "name": "Blue Robotics",
+                "email": "software@bluerobotics.com",
+                "about": ""
+            }
+        ],
+        "readme": "# BlueOS-Water-Linked-DVL\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+        "icon": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/icon.png"
+    },
+    {
+        "name": "Example 4",
+        "description": "Static HTML plus MAVLink data",
+        "docker": "williangalvani/blueos-example4",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "versions": {
+            "v1.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0"
+            }
+        },
+        "support": null,
+        "docs": null,
+        "authors": [
+            {
+                "name": "Willian Galvani",
+                "email": "willian@bluerobotics.com",
+                "about": ""
+            }
+        ],
+        "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+        "icon": ""
+    },
+    {
+        "name": "Example 1",
+        "description": "example 1",
+        "docker": "williangalvani/blueos-example1",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "versions": {
+            "v1.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0"
+            },
+            "latest": {
+                "permissions": {
+                    "network_mode": "host"
+                },
+                "requirements": null,
+                "tag": "latest"
+            }
+        },
+        "support": null,
+        "docs": null,
+        "authors": [
+            {
+                "name": "Willian Galvani",
+                "email": "willian@bluerobotics.com",
+                "about": ""
+            }
+        ],
+        "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example1 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+        "icon": ""
+    },
+    {
+        "name": "Example 3",
+        "description": "Basic Vuetify example",
+        "docker": "williangalvani/blueos-example3",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "versions": {
+            "v1.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0"
+            },
+            "latest": {
+                "permissions": null,
+                "requirements": null,
+                "tag": "latest"
+            }
+        },
+        "support": null,
+        "docs": null,
+        "authors": [
+            {
+                "name": "Willian Galvani",
+                "email": "willian@bluerobotics.com",
+                "about": ""
+            }
+        ],
+        "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example3 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+        "icon": ""
+    },
+    {
+        "name": "WebRTC Experiments",
+        "description": "Janus Gateway experiments",
+        "docker": "williangalvani/companion-webrtc",
+        "website": "https://github.com/Williangalvani/blueos-webrtc",
+        "versions": {
+            "v0.9": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v0.9"
+            }
+        },
+        "support": null,
+        "docs": null,
+        "authors": [
+            {
+                "name": "Willian Galvani",
+                "email": "willian@bluerobotics.com",
+                "about": ""
+            }
+        ],
+        "readme": null,
+        "icon": ""
+    },
+    {
+        "name": "ZeroTier",
+        "description": "ZeroTier integration",
+        "docker": "williangalvani/zerotier",
+        "website": "https://github.com/Williangalvani/ZeroTierOne",
+        "versions": {
+            "v1.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "CapAdd": [
+                        "SYS_ADMIN",
+                        "NET_ADMIN"
+                    ],
+                    "Volumes": {
+                        "/var/lib/zerotier-one": {
+                            "bind": "/var/lib/zerotier-one",
+                            "mode": "rw"
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0"
+            }
+        },
+        "support": null,
+        "docs": null,
+        "authors": [
+            {
+                "name": "Willian Galvani",
+                "email": "willian@bluerobotics.com",
+                "about": ""
+            }
+        ],
+        "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
+        "icon": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/icon.png"
+    },
+    {
+        "name": "VirtualHere",
+        "description": "VirtualHere extension for exposing USB devices over IP",
+        "docker": "williangalvani/blueos-extension-virtualhere",
+        "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+        "versions": {
+            "v1.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "Privileged": true
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0"
+            }
+        },
+        "support": null,
+        "docs": null,
+        "authors": [
+            {
+                "name": "Willian Galvani",
+                "email": "willian@bluerobotics.com",
+                "about": ""
+            }
+        ],
+        "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first install it in BlueOS:\n\n\n```\nred-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest\n```\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software",
+        "icon": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/icon.png"
+    },
+    {
+        "name": "Example 2",
+        "description": "Static HTML plus MAVLink data",
+        "docker": "williangalvani/blueos-example2",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "versions": {
+            "v1.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0"
+            },
+            "latest": {
+                "permissions": null,
+                "requirements": null,
+                "tag": "latest"
+            }
+        },
+        "support": null,
+        "docs": null,
+        "authors": [
+            {
+                "name": "Willian Galvani",
+                "email": "willian@bluerobotics.com",
+                "about": ""
+            }
+        ],
+        "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example2 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+        "icon": ""
+    },
+    {
+        "name": "USBIP",
+        "description": "USBIP extension for extending USB over IP",
+        "docker": "williangalvani/blueos-extension-usbip",
+        "website": "https://github.com/Williangalvani/blueos-usbip",
+        "versions": {
+            "v1.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0"
+            }
+        },
+        "support": null,
+        "docs": null,
+        "authors": [
+            {
+                "name": "Willian Galvani",
+                "email": "willian@bluerobotics.com",
+                "about": ""
+            }
+        ],
+        "readme": "# USB/IP extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example1 --restart=unless-stopped williangalvani/blueos-extension-usbip:latest\n```\n\n# Client\n\n## Linux:\n\n\n```\n# load modules\nsudo modprobe usbip-core\nsudo modprobe vhci-hcd\n# list devices\nsudo usbip list --remote blueos.local\n# connect to device with bus 1-1.3\nsudo usbip attach --remote blueos.local --busid 1-1.3\n\n```\n\n## Windows\n\nDownload the 3.6 dev release from https://github.com/cezanne/usbip-win and follow the \"Client\" instructions there.\nThe new \"ude\" driver seemed to work for me.",
+        "icon": ""
+    }
+]
