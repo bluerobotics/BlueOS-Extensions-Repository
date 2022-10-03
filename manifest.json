@@ -161,12 +161,9 @@
                             "SYS_ADMIN",
                             "NET_ADMIN"
                         ],
-                        "Volumes": {
-                            "/var/lib/zerotier-one": {
-                                "bind": "/var/lib/zerotier-one",
-                                "mode": "rw"
-                            }
-                        },
+                        "Binds": [
+                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
+                        ],
                         "Devices": [
                             {
                                 "PathOnHost": "/dev/net/tun",
