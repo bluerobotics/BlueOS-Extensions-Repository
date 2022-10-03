@@ -167,7 +167,7 @@
                     },
                     "HostConfig": {
                         "Devices": [
-                            "/dev/net/tun:/dev/net/tun"
+                            "/dev/net/tun:/dev/net/tun:rwm"
                         ]
                     }
                 },
