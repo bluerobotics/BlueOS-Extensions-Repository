@@ -143,7 +143,7 @@
                 "about": ""
             }
         ],
-        "readme": null,
+        "readme": "This exposes an webrtc stream for your browser.\n\nYou need to send an UDP h264 stream to localhost:8004",
         "icon": ""
     },
     {
