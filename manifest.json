@@ -151,25 +151,7 @@
         "description": "ZeroTier integration",
         "docker": "williangalvani/zerotier",
         "website": "https://github.com/Williangalvani/ZeroTierOne",
-        "versions": {
-            "v1.0": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "CapAdd": [
-                        "SYS_ADMIN",
-                        "NET_ADMIN"
-                    ],
-                    "Volumes": {
-                        "/var/lib/zerotier-one": {
-                            "bind": "/var/lib/zerotier-one",
-                            "mode": "rw"
-                        }
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0"
-            }
-        },
+        "versions": {},
         "support": null,
         "docs": null,
         "authors": [
