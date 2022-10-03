@@ -155,6 +155,7 @@
             "v1.0": {
                 "permissions": {
                     "Privileged": true,
+                    "NetworkMode": "host",
                     "HostConfig": {
                         "NetworkMode": "host",
                         "CapAdd": [
