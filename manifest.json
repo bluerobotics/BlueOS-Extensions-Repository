@@ -126,6 +126,20 @@
         "docker": "williangalvani/companion-webrtc",
         "website": "https://github.com/Williangalvani/blueos-webrtc",
         "versions": {
+            "wut": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "wut"
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0"
+            },
             "v0.9": {
                 "permissions": {
                     "NetworkMode": "host"
