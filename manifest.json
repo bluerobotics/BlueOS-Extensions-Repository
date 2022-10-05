@@ -38,9 +38,12 @@
         "versions": {
             "v1.0": {
                 "permissions": {
-                        "ExposedPorts": {
-                            "80/tcp": { }
-                        }
+                    "ExposedPorts": {
+                        "80/tcp": { }
+                    },
+                    "HostConfig": {
+                        "PortBindings": { "22/tcp": [{ "HostPort": "" }] }
+                     }
                 },
                 "requirements": "core >= 1",
                 "tag": "v1.0"
