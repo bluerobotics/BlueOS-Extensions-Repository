@@ -38,7 +38,9 @@
         "versions": {
             "v1.0": {
                 "permissions": {
-                    "NetworkMode": "host"
+                        "ExposedPorts": {
+                            "80/tcp": { }
+                        }
                 },
                 "requirements": "core >= 1",
                 "tag": "v1.0"
