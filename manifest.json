@@ -42,6 +42,9 @@
                         "80/tcp": {}
                     },
                     "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
                         "PortBindings": {
                             "80/tcp": [
                                 {
