@@ -42,7 +42,7 @@
                         "80/tcp": { }
                     },
                     "HostConfig": {
-                        "PortBindings": { "22/tcp": [{ "HostPort": "" }] }
+                        "PortBindings": { "80/tcp": [{ "HostPort": "" }] }
                      }
                 },
                 "requirements": "core >= 1",
