@@ -25,7 +25,7 @@
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/extension_logo.png",
         "company": {
             "name": "Blue Robotics",
-            "logo": null,
+            "logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/company_logo.png",
             "about": "",
             "email": "support@bluerobotics.com"
         }
@@ -70,7 +70,7 @@
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/extension_logo.png",
         "company": {
             "name": "Blue Robotics",
-            "logo": null,
+            "logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/company_logo.png",
             "about": "",
             "email": "support@bluerobotics.com"
         }
@@ -119,7 +119,7 @@
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/extension_logo.png",
         "company": {
             "name": "Blue Robotics",
-            "logo": null,
+            "logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/company_logo.png",
             "about": "",
             "email": "support@bluerobotics.com"
         }
@@ -166,7 +166,7 @@
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example3/extension_logo.png",
         "company": {
             "name": "Blue Robotics",
-            "logo": null,
+            "logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example3/company_logo.png",
             "about": "",
             "email": "support@bluerobotics.com"
         }
@@ -211,7 +211,7 @@
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/webrtc/extension_logo.png",
         "company": {
             "name": "Blue Robotics",
-            "logo": null,
+            "logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/webrtc/company_logo.png",
             "about": "",
             "email": "support@bluerobotics.com"
         }
@@ -260,7 +260,7 @@
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/extension_logo.png",
         "company": {
             "name": "Blue Robotics",
-            "logo": null,
+            "logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/company_logo.png",
             "about": "",
             "email": "support@bluerobotics.com"
         }
@@ -292,7 +292,7 @@
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/extension_logo.png",
         "company": {
             "name": "Blue Robotics",
-            "logo": null,
+            "logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/company_logo.png",
             "about": "",
             "email": "support@bluerobotics.com"
         }
@@ -339,7 +339,7 @@
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/extension_logo.png",
         "company": {
             "name": "Blue Robotics",
-            "logo": null,
+            "logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/company_logo.png",
             "about": "",
             "email": "support@bluerobotics.com"
         }
@@ -370,7 +370,7 @@
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/usbip/extension_logo.png",
         "company": {
             "name": "Blue Robotics",
-            "logo": null,
+            "logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/usbip/company_logo.png",
             "about": "",
             "email": "support@bluerobotics.com"
         }
