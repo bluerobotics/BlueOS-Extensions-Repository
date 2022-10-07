@@ -1,5 +1,6 @@
 [
     {
+        "identifier": "bluerobotics.waterlinkeddvl",
         "name": "Water Linked DVL Integration",
         "description": "BlueOS integration for Water Linked's DVLs",
         "docker": "bluerobotics/blueos-water-linked-dvl",
@@ -33,6 +34,7 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/company_logo.png"
     },
     {
+        "identifier": "bluerobotics.example4",
         "name": "Example 4",
         "description": "Static HTML plus MAVLink data",
         "docker": "williangalvani/blueos-example4",
@@ -78,6 +80,7 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/company_logo.png"
     },
     {
+        "identifier": "bluerobotics.example1",
         "name": "Example 1",
         "description": "Hello World",
         "docker": "williangalvani/blueos-example1",
@@ -133,6 +136,7 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/company_logo.png"
     },
     {
+        "identifier": "bluerobotics.example3",
         "name": "Example 3",
         "description": "Basic Vuetify example",
         "docker": "williangalvani/blueos-example3",
@@ -186,29 +190,39 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example3/company_logo.png"
     },
     {
+        "identifier": "williangalvani.webrtc",
         "name": "WebRTC Experiments",
         "description": "Janus Gateway experiments",
         "docker": "williangalvani/companion-webrtc",
         "versions": {
-            "wut": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >= 1",
-                "tag": "wut",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": "",
-                "company": null,
-                "support": null
-            },
             "v1.0.0": {
                 "permissions": {
                     "NetworkMode": "host"
                 },
                 "requirements": "core >= 1",
                 "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/blueos-webrtc",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "This exposes an webrtc stream for your browser.\n\nYou need to send an UDP h264 stream to localhost:8004",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/blueos-webrtc/issues"
+            },
+            "wut": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "wut",
                 "website": null,
                 "authors": [],
                 "docs": null,
@@ -234,6 +248,7 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/webrtc/company_logo.png"
     },
     {
+        "identifier": "williangalvani.zerotier",
         "name": "ZeroTier",
         "description": "ZeroTier integration",
         "docker": "williangalvani/zerotier",
@@ -274,6 +289,7 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/company_logo.png"
     },
     {
+        "identifier": "williangalvani.virtualhere",
         "name": "VirtualHere",
         "description": "VirtualHere extension for exposing USB devices over IP",
         "docker": "williangalvani/blueos-extension-virtualhere",
@@ -285,18 +301,28 @@
                 },
                 "requirements": "core >= 1",
                 "tag": "v1.0",
-                "website": null,
-                "authors": [],
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
                 "docs": null,
-                "readme": "",
-                "company": null,
-                "support": null
+                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first install it in BlueOS:\n\n\n```\nred-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest\n```\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues"
             }
         },
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/company_logo.png"
     },
     {
+        "identifier": "bluerobotics.example2",
         "name": "Example 2",
         "description": "Static HTML plus MAVLink data",
         "docker": "williangalvani/blueos-example2",
@@ -350,6 +376,7 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/company_logo.png"
     },
     {
+        "identifier": "williangalvani.usbip",
         "name": "USBIP",
         "description": "USBIP extension for extending USB over IP",
         "docker": "williangalvani/blueos-extension-usbip",
