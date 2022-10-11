@@ -43,6 +43,55 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/company_logo.png"
     },
     {
+        "identifier": "bluerobotics.waterlinked-ugps",
+        "name": "Underwater GPS support)",
+        "description": "In development, not working yet.",
+        "docker": "williangalvani/blueos-ugps",
+        "versions": {
+            "v1.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/waterlinked-ugps/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/waterlinked-ugps/company_logo.png"
+    },
+    {
         "identifier": "bluerobotics.example4",
         "name": "Example 4",
         "description": "Static HTML plus MAVLink data",
