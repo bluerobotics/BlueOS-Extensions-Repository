@@ -86,45 +86,6 @@
                     "email": "support@bluerobotics.com"
                 },
                 "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
-            },
-            "v1.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
             }
         },
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/waterlinked-ugps/extension_logo.png",
@@ -136,7 +97,7 @@
         "description": "Static HTML plus MAVLink data",
         "docker": "williangalvani/blueos-example4",
         "versions": {
-            "v1.0": {
+            "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
                         "80/tcp": {}
@@ -155,7 +116,7 @@
                     }
                 },
                 "requirements": "core >= 1",
-                "tag": "v1.0",
+                "tag": "v1.0.0",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "authors": [
                     {
@@ -182,7 +143,7 @@
         "description": "Hello World",
         "docker": "williangalvani/blueos-example1",
         "versions": {
-            "v1.0": {
+            "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
                         "80/tcp": {}
@@ -198,7 +159,7 @@
                     }
                 },
                 "requirements": "core >  1",
-                "tag": "v1.0",
+                "tag": "v1.0.0",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "authors": [
                     {
@@ -214,19 +175,6 @@
                     "email": "support@bluerobotics.com"
                 },
                 "support": "https://github.com/Williangalvani/BlueOS-examples/"
-            },
-            "latest": {
-                "permissions": {
-                    "network_mode": "host"
-                },
-                "requirements": null,
-                "tag": "latest",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": "",
-                "company": null,
-                "support": null
             }
         },
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/extension_logo.png",
@@ -238,7 +186,7 @@
         "description": "Basic Vuetify example",
         "docker": "williangalvani/blueos-example3",
         "versions": {
-            "v1.0": {
+            "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
                         "80/tcp": {}
@@ -254,7 +202,7 @@
                     }
                 },
                 "requirements": "core >= 1",
-                "tag": "v1.0",
+                "tag": "v1.0.0",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "authors": [
                     {
@@ -270,17 +218,6 @@
                     "email": "support@bluerobotics.com"
                 },
                 "support": "https://github.com/Williangalvani/BlueOS-examples/"
-            },
-            "latest": {
-                "permissions": null,
-                "requirements": null,
-                "tag": "latest",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": "",
-                "company": null,
-                "support": null
             }
         },
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example3/extension_logo.png",
@@ -313,32 +250,6 @@
                     "email": "support@bluerobotics.com"
                 },
                 "support": "https://github.com/Williangalvani/blueos-webrtc/issues"
-            },
-            "wut": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >= 1",
-                "tag": "wut",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": "",
-                "company": null,
-                "support": null
-            },
-            "v0.9": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >= 1",
-                "tag": "v0.9",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": "",
-                "company": null,
-                "support": null
             }
         },
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/webrtc/extension_logo.png",
@@ -424,7 +335,7 @@
         "description": "Static HTML plus MAVLink data",
         "docker": "williangalvani/blueos-example2",
         "versions": {
-            "v1.0": {
+            "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
                         "80/tcp": {}
@@ -440,7 +351,7 @@
                     }
                 },
                 "requirements": "core >= 1",
-                "tag": "v1.0",
+                "tag": "v1.0.0",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "authors": [
                     {
@@ -456,17 +367,6 @@
                     "email": "support@bluerobotics.com"
                 },
                 "support": "https://github.com/Williangalvani/BlueOS-examples/"
-            },
-            "latest": {
-                "permissions": null,
-                "requirements": null,
-                "tag": "latest",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": "",
-                "company": null,
-                "support": null
             }
         },
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/extension_logo.png",
