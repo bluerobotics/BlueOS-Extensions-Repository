@@ -42,7 +42,7 @@
                     "ExposedPorts": {
                         "80/tcp": {}
                     },
-                    "Privileged" true,
+                    "Privileged": true,
                     "HostConfig": {
                         "Binds": [
                             "/root/.config:/root/.config"
