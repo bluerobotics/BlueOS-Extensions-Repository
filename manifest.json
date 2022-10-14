@@ -39,11 +39,11 @@
         "versions": {
             "v1.0.0": {
                 "permissions": {
-                    "Privileged": true,
                     "ExposedPorts": {
                         "80/tcp": {}
                     },
                     "HostConfig": {
+                        "Privileged": true,
                         "PortBindings": {
                             "80/tcp": [
                                 {
