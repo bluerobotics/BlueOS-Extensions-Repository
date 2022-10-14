@@ -43,17 +43,9 @@
                     "ExposedPorts": {
                         "80/tcp": {}
                     },
+                    "NetworkMode": "host",
                     "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
+                        "NetworkMode": "host",
                     }
                 },
                 "requirements": "core >= 1",
