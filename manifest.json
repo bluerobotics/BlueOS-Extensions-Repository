@@ -45,7 +45,7 @@
                     },
                     "NetworkMode": "host",
                     "HostConfig": {
-                        "NetworkMode": "host",
+                        "NetworkMode": "host"
                     }
                 },
                 "requirements": "core >= 1",
