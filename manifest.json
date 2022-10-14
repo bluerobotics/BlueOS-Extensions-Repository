@@ -39,10 +39,10 @@
         "versions": {
             "v1.0.0": {
                 "permissions": {
+                    "Privileged": true,
                     "ExposedPorts": {
                         "80/tcp": {}
                     },
-                    "Privileged": true,
                     "HostConfig": {
                         "Binds": [
                             "/root/.config:/root/.config"
