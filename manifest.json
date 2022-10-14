@@ -35,7 +35,7 @@
         "identifier": "williangalvani.example5",
         "name": "Example 5",
         "description": "GPIO PWM Control",
-        "docker": "williangalvani/blueos-example4",
+        "docker": "williangalvani/blueos-example5",
         "versions": {
             "v1.0.0": {
                 "permissions": {
