@@ -8,17 +8,14 @@ jobs:
   python-tests:
     runs-on: ubuntu-latest
 
-    env:
-      python-version: 3.9 # Our base image has Python 3.9
-
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
-    - name: Set up Python ${{ env.python-version }}
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: ${{ env.python-version }}
+        python-version: '3.10'
 
     - name: Install dependencies
       run: |
