@@ -6,7 +6,7 @@ on:
       - master
   pull_request:
   schedule:
-    - cron: "* */1 * * *"
+    - cron: "0 10 */1 * *" # At 10:00 UTC on every day-of-month
 
 permissions:
   contents: write
