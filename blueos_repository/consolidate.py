@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, AsyncIterable, Dict, List, Optional, Union
 
 import aiohttp
+import semver
 from registry import Registry
 
 REPO_ROOT = "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos"
@@ -118,10 +119,25 @@ class Consolidator:
                 except Exception as error:
                     raise Exception(f"unable to read file {individual_file}: {error}") from error
 
+    @staticmethod
+    def is_valid_semver(string: str) -> bool:
+        # We want to allow versions to be prefixed with a 'v'.
+        # This is up for discussion
+        if string.startswith("v"):
+            string = string[1:]
+        try:
+            semver.VersionInfo.parse(string)
+            return True
+        except ValueError:
+            return False
+
     async def run(self) -> None:
         async for repository in self.all_repositories():
             for tag in await self.registry.fetch_remote_tags(repository.docker):
                 try:
+                    if not self.is_valid_semver(tag):
+                        print(f"{tag} is not valid SemVer, ignoring it...")
+                        continue
                     raw_labels = await self.registry.fetch_labels(f"{repository.docker}:{tag}")
                     permissions = raw_labels.get("permissions", None)
                     website = raw_labels.get("website", None)
