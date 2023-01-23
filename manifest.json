@@ -40,7 +40,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "Experimental, not working\n",
+                "readme": "Experimental, needs testing\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
@@ -151,6 +151,28 @@
         "description": "BlueOS extension for Cerulean DVL",
         "docker": "nicknothom/blueos-cerulean-dvl",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.0.1",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS-Cerulean-DVL\n\nThis is a docker implementation of a Cerulean DVL driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories"
+            },
             "v1.0.0": {
                 "permissions": {
                     "NetworkMode": "host"
