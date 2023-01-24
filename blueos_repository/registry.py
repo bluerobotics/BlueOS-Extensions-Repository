@@ -61,7 +61,7 @@ class Registry:
         """Fetches the digest sha from a tag. This returns the image id displayed by 'docker image ls'"""
         header = {
             "Authorization": f"Bearer {self.token}",
-            "Accept": "application/vnd.docker.distribution.manifest.v2+json",
+            "Accept": "application/vnd.docker.distribution.manifest.v2+json,application/vnd.oci.image.manifest.v1+json",
         }
         repository, tag = repo.split(":")
         print(f"fetching labels for {repository}:{tag}")
