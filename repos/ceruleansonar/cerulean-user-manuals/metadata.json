@@ -1,0 +1,6 @@
+{
+    "name": "Cerulean Manuals",
+    "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-User-Manuals/",
+    "docker": "nicknothom/blueos-cerulean-user-manuals",
+    "description": "Offline access for Cerulean user manuals"
+}
