@@ -2,5 +2,5 @@
     "name": "Underwater GPS support",
     "website": "https://github.com/Williangalvani/blueos-ugps-extension",
     "docker": "williangalvani/blueos-ugps",
-    "description": "In development, DOES NOT WORK YET."
+    "description": "In development, needs testing."
 }
