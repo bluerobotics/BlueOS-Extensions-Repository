@@ -1,5 +1,5 @@
 {
-    "name": "Cerulean DVL Extension",
+    "name": "Cerulean DVL",
     "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-DVL/",
     "docker": "nicknothom/blueos-cerulean-dvl",
     "description": "BlueOS extension for Cerulean DVL"
