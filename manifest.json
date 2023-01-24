@@ -2,7 +2,7 @@
     {
         "identifier": "bluerobotics.waterlinked-ugps",
         "name": "Underwater GPS support",
-        "description": "In development, DOES NOT WORK YET.",
+        "description": "In development, needs testing.",
         "docker": "williangalvani/blueos-ugps",
         "versions": {
             "v1.0.1": {
