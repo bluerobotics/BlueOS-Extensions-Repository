@@ -172,28 +172,6 @@
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
                 "support": "https://forum.ceruleansonar.com/categories"
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": null,
-                "tag": "v1.0.0",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": null,
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories"
             }
         },
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
