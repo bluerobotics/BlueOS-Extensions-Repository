@@ -69,7 +69,7 @@ class Registry:
             async with session.get(f"{self.index_url}/v2/{repository}/manifests/{tag}", headers=header) as resp:
                 if resp.status != 200:
                     print(f"Error status {resp.status}")
-                    raise Exception("Failed getting sha from DockerHub!")
+                    raise Exception(f"Failed getting sha from DockerHub at {url} : {resp.status} : {await resp.text()}")
                 data = await resp.json(content_type=None)
                 digest = str(data["config"]["digest"])
 
