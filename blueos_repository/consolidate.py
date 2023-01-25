@@ -76,6 +76,10 @@ class Consolidator:
     consolidated_data: List[RepositoryEntry] = []
 
     @staticmethod
+    def repo_folder() -> Path:
+        return Path(__file__).parent.parent
+
+    @staticmethod
     async def fetch_readme(url: str) -> str:
         if not url.startswith("http"):
             print(f"Invalid Readme url: {url}")
@@ -90,7 +94,7 @@ class Consolidator:
                 return await resp.text()
 
     async def all_repositories(self) -> AsyncIterable[RepositoryEntry]:
-        repos = Path("./repos")
+        repos = self.repo_folder()
         for repo in repos.glob("**/metadata.json"):
             with open(repo, "r", encoding="utf-8") as individual_file:
                 company, extension_name = repo.as_posix().split("/")[1:3]
