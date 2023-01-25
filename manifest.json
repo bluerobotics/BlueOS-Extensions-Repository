@@ -1,6 +1,15 @@
 [
     {
         "identifier": "home.runner",
+        "name": "Cockpit",
+        "description": "In development, use it at your own risk .",
+        "docker": "patrickelectric/cockpit",
+        "versions": {},
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/repos/bluerobotics/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/repos/bluerobotics/company_logo.png"
+    },
+    {
+        "identifier": "home.runner",
         "name": "Underwater GPS support",
         "description": "In development, needs testing.",
         "docker": "williangalvani/blueos-ugps",
