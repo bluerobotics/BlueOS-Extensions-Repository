@@ -73,7 +73,7 @@ class Registry:
                 data = await resp.json(content_type=None)
                 digest = str(data["config"]["digest"])
 
-                blob_url = f"https://registry-1.docker.io/v2/{repository}/blobs/{digest}"
+                blob_url = f"{self.index_url}/v2/{repository}/blobs/{digest}"
 
                 async with session.get(blob_url, headers=header) as resp:
                     if resp.status != 200:
