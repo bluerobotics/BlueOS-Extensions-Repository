@@ -4,7 +4,19 @@
         "name": "Cockpit",
         "description": "In development, use it at your own risk .",
         "docker": "patrickelectric/cockpit",
-        "versions": {},
+        "versions": {
+            "v0.0.0": {
+                "permissions": null,
+                "requirements": null,
+                "tag": "v0.0.0",
+                "website": null,
+                "authors": [],
+                "docs": null,
+                "readme": null,
+                "company": null,
+                "support": null
+            }
+        },
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/bluerobotics/company_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/bluerobotics/company_logo.png"
     },
