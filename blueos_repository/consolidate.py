@@ -97,7 +97,7 @@ class Consolidator:
         repos = self.repo_folder()
         for repo in repos.glob("**/metadata.json"):
             with open(repo, "r", encoding="utf-8") as individual_file:
-                company, extension_name = repo.as_posix().split("/")[1:3]
+                company, extension_name = repo.as_posix().split("/")[-3:-1]
                 identifier = ".".join([company, extension_name])
                 try:
                     data = json.load(individual_file)
