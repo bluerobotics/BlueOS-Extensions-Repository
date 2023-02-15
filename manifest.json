@@ -3,32 +3,8 @@
         "identifier": "bluerobotics.cockpit",
         "name": "Cockpit",
         "description": "In development, use it at your own risk .",
-        "docker": "patrickelectric/cockpit",
+        "docker": "bluerobotics/cockpit",
         "versions": {
-            "v0.0.2": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": null,
-                "tag": "v0.0.2",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": null,
-                "company": null,
-                "support": null
-            },
             "v0.0.1": {
                 "permissions": {
                     "ExposedPorts": {
@@ -46,17 +22,6 @@
                 },
                 "requirements": null,
                 "tag": "v0.0.1",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": null,
-                "company": null,
-                "support": null
-            },
-            "v0.0.0": {
-                "permissions": null,
-                "requirements": null,
-                "tag": "v0.0.0",
                 "website": null,
                 "authors": [],
                 "docs": null,
