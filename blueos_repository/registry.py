@@ -58,19 +58,10 @@ class Registry:
                 print(valid_images)
                 return valid_images
 
-    def get_current_arch(self) -> str:
-        """Maps platform.machine() outputs to docker architectures"""
-        arch_map = {"x86_64": "amd64", "aarch64": "arm", "armv7l": "arm"}  # TODO: differentiate arm64v8/ arm32v7
-        machine = platform.machine()
-        arch = arch_map.get(machine, None)
-        if not arch:
-            raise RuntimeError(f"Unknown architecture! {machine}")
-        return arch
-
     def is_compatible(self, entry: Any) -> bool:
         if entry["os"] != "linux":
             return False
-        return bool(entry["architecture"] == self.get_current_arch())
+        return bool(entry["architecture"] == "arm")
 
     async def extract_digest(self, data: Any, repo: str) -> str:
         # regular images/ OCI images
