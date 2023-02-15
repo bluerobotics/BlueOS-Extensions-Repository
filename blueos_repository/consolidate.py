@@ -2,11 +2,13 @@
 import asyncio
 import dataclasses
 import json
+import os
 from pathlib import Path
 from typing import Any, AsyncIterable, Dict, List, Optional, Union
 
 import aiohttp
 import semver
+from exceptions import ConfigurationError
 from registry import Registry
 
 REPO_ROOT = "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/"
@@ -93,6 +95,12 @@ class Consolidator:
                     raise Exception(f"bad response type for readme: {resp.content_type}, expected text/plain")
                 return await resp.text()
 
+    def raise_if_pull_request(self, exception: Exception) -> None:
+        print(os.environ.get("github.event_name", None))
+        if os.environ.get("github.event_name", None) == "pull_request":
+            raise exception
+        print(exception)
+
     async def all_repositories(self) -> AsyncIterable[RepositoryEntry]:
         repos = self.repo_folder()
         for repo in repos.glob("**/metadata.json"):
@@ -144,6 +152,10 @@ class Consolidator:
                         continue
                     raw_labels = await self.registry.fetch_labels(f"{repository.docker}:{tag}")
                     permissions = raw_labels.get("permissions", None)
+                    if not permissions:
+                        self.raise_if_pull_request(
+                            ConfigurationError("LABEL permissions is not found. please add it and try again")
+                        )
                     website = raw_labels.get("website", None)
                     authors = raw_labels.get("authors", None)
                     docs = raw_labels.get("docs", None)
