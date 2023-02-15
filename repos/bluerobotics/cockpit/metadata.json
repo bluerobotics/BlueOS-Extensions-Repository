@@ -1,6 +1,6 @@
 {
     "name": "Cockpit",
     "website": "https://github.com/bluerobotics/cockpit",
-    "docker": "patrickelectric/cockpit",
+    "docker": "bluerobotics/cockpit",
     "description": "In development, use it at your own risk ."
 }
