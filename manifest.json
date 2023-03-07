@@ -577,45 +577,11 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
     },
     {
-        "identifier": "ceruleansonar.cerulean-user-manuals",
-        "name": "Cerulean Manuals",
-        "description": "Offline access for Cerulean user manuals",
-        "docker": "nicknothom/blueos-cerulean-user-manuals",
-        "versions": {
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0.0",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS Cerulean User Manuals\n\nHosts a mirror of the [Cerulean User Manuals](https://cerulean-sonar.gitbook.io/dvl-75-user-manual/dvl-75-user-manual-overview) on the ROV so they can be viewed offline. ",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories"
-            }
-        },
+        "identifier": "ceruleansonar.cerulean-docs",
+        "name": "Cerulean Docs",
+        "description": "Offline access for Cerulean Documentation",
+        "docker": "nicknothom/blueos-cerulean-docs",
+        "versions": {},
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/ceruleansonar/company_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/ceruleansonar/company_logo.png"
     },
