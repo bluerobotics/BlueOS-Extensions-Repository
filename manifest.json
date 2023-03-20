@@ -151,6 +151,30 @@
         "description": "In development, use it at your own risk .",
         "docker": "bluerobotics/cockpit",
         "versions": {
+            "v0.0.3": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "v0.0.3",
+                "website": null,
+                "authors": [],
+                "docs": null,
+                "readme": null,
+                "company": null,
+                "support": null
+            },
             "v0.0.2": {
                 "permissions": {
                     "ExposedPorts": {
