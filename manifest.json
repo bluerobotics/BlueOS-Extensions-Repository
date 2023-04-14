@@ -4,6 +4,7 @@
         "name": "WebRTC Experiments",
         "description": "Janus Gateway experiments",
         "docker": "williangalvani/companion-webrtc",
+        "website": "https://github.com/Williangalvani/blueos-webrtc",
         "versions": {
             "v1.0.0": {
                 "permissions": {
@@ -36,6 +37,7 @@
         "name": "USBIP",
         "description": "USBIP extension for extending USB over IP",
         "docker": "williangalvani/blueos-extension-usbip",
+        "website": "https://github.com/Williangalvani/blueos-usbip",
         "versions": {
             "v1.0.0": {
                 "permissions": {
@@ -68,6 +70,7 @@
         "name": "VirtualHere",
         "description": "VirtualHere extension for exposing USB devices over IP",
         "docker": "williangalvani/blueos-extension-virtualhere",
+        "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
         "versions": {
             "v1.0.2": {
                 "permissions": {
@@ -129,6 +132,7 @@
         "name": "Example 4",
         "description": "Vuetify + Persistent backend",
         "docker": "williangalvani/blueos-example4",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
             "v1.0.0": {
                 "permissions": {
@@ -175,6 +179,7 @@
         "name": "Example 2",
         "description": "Static HTML plus MAVLink data",
         "docker": "williangalvani/blueos-example2",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
             "v1.0.0": {
                 "permissions": {
@@ -218,6 +223,7 @@
         "name": "Example 3",
         "description": "Basic Vuetify example",
         "docker": "williangalvani/blueos-example3",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
             "v1.0.0": {
                 "permissions": {
@@ -261,6 +267,7 @@
         "name": "Example 1",
         "description": "Hello World",
         "docker": "williangalvani/blueos-example1",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
             "v1.0.0": {
                 "permissions": {
@@ -304,6 +311,7 @@
         "name": "ZeroTier",
         "description": "ZeroTier integration",
         "docker": "williangalvani/zerotier",
+        "website": "https://github.com/Williangalvani/ZeroTierOne",
         "versions": {
             "v1.0.0": {
                 "permissions": {
@@ -354,6 +362,7 @@
         "name": "Example 5",
         "description": "GPIO PWM Control",
         "docker": "williangalvani/blueos-example5",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
             "v1.0.0": {
                 "permissions": {
@@ -401,6 +410,7 @@
         "name": "Nortek Nucleus",
         "description": "Driver that extract velocity data from a Nortek Nucleus device and feeds it to ArduSub, allowing it to utilize its Position Hold feature",
         "docker": "nortekgroup/blueos_nucleus",
+        "website": "https://github.com/nortekgroup/nucleus_driver/tree/main/blueos_extension",
         "versions": {
             "0.0.6": {
                 "permissions": {
@@ -450,6 +460,7 @@
         "name": "Cerulean DVL",
         "description": "BlueOS extension for Cerulean DVL",
         "docker": "nicknothom/blueos-cerulean-dvl",
+        "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-DVL/",
         "versions": {
             "v1.0.5": {
                 "permissions": {
@@ -553,6 +564,7 @@
         "name": "Cerulean Docs",
         "description": "Offline access for Cerulean Documentation",
         "docker": "nicknothom/blueos-cerulean-docs",
+        "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-Docs/",
         "versions": {
             "v1.1.0": {
                 "permissions": {
@@ -618,6 +630,7 @@
         "name": "Water Linked DVL Integration",
         "description": "BlueOS integration for Water Linked's DVLs",
         "docker": "bluerobotics/blueos-water-linked-dvl",
+        "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
         "versions": {
             "v1.0.1": {
                 "permissions": {
@@ -672,6 +685,7 @@
         "name": "Underwater GPS support",
         "description": "In development, needs testing.",
         "docker": "williangalvani/blueos-ugps",
+        "website": "https://github.com/Williangalvani/blueos-ugps-extension",
         "versions": {
             "v1.0.1": {
                 "permissions": {
@@ -764,6 +778,7 @@
         "name": "Cockpit",
         "description": "In development, use it at your own risk .",
         "docker": "bluerobotics/cockpit",
+        "website": "https://github.com/bluerobotics/cockpit",
         "versions": {
             "v0.0.7": {
                 "permissions": {
