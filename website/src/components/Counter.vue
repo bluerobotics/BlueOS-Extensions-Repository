@@ -10,9 +10,11 @@
               </v-avatar>
               <v-col>
                 <v-card-title>
-                  {{ extension.name }}
+                  <a v-bind:href="extension.website">{{ extension.name }}</a>
                 </v-card-title>
-                <v-card-subtitle> {{ extension.identifier }} </v-card-subtitle>
+                <v-card-subtitle>
+                  <a v-bind:href="'https://hub.docker.com/r/' + extension.docker">{{ extension.identifier }}</a>
+                </v-card-subtitle>
               </v-col>
             </v-row>
           </v-card-title>
