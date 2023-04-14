@@ -402,7 +402,7 @@
         "description": "Driver that extract velocity data from a Nortek Nucleus device and feeds it to ArduSub, allowing it to utilize its Position Hold feature",
         "docker": "nortekgroup/blueos_nucleus",
         "versions": {
-            "0.0.4": {
+            "0.0.5": {
                 "permissions": {
                     "ExposedPorts": {
                         "80/tcp": {}
@@ -421,7 +421,7 @@
                     }
                 },
                 "requirements": null,
-                "tag": "0.0.4",
+                "tag": "0.0.5",
                 "website": "https://github.com/nortekgroup/nucleus_driver/tree/main/blueos_extension",
                 "authors": [
                     {
