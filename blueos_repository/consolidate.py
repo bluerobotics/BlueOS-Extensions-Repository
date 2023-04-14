@@ -66,6 +66,7 @@ class RepositoryEntry:
     name: str
     description: str
     docker: str
+    website: str
     versions: Dict[str, Version]
     extension_logo: Optional[str]
     company_logo: Optional[str]
@@ -115,6 +116,7 @@ class Consolidator:
                         name=data["name"],
                         docker=data["docker"],
                         description=data["description"],
+                        website=data["website"],
                         extension_logo=f"{REPO_ROOT}/{extension_logo}" if extension_logo else None,
                         versions={},
                         company_logo=f"{REPO_ROOT}/{company_logo}" if company_logo else None,
