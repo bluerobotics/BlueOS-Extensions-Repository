@@ -744,7 +744,7 @@
     {
         "identifier": "bluerobotics.waterlinked-ugps",
         "name": "Underwater GPS support",
-        "description": "In development, needs testing.",
+        "description": "Provides geolocation with GPS and acoustic positioning",
         "docker": "williangalvani/blueos-ugps",
         "website": "https://github.com/Williangalvani/blueos-ugps-extension",
         "versions": {
