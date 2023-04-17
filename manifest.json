@@ -68,7 +68,7 @@
     {
         "identifier": "williangalvani.virtualhere",
         "name": "VirtualHere",
-        "description": "VirtualHere extension for exposing USB devices over IP",
+        "description": "Remotely access onboard USB devices over IP",
         "docker": "williangalvani/blueos-extension-virtualhere",
         "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
         "versions": {
@@ -309,7 +309,7 @@
     {
         "identifier": "williangalvani.zerotier",
         "name": "ZeroTier",
-        "description": "ZeroTier integration",
+        "description": "Join a virtual network to operate your vehicle from anywhere",
         "docker": "williangalvani/zerotier",
         "website": "https://github.com/Williangalvani/ZeroTierOne",
         "versions": {
@@ -408,7 +408,7 @@
     {
         "identifier": "nortekgroup.nucleus",
         "name": "Nortek Nucleus",
-        "description": "Driver that extract velocity data from a Nortek Nucleus device and feeds it to ArduSub, allowing it to utilize its Position Hold feature",
+        "description": "Supports the Nucleus1000 DVL for ROV navigation",
         "docker": "nortekgroup/blueos_nucleus",
         "website": "https://github.com/nortekgroup/nucleus_driver/tree/main/blueos_extension",
         "versions": {
@@ -831,13 +831,13 @@
                 "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/bluerobotics/company_logo.png",
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/bluerobotics/waterlinked-ugps/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/bluerobotics/company_logo.png"
     },
     {
         "identifier": "bluerobotics.cockpit",
         "name": "Cockpit",
-        "description": "In development, use it at your own risk .",
+        "description": "Blue Robotics next generation control interface. Under development.",
         "docker": "bluerobotics/cockpit",
         "website": "https://github.com/bluerobotics/cockpit",
         "versions": {
