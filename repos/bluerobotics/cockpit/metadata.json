@@ -2,5 +2,5 @@
     "name": "Cockpit",
     "website": "https://github.com/bluerobotics/cockpit",
     "docker": "bluerobotics/cockpit",
-    "description": "In development, use it at your own risk ."
+    "description": "Blue Robotics next generation control interface. Under development."
 }
