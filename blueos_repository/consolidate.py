@@ -78,7 +78,7 @@ class Consolidator:
 
     @staticmethod
     def repo_folder() -> Path:
-        return Path(__file__).parent.parent
+        return Path(__file__).parent.parent.joinpath("repos")
 
     @staticmethod
     async def fetch_readme(url: str) -> str:
@@ -123,7 +123,7 @@ class Consolidator:
                     )
                     yield new_repo
                 except Exception as error:
-                    raise Exception(f"unable to read file {individual_file}: {error}") from error
+                    raise Exception(f"unable to read file {repo}: {error}") from error
 
     @staticmethod
     def is_valid_semver(string: str) -> bool:
