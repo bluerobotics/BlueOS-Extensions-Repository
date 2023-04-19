@@ -96,7 +96,7 @@ class Consolidator:
 
     async def all_repositories(self) -> AsyncIterable[RepositoryEntry]:
         repos = self.repo_folder()
-        for repo in repos.glob("**/metadata.json"):
+        for repo in repos.glob("repos/**/metadata.json"):
             with open(repo, "r", encoding="utf-8") as individual_file:
                 company, extension_name = repo.as_posix().split("/")[-3:-1]
                 identifier = ".".join([company, extension_name])
@@ -123,7 +123,7 @@ class Consolidator:
                     )
                     yield new_repo
                 except Exception as error:
-                    raise Exception(f"unable to read file {individual_file}: {error}") from error
+                    raise Exception(f"unable to read file {repo}: {error}") from error
 
     @staticmethod
     def is_valid_semver(string: str) -> bool:
