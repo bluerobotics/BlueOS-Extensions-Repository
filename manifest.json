@@ -786,6 +786,30 @@
         "docker": "bluerobotics/cockpit",
         "website": "https://github.com/bluerobotics/cockpit",
         "versions": {
+            "v0.0.8": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "v0.0.8",
+                "website": null,
+                "authors": [],
+                "docs": null,
+                "readme": null,
+                "company": null,
+                "support": null
+            },
             "v0.0.7": {
                 "permissions": {
                     "ExposedPorts": {
