@@ -27,11 +27,12 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import { RepositoryEntry } from "@/types/manifest"
 
 const extensions = ref();
 
 onMounted(async () => {
   const response = await fetch("manifest.json");
-  extensions.value = await response.json();
+  extensions.value = await response.json() as [RepositoryEntry];
 });
 </script>
