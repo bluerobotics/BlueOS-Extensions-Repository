@@ -29,8 +29,8 @@
                 "support": "https://github.com/Williangalvani/blueos-webrtc/issues"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.usbip",
@@ -62,8 +62,8 @@
                 "support": "https://github.com/Williangalvani/BlueOS-UsbIp"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.virtualhere",
@@ -124,8 +124,8 @@
                 "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/virtualhere/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/virtualhere/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example4",
@@ -171,8 +171,8 @@
                 "support": "https://github.com/Williangalvani/BlueOS-examples/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example2",
@@ -215,8 +215,8 @@
                 "support": "https://github.com/Williangalvani/BlueOS-examples/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example3",
@@ -259,8 +259,8 @@
                 "support": "https://github.com/Williangalvani/BlueOS-examples/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example1",
@@ -303,8 +303,8 @@
                 "support": "https://github.com/Williangalvani/BlueOS-examples/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.zerotier",
@@ -354,8 +354,8 @@
                 "support": "https://github.com/williangalvani/zerotierone"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/zerotier/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/zerotier/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example5",
@@ -402,8 +402,8 @@
                 "support": "https://github.com/Williangalvani/BlueOS-examples/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
     },
     {
         "identifier": "waterlinked.ugps",
@@ -440,8 +440,8 @@
                 "support": "https://github.com/waterlinked/blueos-ugps-extension"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/waterlinked/ugps/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/waterlinked/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//waterlinked/ugps/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//waterlinked/company_logo.png"
     },
     {
         "identifier": "nortekgroup.nucleus",
@@ -607,8 +607,8 @@
                 "support": "https://support.nortekgroup.com/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/nortekgroup/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/nortekgroup/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//nortekgroup/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//nortekgroup/company_logo.png"
     },
     {
         "identifier": "ceruleansonar.cerulean-dvl",
@@ -711,8 +711,8 @@
                 "support": "https://forum.ceruleansonar.com/categories"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/ceruleansonar/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/ceruleansonar/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//ceruleansonar/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//ceruleansonar/company_logo.png"
     },
     {
         "identifier": "ceruleansonar.cerulean-docs",
@@ -777,8 +777,8 @@
                 "support": "https://forum.ceruleansonar.com/categories"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/ceruleansonar/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/ceruleansonar/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//ceruleansonar/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//ceruleansonar/company_logo.png"
     },
     {
         "identifier": "bluerobotics.water-linked-dvl",
@@ -854,8 +854,8 @@
                 "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/bluerobotics/water-linked-dvl/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/bluerobotics/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//bluerobotics/water-linked-dvl/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//bluerobotics/company_logo.png"
     },
     {
         "identifier": "bluerobotics.cockpit",
@@ -1057,7 +1057,7 @@
                 "support": null
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/bluerobotics/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//repos/bluerobotics/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//bluerobotics/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//bluerobotics/company_logo.png"
     }
 ]
