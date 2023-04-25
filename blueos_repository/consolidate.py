@@ -149,23 +149,22 @@ class Consolidator:
                     raise Exception(f"unable to read file {repo}: {error}") from error
 
     @staticmethod
-    def is_valid_semver(string: str) -> bool:
+    def valid_semver(string: str) -> Optional[semver.VersionInfo]:
         # We want to allow versions to be prefixed with a 'v'.
         # This is up for discussion
         if string.startswith("v"):
             string = string[1:]
         try:
-            semver.VersionInfo.parse(string)
-            return True
+            return semver.VersionInfo.parse(string)
         except ValueError:
-            return False
+            return None  # not valid
 
     # pylint: disable=too-many-locals
     async def run(self) -> None:
         async for repository in self.all_repositories():
             for tag in await self.registry.fetch_remote_tags(repository.docker):
                 try:
-                    if not self.is_valid_semver(tag):
+                    if not self.valid_semver(tag):
                         print(f"{tag} is not valid SemVer, ignoring it...")
                         continue
                     raw_labels = await self.registry.fetch_labels(f"{repository.docker}:{tag}")
@@ -205,6 +204,10 @@ class Consolidator:
                     repository.versions[tag] = new_version
                 except KeyError as error:
                     raise Exception(f"unable to parse repository {repository}: {error}") from error
+            # sort the versions, with the highest version first
+            repository.versions = dict(
+                sorted(repository.versions.items(), key=lambda i: self.valid_semver(i[0]), reverse=True)  # type: ignore
+            )
             self.consolidated_data.append(repository)
 
         with open("manifest.json", "w", encoding="utf-8") as manifest_file:
