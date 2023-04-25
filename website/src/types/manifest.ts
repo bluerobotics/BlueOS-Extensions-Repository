@@ -9,6 +9,13 @@ export interface Company {
     email?: string;
 }
 
+export enum ExtensionType {
+    DEVICE_INTEGRATION = "device-integration",
+    THEME = "theme",
+    OTHER = "other",
+    EXAMPLE = "example"
+}
+
 export interface Version {
     permissions?: {[key: string]: any};
     requirements?: string;
@@ -19,6 +26,9 @@ export interface Version {
     readme?: string;
     company?: Company;
     support?: string;
+    type: ExtensionType;
+    filter_tags: string[];
+    extra_links: {[key: string]: string};
 }
 
 export interface RepositoryEntry {
