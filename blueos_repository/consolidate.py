@@ -2,6 +2,7 @@
 import asyncio
 import dataclasses
 import json
+from enum import Enum
 from pathlib import Path
 from typing import Any, AsyncIterable, Dict, List, Optional, Union
 
@@ -10,6 +11,13 @@ import semver
 from registry import Registry
 
 REPO_ROOT = "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos"
+
+
+class StrEnum(str, Enum):
+    """Temporary filler until Python 3.11 available."""
+
+    def __str__(self) -> str:
+        return self.value  # type: ignore
 
 
 class EnhancedJSONEncoder(json.JSONEncoder):
@@ -46,6 +54,13 @@ class Company:
         return Company(name=json_dict["name"], email=json_dict.get("email", None), about=json_dict.get("about", None))
 
 
+class ExtensionType(StrEnum):
+    DEVICE_INTEGRATION = "device-integration"
+    EXAMPLE = "example"
+    THEME = "theme"
+    OTHER = "other"
+
+
 # pylint: disable=too-many-instance-attributes
 @dataclasses.dataclass
 class Version:
@@ -58,6 +73,14 @@ class Version:
     readme: Optional[str]
     company: Optional[Company]
     support: Optional[str]
+    type: ExtensionType
+    filter_tags: List[str]
+    extra_links: Dict[str, str]
+
+    @staticmethod
+    def validate_filter_tags(tags: List[str]) -> List[str]:
+        """Returns a list of up to 10 lower-case alpha-numeric tags (dashes allowed)."""
+        return [tag.lower() for tag in tags if tag.replace("-", "").isalnum()][:10]
 
 
 @dataclasses.dataclass
@@ -137,6 +160,7 @@ class Consolidator:
         except ValueError:
             return False
 
+    # pylint: disable=too-many-locals
     async def run(self) -> None:
         async for repository in self.all_repositories():
             for tag in await self.registry.fetch_remote_tags(repository.docker):
@@ -146,9 +170,11 @@ class Consolidator:
                         continue
                     raw_labels = await self.registry.fetch_labels(f"{repository.docker}:{tag}")
                     permissions = raw_labels.get("permissions", None)
-                    website = raw_labels.get("website", None)
+                    links = raw_labels.get("links", {})
+                    website = links.pop("website", raw_labels.get("website", None))
                     authors = raw_labels.get("authors", None)
-                    docs = raw_labels.get("docs", None)
+                    # documentation is just a URL for a link, but the old format had it as its own label
+                    docs = links.pop("docs", links.pop("documentation", raw_labels.get("docs", None)))
                     readme = raw_labels.get("readme", None)
                     if readme is not None:
                         readme = readme.replace(r"{tag}", tag)
@@ -158,7 +184,9 @@ class Consolidator:
                             readme = str(error)
                     company_raw = raw_labels.get("company", None)
                     company = Company.from_json(json.loads(company_raw)) if company_raw is not None else None
-                    support = raw_labels.get("support", None)
+                    support = links.pop("support", raw_labels.get("support", None))
+                    type_ = raw_labels.get("type", ExtensionType.OTHER)
+                    filter_tags = raw_labels.get("tags", [])
 
                     new_version = Version(
                         permissions=json.loads(permissions) if permissions else None,
@@ -168,6 +196,9 @@ class Consolidator:
                         readme=readme,
                         company=company,
                         support=support,
+                        extra_links=links,
+                        type=type_,
+                        filter_tags=Version.validate_filter_tags(filter_tags),
                         requirements=raw_labels.get("requirements", None),
                         tag=tag,
                     )
