@@ -21,7 +21,8 @@
                       <a v-bind:href="extension.website">{{ extension.name }}</a>
                     </v-card-title>
                     <v-card-subtitle>
-                      <a v-bind:href="'https://hub.docker.com/r/' + extension.docker">{{ extension.identifier }}</a>
+                      <strong>Maintainer: </strong>
+                      <a v-bind:href="'mailto:' + maintainerEmail(extension)">{{ maintainerName(extension) }}</a>
                     </v-card-subtitle>
                   </v-col>
                   <v-slide-group class="mt-2" v-if="highestVersion(extension).filter_tags.length > 0">
@@ -58,5 +59,13 @@ const sections = computed(() => {
 function highestVersion(extension: RepositoryEntry) : Version {
   // Assumes versions are pre-sorted by semver, highest first
   return Object.values(extension.versions)[0];
+}
+
+function maintainerName(extension: RepositoryEntry) : string {
+  return highestVersion(extension)?.company?.name ?? 'Unknown';
+}
+
+function maintainerEmail(extension: RepositoryEntry) : string {
+  return highestVersion(extension)?.company?.email ?? '';
 }
 </script>
