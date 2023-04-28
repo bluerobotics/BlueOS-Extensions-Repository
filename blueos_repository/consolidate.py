@@ -152,6 +152,10 @@ class Consolidator:
                     readme = raw_labels.get("readme", None)
                     if readme is not None:
                         readme = readme.replace(r"{tag}", tag)
+                        try:
+                            readme = await self.fetch_readme(readme)
+                        except Exception as error:  # pylint: disable=broad-except
+                            readme = str(error)
                     company_raw = raw_labels.get("company", None)
                     company = Company.from_json(json.loads(company_raw)) if company_raw is not None else None
                     support = raw_labels.get("support", None)
@@ -161,7 +165,7 @@ class Consolidator:
                         website=website,
                         authors=json.loads(authors) if authors else [],
                         docs=json.loads(docs) if docs else None,
-                        readme=await self.fetch_readme(readme) if readme is not None else None,
+                        readme=readme,
                         company=company,
                         support=support,
                         requirements=raw_labels.get("requirements", None),
