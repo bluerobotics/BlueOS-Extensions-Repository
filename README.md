@@ -54,20 +54,46 @@ LABEL authors='[\
         "email": "doe@john.com"\
     }\
 ]'
-LABEL docs='http://path.to.your.docs.com'
 LABEL company='{\
-  "about": "",\
+  "about": "brief description",\
+  "name": "Company/Person Name",\
+  "email": "email@company.com"\
+}'
+LABEL readme="https://raw.githubusercontent.com/username/repo/{tag}/README.md"
+LABEL links='{\
+  "website": "https://...",\
+  "support": "mailto:support@company.com",\
+  "documentation": "https://docs.company.com/cool-extension/",\
+}'
+LABEL type="example"
+LABEL tags='[\
+  "positioning",\
+  "navigation"\
+]'
 ```
 
  - `version` is the name of the current tag, which we expect to be a valid [semver](https://semver.org/).
  - `permissions`is a json file that follows the [Docker API payload for creating containers](https://docs.docker.com/engine/api/v1.41/#tag/Container/operation/ContainerCreate).
- - `docs` is a url for the documentation of your extension.
  - `authors` is a json list of authors of your extension
- - `company` is a json, which currently only contains an "about" section for a brief description about your company.
+ - `company` is a json with information about the maintainer responsible for providing new versions
+ - `readme` is a URL to a markdown-based README file for the extension
+ - `links` is a collection of additional useful/relevant links
+ - `type` is a primary categorisation of the extension, and should be one of:
+    - "device-integration"
+    - "example"
+    - "theme"
+    - "other"
+- `tags` is a collection of relevant tags for filtering, which should be lowercase alpha-numeric with dashes
+    - limit of 10 per extension
+
+Some additional information and examples are available in the 
+[metadata documentation](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/extensions#metadata-dockerfile).
 
  ## How this repo works
 
- Every time this repo changes, a Github Action runs and goes through all the .json files in here. For each of them, it reaches out to dockerhub and fetches all the available tags, extracting the metadata in LABELS and crafting a complete `manifest.json`, which is stored in this repo's gh-pages branch.
+ Every time this repo changes, a Github Action runs and goes through all the .json files in here. For each of them, it reaches out to dockerhub and fetches all the available tags, extracting the metadata in LABELS and crafting a complete `manifest.json`, which is stored in this repo's `gh-pages` branch.
+
+There is also a [website](https://docs.bluerobotics.com/BlueOS-Extensions-Repository) that gets generated, to show which extensions are currently available in the store.
 
 ## Testing the website locally
 
