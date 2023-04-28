@@ -43,7 +43,10 @@
                     "about": "",
                     "email": ""
                 },
-                "support": "https://support.nortekgroup.com/"
+                "support": "https://support.nortekgroup.com/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "0.0.8": {
                 "permissions": {
@@ -82,7 +85,10 @@
                     "about": "",
                     "email": ""
                 },
-                "support": "https://support.nortekgroup.com/"
+                "support": "https://support.nortekgroup.com/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "0.0.7": {
                 "permissions": {
@@ -121,7 +127,10 @@
                     "about": "",
                     "email": ""
                 },
-                "support": "https://support.nortekgroup.com/"
+                "support": "https://support.nortekgroup.com/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "0.0.6": {
                 "permissions": {
@@ -160,11 +169,14 @@
                     "about": "",
                     "email": ""
                 },
-                "support": "https://support.nortekgroup.com/"
+                "support": "https://support.nortekgroup.com/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//nortekgroup/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//nortekgroup/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/nortekgroup/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/nortekgroup/company_logo.png"
     },
     {
         "identifier": "bluerobotics.cockpit",
@@ -195,7 +207,10 @@
                 "docs": null,
                 "readme": null,
                 "company": null,
-                "support": null
+                "support": null,
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v0.0.7": {
                 "permissions": {
@@ -219,7 +234,10 @@
                 "docs": null,
                 "readme": null,
                 "company": null,
-                "support": null
+                "support": null,
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v0.0.6": {
                 "permissions": {
@@ -243,7 +261,10 @@
                 "docs": null,
                 "readme": null,
                 "company": null,
-                "support": null
+                "support": null,
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v0.0.5": {
                 "permissions": {
@@ -267,7 +288,10 @@
                 "docs": null,
                 "readme": null,
                 "company": null,
-                "support": null
+                "support": null,
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v0.0.4": {
                 "permissions": {
@@ -291,7 +315,10 @@
                 "docs": null,
                 "readme": null,
                 "company": null,
-                "support": null
+                "support": null,
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v0.0.3": {
                 "permissions": {
@@ -315,7 +342,10 @@
                 "docs": null,
                 "readme": null,
                 "company": null,
-                "support": null
+                "support": null,
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v0.0.2": {
                 "permissions": {
@@ -339,7 +369,10 @@
                 "docs": null,
                 "readme": null,
                 "company": null,
-                "support": null
+                "support": null,
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v0.0.1": {
                 "permissions": {
@@ -363,11 +396,14 @@
                 "docs": null,
                 "readme": null,
                 "company": null,
-                "support": null
+                "support": null,
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//bluerobotics/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//bluerobotics/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png"
     },
     {
         "identifier": "bluerobotics.water-linked-dvl",
@@ -396,7 +432,10 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v1.0.1": {
                 "permissions": {
@@ -418,7 +457,10 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v1.0.0": {
                 "permissions": {
@@ -440,11 +482,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//bluerobotics/water-linked-dvl/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//bluerobotics/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png"
     },
     {
         "identifier": "waterlinked.ugps",
@@ -453,33 +498,6 @@
         "docker": "waterlinked/blueos-ugps-extension",
         "website": "https://github.com/waterlinked/blueos-ugps-extension",
         "versions": {
-            "v1.0.5": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "Env": [
-                        "UGPS_HOST=http://192.168.2.94",
-                        "MAVLINK_HOST=http://192.168.2.2:6040",
-                        "QGC_IP=192.168.2.1"
-                    ]
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.5",
-                "website": "https://github.com/waterlinked/blueos-ugps-extension",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS Extension for Water Linked Underwater GPS\n\n## State\n\nThis extension is currently in development. It **has no UI page** (so creates no listing in the sidebar of BlueOS).\n\n## Functionality\n\nAssuming the UGPS is detected and working this service\n* forwards MAVLink data from [Mavlink2Rest](https://github.com/patrickelectric/mavlink2rest) like depth to the UGPS Topside (to enable it to function)\n* forwards locator position from UGPS Topside to MAVLink (message `GPS_INPUT`)\n    * the autopilot should send corresponding `GPS_RAW_INT` messages to the topside computer (QGroundControl)\n    * the autopilot sends regular `GLOBAL_POSITION_INT` messages to the topside computer with its filtered position estimates\n* forwards topside position from UGPS Topside to UDP port `14401` with NMEA to be received by QGroundControl (implemented, but currently not tested)\n\nIf you do not have access to a UGPS system, you can use UGPS_HOST=https://demo.waterlinked.com , which simulates a UGPS system with its API.\n\nHardware documentation can be found at https://waterlinked.github.io/underwater-gps/integration/bluerov-integration/\n\n## How to install\n\nThere are 2 options\n\n### Use the extensions manager in BlueOS 1.1.0\n* Click Extensions > Extensions Manager\n* Install this extension\n\nConfiguration is usually not required, but can be done by editing the extension in the \"Installed\" tab of the Extensions Manager.\n\nEditing requires [Pirate Mode](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/advanced-usage/#pirate-mode)\nto be enabled, after which the \"Edit\" button can be used. Copy the Original Settings contents\ninto the Custom settings box, and (if necessary) change the IPs/Host addresses, e.g. to use the demo server:\n```\n{\n  \"NetworkMode\": \"host\",\n  \"Env\": [\n\t\"UGPS_HOST=https://demo.waterlinked.com\",\n\t\"MAVLINK_HOST=http://192.168.2.2:6040\",\n\t\"QGC_IP=192.168.2.1\"\n  ]\n}\n```\n\nUse the \"View Logs\" button to check the status.\n\n### Build docker image yourself and start it\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal))\n\ninstall git, clone this repository and run\n```\n# build the docker image\ndocker build -t waterlinked/blueos-ugps-extension:latest .\n# see all images\ndocker images\n\n# running the plugin\n\n# either: run detached\n#   with standard command\ndocker run -d --net=host waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ndocker run -d --net=host waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n\n# or: in interactive shell to get debug output\ndocker run -it waterlinked/blueos-ugps-extension:latest /bin/bash\n#   with standard command\ncd app && python main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ncd app && python main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n# end interactive session\nexit\n\n# then stop/start/look at log with\ndocker stop [container-id]\ndocker start [container-id]\ndocker log [container-id] # if run detached\n\n# if you are a developer, upload to registry with (replace latest with desired tag)\ndocker login -u waterlinked\ndocker push waterlinked/blueos-ugps-extension:latest\n```",
-                "company": {
-                    "name": "Blue Robotics / Water Linked",
-                    "about": "",
-                    "email": "support@bluerobotics.com / support@waterlinked.com"
-                },
-                "support": "https://github.com/waterlinked/blueos-ugps-extension"
-            },
             "v1.0.4": {
                 "permissions": {
                     "NetworkMode": "host",
@@ -505,11 +523,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com / support@waterlinked.com"
                 },
-                "support": "https://github.com/waterlinked/blueos-ugps-extension"
+                "support": "https://github.com/waterlinked/blueos-ugps-extension",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//waterlinked/ugps/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//waterlinked/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/waterlinked/ugps/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/waterlinked/company_logo.png"
     },
     {
         "identifier": "ceruleansonar.cerulean-docs",
@@ -538,7 +559,10 @@
                     "about": "",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
-                "support": "https://forum.ceruleansonar.com/categories"
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v1.0.0": {
                 "permissions": {
@@ -571,11 +595,14 @@
                     "about": "",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
-                "support": "https://forum.ceruleansonar.com/categories"
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//ceruleansonar/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//ceruleansonar/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
     },
     {
         "identifier": "ceruleansonar.cerulean-dvl",
@@ -609,7 +636,10 @@
                     "about": "",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
-                "support": "https://forum.ceruleansonar.com/categories"
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v1.0.4": {
                 "permissions": {
@@ -631,7 +661,10 @@
                     "about": "",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
-                "support": "https://forum.ceruleansonar.com/categories"
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v1.0.2": {
                 "permissions": {
@@ -653,7 +686,10 @@
                     "about": "",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
-                "support": "https://forum.ceruleansonar.com/categories"
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v1.0.1": {
                 "permissions": {
@@ -675,11 +711,14 @@
                     "about": "",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
-                "support": "https://forum.ceruleansonar.com/categories"
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//ceruleansonar/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//ceruleansonar/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
     },
     {
         "identifier": "williangalvani.webrtc",
@@ -708,11 +747,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/blueos-webrtc/issues"
+                "support": "https://github.com/Williangalvani/blueos-webrtc/issues",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.usbip",
@@ -741,11 +783,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-UsbIp"
+                "support": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example3",
@@ -785,11 +830,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example2",
@@ -829,11 +877,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example5",
@@ -877,11 +928,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example1",
@@ -921,11 +975,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.zerotier",
@@ -972,11 +1029,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/williangalvani/zerotierone"
+                "support": "https://github.com/williangalvani/zerotierone",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/zerotier/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.example4",
@@ -1019,11 +1079,14 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
         "identifier": "williangalvani.virtualhere",
@@ -1056,7 +1119,10 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues"
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             },
             "v1.0.0": {
                 "permissions": {
@@ -1081,10 +1147,13 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues"
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/virtualhere/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master//williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     }
 ]
