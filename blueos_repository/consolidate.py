@@ -9,7 +9,7 @@ import aiohttp
 import semver
 from registry import Registry
 
-REPO_ROOT = "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/"
+REPO_ROOT = "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos"
 
 
 class EnhancedJSONEncoder(json.JSONEncoder):
