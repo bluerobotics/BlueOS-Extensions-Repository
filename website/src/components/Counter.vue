@@ -13,7 +13,7 @@
             <v-card class="mx-auto" width="400px" outlined>
               <v-card-title>
                 <v-row no-gutters class="justify-center align-center">
-                  <v-avatar tile size="65" class="ma-2">
+                  <v-avatar tile size="65" class="ma-2 rounded-0">
                     <v-img :src="extension.extension_logo" />
                   </v-avatar>
                   <v-col>
