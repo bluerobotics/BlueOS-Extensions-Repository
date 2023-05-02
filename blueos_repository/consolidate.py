@@ -171,7 +171,7 @@ class Consolidator:
                     permissions = raw_labels.get("permissions", None)
                     links = json.loads(raw_labels.get("links", "{}"))
                     website = links.pop("website", raw_labels.get("website", None))
-                    authors = raw_labels.get("authors", None)
+                    authors = json.loads(raw_labels.get("authors", "[]"))
                     # documentation is just a URL for a link, but the old format had it as its own label
                     docs = links.pop("docs", links.pop("documentation", raw_labels.get("docs", None)))
                     readme = raw_labels.get("readme", None)
@@ -185,12 +185,12 @@ class Consolidator:
                     company = Company.from_json(json.loads(company_raw)) if company_raw is not None else None
                     support = links.pop("support", raw_labels.get("support", None))
                     type_ = raw_labels.get("type", ExtensionType.OTHER)
-                    filter_tags = raw_labels.get("tags", [])
+                    filter_tags = json.loads(raw_labels.get("tags", "[]"))
 
                     new_version = Version(
                         permissions=json.loads(permissions) if permissions else None,
                         website=website,
-                        authors=json.loads(authors) if authors else [],
+                        authors=authors,
                         docs=json.loads(docs) if docs else None,
                         readme=readme,
                         company=company,
