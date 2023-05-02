@@ -169,7 +169,7 @@ class Consolidator:
                         continue
                     raw_labels = await self.registry.fetch_labels(f"{repository.docker}:{tag}")
                     permissions = raw_labels.get("permissions", None)
-                    links = raw_labels.get("links", {})
+                    links = json.loads(raw_labels.get("links", "{}"))
                     website = links.pop("website", raw_labels.get("website", None))
                     authors = raw_labels.get("authors", None)
                     # documentation is just a URL for a link, but the old format had it as its own label
