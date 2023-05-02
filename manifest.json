@@ -900,6 +900,42 @@
         "docker": "williangalvani/blueos-example3",
         "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
@@ -947,6 +983,42 @@
         "docker": "williangalvani/blueos-example2",
         "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
@@ -994,6 +1066,57 @@
         "docker": "williangalvani/blueos-example5",
         "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Gpio Control Example\n\nThis uses python to serve a static HTML page using Vue and Vuetify controlling a gpio using a python backend\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [
+                    "i",
+                    "n",
+                    "t",
+                    "e",
+                    "r",
+                    "a",
+                    "c",
+                    "t",
+                    "i",
+                    "o"
+                ],
+                "extra_links": {}
+            },
             "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
@@ -1045,6 +1168,42 @@
         "docker": "williangalvani/blueos-example1",
         "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
@@ -1146,6 +1305,45 @@
         "docker": "williangalvani/blueos-example4",
         "website": "https://github.com/Williangalvani/BlueOS-examples/",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
