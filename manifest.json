@@ -46,16 +46,11 @@
                 "support": "https://support.nortekgroup.com/",
                 "type": "device-integration",
                 "filter_tags": [
-                    "p",
-                    "o",
-                    "s",
-                    "i",
-                    "t",
-                    "i",
-                    "o",
-                    "n",
-                    "i",
-                    "n"
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log",
+                    "water-tracking",
+                    "current-profiling"
                 ],
                 "extra_links": {}
             },
@@ -1104,16 +1099,7 @@
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "type": "example",
                 "filter_tags": [
-                    "i",
-                    "n",
-                    "t",
-                    "e",
-                    "r",
-                    "a",
-                    "c",
-                    "t",
-                    "i",
-                    "o"
+                    "interaction"
                 ],
                 "extra_links": {}
             },
