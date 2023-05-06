@@ -277,7 +277,7 @@
     {
         "identifier": "jmrobotics.jm-connect",
         "name": "JM Connect",
-        "description": "JM Connect Extension for BlueOs",
+        "description": "JM Connect Extension for BlueOS",
         "docker": "maphstra/jm-connect-blueos",
         "website": "https://www.jmrobotics.no",
         "versions": {
@@ -325,7 +325,7 @@
     {
         "identifier": "bluerobotics.cockpit",
         "name": "Cockpit",
-        "description": "Blue Robotics next generation control interface. Under development.",
+        "description": "Blue Robotics' next generation control interface; under development",
         "docker": "bluerobotics/cockpit",
         "website": "https://github.com/bluerobotics/cockpit",
         "versions": {
