@@ -497,6 +497,37 @@
         "docker": "williangalvani/blueos-extension-virtualhere",
         "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
         "versions": {
+            "v1.0.3": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.3",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "type": "other",
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {}
+            },
             "v1.0.2": {
                 "permissions": {
                     "NetworkMode": "host",
@@ -741,6 +772,51 @@
         "docker": "williangalvani/zerotier",
         "website": "https://github.com/Williangalvani/ZeroTierOne",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "CapAdd": [
+                            "SYS_ADMIN",
+                            "NET_ADMIN"
+                        ],
+                        "Binds": [
+                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
+                        ],
+                        "Devices": [
+                            {
+                                "PathOnHost": "/dev/net/tun",
+                                "PathInContainer": "/dev/net/tun",
+                                "CgroupPermissions": "rwm"
+                            }
+                        ]
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/zerotierone",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/zerotierone/issues",
+                "type": "other",
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {}
+            },
             "v1.0.0": {
                 "permissions": {
                     "NetworkMode": "host",
@@ -831,6 +907,33 @@
         "docker": "williangalvani/blueos-extension-usbip",
         "website": "https://github.com/Williangalvani/blueos-usbip",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# USB/IP extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example1 --restart=unless-stopped williangalvani/blueos-extension-usbip:latest\n```\n\n# Client\n\n## Linux:\n\n\n```\n# load modules\nsudo modprobe usbip-core\nsudo modprobe vhci-hcd\n# list devices\nsudo usbip list --remote blueos.local\n# connect to device with bus 1-1.3\nsudo usbip attach --remote blueos.local --busid 1-1.3\n\n```\n\n## Windows\n\nDownload the 3.6 dev release from https://github.com/cezanne/usbip-win and follow the \"Client\" instructions there.\nThe new \"ude\" driver seemed to work for me.",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "type": "device-integration",
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {}
+            },
             "v1.0.0": {
                 "permissions": {
                     "NetworkMode": "host"
