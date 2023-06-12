@@ -278,6 +278,285 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
     },
     {
+        "identifier": "ceruleansonar.sonarview",
+        "name": "SonarView",
+        "description": "Cross platform sonar viewing application",
+        "docker": "nicknothom/sonarview",
+        "website": "https://sonarview.io/",
+        "versions": {
+            "1.8.7": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.8.7",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "1.8.6": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.8.6",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "1.8.4": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "7077/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "PortBindings": {
+                            "7077/tcp": [
+                                {
+                                    "HostPort": "7077"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "1.8.4",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.8.3": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "7077/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "PortBindings": {
+                            "7077/tcp": [
+                                {
+                                    "HostPort": "7077"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.8.3",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.8.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.8.0",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.7.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.7.0",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.6.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.6.0",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.5.6": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.5.6",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.5.3": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.5.3",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
+    },
+    {
         "identifier": "jmrobotics.jm-connect",
         "name": "JM Connect",
         "description": "JM Connect Extension for BlueOS",
