@@ -284,6 +284,36 @@
         "docker": "nicknothom/sonarview",
         "website": "https://sonarview.io/",
         "versions": {
+            "1.8.8": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.8.8",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "1.8.7": {
                 "permissions": {
                     "HostConfig": {
@@ -563,6 +593,66 @@
         "docker": "maphstra/jm-connect-blueos",
         "website": "https://www.jmrobotics.no",
         "versions": {
+            "0.0.3": {
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "0.0.3",
+                "website": "https://www.jmrobotics.no",
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "docs": null,
+                "readme": "bad response type for readme: text/html, expected text/plain",
+                "company": {
+                    "name": "JM Robotics",
+                    "about": "",
+                    "email": "support@jmrobotics.no"
+                },
+                "support": "https://www.jmrobotics.no",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "0.0.2": {
                 "permissions": {
                     "Env": [
