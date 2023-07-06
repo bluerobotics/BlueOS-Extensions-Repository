@@ -223,6 +223,56 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/company_logo.png"
     },
     {
+        "identifier": "patrickelectric.openvscode",
+        "name": "OpenVSCoder",
+        "description": "This project provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+        "docker": "patrickelectric/blueos-openvscode",
+        "website": "https://github.com/patrickelectric/blueos-code-server",
+        "versions": {
+            "1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "1.0.0",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+                "company": null,
+                "support": null,
+                "type": "other",
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/openvscode/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/company_logo.png"
+    },
+    {
         "identifier": "bluerobotics.water-linked-dvl",
         "name": "Water Linked DVL",
         "description": "Enables ROV position holding and navigation",
