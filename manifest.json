@@ -239,6 +239,7 @@
                         "Binds": [
                             "/usr/blueos/userdata:/home/workspace/userdata:rw",
                             "/usr/blueos/openvscode:/openvscode:rw",
+                            "/etc/hostname:/etc/hostname:r",
                             "/:/home/workspace/host:rw"
                         ],
                         "PortBindings": {
