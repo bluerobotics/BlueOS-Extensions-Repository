@@ -1,5 +1,622 @@
 [
     {
+        "identifier": "ceruleansonar.cerulean-docs",
+        "name": "Cerulean Docs",
+        "description": "Offline access for Cerulean Documentation",
+        "docker": "nicknothom/blueos-cerulean-docs",
+        "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-Docs/",
+        "versions": {
+            "v1.1.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >  1",
+                "tag": "v1.1.0",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS Cerulean Docs\n\nHosts a mirror of the [Cerulean Docs](https://docs.ceruleaonsonar.com) on the ROV so they can be viewed offline. ",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >  1",
+                "tag": "v1.0.0",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS Cerulean Docs\n\nHosts a mirror of the [Cerulean Docs](https://docs.ceruleaonsonar.com) on the ROV so they can be viewed offline. ",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
+    },
+    {
+        "identifier": "ceruleansonar.cerulean-dvl",
+        "name": "Cerulean DVL",
+        "description": "BlueOS extension for Cerulean DVL",
+        "docker": "nicknothom/blueos-cerulean-dvl",
+        "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-DVL/",
+        "versions": {
+            "v1.0.8": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/root/.config/cerulean:/root/.config"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.0.8",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.7": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/root/.config/cerulean:/root/.config"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.0.7",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.6": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config/cerulean:/root/.config"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.0.6",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.5": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config/blueos:/root/.config"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.0.5",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.4": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.0.4",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.2": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.0.2",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.1": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.0.1",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
+    },
+    {
+        "identifier": "ceruleansonar.sonarview",
+        "name": "SonarView",
+        "description": "Cross platform sonar viewing application",
+        "docker": "nicknothom/sonarview",
+        "website": "https://sonarview.io/",
+        "versions": {
+            "1.8.9": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.8.9",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "1.8.8": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.8.8",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "1.8.7": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.8.7",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "1.8.6": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.8.6",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "1.8.4": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "7077/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "PortBindings": {
+                            "7077/tcp": [
+                                {
+                                    "HostPort": "7077"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "1.8.4",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.8.3": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "7077/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "PortBindings": {
+                            "7077/tcp": [
+                                {
+                                    "HostPort": "7077"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.8.3",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.8.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.8.0",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.7.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.7.0",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.6.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.6.0",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.5.6": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.5.6",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.5.3": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": null,
+                "tag": "v1.5.3",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
+    },
+    {
         "identifier": "jmrobotics.jm-connect",
         "name": "JM Connect",
         "description": "JM Connect Extension for BlueOS",
@@ -223,12 +840,784 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/company_logo.png"
     },
     {
+        "identifier": "williangalvani.example3",
+        "name": "Example 3",
+        "description": "Basic Vuetify example",
+        "docker": "williangalvani/blueos-example3",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.example4",
+        "name": "Example 4",
+        "description": "Vuetify + Persistent backend",
+        "docker": "williangalvani/blueos-example4",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.zerotier",
+        "name": "ZeroTier",
+        "description": "Join a virtual network to operate your vehicle from anywhere",
+        "docker": "williangalvani/zerotier",
+        "website": "https://github.com/Williangalvani/ZeroTierOne",
+        "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "CapAdd": [
+                            "SYS_ADMIN",
+                            "NET_ADMIN"
+                        ],
+                        "Binds": [
+                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
+                        ],
+                        "Devices": [
+                            {
+                                "PathOnHost": "/dev/net/tun",
+                                "PathInContainer": "/dev/net/tun",
+                                "CgroupPermissions": "rwm"
+                            }
+                        ]
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/zerotierone",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/zerotierone/issues",
+                "type": "other",
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {}
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "CapAdd": [
+                            "SYS_ADMIN",
+                            "NET_ADMIN"
+                        ],
+                        "Binds": [
+                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
+                        ],
+                        "Devices": [
+                            {
+                                "PathOnHost": "/dev/net/tun",
+                                "PathInContainer": "/dev/net/tun",
+                                "CgroupPermissions": "rwm"
+                            }
+                        ]
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/williangalvani/zerotierone",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/williangalvani/zerotierone",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.virtualhere",
+        "name": "VirtualHere",
+        "description": "Remotely access onboard USB devices over IP",
+        "docker": "williangalvani/blueos-extension-virtualhere",
+        "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+        "versions": {
+            "v1.0.3": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.3",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "type": "other",
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {}
+            },
+            "v1.0.2": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.2",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first install it in BlueOS:\n\n\n```\nred-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest\n```\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.example5",
+        "name": "Example 5",
+        "description": "GPIO PWM Control",
+        "docker": "williangalvani/blueos-example5",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Gpio Control Example\n\nThis uses python to serve a static HTML page using Vue and Vuetify controlling a gpio using a python backend\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [
+                    "interaction"
+                ],
+                "extra_links": {}
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Gpio Control Example\n\nThis uses python to serve a static HTML page using Vue and Vuetify controlling a gpio using a python backend\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.example1",
+        "name": "Example 1",
+        "description": "Hello World",
+        "docker": "williangalvani/blueos-example1",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >  1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.usbip",
+        "name": "USBIP",
+        "description": "USBIP extension for extending USB over IP",
+        "docker": "williangalvani/blueos-extension-usbip",
+        "website": "https://github.com/Williangalvani/blueos-usbip",
+        "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# USB/IP extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example1 --restart=unless-stopped williangalvani/blueos-extension-usbip:latest\n```\n\n# Client\n\n## Linux:\n\n\n```\n# load modules\nsudo modprobe usbip-core\nsudo modprobe vhci-hcd\n# list devices\nsudo usbip list --remote blueos.local\n# connect to device with bus 1-1.3\nsudo usbip attach --remote blueos.local --busid 1-1.3\n\n```\n\n## Windows\n\nDownload the 3.6 dev release from https://github.com/cezanne/usbip-win and follow the \"Client\" instructions there.\nThe new \"ude\" driver seemed to work for me.",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "type": "device-integration",
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {}
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >  1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# USB/IP extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\n## Linux:\n\n\n```\n# load modules\nsudo modprobe usbip-core\nsudo modprobe vhci-hcd\n# list devices\nsudo usbip list --remote blueos.local\n# connect to device with bus 1-1.3\nsudo usbip attach --remote blueos.local --busid 1-1.3\n\n```\n\n## Windows\n\nDownload the 3.6 dev release from https://github.com/cezanne/usbip-win and follow the \"Client\" instructions there.\nThe new \"ude\" driver seemed to work for me.",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.webrtc",
+        "name": "WebRTC Experiments",
+        "description": "Janus Gateway experiments",
+        "docker": "williangalvani/companion-webrtc",
+        "website": "https://github.com/Williangalvani/blueos-webrtc",
+        "versions": {
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/blueos-webrtc",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "This exposes an webrtc stream for your browser.\n\nYou need to send an UDP h264 stream to localhost:8004",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/blueos-webrtc/issues",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.example2",
+        "name": "Example 2",
+        "description": "Static HTML plus MAVLink data",
+        "docker": "williangalvani/blueos-example2",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "example",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
         "identifier": "patrickelectric.openvscode",
         "name": "OpenVSCoder",
         "description": "This project provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
         "docker": "patrickelectric/blueos-openvscode",
         "website": "https://github.com/patrickelectric/blueos-code-server",
         "versions": {
+            "1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "1.0.1",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+                "company": null,
+                "support": null,
+                "type": "other",
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {}
+            },
             "1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
@@ -271,92 +1660,6 @@
         },
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/openvscode/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/company_logo.png"
-    },
-    {
-        "identifier": "bluerobotics.water-linked-dvl",
-        "name": "Water Linked DVL",
-        "description": "Enables ROV position holding and navigation",
-        "docker": "bluerobotics/blueos-water-linked-dvl",
-        "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
-        "versions": {
-            "v1.0.2": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0.2",
-                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.2\n - Improved style\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Waterlinked DVL A50 driver as a BlueOS Extension.\n\n## Install\n\nInstall it from [BlueOS extensions tab](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/extensions/).\n\nThe service will show in the \"Extension Manager\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.1": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0.1",
-                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Water-Linked-DVL\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png"
     },
     {
         "identifier": "bluerobotics.cockpit",
@@ -915,220 +2218,19 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png"
     },
     {
-        "identifier": "williangalvani.example1",
-        "name": "Example 1",
-        "description": "Hello World",
-        "docker": "williangalvani/blueos-example1",
-        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "identifier": "bluerobotics.water-linked-dvl",
+        "name": "Water Linked DVL",
+        "description": "Enables ROV position holding and navigation",
+        "docker": "bluerobotics/blueos-water-linked-dvl",
+        "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
         "versions": {
-            "v1.0.1": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1.1",
-                "tag": "v1.0.1",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "example",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.example3",
-        "name": "Example 3",
-        "description": "Basic Vuetify example",
-        "docker": "williangalvani/blueos-example3",
-        "website": "https://github.com/Williangalvani/BlueOS-examples/",
-        "versions": {
-            "v1.0.1": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1.1",
-                "tag": "v1.0.1",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "example",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.virtualhere",
-        "name": "VirtualHere",
-        "description": "Remotely access onboard USB devices over IP",
-        "docker": "williangalvani/blueos-extension-virtualhere",
-        "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
-        "versions": {
-            "v1.0.3": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                },
-                "requirements": "core >= 1.1",
-                "tag": "v1.0.3",
-                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software\n",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
-                "type": "other",
-                "filter_tags": [
-                    "communication"
-                ],
-                "extra_links": {}
-            },
             "v1.0.2": {
                 "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
+                    "NetworkMode": "host"
                 },
-                "requirements": "core >= 1",
+                "requirements": "core >  1",
                 "tag": "v1.0.2",
-                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -1136,291 +2238,24 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software\n",
+                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.2\n - Improved style\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Waterlinked DVL A50 driver as a BlueOS Extension.\n\n## Install\n\nInstall it from [BlueOS extensions tab](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/extensions/).\n\nThe service will show in the \"Extension Manager\" section in BlueOS, where there are some configuration options.\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "type": "other",
                 "filter_tags": [],
                 "extra_links": {}
             },
-            "v1.0.0": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first install it in BlueOS:\n\n\n```\nred-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest\n```\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.webrtc",
-        "name": "WebRTC Experiments",
-        "description": "Janus Gateway experiments",
-        "docker": "williangalvani/companion-webrtc",
-        "website": "https://github.com/Williangalvani/blueos-webrtc",
-        "versions": {
-            "v1.0.0": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/blueos-webrtc",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "This exposes an webrtc stream for your browser.\n\nYou need to send an UDP h264 stream to localhost:8004",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/blueos-webrtc/issues",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.zerotier",
-        "name": "ZeroTier",
-        "description": "Join a virtual network to operate your vehicle from anywhere",
-        "docker": "williangalvani/zerotier",
-        "website": "https://github.com/Williangalvani/ZeroTierOne",
-        "versions": {
-            "v1.0.1": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "CapAdd": [
-                            "SYS_ADMIN",
-                            "NET_ADMIN"
-                        ],
-                        "Binds": [
-                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
-                        ],
-                        "Devices": [
-                            {
-                                "PathOnHost": "/dev/net/tun",
-                                "PathInContainer": "/dev/net/tun",
-                                "CgroupPermissions": "rwm"
-                            }
-                        ]
-                    }
-                },
-                "requirements": "core >= 1.1",
-                "tag": "v1.0.1",
-                "website": "https://github.com/Williangalvani/zerotierone",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/zerotierone/issues",
-                "type": "other",
-                "filter_tags": [
-                    "communication"
-                ],
-                "extra_links": {}
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "CapAdd": [
-                            "SYS_ADMIN",
-                            "NET_ADMIN"
-                        ],
-                        "Binds": [
-                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
-                        ],
-                        "Devices": [
-                            {
-                                "PathOnHost": "/dev/net/tun",
-                                "PathInContainer": "/dev/net/tun",
-                                "CgroupPermissions": "rwm"
-                            }
-                        ]
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/williangalvani/zerotierone",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/williangalvani/zerotierone",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.example5",
-        "name": "Example 5",
-        "description": "GPIO PWM Control",
-        "docker": "williangalvani/blueos-example5",
-        "website": "https://github.com/Williangalvani/BlueOS-examples/",
-        "versions": {
-            "v1.0.1": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1.1",
-                "tag": "v1.0.1",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Gpio Control Example\n\nThis uses python to serve a static HTML page using Vue and Vuetify controlling a gpio using a python backend\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "example",
-                "filter_tags": [
-                    "interaction"
-                ],
-                "extra_links": {}
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Gpio Control Example\n\nThis uses python to serve a static HTML page using Vue and Vuetify controlling a gpio using a python backend\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.usbip",
-        "name": "USBIP",
-        "description": "USBIP extension for extending USB over IP",
-        "docker": "williangalvani/blueos-extension-usbip",
-        "website": "https://github.com/Williangalvani/blueos-usbip",
-        "versions": {
             "v1.0.1": {
                 "permissions": {
                     "NetworkMode": "host"
                 },
-                "requirements": "core >= 1.1",
+                "requirements": "core >  1",
                 "tag": "v1.0.1",
-                "website": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -1428,17 +2263,15 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# USB/IP extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example1 --restart=unless-stopped williangalvani/blueos-extension-usbip:latest\n```\n\n# Client\n\n## Linux:\n\n\n```\n# load modules\nsudo modprobe usbip-core\nsudo modprobe vhci-hcd\n# list devices\nsudo usbip list --remote blueos.local\n# connect to device with bus 1-1.3\nsudo usbip attach --remote blueos.local --busid 1-1.3\n\n```\n\n## Windows\n\nDownload the 3.6 dev release from https://github.com/cezanne/usbip-win and follow the \"Client\" instructions there.\nThe new \"ude\" driver seemed to work for me.",
+                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-UsbIp",
-                "type": "device-integration",
-                "filter_tags": [
-                    "communication"
-                ],
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+                "type": "other",
+                "filter_tags": [],
                 "extra_links": {}
             },
             "v1.0.0": {
@@ -1447,7 +2280,7 @@
                 },
                 "requirements": "core >  1",
                 "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -1455,192 +2288,20 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# USB/IP extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\n## Linux:\n\n\n```\n# load modules\nsudo modprobe usbip-core\nsudo modprobe vhci-hcd\n# list devices\nsudo usbip list --remote blueos.local\n# connect to device with bus 1-1.3\nsudo usbip attach --remote blueos.local --busid 1-1.3\n\n```\n\n## Windows\n\nDownload the 3.6 dev release from https://github.com/cezanne/usbip-win and follow the \"Client\" instructions there.\nThe new \"ude\" driver seemed to work for me.",
+                "readme": "# BlueOS-Water-Linked-DVL\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "type": "other",
                 "filter_tags": [],
                 "extra_links": {}
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.example2",
-        "name": "Example 2",
-        "description": "Static HTML plus MAVLink data",
-        "docker": "williangalvani/blueos-example2",
-        "website": "https://github.com/Williangalvani/BlueOS-examples/",
-        "versions": {
-            "v1.0.1": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1.1",
-                "tag": "v1.0.1",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "example",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.example4",
-        "name": "Example 4",
-        "description": "Vuetify + Persistent backend",
-        "docker": "williangalvani/blueos-example4",
-        "website": "https://github.com/Williangalvani/BlueOS-examples/",
-        "versions": {
-            "v1.0.1": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1.1",
-                "tag": "v1.0.1",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "example",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png"
     },
     {
         "identifier": "nortekgroup.nucleus",
@@ -2088,622 +2749,5 @@
         },
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/waterlinked/ugps/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/waterlinked/company_logo.png"
-    },
-    {
-        "identifier": "ceruleansonar.sonarview",
-        "name": "SonarView",
-        "description": "Cross platform sonar viewing application",
-        "docker": "nicknothom/sonarview",
-        "website": "https://sonarview.io/",
-        "versions": {
-            "1.8.9": {
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "1.8.9",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "device-integration",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "1.8.8": {
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "1.8.8",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "device-integration",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "1.8.7": {
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "1.8.7",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "device-integration",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "1.8.6": {
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "1.8.6",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "device-integration",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "1.8.4": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "7077/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "PortBindings": {
-                            "7077/tcp": [
-                                {
-                                    "HostPort": "7077"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": null,
-                "tag": "1.8.4",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "device-integration",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.8.3": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "7077/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "PortBindings": {
-                            "7077/tcp": [
-                                {
-                                    "HostPort": "7077"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": null,
-                "tag": "v1.8.3",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "device-integration",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.8.0": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "v1.8.0",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.7.0": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": null,
-                "tag": "v1.7.0",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.6.0": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": null,
-                "tag": "v1.6.0",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.5.6": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": null,
-                "tag": "v1.5.6",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.5.3": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": null,
-                "tag": "v1.5.3",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
-    },
-    {
-        "identifier": "ceruleansonar.cerulean-docs",
-        "name": "Cerulean Docs",
-        "description": "Offline access for Cerulean Documentation",
-        "docker": "nicknothom/blueos-cerulean-docs",
-        "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-Docs/",
-        "versions": {
-            "v1.1.0": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >  1",
-                "tag": "v1.1.0",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS Cerulean Docs\n\nHosts a mirror of the [Cerulean Docs](https://docs.ceruleaonsonar.com) on the ROV so they can be viewed offline. ",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0.0",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS Cerulean Docs\n\nHosts a mirror of the [Cerulean Docs](https://docs.ceruleaonsonar.com) on the ROV so they can be viewed offline. ",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
-    },
-    {
-        "identifier": "ceruleansonar.cerulean-dvl",
-        "name": "Cerulean DVL",
-        "description": "BlueOS extension for Cerulean DVL",
-        "docker": "nicknothom/blueos-cerulean-dvl",
-        "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-DVL/",
-        "versions": {
-            "v1.0.8": {
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/root/.config/cerulean:/root/.config"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "v1.0.8",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.7": {
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/root/.config/cerulean:/root/.config"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "v1.0.7",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.6": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config/cerulean:/root/.config"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "v1.0.6",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.5": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config/blueos:/root/.config"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "v1.0.5",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.4": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": null,
-                "tag": "v1.0.4",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.2": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": null,
-                "tag": "v1.0.2",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v1.0.1": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": null,
-                "tag": "v1.0.1",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png"
     }
 ]
