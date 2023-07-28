@@ -6,6 +6,67 @@
         "docker": "maphstra/jm-connect-blueos",
         "website": "https://www.jmrobotics.no",
         "versions": {
+            "0.0.5": {
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "0.0.5",
+                "website": "https://www.jmrobotics.no",
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "docs": null,
+                "readme": "bad response type for readme: text/html, expected text/plain",
+                "company": {
+                    "name": "JM Robotics",
+                    "about": "",
+                    "email": "support@jmrobotics.no"
+                },
+                "support": "https://www.jmrobotics.no",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "0.0.4": {
                 "permissions": {
                     "Env": [
@@ -734,6 +795,53 @@
         "docker": "bluerobotics/cockpit",
         "website": "https://github.com/bluerobotics/cockpit",
         "versions": {
+            "v0.3.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "v0.3.1",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": null,
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "type": "other",
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {}
+            },
             "v0.3.0": {
                 "permissions": {
                     "ExposedPorts": {
