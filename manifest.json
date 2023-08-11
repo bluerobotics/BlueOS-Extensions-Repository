@@ -2416,6 +2416,67 @@
         "docker": "maphstra/jm-connect-blueos",
         "website": "https://www.jmrobotics.no",
         "versions": {
+            "0.0.7": {
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "0.0.7",
+                "website": "https://www.jmrobotics.no",
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "docs": null,
+                "readme": "bad response type for readme: text/html, expected text/plain",
+                "company": {
+                    "name": "JM Robotics",
+                    "about": "",
+                    "email": "support@jmrobotics.no"
+                },
+                "support": "https://www.jmrobotics.no",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "0.0.6": {
                 "permissions": {
                     "Env": [
