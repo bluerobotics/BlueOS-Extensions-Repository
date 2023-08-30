@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Any, AsyncIterable, Dict, List, Optional, Union
 
 import aiohttp
+import json5
 import semver
 from registry import Registry
 
@@ -124,7 +125,7 @@ class Consolidator:
                 company, extension_name = repo.as_posix().split("/")[-3:-1]
                 identifier = ".".join([company, extension_name])
                 try:
-                    data = json.load(individual_file)
+                    data = json5.load(individual_file)
                 except Exception as exc:
                     raise Exception(f"Unable to parse file {repo}") from exc
                 company_logo = (repo / "../../company_logo.png").resolve().relative_to(repos.resolve())
@@ -169,9 +170,9 @@ class Consolidator:
                         continue
                     raw_labels = await self.registry.fetch_labels(f"{repository.docker}:{tag}")
                     permissions = raw_labels.get("permissions", None)
-                    links = json.loads(raw_labels.get("links", "{}"))
+                    links = json5.loads(raw_labels.get("links", "{}"))
                     website = links.pop("website", raw_labels.get("website", None))
-                    authors = json.loads(raw_labels.get("authors", "[]"))
+                    authors = json5.loads(raw_labels.get("authors", "[]"))
                     # documentation is just a URL for a link, but the old format had it as its own label
                     docs = links.pop("docs", links.pop("documentation", raw_labels.get("docs", None)))
                     readme = raw_labels.get("readme", None)
@@ -182,16 +183,16 @@ class Consolidator:
                         except Exception as error:  # pylint: disable=broad-except
                             readme = str(error)
                     company_raw = raw_labels.get("company", None)
-                    company = Company.from_json(json.loads(company_raw)) if company_raw is not None else None
+                    company = Company.from_json(json5.loads(company_raw)) if company_raw is not None else None
                     support = links.pop("support", raw_labels.get("support", None))
                     type_ = raw_labels.get("type", ExtensionType.OTHER)
-                    filter_tags = json.loads(raw_labels.get("tags", "[]"))
+                    filter_tags = json5.loads(raw_labels.get("tags", "[]"))
 
                     new_version = Version(
-                        permissions=json.loads(permissions) if permissions else None,
+                        permissions=json5.loads(permissions) if permissions else None,
                         website=website,
                         authors=authors,
-                        docs=json.loads(docs) if docs else None,
+                        docs=json5.loads(docs) if docs else None,
                         readme=readme,
                         company=company,
                         support=support,
