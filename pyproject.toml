@@ -10,6 +10,7 @@ packages = [{include = "blueos_repository"}]
 
 [tool.poetry.dependencies]
 aiohttp = "3.7.4"
+json-five = "1.1.1"
 python = "^3.10"
 semver = "^2.13.0"
 
