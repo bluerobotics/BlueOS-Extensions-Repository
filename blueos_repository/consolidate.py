@@ -60,6 +60,7 @@ class ExtensionType(StrEnum):
     EXAMPLE = "example"
     THEME = "theme"
     OTHER = "other"
+    TOOL = "tool"
 
 
 # pylint: disable=too-many-instance-attributes
