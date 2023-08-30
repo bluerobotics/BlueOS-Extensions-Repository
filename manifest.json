@@ -1621,7 +1621,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "bad response type for readme: text/html, expected text/plain",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)]",
                 "company": {
                     "name": "JM Robotics",
                     "about": "",
