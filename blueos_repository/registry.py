@@ -1,6 +1,6 @@
 from typing import Any, Dict, List, Optional
 
-import aiohttp
+import aiohttp_retry
 
 
 class Registry:
@@ -12,6 +12,8 @@ class Registry:
     index_url = "https://registry-1.docker.io/"
     docker_url: str = "https://hub.docker.com/"
     token: Optional[str] = None
+
+    retry_options = aiohttp_retry.ExponentialRetry(attempts=5)
 
     async def _get_token(self, repo: str) -> str:
         """[summary]
@@ -32,7 +34,7 @@ class Registry:
         }
 
         auth_url = f"https://auth.docker.io/token?service=registry.docker.io&scope=repository:{repo}:pull"
-        async with aiohttp.ClientSession() as session:
+        async with aiohttp_retry.RetryClient(retry_options=self.retry_options) as session:
             async with session.get(auth_url + "/token", params=payload) as resp:
                 if resp.status != 200:
                     print(f"Error status {resp.status}")
@@ -43,7 +45,7 @@ class Registry:
         """Fetches the tags available for an image in DockerHub"""
         print(f"fetching tags in {repository}")
         self.token = await self._get_token(repository)
-        async with aiohttp.ClientSession() as session:
+        async with aiohttp_retry.RetryClient(retry_options=self.retry_options) as session:
             async with session.get(
                 f"{self.docker_url}/v2/repositories/{repository}/tags/?page_size=25&page=1&ordering=last_updated"
             ) as resp:
@@ -79,7 +81,7 @@ class Registry:
             "Authorization": f"Bearer {self.token}",
             "Accept": "application/vnd.docker.distribution.manifest.v2+json,application/vnd.oci.image.manifest.v1+json,application/vnd.oci.image.index.v1+json",
         }
-        async with aiohttp.ClientSession() as session:
+        async with aiohttp_retry.RetryClient(retry_options=self.retry_options) as session:
             url = f"{self.index_url}/v2/{repository}/manifests/{digest}"
             async with session.get(url, headers=header) as resp:
                 if resp.status != 200:
@@ -97,7 +99,7 @@ class Registry:
         }
         repository, tag = repo.split(":")
         print(f"fetching labels for {repository}:{tag}")
-        async with aiohttp.ClientSession() as session:
+        async with aiohttp_retry.RetryClient(retry_options=self.retry_options) as session:
             url = f"{self.index_url}/v2/{repository}/manifests/{tag}"
             async with session.get(url, headers=header) as resp:
                 if resp.status != 200:
