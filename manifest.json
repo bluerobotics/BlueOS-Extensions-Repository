@@ -1167,6 +1167,54 @@
         "docker": "patrickelectric/blueos-node-red",
         "website": "https://github.com/patrickelectric/blueos-node-red",
         "versions": {
+            "1.0.2": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata/node-red:/data:rw",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/dev:/dev:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "1.0.2",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS node-red\n\nNode-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.\n\nIt provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": null,
+                "type": "other",
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "node-red"
+                ],
+                "extra_links": {}
+            },
             "1.0.1": {
                 "permissions": {
                     "ExposedPorts": {
@@ -1621,7 +1669,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)]",
+                "readme": "bad response type for readme: text/html, expected text/plain",
                 "company": {
                     "name": "JM Robotics",
                     "about": "",
