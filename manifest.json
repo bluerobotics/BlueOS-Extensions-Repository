@@ -2139,6 +2139,51 @@
         "docker": "williangalvani/zerotier",
         "website": "https://github.com/Williangalvani/ZeroTierOne",
         "versions": {
+            "v1.12.1": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "CapAdd": [
+                            "SYS_ADMIN",
+                            "NET_ADMIN"
+                        ],
+                        "Binds": [
+                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
+                        ],
+                        "Devices": [
+                            {
+                                "PathOnHost": "/dev/net/tun",
+                                "PathInContainer": "/dev/net/tun",
+                                "CgroupPermissions": "rwm"
+                            }
+                        ]
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.12.1",
+                "website": "https://github.com/Williangalvani/zerotierone",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/zerotierone/issues",
+                "type": "other",
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {}
+            },
             "v1.0.1": {
                 "permissions": {
                     "NetworkMode": "host",
