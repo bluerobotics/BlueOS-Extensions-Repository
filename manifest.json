@@ -693,6 +693,62 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/waterlinked/company_logo.png"
     },
     {
+        "identifier": "patrickelectric.yacht",
+        "name": "Yacht",
+        "description": "Yacht is a container management UI with a focus on templates and 1-click deployments.",
+        "docker": "patrickelectric/blueos-yacht",
+        "website": "https://github.com/patrickelectric/blueos-yacht",
+        "versions": {
+            "1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/var/run/docker.sock:/var/run/docker.sock:rw"
+                        ],
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "1.0.0",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS yacht\n\nYacht is a container management UI with a focus on templates and 1-click deployments.",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": null,
+                "type": "tool",
+                "filter_tags": [
+                    "docker",
+                    "container",
+                    "dashboard",
+                    "manager"
+                ],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/yacht/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/company_logo.png"
+    },
+    {
         "identifier": "patrickelectric.openvscode",
         "name": "OpenVSCoder",
         "description": "This project provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
