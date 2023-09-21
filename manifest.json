@@ -1195,6 +1195,58 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/company_logo.png"
     },
     {
+        "identifier": "patrickelectric.jupyter",
+        "name": "Jupyter",
+        "description": "Extension to start coding with python examples and create projects.",
+        "docker": "patrickelectric/blueos-jupyter",
+        "website": "https://github.com/patrickelectric/blueos-jupyter",
+        "versions": {
+            "0.0.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata/jupyter/root:/root:rw",
+                            "/dev:/dev:rw"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": null,
+                "tag": "0.0.0",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    },
+                    {
+                        "name": "Raul Trombin",
+                        "email": "raulvtormbin@gmail.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# blueos-jupyter",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": null,
+                "type": "other",
+                "filter_tags": [
+                    "python",
+                    "ide",
+                    "development"
+                ],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/jupyter/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/company_logo.png"
+    },
+    {
         "identifier": "ceruleansonar.sonarview",
         "name": "SonarView",
         "description": "Cross platform sonar viewing application",
