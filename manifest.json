@@ -1227,7 +1227,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# blueos-jupyter",
+                "readme": "# blueos-jupyter\n\nExtension to start coding with python examples and create projects.\n\nTo install your own libraries, use: `pip install --user`.\n\nHome directory (`/root/`) will be persistent besides pip local holder for user libraries.\n\nLibraries installed:\n- bluerobotics-ping\n- bluerobotics-navigator\n- plotly\n- pymavlink\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
