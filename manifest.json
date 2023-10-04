@@ -555,42 +555,6 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
-        "identifier": "williangalvani.webrtc",
-        "name": "WebRTC Experiments",
-        "description": "Janus Gateway experiments",
-        "docker": "williangalvani/companion-webrtc",
-        "website": "https://github.com/Williangalvani/blueos-webrtc",
-        "versions": {
-            "v1.0.0": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/blueos-webrtc",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "This exposes an webrtc stream for your browser.\n\nYou need to send an UDP h264 stream to localhost:8004",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/blueos-webrtc/issues",
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
-    },
-    {
         "identifier": "williangalvani.example3",
         "name": "Example 3",
         "description": "Basic Vuetify example",
@@ -1891,6 +1855,67 @@
         "docker": "maphstra/jm-connect-blueos",
         "website": "https://www.jmrobotics.no",
         "versions": {
+            "0.0.8": {
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "0.0.8",
+                "website": "https://www.jmrobotics.no",
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "docs": null,
+                "readme": "Could not get readme https://www.software.jmrobotics.no/w/extensionReadme.md: status: 404",
+                "company": {
+                    "name": "JM Robotics",
+                    "about": "",
+                    "email": "support@jmrobotics.no"
+                },
+                "support": "https://www.jmrobotics.no",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "0.0.7": {
                 "permissions": {
                     "Env": [
