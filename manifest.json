@@ -1905,7 +1905,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "Could not get readme https://www.software.jmrobotics.no/w/extensionReadme.md: status: 404",
+                "readme": "# JM Robotics, JM-Connect Extension.\n\nThis extension is for connecting your ROV to the JM Connect Ecosystem.\nIt also allows controlling focus-level of JM Robotics focus-cameras. \n\nIn addition you can stream audio from the rpi's camera at http://<rov-ip>:8137 (beta)\n\n",
                 "company": {
                     "name": "JM Robotics",
                     "about": "",
