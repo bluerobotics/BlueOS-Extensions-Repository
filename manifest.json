@@ -3160,6 +3160,53 @@
         "docker": "bluerobotics/cockpit",
         "website": "https://github.com/bluerobotics/cockpit",
         "versions": {
+            "v0.10.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "v0.10.0",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": null,
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "type": "other",
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {}
+            },
             "v0.9.0": {
                 "permissions": {
                     "ExposedPorts": {
@@ -4211,33 +4258,6 @@
                 },
                 "requirements": null,
                 "tag": "v0.0.8",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": null,
-                "company": null,
-                "support": null,
-                "type": "other",
-                "filter_tags": [],
-                "extra_links": {}
-            },
-            "v0.0.7": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": null,
-                "tag": "v0.0.7",
                 "website": null,
                 "authors": [],
                 "docs": null,
