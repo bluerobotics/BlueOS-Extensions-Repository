@@ -2,5 +2,5 @@
     "name": "Yacht",
     "website": "https://github.com/patrickelectric/blueos-yacht",
     "docker": "patrickelectric/blueos-yacht",
-    "description": "Yacht is a container management UI with a focus on templates and 1-click deployments."
+    "description": "Easy to use container management utility"
 }
