@@ -467,6 +467,53 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/company_logo.png"
     },
     {
+        "identifier": "bluerobotics.power-switch-calibration",
+        "name": "PowerSwitch Calibration",
+        "description": "Calibrate offset on BlueBoat for improved measurements",
+        "docker": "rjehangir/blueos-ps-calibration",
+        "website": "https://github.com/rjehangir/BlueOS-PS-Calibration/",
+        "versions": {
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.0.0",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Rustom Jehangir",
+                        "email": "rusty@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS Power Switch Calibration Extension\n\nThis extension provides a simple routine to calibrate the offset of the \"Power Switch\" used in the BlueBoat to provide a more accurate current and power measurement.\n\n## Build\nExecute the following command to build your extension:\n\n   ```shell\n   docker buildx build --platform linux/arm/v7 . -t my_docker_user/blueos-ps-calibration:latest --output type=registry\n    ```\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": null,
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/power-switch-calibration/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png"
+    },
+    {
         "identifier": "bluerobotics.water-linked-dvl",
         "name": "Water Linked DVL",
         "description": "Enables ROV position holding and navigation",
