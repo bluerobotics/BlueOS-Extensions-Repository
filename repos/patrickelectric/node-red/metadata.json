@@ -2,5 +2,5 @@
     "name": "Node-RED",
     "website": "https://github.com/patrickelectric/blueos-node-red",
     "docker": "patrickelectric/blueos-node-red",
-    "description": "Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click."
+    "description": "Low-code development tool for custom functionality"
 }

@@ -2,5 +2,5 @@
     "name": "Jupyter",
     "website": "https://github.com/patrickelectric/blueos-jupyter",
     "docker": "patrickelectric/blueos-jupyter",
-    "description": "Extension to start coding with python examples and create projects."
+    "description": "Code in Python directly in BlueOS"
 }
