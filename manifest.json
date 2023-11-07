@@ -3301,7 +3301,7 @@
     {
         "identifier": "patrickelectric.yacht",
         "name": "Yacht",
-        "description": "Yacht is a container management UI with a focus on templates and 1-click deployments.",
+        "description": "Easy to use container management utility",
         "docker": "patrickelectric/blueos-yacht",
         "website": "https://github.com/patrickelectric/blueos-yacht",
         "versions": {
@@ -3403,7 +3403,7 @@
     {
         "identifier": "patrickelectric.jupyter",
         "name": "Jupyter",
-        "description": "Extension to start coding with python examples and create projects.",
+        "description": "Code in Python directly in BlueOS",
         "docker": "patrickelectric/blueos-jupyter",
         "website": "https://github.com/patrickelectric/blueos-jupyter",
         "versions": {
@@ -3455,7 +3455,7 @@
     {
         "identifier": "patrickelectric.node-red",
         "name": "Node-RED",
-        "description": "Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.",
+        "description": "Low-code development tool for custom functionality",
         "docker": "patrickelectric/blueos-node-red",
         "website": "https://github.com/patrickelectric/blueos-node-red",
         "versions": {
@@ -3610,7 +3610,7 @@
     {
         "identifier": "patrickelectric.openvscode",
         "name": "OpenVSCoder",
-        "description": "This project provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+        "description": "Edit and run code directly in BlueOS",
         "docker": "patrickelectric/blueos-openvscode",
         "website": "https://github.com/patrickelectric/blueos-code-server",
         "versions": {
