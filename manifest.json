@@ -2417,8 +2417,8 @@
     },
     {
         "identifier": "waterlinked.ugps",
-        "name": "WaterLinked UGPS",
-        "description": "Provides ROV geolocation with GPS and SBL acoustic positioning",
+        "name": "Water Linked UGPS",
+        "description": "Provides location with GPS and SBL acoustic positioning",
         "docker": "waterlinked/blueos-ugps-extension",
         "website": "https://github.com/waterlinked/blueos-ugps-extension",
         "versions": {
