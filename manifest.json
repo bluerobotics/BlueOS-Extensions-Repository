@@ -467,6 +467,67 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/company_logo.png"
     },
     {
+        "identifier": "clydemcqueen.wl_ugps_external",
+        "name": "WL UGPS External",
+        "description": "Send NMEA position information (GGA, HDT) to Water Linked UGPS",
+        "docker": "clydemcqueen/wl_ugps_external_extension",
+        "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
+        "versions": {
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {},
+                        "6200:6200/udp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "6200/udp": [
+                                {
+                                    "HostPort": "6200"
+                                }
+                            ],
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "UGPS_HOST=http://192.168.2.94",
+                        "SEND_RATE=2.0"
+                    ]
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "docs": null,
+                "readme": "# WL UGPS External Position BlueOS Extension \n\nA simple [BlueOS Extension](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/development/extensions/)\nthat listens for NMEA messages (GGA and HDT) and sends position information to the\n[Water Linked UGPS](https://waterlinked.com/underwater-gps-g2) system.\n\n![Extension UI](images/extension_ui.png)\n\n## Typical Configuration\n\nAdd a satellite compass to the vessel and connect it to the ROV Ethernet network.\n* It should have a static IP address on the 192.168.2.X subnet\n* It should send GGA and HDT messages via UDP to BlueOS at 192.168.2.2:6200\n\nInstall this extension in BlueOS:\n* Select _Extensions_ in the sidebar, then the _Installed_ tab\n* Click on the + icon in the lower right\n* Enter the following information, then click _Create_\n\n_Extension Identifier_\n~~~\nclydemcqueen.wl_ugps_external_extension\n~~~\n\n_Extension Name_\n~~~\nwl_ugps_external_extension\n~~~\n\n_Docker image_\n~~~\nclydemcqueen/wl_ugps_external_extension\n~~~\n\n_Docker tag_\n~~~\nlatest\n~~~\n\n_Custom settings_\n~~~\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {},\n    \"6200:6200/udp\": {}\n  },\n  \"HostConfig\": {\n    \"PortBindings\": {\n      \"6200/udp\": [\n        {\n          \"HostPort\": \"6200\"\n        }\n      ],\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  },\n  \"Env\": [\n    \"UGPS_HOST=http://192.168.2.94\",\n    \"SEND_RATE=2.0\"\n  ]\n}\n~~~\n\nYou should see the extension running:\n\n![Extension running](images/extension_running.png)\n\nAfter a few moments you should see the _WL UGPS External_ entry in the sidebar.\nClick on it to see a very simple UI.\n\n## Arguments\n\n* `ugps_host` is typically `http://192.168.2.94`\n* `send_rate` is typically 2Hz\n\n## Caveats\n\n* The G2 box still needs a GPS fix to synchronize its clock.\n",
+                "company": {
+                    "name": "Discovery Bay Robotics",
+                    "about": "",
+                    "email": "clyde@mcqueen.net"
+                },
+                "support": "https://github.com/clydemcqueen/wl_ugps_external_extension/issues",
+                "type": "device-integration",
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "short-baseline"
+                ],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/wl_ugps_external/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/company_logo.png"
+    },
+    {
         "identifier": "bluerobotics.power-switch-calibration",
         "name": "PowerSwitch Calibration",
         "description": "Calibrate offset on BlueBoat for improved measurements",
