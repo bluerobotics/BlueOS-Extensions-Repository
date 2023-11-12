@@ -473,6 +473,56 @@
         "docker": "clydemcqueen/wl_ugps_external_extension",
         "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {},
+                        "6200:6200/udp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "6200/udp": [
+                                {
+                                    "HostPort": "6200"
+                                }
+                            ],
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "UGPS_HOST=http://192.168.2.94",
+                        "SEND_RATE=2.0"
+                    ]
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "docs": null,
+                "readme": "# WL UGPS External \n\nSend NMEA position information (GGA and HDT) to the [Water Linked UGPS](https://waterlinked.com/underwater-gps-g2) API.\n\n## Typical Configuration\n\nAdd a satellite compass to the topside vessel and connect it to the ROV Ethernet network.\n* It should have a static IP address on the 192.168.2.X subnet\n* It should send GGA and HDT messages via UDP to BlueOS at 192.168.2.2:6200\n\nInstall this extension in [BlueOS](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/):\n* Select _Extensions_ in the sidebar\n* Click on _WL UGPS External_\n* Click _Install_\n\nAfter a few moments you should see the _WL UGPS External_ entry in the sidebar.\nClick on it to see a very simple UI.\n\n## Arguments\n\n* `UGPS_HOST` is the IP address of the WL UGPS G2 box, the default is `http://192.168.2.94`\n* `SEND_RATE` is the rate to send position information to the G2 box, the default is 2Hz\n\n## Caveats\n\n* The G2 box still needs a GPS fix to synchronize its clock.\n\n## Releases\n\n### v1.0.1\n\n* Simplified README\n\n### v1.0.0\n\n* Initial release\n",
+                "company": {
+                    "name": "Discovery Bay Robotics",
+                    "about": "",
+                    "email": "clyde@mcqueen.net"
+                },
+                "support": "https://github.com/clydemcqueen/wl_ugps_external_extension/issues",
+                "type": "device-integration",
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "short-baseline"
+                ],
+                "extra_links": {}
+            },
             "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
