@@ -540,10 +540,31 @@
                 "extra_links": {}
             },
             "v1.12.3-fix.1": {
-                "permissions": null,
-                "requirements": "core >  1",
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "CapAdd": [
+                            "SYS_ADMIN",
+                            "NET_ADMIN"
+                        ],
+                        "Binds": [
+                            "usr/blueos/extensions/zerotier:/var/lib/zerotier-one",
+                            "/var/lib/zerotier-one:/old-settings"
+                        ],
+                        "Devices": [
+                            {
+                                "PathOnHost": "/dev/net/tun",
+                                "PathInContainer": "/dev/net/tun",
+                                "CgroupPermissions": "rwm"
+                            }
+                        ]
+                    }
+                },
+                "requirements": "core >= 1.1",
                 "tag": "v1.12.3-fix.1",
-                "website": "https://github.com/williangalvani/zerotierone",
+                "website": "https://github.com/Williangalvani/zerotierone",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -557,9 +578,11 @@
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/williangalvani/zerotierone",
+                "support": "https://github.com/Williangalvani/zerotierone/issues",
                 "type": "other",
-                "filter_tags": [],
+                "filter_tags": [
+                    "communication"
+                ],
                 "extra_links": {}
             },
             "v1.12.2": {
