@@ -239,7 +239,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "bad response type for readme: text/html, expected text/plain",
+                "readme": "Could not get readme https://www.jmrobotics.no: status: 504",
                 "company": {
                     "name": "JM Robotics",
                     "about": "",
