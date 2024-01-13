@@ -2790,6 +2790,16 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/company_logo.png"
     },
     {
+        "identifier": "patrickelectric.blueos-bb",
+        "name": "BlueOS-bb",
+        "description": "In progress extensions for Big Boss project",
+        "docker": "patrickelectric/blueos-bb",
+        "website": "https://github.com/patrickelectric/blueos-bb",
+        "versions": {},
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/blueos-bb/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/company_logo.png"
+    },
+    {
         "identifier": "patrickelectric.openvscode",
         "name": "OpenVSCoder",
         "description": "Edit and run code directly in BlueOS",
