@@ -4966,5 +4966,15 @@
         },
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/example5/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "vshie.pingSurvey",
+        "name": "Simple Ping2 Survey",
+        "description": "Simple Ping2 Survey",
+        "docker": "vshie/blueos-simplepingsurvey/",
+        "website": "https://github.com/vshie/pingSurvey",
+        "versions": {},
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/vshie/pingSurvey/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/vshie/company_logo.png"
     }
 ]
