@@ -1,6 +1,0 @@
-{
-"webpage": "https://github.com/vshie/pingSurvey",
-"name":"Simple Ping2 Survey",
-"docker": "vshie/blueos-simplepingsurvey/",
-"description": "Simple Ping2 Survey"
-}
