@@ -5005,7 +5005,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404",
+                "readme": "# BlueOS-ping Survey\n# A simple extension for BlueOS intended for collection of time-sync'd sonar and GPS data. \n\n# Future feature ideas: \n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
@@ -5015,7 +5015,7 @@
                 "type": "example",
                 "filter_tags": [],
                 "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
+                    "source": "https://github.com/vshie/pingSurvey"
                 }
             }
         },
