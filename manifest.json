@@ -3406,7 +3406,7 @@
                     },
                     "HostConfig": {
                         "Binds": [
-                            "/usr/blueos/extensions/ping-survey:/app"
+                            "/usr/blueos/extensions/ping-survey:/app/logs"
                         ],
                         "ExtraHosts": [
                             "host.docker.internal:host-gateway"
@@ -3437,7 +3437,7 @@
                     "email": "support@bluerobotics.com"
                 },
                 "support": null,
-                "type": "example",
+                "type": "tool",
                 "filter_tags": [],
                 "extra_links": {
                     "source": "https://github.com/vshie/pingSurvey"
