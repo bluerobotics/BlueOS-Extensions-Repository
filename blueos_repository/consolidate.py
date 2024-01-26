@@ -210,7 +210,8 @@ class Consolidator:
             repository.versions = dict(
                 sorted(repository.versions.items(), key=lambda i: self.valid_semver(i[0]), reverse=True)  # type: ignore
             )
-            self.consolidated_data.append(repository)
+            if repository.versions:  # only include if there's at least one valid version
+                self.consolidated_data.append(repository)
 
         with open("manifest.json", "w", encoding="utf-8") as manifest_file:
             manifest_file.write(json.dumps(self.consolidated_data, indent=4, cls=EnhancedJSONEncoder))
