@@ -1981,6 +1981,53 @@
         "docker": "bluerobotics/cockpit",
         "website": "https://github.com/bluerobotics/cockpit",
         "versions": {
+            "v1.0.0-beta.6": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "v1.0.0-beta.6",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": null,
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "type": "other",
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {}
+            },
             "v1.0.0-beta.5": {
                 "permissions": {
                     "ExposedPorts": {
@@ -3061,53 +3108,6 @@
                     "mission-planning"
                 ],
                 "extra_links": {}
-            },
-            "v0.7.4": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": null,
-                "tag": "v0.7.4",
-                "website": null,
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": null,
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "type": "other",
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {}
             }
         },
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/cockpit/extension_logo.png",
@@ -3430,7 +3430,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# BlueOS-ping Survey\n# A simple extension for BlueOS intended for collection of time-sync'd sonar and GPS data. \n\n# Future feature ideas: \n",
+                "readme": "# BlueOS-ping Survey\n# A simple extension for BlueOS intended for collection of time-sync'd sonar and GPS data. \n\n# Future feature ideas: \n# - Fix bar at top that scrolls down to hide\n# -WP Survey speed parameter control on page?\n# -User controlled confidence filter on live and/or logged data?\n# -Show GPS speed over ground in table, HDOP\n# -User configurable color gradient to depth mapping\n# -Better mobile experience - scaling corner logos\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
