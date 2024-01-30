@@ -858,6 +858,68 @@
         "docker": "williangalvani/blueos-extension-proxy",
         "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
         "versions": {
+            "v1.0.2": {
+                "permissions": {
+                    "ExposedPorts": {},
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.2",
+                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Blueos Proxy Extension\n\nThis allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "type": "tool",
+                "filter_tags": [],
+                "extra_links": {}
+            },
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {},
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Blueos Proxy Extension\n\nThis allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "type": "tool",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {},
