@@ -3535,7 +3535,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# BlueOS-ping Survey\n# A simple extension for BlueOS intended for collection of time-sync'd sonar and GPS data. \n\n# Future feature ideas: \n# - Fix bar at top that scrolls down to hide\n# -WP Survey speed parameter control on page?\n# -User controlled confidence filter on live and/or logged data?\n# -Show GPS speed over ground in table, HDOP\n# -User configurable color gradient to depth mapping\n# -Better mobile experience - scaling corner logos\n",
+                "readme": "# BlueOS-ping Survey\n# A simple extension for BlueOS intended for collection of time-sync'd sonar and GPS data. \nRead more about this extension [here](https://discuss.bluerobotics.com/t/alpha-release-simple-ping2-survey-extension/15794)\n# Future feature ideas: \n - Fix bar at top that scrolls down to hide\n - WP Survey speed parameter control on page?\n - User controlled confidence filter on live and/or logged data?\n - Show GPS speed over ground in table, HDOP\n - User configurable color gradient to depth mapping\n - Better mobile experience - scaling corner logos\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
