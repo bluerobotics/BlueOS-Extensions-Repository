@@ -1362,6 +1362,37 @@
         "docker": "williangalvani/blueos-extension-proxy",
         "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
         "versions": {
+            "v1.0.3": {
+                "permissions": {
+                    "ExposedPorts": {},
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.3",
+                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Blueos Proxy Extension\n\nThis allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "type": "tool",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "v1.0.2": {
                 "permissions": {
                     "ExposedPorts": {},
@@ -2183,6 +2214,57 @@
         },
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
+        "identifier": "raultrombin.navigator-webassistant",
+        "name": "Navigator WebAssistant",
+        "description": "Use navigator board through webservices.",
+        "docker": "raulelektron/blueos_navigator_webassistant",
+        "website": "https://github.com/RaulTrombin/blueos-navigator-web-assistant",
+        "versions": {
+            "0.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "Privileged": true,
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": null,
+                "tag": "0.0.0",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Raul Victor Trombin",
+                        "email": "raulvtrombin@gmail.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/raultrombin/blueos-navigator-webassistant/master/README.md: status: 404",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "Control navigator hardware using webservices",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": null,
+                "type": "education",
+                "filter_tags": [
+                    "rov",
+                    "robot"
+                ],
+                "extra_links": {}
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/raultrombin/navigator-webassistant/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/raultrombin/company_logo.png"
     },
     {
         "identifier": "bluerobotics.power-switch-calibration",
