@@ -5014,6 +5014,41 @@
         "docker": "patrickelectric/blueos-ros",
         "website": "https://github.com/patrickelectric/blueos-ros",
         "versions": {
+            "0.0.2": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Binds": [
+                            "/dev:/dev:rw"
+                        ],
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": null,
+                "tag": "0.0.2",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS ROS extension\r\n\r\nThis extension makes possible to communicate with the vehicle via ROS\r\n\r\nTo connect, you just need to run the following commands:\r\n```sh\r\nexport ROS_MASTER_URI=http://blueos.local:11311\r\n# or export ROS_MASTER_URI=http://<vehicle-ip>:11311\r\nrostopic list # Done, you already have access to it!\r\n```\r\n\r\nYou can also access the data via [roslibjs]([url](http://wiki.ros.org/roslibjs)http://wiki.ros.org/roslibjs).\r\n\r\n```html\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta charset=\"utf-8\" />\r\n\r\n<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/roslibjs/1.1.0/roslib.min.js\"></script>\r\n\r\n<script type=\"text/javascript\" type=\"text/javascript\">\r\n  var ros = new ROSLIB.Ros({\r\n    url : 'ws://blueos.local:8889' // Change if necessary for your vehicle ip\r\n  });\r\n\r\n  ros.on('connection', function() {\r\n    document.getElementById(\"status\").innerHTML = \"Connected\";\r\n  });\r\n\r\n  ros.on('error', function(error) {\r\n    document.getElementById(\"status\").innerHTML = \"Error\";\r\n  });\r\n\r\n  ros.on('close', function() {\r\n    document.getElementById(\"status\").innerHTML = \"Closed\";\r\n  });\r\n\r\n  var txt_listener = new ROSLIB.Topic({\r\n    ros : ros,\r\n    name : '/mavros/vfr_hud',\r\n    messageType : 'mavros_msgs/VFR_HUD'\r\n  });\r\n\r\n  txt_listener.subscribe(function(m) {\r\n    document.getElementById(\"msg\").innerHTML = JSON.stringify(m);\r\n  });\r\n</script>\r\n</head>\r\n\r\n<body>\r\n  <h1>Simple ROS User Interface</h1>\r\n  <p>Connection status: <span id=\"status\"></span></p>\r\n  <p>Last /mavros/vfr_hud received: <span id=\"msg\"></span></p>\r\n</body>\r\n</html>\r\n```\r\n\r\n## Use a different ROS master origin\r\n\r\nIt's possible to change ROS master for the extension using BlueOS on pirate mode and configuring ROS environments variables under the extension configuration menu.\r\n\r\nA valid configurtion wouyld look like this:\r\n\r\n```json5\r\n{\r\n  \"NetworkMode\": \"host\",\r\n  \"HostConfig\": {\r\n  \"Binds\": [\r\n    \"/dev:/dev:rw\"\r\n  ],\r\n    \"Privileged\": true,\r\n    \"NetworkMode\": \"host\"\r\n  },\r\n  \"Env\": [\r\n    \"ROS_HOSTNAME=192.168.2.2\",\r\n    \"ROS_MASTER_URI=http://192.168.2.3:11311\",\r\n    \"ROS_IP=192.168.2.2\"\r\n  ]\r\n}\r\n```\r\n\r\nFor more information about it, check [BlueOS documentation](https://blueos.cloud/docs/blueos/1.1/development/extensions/).\r\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": null,
+                "type": "other",
+                "filter_tags": [
+                    "ros",
+                    "robot"
+                ],
+                "extra_links": {}
+            },
             "0.0.1": {
                 "permissions": {
                     "NetworkMode": "host",
