@@ -2228,8 +2228,8 @@
                         "8080/tcp": {}
                     },
                     "HostConfig": {
+                        "Privileged": true,
                         "PortBindings": {
-                            "Privileged": true,
                             "8080/tcp": [
                                 {
                                     "HostPort": ""
@@ -2248,7 +2248,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/raultrombin/blueos-navigator-webassistant/master/README.md: status: 404",
+                "readme": "# BlueOS's Navigator Extension\n\nNavigator Webassistant extension is a webserver that allows user to control navigator hardware.\nThis application uses the navigator-assistant to interface with navigator board, and users can control it from Websocket and RestAPI.\n\n## Instructions\n\nAccess the extensions manager and install with the following parameters:\n\nExtensions Manager:\n```\nblueos.local/tools/extensions-manager\n```\nParameters:\n\n```\nraulelektron.blueos_navigator_webassistant\n\nNavigator Assistant\n\nlatest\n\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  }\n}\n```\n\nYou can also run Navigator Assistant locally or on other extensions. Please check [navigator-web-assistant].\n\nYou can also use the Jupyter extension to try some fast python and websocket applications.\n\n\n[navigator-web-assistant]: https://github.com/RaulTrombin/navigator-web-assistant",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "Control navigator hardware using webservices",
