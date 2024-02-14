@@ -1695,6 +1695,36 @@
         "docker": "nicknothom/sonarview",
         "website": "https://sonarview.io/",
         "versions": {
+            "1.9.10-beta": {
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                },
+                "requirements": null,
+                "tag": "1.9.10-beta",
+                "website": "https://ceruleansonar.com",
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "company": {
+                    "name": "Cerulean Sonar",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "support": "https://forum.ceruleansonar.com/categories",
+                "type": "device-integration",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "1.9.8": {
                 "permissions": {
                     "HostConfig": {
