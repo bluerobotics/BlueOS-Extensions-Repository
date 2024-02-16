@@ -3648,6 +3648,52 @@
         "docker": "bluerobotics/blueos-water-linked-dvl",
         "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
         "versions": {
+            "v1.0.4": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "9001/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "9001/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.4",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.4\n - Fix issue introduced in v1.0.3 where the extension was unable to talk to Cable-guy\n\n### v1.0.3\n - Uses an random available port instead of 9001 to avoid conflict\n - Updated menu icon\n\n### v1.0.2\n - Improved style\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Waterlinked DVL A50 driver as a BlueOS Extension.\n\n## Install\n\nInstall it from [BlueOS extensions tab](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/extensions/).\n\nThe service will show in the \"Extension Manager\" section in BlueOS, where there are some configuration options.\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/issues",
+                "type": "device-integration",
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log"
+                ],
+                "extra_links": {}
+            },
             "v1.0.3": {
                 "permissions": {
                     "ExposedPorts": {
