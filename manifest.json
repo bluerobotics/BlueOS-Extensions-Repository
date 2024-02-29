@@ -5225,6 +5225,38 @@
         "docker": "williangalvani/blueos-extension-usbip",
         "website": "https://github.com/Williangalvani/blueos-usbip",
         "versions": {
+            "v1.0.2": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ]
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.2",
+                "website": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# USB/IP extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n\n# Client\n\n## Linux:\n\n\n```\n# load modules\nsudo modprobe usbip-core\nsudo modprobe vhci-hcd\n# list devices\nsudo usbip list --remote blueos.local\n# connect to device with bus 1-1.3\nsudo usbip attach --remote blueos.local --busid 1-1.3\n\n```\n\n## Windows\n\nDownload the 3.6 dev release from https://github.com/cezanne/usbip-win and follow the \"Client\" instructions there.\nThe new \"ude\" driver seemed to work for me.\n\n\n# Changelog:\n\n - v1.0.2:\n     - updated to use commander instead of hard-coded ID to talk to host",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "type": "device-integration",
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {}
+            },
             "v1.0.1": {
                 "permissions": {
                     "NetworkMode": "host"
