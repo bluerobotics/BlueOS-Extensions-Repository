@@ -5227,12 +5227,7 @@
         "versions": {
             "v1.0.2": {
                 "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ]
-                    }
+                    "NetworkMode": "host"
                 },
                 "requirements": "core >= 1.1",
                 "tag": "v1.0.2",
