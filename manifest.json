@@ -3871,6 +3871,68 @@
         "docker": "maphstra/jm-connect-blueos",
         "website": "https://www.jmrobotics.no",
         "versions": {
+            "0.1.2": {
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "0.1.2",
+                "website": "https://www.jmrobotics.no",
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "docs": null,
+                "readme": "# JM Robotics, JM-Connect Extension.\n\nThis extension is for connecting your ROV to the JM Connect Ecosystem.\nIt also allows controlling focus-level of JM Robotics focus-cameras. \n\nIn addition you can stream audio from the rpi's camera at http://<rov-ip>:8137 (beta)\n\n",
+                "company": {
+                    "name": "JM Robotics",
+                    "about": "",
+                    "email": "support@jmrobotics.no"
+                },
+                "support": "https://www.jmrobotics.no",
+                "type": "other",
+                "filter_tags": [],
+                "extra_links": {}
+            },
             "0.1.1": {
                 "permissions": {
                     "Env": [
@@ -5225,6 +5287,33 @@
         "docker": "williangalvani/blueos-extension-usbip",
         "website": "https://github.com/Williangalvani/blueos-usbip",
         "versions": {
+            "v1.0.3": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.3",
+                "website": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# USB/IP extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n\n# Client\n\n## Linux:\n\n\n```\n# load modules\nsudo modprobe usbip-core\nsudo modprobe vhci-hcd\n# list devices\nsudo usbip list --remote blueos.local\n# connect to device with bus 1-1.3\nsudo usbip attach --remote blueos.local --busid 1-1.3\n\n```\n\n## Windows\n\nDownload the 3.6 dev release from https://github.com/cezanne/usbip-win and follow the \"Client\" instructions there.\nThe new \"ude\" driver seemed to work for me.\n\n\n# Changelog:\n\n - v1.0.2:\n     - updated to use commander instead of hard-coded ID to talk to host",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-UsbIp",
+                "type": "device-integration",
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {}
+            },
             "v1.0.2": {
                 "permissions": {
                     "NetworkMode": "host"
