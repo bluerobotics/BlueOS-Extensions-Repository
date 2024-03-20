@@ -45,6 +45,21 @@ class Author:
 
 
 @dataclasses.dataclass
+class Platform:
+    architecture: str
+    variant: Optional[str] = None
+    # pylint: disable=invalid-name
+    os: Optional[str] = None
+
+
+@dataclasses.dataclass
+class Image:
+    digest: Optional[str]
+    expanded_size: int
+    platform: Platform
+
+
+@dataclasses.dataclass
 class Company:
     name: str
     about: Optional[str]
@@ -78,6 +93,7 @@ class Version:
     type: ExtensionType
     filter_tags: List[str]
     extra_links: Dict[str, str]
+    images: List[Image]
 
     @staticmethod
     def validate_filter_tags(tags: List[str]) -> List[str]:
@@ -161,15 +177,38 @@ class Consolidator:
         except ValueError:
             return None  # not valid
 
+    def extract_images_from_tag(self, tag: Any) -> List[Image]:
+        active_images = [
+            image
+            for image in tag["images"]
+            if (image["status"] == "active" and image["architecture"] != "unknown" and image["os"] != "unknown")
+        ]
+
+        images = [
+            Image(
+                digest=image.get("digest", None),
+                expanded_size=image["size"],
+                platform=Platform(
+                    architecture=image["architecture"],
+                    variant=image.get("variant", None),
+                    os=image.get("os", None),
+                ),
+            )
+            for image in active_images
+        ]
+        return images
+
     # pylint: disable=too-many-locals
     async def run(self) -> None:
         async for repository in self.all_repositories():
             for tag in await self.registry.fetch_remote_tags(repository.docker):
+                tag_name = tag["name"]
+                print(tag_name)
                 try:
-                    if not self.valid_semver(tag):
-                        print(f"{tag} is not valid SemVer, ignoring it...")
+                    if not self.valid_semver(tag_name):
+                        print(f"{tag_name} is not valid SemVer, ignoring it...")
                         continue
-                    raw_labels = await self.registry.fetch_labels(f"{repository.docker}:{tag}")
+                    raw_labels = await self.registry.fetch_labels(f"{repository.docker}:{tag_name}")
                     permissions = raw_labels.get("permissions", None)
                     links = json5.loads(raw_labels.get("links", "{}"))
                     website = links.pop("website", raw_labels.get("website", None))
@@ -178,7 +217,7 @@ class Consolidator:
                     docs = links.pop("docs", links.pop("documentation", raw_labels.get("docs", None)))
                     readme = raw_labels.get("readme", None)
                     if readme is not None:
-                        readme = readme.replace(r"{tag}", tag)
+                        readme = readme.replace(r"{tag_name}", tag_name)
                         try:
                             readme = await self.fetch_readme(readme)
                         except Exception as error:  # pylint: disable=broad-except
@@ -201,9 +240,10 @@ class Consolidator:
                         type=type_,
                         filter_tags=Version.validate_filter_tags(filter_tags),
                         requirements=raw_labels.get("requirements", None),
-                        tag=tag,
+                        tag=tag_name,
+                        images=self.extract_images_from_tag(tag),
                     )
-                    repository.versions[tag] = new_version
+                    repository.versions[tag_name] = new_version
                 except KeyError as error:
                     raise Exception(f"unable to parse repository {repository}: {error}") from error
             # sort the versions, with the highest version first
