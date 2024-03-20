@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, Optional
 
 import aiohttp_retry
 
@@ -41,7 +41,7 @@ class Registry:
                     raise Exception("Could not get auth token")
                 return str((await resp.json(content_type=None))["token"])
 
-    async def fetch_remote_tags(self, repository: str) -> List[str]:
+    async def fetch_remote_tags(self, repository: str) -> Any:
         """Fetches the tags available for an image in DockerHub"""
         print(f"fetching tags in {repository}")
         self.token = await self._get_token(repository)
@@ -55,9 +55,7 @@ class Registry:
                 data = await resp.json(content_type=None)
                 tags = data["results"]
 
-                valid_images = [tag["name"] for tag in tags]
-                print(valid_images)
-                return valid_images
+                return tags
 
     def is_compatible(self, entry: Any) -> bool:
         if entry["os"] != "linux":
