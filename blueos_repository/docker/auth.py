@@ -1,0 +1,53 @@
+import aiohttp_retry
+# API Models
+from models.auth import AuthToken
+
+
+class DockerAuthAPI:
+    """
+    This class is used to interact with the Docker Auth API.
+
+    More details in https://distribution.github.io/distribution/spec/auth/token/
+    """
+
+    __api_url: str = "https://auth.docker.io"
+
+
+    def __init__(self, max_retries: int = 5) -> None:
+        """
+        Constructor for the DockerAuthAPI class.
+
+        Args:
+            max_retries: The maximum number of retries to be used in case of request failure. Defaults to 5.
+
+        Returns:
+            None
+        """
+        self.__retry_options = aiohttp_retry.ExponentialRetry(attempts=max_retries)
+
+
+    async def get_token(self, repo: str) -> AuthToken:
+        """
+        Gets a token to be used in docker registry requests.
+
+        Args:
+            repo: The repository name, for example "bluerobotics/core"
+
+        Returns:
+            The token
+        """
+
+        payload = {
+            "service": "registry.docker.io",
+            "scope": f"repository:{repo}:pull",
+        }
+
+        auth_url = f"{self.__api_url}/token?service=registry.docker.io&scope=repository:{repo}:pull"
+        async with aiohttp_retry.RetryClient(retry_options=self.__retry_options) as session:
+            async with session.get(auth_url + "/token", params=payload) as resp:
+                if resp.status != 200:
+                    error_msg = f"Error on Docker Auth API with status {resp.status}"
+                    print(error_msg)
+                    raise Exception(error_msg)
+
+                return AuthToken(**(await resp.json()))
