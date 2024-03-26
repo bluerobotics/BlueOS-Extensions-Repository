@@ -3805,15 +3805,6 @@
                             "variant": "v7",
                             "os": "linux"
                         }
-                    },
-                    {
-                        "digest": "sha256:4fcfb25e22e3f1f3a4327e9df9f1fbb94260b4cc576a29aef41969cbe2c71b21",
-                        "expanded_size": 90239649,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        }
                     }
                 ]
             },
