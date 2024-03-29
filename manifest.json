@@ -7150,6 +7150,24 @@
                             "variant": "v7",
                             "os": "linux"
                         }
+                    },
+                    {
+                        "digest": "sha256:ee6e38f1cb3ee68287141fe8e1d9781a16e05cd7bbd33c7a1395cb4046e882b5",
+                        "expanded_size": 12776525,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:2a87e20cc10d45ae10962c029869e687e0a434c0f5aa7f71477109bac670ccde",
+                        "expanded_size": 12879798,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
                     }
                 ]
             },
