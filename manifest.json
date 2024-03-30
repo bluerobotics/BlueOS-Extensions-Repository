@@ -3931,6 +3931,15 @@
                             "variant": null,
                             "os": "linux"
                         }
+                    },
+                    {
+                        "digest": "sha256:aedd59836db2027ddf1ef1bf107e2ca80bf94cafa0c7a2263040b6299398ec41",
+                        "expanded_size": 73489461,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        }
                     }
                 ]
             },
@@ -3971,6 +3980,15 @@
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:89ef4fcfe2880c061112831114679d61eb12639002da11203fecfb03312fa844",
+                        "expanded_size": 73489461,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         }
                     }
@@ -6880,6 +6898,15 @@
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:6049c6ae59a778bfdeb81dc59fb9b2a76f3794791785e423c535a53fffbe8742",
+                        "expanded_size": 12776642,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
                             "os": "linux"
                         }
                     }
