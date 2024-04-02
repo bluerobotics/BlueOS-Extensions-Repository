@@ -3760,6 +3760,72 @@
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
     },
     {
+        "identifier": "williangalvani.oakd",
+        "name": "Oak-D Video Streams",
+        "description": "Exposes Oak-D streams into cockpit",
+        "docker": "williangalvani/oakd-extension",
+        "website": "https://github.com/Williangalvani/Oakd-extension",
+        "versions": {
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/dev/bus/usb:/dev/bus/usb"
+                        ],
+                        "DeviceCgroupRules": [
+                            "c 189:* rmw"
+                        ]
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/Oakd-extension/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/Williangalvani/Oakd-extension/{tag}/Readme.md: status: 404",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/Oakd-extension/",
+                "type": "example",
+                "filter_tags": [],
+                "extra_links": {},
+                "images": [
+                    {
+                        "digest": "sha256:feec843fadf59cfa34d94b8684354fb9cb6c150b107fd30cff87b6772c0b0295",
+                        "expanded_size": 2026337533,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:122792a81db3d0ecaff4b300237e9f1bd43da2447b0a62dd90c691ae85c7b7cc",
+                        "expanded_size": 1775877643,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        }
+                    }
+                ]
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/oakd/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png"
+    },
+    {
         "identifier": "williangalvani.blueos-proxy",
         "name": "BlueOS Proxy",
         "description": "BlueOS Proxy",
