@@ -7494,6 +7494,81 @@
         "docker": "bluerobotics/blueos-water-linked-dvl",
         "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
         "versions": {
+            "v1.0.5": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "9001/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "9001/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1.1",
+                "tag": "v1.0.5",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/bluerobotics/BlueOS-Water-Linked-DVL/{tag}/README.md: status: 404",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/issues",
+                "type": "device-integration",
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log"
+                ],
+                "extra_links": {},
+                "images": [
+                    {
+                        "digest": "sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924",
+                        "expanded_size": 71286141,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:8d1f4ea8c26a0fc7614c51f890e4cfd8c10cb66254b5c83b03278985b310b5bf",
+                        "expanded_size": 75850736,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:6a05bce7c3834c01e2014db273c45e29fa0de985ec5091553f3f4c59d305da62",
+                        "expanded_size": 77417461,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    }
+                ]
+            },
             "v1.0.4": {
                 "permissions": {
                     "ExposedPorts": {
