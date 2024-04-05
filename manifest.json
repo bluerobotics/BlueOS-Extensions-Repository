@@ -7404,6 +7404,15 @@
                             "variant": "v7",
                             "os": "linux"
                         }
+                    },
+                    {
+                        "digest": "sha256:e7e87fccb999f3474c96f2eade04602995b70aff7a83ff58c0e43065811a610f",
+                        "expanded_size": 12763030,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
                     }
                 ]
             },
