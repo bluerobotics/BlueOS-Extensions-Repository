@@ -4697,6 +4697,15 @@
                         }
                     },
                     {
+                        "digest": "sha256:0afef5ac70baf096d4f05f9adf4aac68015d4d85b03a60940415c0fb5e0177fb",
+                        "expanded_size": 12840728,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
                         "digest": "sha256:2fbe021fdb1b67f86fd3b69a89151bba702ce58d7896e3374a06086fee46af66",
                         "expanded_size": 12943992,
                         "platform": {
