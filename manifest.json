@@ -5620,6 +5620,15 @@
                             "variant": "v7",
                             "os": "linux"
                         }
+                    },
+                    {
+                        "digest": "sha256:9a8d98a9a5c711f69026a98bcc888f2f878d0469d3bc37a9bfed50ce6e915e2e",
+                        "expanded_size": 12779191,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
                     }
                 ]
             },
