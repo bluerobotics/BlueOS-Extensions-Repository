@@ -1797,6 +1797,15 @@
                             "variant": null,
                             "os": "linux"
                         }
+                    },
+                    {
+                        "digest": "sha256:a21de0655ed73d40b7415f5e85bd727d709c9517d9960b10e2d4e5dee49624e9",
+                        "expanded_size": 38383327,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        }
                     }
                 ]
             },
@@ -4570,6 +4579,24 @@
                             "variant": "v7",
                             "os": "linux"
                         }
+                    },
+                    {
+                        "digest": "sha256:830999f377e95a8114793f41fd5ec6099d76744e6cce2aed36a88af05fedec5a",
+                        "expanded_size": 12897150,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:0079d3999c2c5893c7c7121b8b436d2dabcba106e9a6e9374c6cccfe755bd5b0",
+                        "expanded_size": 13000413,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
                     }
                 ]
             },
@@ -5045,6 +5072,15 @@
                         "expanded_size": 12783049,
                         "platform": {
                             "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:9df337791ba444253eafd88b701f8b5756896ae7fc9b167cbc2812bcdb85f2fe",
+                        "expanded_size": 12886304,
+                        "platform": {
+                            "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         }
@@ -5536,6 +5572,15 @@
                 ],
                 "extra_links": {},
                 "images": [
+                    {
+                        "digest": "sha256:b2459c75d521154ee9e11b27bcc5a569a4ccbd9ddd83c93fd66a6dbd52b56a5a",
+                        "expanded_size": 12879818,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
                     {
                         "digest": "sha256:c36509963cc8a988f941ee47c705ad956386076a37d38adf3e9d4feb18a65321",
                         "expanded_size": 12439212,
