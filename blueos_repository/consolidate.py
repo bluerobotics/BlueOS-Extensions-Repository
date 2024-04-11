@@ -217,7 +217,7 @@ class Consolidator:
                     docs = links.pop("docs", links.pop("documentation", raw_labels.get("docs", None)))
                     readme = raw_labels.get("readme", None)
                     if readme is not None:
-                        readme = readme.replace(r"{tag_name}", tag_name)
+                        readme = readme.replace(r"{tag}", tag_name)
                         try:
                             readme = await self.fetch_readme(readme)
                         except Exception as error:  # pylint: disable=broad-except
