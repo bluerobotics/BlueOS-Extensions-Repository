@@ -4941,6 +4941,15 @@
                             "variant": "v7",
                             "os": "linux"
                         }
+                    },
+                    {
+                        "digest": "sha256:746670c84a4055c3336b7840f8cc956cb94ff82de5bb939e1719eb88c2010a30",
+                        "expanded_size": 12828877,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
                     }
                 ]
             },
@@ -5148,6 +5157,15 @@
                         "expanded_size": 12783686,
                         "platform": {
                             "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:40aa394762dc0d5ad020dbac778f3abe3100dc69f95ab4a26721b041881adaf9",
+                        "expanded_size": 12886966,
+                        "platform": {
+                            "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         }
