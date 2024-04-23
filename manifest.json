@@ -6778,6 +6778,58 @@
         "docker": "patrickelectric/blueos-jupyter",
         "website": "https://github.com/patrickelectric/blueos-jupyter",
         "versions": {
+            "0.1.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/extensions/jupyter/root:/root:rw",
+                            "/dev:/dev:rw"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": null,
+                "tag": "0.1.0",
+                "website": null,
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    },
+                    {
+                        "name": "Raul Victor Trombin",
+                        "email": "raulvtrombin@gmail.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# blueos-jupyter\n\nExtension to start coding with python examples and create projects.\n\nTo install your own libraries, use: `pip install --user`.\n\nHome directory (`/root/`) will be persistent besides pip local holder for user libraries.\n\nLibraries installed:\n- bluerobotics-ping\n- bluerobotics-navigator\n- plotly\n- pymavlink\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": null,
+                "type": "other",
+                "filter_tags": [
+                    "python",
+                    "ide",
+                    "development"
+                ],
+                "extra_links": {},
+                "images": [
+                    {
+                        "digest": "sha256:7fbecadd64e1b484f67a6cafda92c3f4b9630e277d83a4288196ebbf01af336f",
+                        "expanded_size": 946708030,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        }
+                    }
+                ]
+            },
             "0.0.0": {
                 "permissions": {
                     "NetworkMode": "host",
