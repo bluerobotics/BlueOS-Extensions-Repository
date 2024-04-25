@@ -90,6 +90,8 @@ class ExtensionVersion:  # pylint: disable=too-many-instance-attributes
     Represents a version of an extension.
 
     Attributes:
+        identifier (str): Unique identifier of this tag version, in extension repository is the 256 sha digest from the
+            first compatible image, in BlueOS cloud is a uuid v4.
         tag (Optional[str]): Tag of the version.
         type (ExtensionType): Type of the extension.
         website (str): URL to the extension's website.
@@ -105,6 +107,7 @@ class ExtensionVersion:  # pylint: disable=too-many-instance-attributes
         images (List[Image]): Images available for the extension.
     """
 
+    identifier: str  # TODO - In future try to unify with identifiers coming from cloud
     type: ExtensionType
     website: str
     images: List[Image]
