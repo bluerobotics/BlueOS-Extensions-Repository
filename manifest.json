@@ -3810,6 +3810,15 @@
                 "extra_links": {},
                 "images": [
                     {
+                        "digest": "sha256:127a0f67416c41ab5b23b33ca044d1e99403b5ec567b8e613e4d1ace96f15f00",
+                        "expanded_size": 12879913,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
                         "digest": "sha256:26a17b55f44cbec58a16ad4dab967cedb209c5df84f83347f78c0ab7e54a7d62",
                         "expanded_size": 12439277,
                         "platform": {
