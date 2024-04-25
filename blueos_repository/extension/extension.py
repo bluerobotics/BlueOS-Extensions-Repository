@@ -1,4 +1,5 @@
 import asyncio
+import uuid
 from typing import Dict, List
 
 import aiohttp
@@ -149,7 +150,16 @@ class Extension:
                 Logger.warning(self.identifier, str(error))
                 readme = str(error)
 
+        images = self.__extract_images_from_tag(version_tag)
+        if not images:
+            Logger.error(
+                self.identifier,
+                f"Could not find images associated with tag {version_tag.name} for extension {self.identifier}",
+            )
+
+        tag_identifier = str(uuid.uuid5(uuid.NAMESPACE_DNS, f"{self.identifier}.{version_tag.name}"))
         return ExtensionVersion(
+            identifier=tag_identifier,
             tag=version_tag.name,
             type=labels.get("type", ExtensionType.OTHER),
             website=links.pop("website", labels.get("website", None)),
