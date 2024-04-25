@@ -14,6 +14,7 @@ aiohttp-retry = "2.8.3"
 json-five = "1.1.1"
 python = "^3.10"
 semver = "^2.13.0"
+dataclass-wizard = "^0.22.3"
 
 [tool.poetry.dev-dependencies]
 black = "22.3.0"
@@ -52,4 +53,3 @@ strict = true
 warn_unreachable = true
 warn_unused_ignores = false
 plugins = "pydantic.mypy"
-
