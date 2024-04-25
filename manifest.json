@@ -6,65 +6,6 @@
         "docker": "nicknothom/sonarview",
         "website": "https://sonarview.io/",
         "versions": {
-            "1.9.12-beta.5": {
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ]
-                    }
-                },
-                "requirements": null,
-                "tag": "1.9.12-beta.5",
-                "website": "https://ceruleansonar.com",
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "company": {
-                    "name": "Cerulean Sonar",
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "support": "https://forum.ceruleansonar.com/categories",
-                "type": "device-integration",
-                "filter_tags": [],
-                "extra_links": {},
-                "images": [
-                    {
-                        "digest": "sha256:4ae0485296144415da311c02c003ef67781cd834a29df62100533bf2a24e9425",
-                        "expanded_size": 42092574,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        }
-                    },
-                    {
-                        "digest": "sha256:a55d7bd12f60f8415924b2da964bf1ff7b7f40089ce8e20abb4b8c22d44e7e2e",
-                        "expanded_size": 40283029,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        }
-                    },
-                    {
-                        "digest": "sha256:9cbb264072d06ad9a69eb6baaf488a4d4c1ac0596ad261976fef4f2900727ebb",
-                        "expanded_size": 42090425,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        }
-                    }
-                ]
-            },
             "1.9.10-beta": {
                 "permissions": {
                     "HostConfig": {
@@ -3353,6 +3294,15 @@
                             "variant": null,
                             "os": "linux"
                         }
+                    },
+                    {
+                        "digest": "sha256:33bafc343fa8f93373e323ecb22e6207299c472399f5d9052975ef2c06144dde",
+                        "expanded_size": 12932157,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        }
                     }
                 ]
             },
@@ -3417,6 +3367,15 @@
                         "expanded_size": 12829977,
                         "platform": {
                             "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        }
+                    },
+                    {
+                        "digest": "sha256:f904553d67ba5fa9f4ecb899dd71a5346a9cca4921d18050bfcff0fc54b3b519",
+                        "expanded_size": 12933238,
+                        "platform": {
+                            "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         }
