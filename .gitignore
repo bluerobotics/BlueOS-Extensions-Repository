@@ -3,5 +3,11 @@
 
 # Ignore generated files/folders
 manifest.json
+manifest.log
 website/node_modules
 website/public
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
