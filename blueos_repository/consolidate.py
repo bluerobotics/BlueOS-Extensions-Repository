@@ -130,9 +130,9 @@ class Consolidator:
         await asyncio.gather(*(ext.inflate() for ext in extensions))
 
         consolidated_data = [
-            RepositoryEntry(**dataclasses.asdict(ext.metadata), versions=ext.versions)
+            RepositoryEntry(**dataclasses.asdict(ext.metadata), versions=ext.sorted_versions)
             for ext in extensions
-            if ext.versions
+            if ext.sorted_versions
         ]
 
         try:
@@ -141,7 +141,7 @@ class Consolidator:
             print(f"Unable to fetch final docker rate limit, error: {error}")
 
         with open(MANIFEST_FILE, "w", encoding="utf-8") as manifest_file:
-            manifest_file.write(json.dumps(consolidated_data, indent=4, sort_keys=True, cls=EnhancedJSONEncoder))
+            manifest_file.write(json.dumps(consolidated_data, indent=4, cls=EnhancedJSONEncoder))
 
         Logger.dump(MANIFEST_LOG)
 
