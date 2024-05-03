@@ -49,6 +49,17 @@ class Extension:
         self.hub: DockerHub = DockerHub(metadata.docker)
         self.registry: DockerRegistry = DockerRegistry(metadata.docker)
 
+    @property
+    def sorted_versions(self) -> Dict[str, ExtensionVersion]:
+        """
+        Returns the versions reverse sorted by semver.
+
+        Returns:
+            Dict[str, ExtensionVersion]: Sorted versions.
+        """
+
+        return dict(sorted(self.versions.items(), key=lambda item: valid_semver(item[0]), reverse=True))  # type: ignore
+
     @staticmethod
     async def fetch_readme(url: str) -> str:
         if not url.startswith("http"):
