@@ -1002,6 +1002,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:438de8ade5df2138b3cf547eed234d3714363eed3274dbe84afe0c609fbc6dda"
+                    },
+                    {
+                        "expanded_size": 86912704,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8"
                     }
                 ],
                 "authors": [
@@ -1053,6 +1062,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:438de8ade5df2138b3cf547eed234d3714363eed3274dbe84afe0c609fbc6dda"
+                    },
+                    {
+                        "expanded_size": 86912704,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8"
                     }
                 ],
                 "authors": [
@@ -2057,6 +2075,83 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/cockpit/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png",
         "versions": {
+            "v1.0.0-beta.18": {
+                "identifier": "8b87ba8f-8a01-51ca-a4fd-b1d5b21d3f10",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15598779,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0ffe807162f11bc8c8328c5617c254b9d8fbd4d454581b8c638a3492ffb4e0b0"
+                    },
+                    {
+                        "expanded_size": 15810884,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:08d23911f5487bbf628257fc0ad7e4334d4970e47f2de8c8e214f217e3a496d6"
+                    },
+                    {
+                        "expanded_size": 15854889,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:75e10bcbdddd69a6fbe88e8ad6dbab5b7a45ccde730400420873b9850b7133d0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.18",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.17": {
                 "identifier": "ccc287b6-57da-5c9b-bb66-3abcc272082e",
                 "type": "other",
@@ -3214,65 +3309,6 @@
                     }
                 }
             },
-            "v0.18.0": {
-                "identifier": "a1dc39fb-250f-598e-af5a-8a204ad0b107",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12445624,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:65afb5347bcc63add1d6b8e64b42d33ef7d800022b001ecaeecdadd6257c288c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v0.18.0",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v0.17.0": {
                 "identifier": "b0c47531-2ab3-5386-a489-1b7b6c55de14",
                 "type": "other",
@@ -3308,65 +3344,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v0.17.0",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v0.16.4": {
-                "identifier": "04ab7c8f-9c6f-5a5d-a39e-cf174bc36344",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12439277,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:26a17b55f44cbec58a16ad4dab967cedb209c5df84f83347f78c0ab7e54a7d62"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v0.16.4",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -3449,65 +3426,6 @@
                         }
                     }
                 }
-            },
-            "v0.16.2": {
-                "identifier": "96cceb9e-af1d-5a30-b36c-857a0fa5f6d0",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12439212,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c36509963cc8a988f941ee47c705ad956386076a37d38adf3e9d4feb18a65321"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v0.16.2",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         }
     },
@@ -3550,66 +3468,6 @@
                 ],
                 "extra_links": {},
                 "tag": "1.2.0",
-                "docs": null,
-                "readme": "\n# BlueOS extension\n\nThis is a Nucleus extension for the BlueOS software running on BlueROV2. \n\nIt works by wrapping the Nucleus Driver in a docker image, with a script that feeds velocity data from the Nucleus device into the ArduSub control system through mavlink commands.\n\nThis allows the user to utilize the \"position hold\" functionality in the ROV\n\n## Nortek Nucleus integration\n\nTo mount the Nucleus unto the BlueROV2 and connect it to its network, refer Nortek's [Nucleus integration guide](https://support.nortekgroup.com/hc/en-us/articles/8246995934748-Nucleus-integration-with-BlueROV2).\n\n## setup\n\n### BlueOS\n\nBlueOS needs to be of version 1.1.0-beta18 or newer in order to support the adding of third party extensions.\n\n### ArduSub\n\nArduSub needs to be of version 4.1.0 or newer for it to support the VISUAL_POSITION_DELTA packets used to send velocity data to the ROV.\n\n### Nucleus\n\nThis extension assumes that the Nucleus is connected to the network of the ROV through an ethernet connection. It is therefore necessary to set a static IP in the Nucleus.\n\nThe network prefix of the BlueROV2 is 192.168.2.0, with a netmask of 255.255.255.0. The Nucleus' static IP must therefore be set to a fitting value, i.e. 192.168.2.201. \n\nIn the GUI that comes with the extension the user must specify this IP address to establish a connection with the Nucleus device. The user is therefore not limited to using this IP address, but is at the same time responsible of selecting an IP address that is not already in use on the network.\n\n## Adding extension to BlueROV2\n\nThe extension can be added to the BlueROV2 either through the BlueOS software, or by creating the docker image on the onboard computer and running the docker container directly.\n\nIt is recommended to add the extension through BlueOS as it is both easier and the intended way for this extension to be added. The two different approaches are covered in the following subsections.\n\n### BlueOS\n\n#### Installation\nThe extension can be added through BlueOS' extensions menu.\n\nNavigate to Extensions > Extensions Manager.\n\n![blueos_menu](docs/blueos_menu.png)\n\nLocate Nortek Nucleus under the tab \"STORE\" and open it.\n\n![nortek_nucleus_store](docs/nortek_nucleus_store.png)\n\nWhen the Nortek Nucleus extension is opened the user will be presented with this README, as well as information about the extensions creator, a link to this github repository, the settings in the docker image of the extension and the option of installing the extension.\n\nTo install the extension, select the newest available version in the drop down menu (the newest version should be the default) and push install. BlueOS will the pull the nucleus extension docker image and install it in its extensions.\n\n![nortek_nucleus_install](docs/nortek_nucleus_install.png)\n\n#### Usage\n\nAfter the installation has been completed. The extension can be located in Extensions > Extensions Manager, under the tab \"INSTALLED\".\n\n![nortek_nucleus_installed](docs/nortek_nucleus_installed.png)\n\nHere the user have the option to edit sittings, uninstall, disable and restart the extension. It is also possible to view the output logs from the docker container that runs the extension which can serve as a good debugging tool.\n\nThe extension itself can be opened in the menu by navigating to Extensions > Nucleus: Position hold. \n\n![blueos_menu_nucleus](docs/blueos_menu_nucleus.png)\n\nOpening this will present the user with the GUI for the Nucleus extension which is covered in [Using the extension](#using-the-extension)\n\n### Docker\n\nTo set this extension up manually, ssh into the Raspberry Pi on the BlueROV2 (or access via red-pill in [BlueOS terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)).\n\n**N.B.** The docker image available on dockerhub is set to use port 80 for its user interface which allows BlueOS to handle which port this user interface should be available at. For the manual approach it is therefore necessary to build the docker image with a different port if you wish to have access to the user interface.\n\n**N.B.** In the current version of the extension it is necessary to have access to the GUI as it is required for establishing the connection to the Nucleus.\n\nOn the onboard computer, clone this repo in your preferred path with the following command:\n\n```\ngit clone git@github.com:nortekgroup/nucleus_driver.git\n```\n\nNavigate to the blueos_extension folder (the folder containing the Dockerfile) and build the docker image with the following command:\n\n```\ndocker build . -t nucleus_driver\n```\n\nThe GUI of the extension is by default on port 5000. \n\nIf another port is preferred for the GUI the image can be build with the preferred port as an argument with the following command\n\n```\ndocker build . -t nucleus_driver --build-arg PORT=5000\n```\n\nwith the value following \"`PORT=`\" being your preferred port.\n\nThe docker container can be executed with the following command\n\n```\ndocker run --net=host -v /root/.config/blueos:/root/.config --name=nucleus_driver --restart=unless-stopped nucleus_driver\n```\n\n`--net=host` allows the container to share the network of the ROV which is necessary for it to communicate with the ROV and make the GUI available\n\n`-v /root/.config/blueos:/root/.config` maps the volume \"/root/.config/blueos\" from the Raspberry Pi into \"/root/.config\" in the container. This allows the container the store configuration data in-between runs.\n\n`--name=Nucleus-Driver` is the preferred name of the container.\n\n`--restart=unless-stopped` allows the extension to automatically start when the ROV is powered up\n\nWith the docker container running, the GUI can be accessed in a browser by navigating to `blueos.local:<port>` (or `192.168.2.2:<port>`), where `<port>` is the specified port from the image creation. See [Using the extension](#using-the-extension) to learn about how to use the GUI.\n\n## Using the extension\n\n**N.B.** In order for the extension to work it is necessary to change certain controller parameters. Refer to \"Controller parameters\" section for more info\n\n**N.B.** In order for the \"position hold\" algorithm to perform well it might be necessary to change the ROV's PID parameters. Refer to \"PID parameters\" section for more info\n\nWith the extension added, its user interface (GUI) can be found by navigating to Extensions -> Nucleus: Position hold in the BlueOS menu.\n\nIn the case of a manual installation through docker, the GUI can be found y navigating to `blueos.local:<port>` where `<port>` is he port specified when the docker image was created. \n\nThe GUI presents the user with a home page and two pages for parametrization. These pages can be navigated in-between using the navigation banner at the top of the GUI\n\n### Home\n\nThe home screen presents the user with a status field which displays the results of various checks performed during the startup of the ROV. It is necessary for all of these checks to pass in order for extension to work. Some easy troubleshooting is presented in the home screen in case any of these checks were to fail\n\nThe Nucleus hostname field is used to set the IP address used to connect to the Nucleus device. This IP address should be the same as the static IP configured on the Nucleus device.\n\nIt is also a field which allows the user to decide whether the driver is enabled. The driver must be enabled for it to feed velocity data to the ROV. If it is not enabled the driver is still running and extracting data from the Nucleus, but the velocity is not sent to the ROV.\n\nThe packet counter field displays how many velocity data packets has been handled by the extension. Sent packages refers to packages that has been sent to the ROV, Failed packets refers to packets that for some reason failed to be sent, and Skipped packets are packets that were in good condition and ready to be sent, but weren't due to the driver not being enabled.\n\n### PID parameters\n\n**N.B.** Adjusting any of these parameters **WILL** change the behavior of the ROV\n\n**N.B.** Neither the extension nor the ROV will remember the original values of these parameters in case they are changed. It is therefore the users responsibility to remember the original values in case they wish to revert back to the original parameterization.\n\nThe PID parameters page gives the user opportunity to modify selected PID parameters in the controller. Good parameterization is necessary for a good performance of the ROV. The correct parameters varies from vehicle to vehicle as the physical attributes of the ROV has an impact on its behavior. However, recommended parameters for a standard BlueROV2 with only the Nucleus being the third party installation is presented on this page.\n\n### Controller parameters\n\n**N.B.** Adjusting any of these parameters may change the behavior of the ROV\n\n**N.B.** Neither the extension nor the ROV will remember the original values of these parameters in case they are changed. It is therefore the users responsibility to remember the original values in case they wish to revert back to the original parameterization.\n\nIn order for the controller to accept and utilize the velocity packets sent from the Nucleus, certain parameters has to be changed. The parameters and their required values are presented on this page. \n\nAfter these parameters has been changed it is necessary to power cycle the vehicle for these parameters to take effect\n\n",
-                "support": "https://support.nortekgroup.com/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Nortek",
-                    "email": ""
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "1.1.0": {
-                "identifier": "1311ade4-1008-5502-84b3-c592f1aeb0fc",
-                "type": "device-integration",
-                "website": "https://github.com/nortekgroup/nucleus_driver/tree/main/blueos_extension",
-                "images": [
-                    {
-                        "expanded_size": 67100057,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e0dedf493f9749aa953b59d4941e1fdf254c4a6949ecee933079e1d203e71773"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Martin Bergene Johansen",
-                        "email": "martin.johansen@nortekgroup.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "doppler-velocity-log",
-                    "water-tracking",
-                    "current-profiling"
-                ],
-                "extra_links": {},
-                "tag": "1.1.0",
                 "docs": null,
                 "readme": "\n# BlueOS extension\n\nThis is a Nucleus extension for the BlueOS software running on BlueROV2. \n\nIt works by wrapping the Nucleus Driver in a docker image, with a script that feeds velocity data from the Nucleus device into the ArduSub control system through mavlink commands.\n\nThis allows the user to utilize the \"position hold\" functionality in the ROV\n\n## Nortek Nucleus integration\n\nTo mount the Nucleus unto the BlueROV2 and connect it to its network, refer Nortek's [Nucleus integration guide](https://support.nortekgroup.com/hc/en-us/articles/8246995934748-Nucleus-integration-with-BlueROV2).\n\n## setup\n\n### BlueOS\n\nBlueOS needs to be of version 1.1.0-beta18 or newer in order to support the adding of third party extensions.\n\n### ArduSub\n\nArduSub needs to be of version 4.1.0 or newer for it to support the VISUAL_POSITION_DELTA packets used to send velocity data to the ROV.\n\n### Nucleus\n\nThis extension assumes that the Nucleus is connected to the network of the ROV through an ethernet connection. It is therefore necessary to set a static IP in the Nucleus.\n\nThe network prefix of the BlueROV2 is 192.168.2.0, with a netmask of 255.255.255.0. The Nucleus' static IP must therefore be set to a fitting value, i.e. 192.168.2.201. \n\nIn the GUI that comes with the extension the user must specify this IP address to establish a connection with the Nucleus device. The user is therefore not limited to using this IP address, but is at the same time responsible of selecting an IP address that is not already in use on the network.\n\n## Adding extension to BlueROV2\n\nThe extension can be added to the BlueROV2 either through the BlueOS software, or by creating the docker image on the onboard computer and running the docker container directly.\n\nIt is recommended to add the extension through BlueOS as it is both easier and the intended way for this extension to be added. The two different approaches are covered in the following subsections.\n\n### BlueOS\n\n#### Installation\nThe extension can be added through BlueOS' extensions menu.\n\nNavigate to Extensions > Extensions Manager.\n\n![blueos_menu](docs/blueos_menu.png)\n\nLocate Nortek Nucleus under the tab \"STORE\" and open it.\n\n![nortek_nucleus_store](docs/nortek_nucleus_store.png)\n\nWhen the Nortek Nucleus extension is opened the user will be presented with this README, as well as information about the extensions creator, a link to this github repository, the settings in the docker image of the extension and the option of installing the extension.\n\nTo install the extension, select the newest available version in the drop down menu (the newest version should be the default) and push install. BlueOS will the pull the nucleus extension docker image and install it in its extensions.\n\n![nortek_nucleus_install](docs/nortek_nucleus_install.png)\n\n#### Usage\n\nAfter the installation has been completed. The extension can be located in Extensions > Extensions Manager, under the tab \"INSTALLED\".\n\n![nortek_nucleus_installed](docs/nortek_nucleus_installed.png)\n\nHere the user have the option to edit sittings, uninstall, disable and restart the extension. It is also possible to view the output logs from the docker container that runs the extension which can serve as a good debugging tool.\n\nThe extension itself can be opened in the menu by navigating to Extensions > Nucleus: Position hold. \n\n![blueos_menu_nucleus](docs/blueos_menu_nucleus.png)\n\nOpening this will present the user with the GUI for the Nucleus extension which is covered in [Using the extension](#using-the-extension)\n\n### Docker\n\nTo set this extension up manually, ssh into the Raspberry Pi on the BlueROV2 (or access via red-pill in [BlueOS terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)).\n\n**N.B.** The docker image available on dockerhub is set to use port 80 for its user interface which allows BlueOS to handle which port this user interface should be available at. For the manual approach it is therefore necessary to build the docker image with a different port if you wish to have access to the user interface.\n\n**N.B.** In the current version of the extension it is necessary to have access to the GUI as it is required for establishing the connection to the Nucleus.\n\nOn the onboard computer, clone this repo in your preferred path with the following command:\n\n```\ngit clone git@github.com:nortekgroup/nucleus_driver.git\n```\n\nNavigate to the blueos_extension folder (the folder containing the Dockerfile) and build the docker image with the following command:\n\n```\ndocker build . -t nucleus_driver\n```\n\nThe GUI of the extension is by default on port 5000. \n\nIf another port is preferred for the GUI the image can be build with the preferred port as an argument with the following command\n\n```\ndocker build . -t nucleus_driver --build-arg PORT=5000\n```\n\nwith the value following \"`PORT=`\" being your preferred port.\n\nThe docker container can be executed with the following command\n\n```\ndocker run --net=host -v /root/.config/blueos:/root/.config --name=nucleus_driver --restart=unless-stopped nucleus_driver\n```\n\n`--net=host` allows the container to share the network of the ROV which is necessary for it to communicate with the ROV and make the GUI available\n\n`-v /root/.config/blueos:/root/.config` maps the volume \"/root/.config/blueos\" from the Raspberry Pi into \"/root/.config\" in the container. This allows the container the store configuration data in-between runs.\n\n`--name=Nucleus-Driver` is the preferred name of the container.\n\n`--restart=unless-stopped` allows the extension to automatically start when the ROV is powered up\n\nWith the docker container running, the GUI can be accessed in a browser by navigating to `blueos.local:<port>` (or `192.168.2.2:<port>`), where `<port>` is the specified port from the image creation. See [Using the extension](#using-the-extension) to learn about how to use the GUI.\n\n## Using the extension\n\n**N.B.** In order for the extension to work it is necessary to change certain controller parameters. Refer to \"Controller parameters\" section for more info\n\n**N.B.** In order for the \"position hold\" algorithm to perform well it might be necessary to change the ROV's PID parameters. Refer to \"PID parameters\" section for more info\n\nWith the extension added, its user interface (GUI) can be found by navigating to Extensions -> Nucleus: Position hold in the BlueOS menu.\n\nIn the case of a manual installation through docker, the GUI can be found y navigating to `blueos.local:<port>` where `<port>` is he port specified when the docker image was created. \n\nThe GUI presents the user with a home page and two pages for parametrization. These pages can be navigated in-between using the navigation banner at the top of the GUI\n\n### Home\n\nThe home screen presents the user with a status field which displays the results of various checks performed during the startup of the ROV. It is necessary for all of these checks to pass in order for extension to work. Some easy troubleshooting is presented in the home screen in case any of these checks were to fail\n\nThe Nucleus hostname field is used to set the IP address used to connect to the Nucleus device. This IP address should be the same as the static IP configured on the Nucleus device.\n\nIt is also a field which allows the user to decide whether the driver is enabled. The driver must be enabled for it to feed velocity data to the ROV. If it is not enabled the driver is still running and extracting data from the Nucleus, but the velocity is not sent to the ROV.\n\nThe packet counter field displays how many velocity data packets has been handled by the extension. Sent packages refers to packages that has been sent to the ROV, Failed packets refers to packets that for some reason failed to be sent, and Skipped packets are packets that were in good condition and ready to be sent, but weren't due to the driver not being enabled.\n\n### PID parameters\n\n**N.B.** Adjusting any of these parameters **WILL** change the behavior of the ROV\n\n**N.B.** Neither the extension nor the ROV will remember the original values of these parameters in case they are changed. It is therefore the users responsibility to remember the original values in case they wish to revert back to the original parameterization.\n\nThe PID parameters page gives the user opportunity to modify selected PID parameters in the controller. Good parameterization is necessary for a good performance of the ROV. The correct parameters varies from vehicle to vehicle as the physical attributes of the ROV has an impact on its behavior. However, recommended parameters for a standard BlueROV2 with only the Nucleus being the third party installation is presented on this page.\n\n### Controller parameters\n\n**N.B.** Adjusting any of these parameters may change the behavior of the ROV\n\n**N.B.** Neither the extension nor the ROV will remember the original values of these parameters in case they are changed. It is therefore the users responsibility to remember the original values in case they wish to revert back to the original parameterization.\n\nIn order for the controller to accept and utilize the velocity packets sent from the Nucleus, certain parameters has to be changed. The parameters and their required values are presented on this page. \n\nAfter these parameters has been changed it is necessary to power cycle the vehicle for these parameters to take effect\n\n",
                 "support": "https://support.nortekgroup.com/",
@@ -8011,66 +7869,6 @@
                 ],
                 "extra_links": {},
                 "tag": "1.0.1",
-                "docs": null,
-                "readme": "# BlueOS node-red\n\nNode-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.\n\nIt provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.",
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/userdata/node-red:/data:rw",
-                            "/etc/hostname:/etc/hostname:ro",
-                            "/dev:/dev:rw",
-                            "/:/home/workspace/host:rw"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "1.0.0": {
-                "identifier": "088c740e-e11f-5ba9-9f60-a9b4a4c3f93b",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 161234072,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7e898a24b188429bad6bb6d1229ae906a1447b732afbc69fe29b22a5b839af89"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "code",
-                    "development",
-                    "ide",
-                    "node-red"
-                ],
-                "extra_links": {},
-                "tag": "1.0.0",
                 "docs": null,
                 "readme": "# BlueOS node-red\n\nNode-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.\n\nIt provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.",
                 "support": null,
