@@ -1002,15 +1002,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:438de8ade5df2138b3cf547eed234d3714363eed3274dbe84afe0c609fbc6dda"
-                    },
-                    {
-                        "expanded_size": 86912704,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8"
                     }
                 ],
                 "authors": [
@@ -1062,15 +1053,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:438de8ade5df2138b3cf547eed234d3714363eed3274dbe84afe0c609fbc6dda"
-                    },
-                    {
-                        "expanded_size": 86912704,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8"
                     }
                 ],
                 "authors": [
@@ -7041,6 +7023,67 @@
                 ],
                 "extra_links": {},
                 "tag": "1.1.1",
+                "docs": null,
+                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/var/run/docker.sock:/var/run/docker.sock:rw",
+                            "/usr/bin/docker:/usr/bin/docker:ro",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/dev:/dev:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.1.0": {
+                "identifier": "5e8030ab-ba57-5282-b306-5aae909f721d",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 800907473,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:c4bfff1256818710af76d7b9ca2cfff8d98f2edcacf745c2b460a5166d822ece"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.1.0",
                 "docs": null,
                 "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
                 "support": null,
