@@ -2356,6 +2356,133 @@
                     }
                 }
             },
+            "v1.0.0-beta.14": {
+                "identifier": "05914529-1bd8-5334-8302-7681768f017e",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 14606997,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b492a88758ec5c68bf34229ed769a5bc69e1bc62a7f8568e7fe8a0d843f56c60"
+                    },
+                    {
+                        "expanded_size": 14819085,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:98e6a964eada966421abb7b1f5f8e7d2544943ebd6fab900b2a8be23bf804a96"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.14",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.13": {
+                "identifier": "48b94329-b61c-5daa-9b62-45fb01a4157c",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 13824987,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3d73bdb4dc25115719f74067678530034fe48944097f3f86457eb26108e37fa1"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.13",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.12": {
                 "identifier": "2dd50e51-2f3c-552b-8e1f-c85a524ca7cb",
                 "type": "other",
@@ -2769,6 +2896,65 @@
                     }
                 }
             },
+            "v1.0.0-beta.5": {
+                "identifier": "3c376a78-ad61-562c-a79a-1c76dbdb7832",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12492148,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:30d9e3c0c53b55b2514b24a314b16b4da139ce282cc827bf6931d14d14e525e1"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.5",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.4": {
                 "identifier": "e0a24959-f811-520a-8b49-94aa3f96f963",
                 "type": "other",
@@ -3005,6 +3191,65 @@
                     }
                 }
             },
+            "v0.18.2": {
+                "identifier": "adf8c349-dea5-59d1-b960-f79a26882559",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12446334,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5d453d8dac05c8bba80811acf803cdcf8334add32198d270f6e23b781aa4bdfa"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v0.18.2",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v0.18.1": {
                 "identifier": "ac99f9c9-b59a-5c3a-bab3-d51ae4f7d16c",
                 "type": "other",
@@ -3158,6 +3403,65 @@
                 ],
                 "extra_links": {},
                 "tag": "v0.17.0",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v0.16.4": {
+                "identifier": "04ab7c8f-9c6f-5a5d-a39e-cf174bc36344",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12439277,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:26a17b55f44cbec58a16ad4dab967cedb209c5df84f83347f78c0ab7e54a7d62"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v0.16.4",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -5068,15 +5372,6 @@
                         "digest": "sha256:558d5fd76d64ebf386f9d3b999e735f06d5c5e5083185bb8eee43da06fb21160"
                     },
                     {
-                        "expanded_size": 90243586,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:46dabc16a212b1132181f579ea50d74dbed0639c9ad1c636075c15b6b67707f9"
-                    },
-                    {
                         "expanded_size": 92116223,
                         "platform": {
                             "architecture": "amd64",
@@ -6399,6 +6694,200 @@
         }
     },
     {
+        "identifier": "williangalvani.plc-diagnostics",
+        "name": "Network Scanner",
+        "website": "https://github.com/Williangalvani/plc-extension",
+        "docker": "williangalvani/blueos-plc",
+        "description": "Diagnose issues with your thether",
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/plc-diagnostics/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "versions": {
+            "1.0.1": {
+                "identifier": "37303bf5-4438-56b4-b632-704649aa3a6e",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87951124,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b189e8966331dbaacbd9d21c5583f0bb0c4faf00c9f8c3fd2d6fce2e6b330117"
+                    },
+                    {
+                        "expanded_size": 94070756,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:852084320d5d8516d94f787aa28ee0e0615087849e78f6bc8533176d8f2a3713"
+                    },
+                    {
+                        "expanded_size": 100027144,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1e451e2e07c76d97625aabaf4a8748e3e5a8aad58e45fa5b8bf773a25714e365"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.1",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.1/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.0": {
+                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            }
+        }
+    },
+    {
         "identifier": "williangalvani.example2",
         "name": "Example 2",
         "website": "https://github.com/Williangalvani/BlueOS-examples/",
@@ -7438,6 +7927,59 @@
                         "NetworkMode": "host"
                     }
                 }
+            },
+            "0.0.0": {
+                "identifier": "0ad77cd1-950b-5011-9f2c-563a37cff9b8",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 471140182,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:80fbf5feb15c6e9f08544727addaabdd28968cec1ea44ef70553026ed49b09d1"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    },
+                    {
+                        "name": "Raul Trombin",
+                        "email": "raulvtormbin@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "python",
+                    "ide",
+                    "development"
+                ],
+                "extra_links": {},
+                "tag": "0.0.0",
+                "docs": null,
+                "readme": "# blueos-jupyter\n\nExtension to start coding with python examples and create projects.\n\nTo install your own libraries, use: `pip install --user`.\n\nHome directory (`/root/`) will be persistent besides pip local holder for user libraries.\n\nLibraries installed:\n- bluerobotics-ping\n- bluerobotics-navigator\n- plotly\n- pymavlink\n",
+                "support": null,
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata/jupyter/root:/root:rw",
+                            "/dev:/dev:rw"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                }
             }
         }
     },
@@ -7555,6 +8097,66 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/node-red/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/patrickelectric/company_logo.png",
         "versions": {
+            "1.1.0": {
+                "identifier": "ae38474b-b646-5aaf-907a-3bb8870400cc",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 168829981,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3c60af81b15b762638e9de6b66252522513788274ba947a2fa73449022ed764b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "node-red"
+                ],
+                "extra_links": {},
+                "tag": "1.1.0",
+                "docs": null,
+                "readme": "# BlueOS node-red\n\nNode-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.\n\nIt provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.",
+                "support": null,
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/extensions/node-red:/data:rw",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/dev:/dev:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "1.0.3": {
                 "identifier": "54827c34-d8ad-51a3-987b-138daee5e1fc",
                 "type": "other",
@@ -7644,6 +8246,66 @@
                 ],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "# BlueOS node-red\n\nNode-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.\n\nIt provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.",
+                "support": null,
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata/node-red:/data:rw",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/dev:/dev:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.1": {
+                "identifier": "8dda3c26-b403-5548-8d75-b95100108b4b",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 161234072,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7e898a24b188429bad6bb6d1229ae906a1447b732afbc69fe29b22a5b839af89"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "node-red"
+                ],
+                "extra_links": {},
+                "tag": "1.0.1",
                 "docs": null,
                 "readme": "# BlueOS node-red\n\nNode-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.\n\nIt provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.",
                 "support": null,
