@@ -5318,15 +5318,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:4fcfb25e22e3f1f3a4327e9df9f1fbb94260b4cc576a29aef41969cbe2c71b21"
-                    },
-                    {
-                        "expanded_size": 92139393,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:506d80c107ea66232b122a85008e76946585454b33e214306a9c963a376d51df"
                     }
                 ],
                 "authors": [
