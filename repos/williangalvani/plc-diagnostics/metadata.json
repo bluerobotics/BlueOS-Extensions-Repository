@@ -1,5 +1,5 @@
 {
-    "name": "Network Scanner",
+    "name": "PLC Diagnostics",
     "website": "https://github.com/Williangalvani/plc-extension",
     "docker": "williangalvani/blueos-plc",
     "description": "Diagnose issues with your thether"
