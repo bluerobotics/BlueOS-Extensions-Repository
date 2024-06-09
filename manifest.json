@@ -3091,65 +3091,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.3": {
-                "identifier": "a8a0fc96-ed4a-5e9b-93ef-5b355450fee3",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12491518,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1da3ab5cf742728b3a2b4d75b2ae1d0776fbb1cc848d08a3851a42d99494ac7b"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.3",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.2": {
                 "identifier": "29d51813-1c06-5806-8f6c-ba2d92024994",
                 "type": "other",
@@ -5345,15 +5286,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:403797eeef9396e67001caa71d638c64e10a8e27aad5f16838208de4c7ae5c47"
-                    },
-                    {
-                        "expanded_size": 90059708,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f5e20bed5a5733ea65c3a929d0492032897c550314fef9dd9db2c725a8a796a3"
                     }
                 ],
                 "authors": [
