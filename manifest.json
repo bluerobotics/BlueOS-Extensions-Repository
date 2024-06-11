@@ -6598,6 +6598,67 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/plc-diagnostics/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
         "versions": {
+            "v1.0.2": {
+                "identifier": "03921d1c-df43-5492-8887-44e9616df379",
+                "type": "tool",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87971421,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35957a0d632117c9a77a100f263b2422a8334a77304f27ee2357d3881394ee67"
+                    },
+                    {
+                        "expanded_size": 94089425,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
+                    },
+                    {
+                        "expanded_size": 100039947,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "wiliangalvani@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/williangalvani/plc-extension"
+                },
+                "tag": "v1.0.2",
+                "docs": null,
+                "readme": "# QuickStart-Python-Extension\n\nA quick-start repository for building and uploading a Python-focused BlueOS Extension.\n\n## Intent\n\nThis is intended to showcase:\n1. How to make a basic Extension with a simple web interface, using Python and some HTML\n2. The difference between code running on the frontend vs the backend\n    - Backend code has access to vehicle hardware and other service APIs, as well as the filesystem (for things like persistent logging)\n    - Frontend code is in charge of the display, and runs in the browser interface (instead of on the vehicle's onboard computer)\n\n## Usage\n\nForking the repository will try to automatically package and upload your Extension variant to a Docker registry (Docker Hub), using the built in GitHub Action.\nThis process makes use of some [GitHub Variables](https://github.com/BlueOS-community/Deploy-BlueOS-Extension#input-variables) that you can configure for your fork.\n\nIt is also possible to manually run the Action (via the Actions tab), or to build and deploy the extension manually on your local machine (although this requires installing the relevant build tools and cloning the repository onto your computer).\n\n>\ud83d\udca1**Note:** If you are forking this repository as a starting point for creating your own [BlueOS Extension](https://blueos.cloud/docs/blueos/latest/development/extensions), it is recommended to enable `Issues` in your fork (via the `Settings` tab at the top), so that users and co-developers of your Extension can raise problems and make suggestions.\n",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Willian Galvani",
+                    "email": "wiliangalvani@gmail.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "1.0.1": {
                 "identifier": "37303bf5-4438-56b4-b632-704649aa3a6e",
                 "type": "example",
@@ -6659,67 +6720,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -6766,6 +6766,67 @@
                 "tag": "1.0.0",
                 "docs": null,
                 "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
