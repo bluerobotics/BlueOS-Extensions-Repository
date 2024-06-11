@@ -3032,6 +3032,65 @@
                     }
                 }
             },
+            "v1.0.0-beta.4": {
+                "identifier": "e0a24959-f811-520a-8b49-94aa3f96f963",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12492152,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:847b44ead971ab57cf1614597b6c5b56a00376f5ebc64ef280eac938aeb1947b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.4",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.3": {
                 "identifier": "a8a0fc96-ed4a-5e9b-93ef-5b355450fee3",
                 "type": "other",
@@ -6713,6 +6772,67 @@
                     "about": "",
                     "name": "$MAINTAINER",
                     "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "0.0.5": {
+                "identifier": "a9ba0b33-ba29-506b-8425-ac3e621b2181",
+                "type": "tool",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87971421,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35957a0d632117c9a77a100f263b2422a8334a77304f27ee2357d3881394ee67"
+                    },
+                    {
+                        "expanded_size": 94089425,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
+                    },
+                    {
+                        "expanded_size": 100039947,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "wiliangalvani@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/williangalvani/plc-extension"
+                },
+                "tag": "0.0.5",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/williangalvani/plc-extension/0.0.5/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Willian Galvani",
+                    "email": "wiliangalvani@gmail.com"
                 },
                 "permissions": {
                     "NetworkMode": "host",
