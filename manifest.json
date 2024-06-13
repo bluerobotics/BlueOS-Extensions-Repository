@@ -1,10 +1,86 @@
 [
     {
+        "identifier": "clydemcqueen.surftrak_fixit",
+        "name": "Surftrak Fixit",
+        "website": "https://github.com/clydemcqueen/surftrak_fixit",
+        "docker": "clydemcqueen/surftrak_fixit",
+        "description": "Find and fix common Surftrak problems",
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/surftrak_fixit/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/company_logo.png",
+        "versions": {
+            "v1.0.0-beta.1": {
+                "identifier": "284c6155-4ffc-50aa-98dd-c7eae198eac5",
+                "type": "tool",
+                "website": "https://github.com/clydemcqueen/surftrak_fixit",
+                "images": [
+                    {
+                        "expanded_size": 354149671,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:92de85e3559f394ef9f96f4def2c6856099ba7d637a6864b9b1f505216230b6a"
+                    },
+                    {
+                        "expanded_size": 313220600,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9cf0c02c92ef84c1964878116dd349fb923c0e220abb7a0a86583e6672213b73"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "filter_tags": [
+                    "surftrak"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.1",
+                "docs": null,
+                "readme": "# Surftrak Fixit \n\n_Surftrak_ is a new flight mode in [ArduSub 4.5](https://www.ardusub.com/).\n\n_Surftrak Fixit_ is a [BlueOS](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/)\nextension that can diagnose and suggest fixes for some common Surftrak problems.\n\n## Install\n\nTo install this extension in BlueOS:\n* Select _Extensions_ in the sidebar, then the _Installed_ tab\n* Click on the + icon in the lower right\n* Enter the following information, then click _Create_\n\n_Extension Identifier_\n~~~\nclydemcqueen.surftrak_fixit\n~~~\n\n_Extension Name_\n~~~\nsurftrak_fixit\n~~~\n\n_Docker image_\n~~~\nclydemcqueen/surftrak_fixit\n~~~\n\n_Docker tag_\n~~~\nv1.0.0-beta.1\n~~~\n\n_Custom settings_\n~~~\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"ExtraHosts\": [\"host.docker.internal:host-gateway\"],\n    \"PortBindings\": {\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  },\n  \"Env\": [\"MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1\"]\n}\n~~~\n",
+                "support": "https://github.com/clydemcqueen/surftrak_fixit/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Discovery Bay",
+                    "email": "clyde@mcqueen.net"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1"
+                    ]
+                }
+            }
+        }
+    },
+    {
         "identifier": "clydemcqueen.wl_ugps_external",
         "name": "WL UGPS External",
         "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
         "docker": "clydemcqueen/wl_ugps_external_extension",
-        "description": "Send NMEA position information (GGA, HDT) to Water Linked UGPS",
+        "description": "Send GNSS compass data to WL UGPS",
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/wl_ugps_external/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/company_logo.png",
         "versions": {
@@ -1966,6 +2042,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:2f52eb554ba188b329ad06f5167927c54fa773cb33beb6f78a1d2bb3ab991395"
+                    },
+                    {
+                        "expanded_size": 72588503,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1e8607b8ea94b70337ada4b84941aa38fcccb06b0c630122d07c2dc66e64630d"
                     }
                 ],
                 "authors": [
