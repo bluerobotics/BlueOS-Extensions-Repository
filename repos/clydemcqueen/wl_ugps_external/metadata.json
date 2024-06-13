@@ -2,5 +2,5 @@
     "name": "WL UGPS External",
     "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
     "docker": "clydemcqueen/wl_ugps_external_extension",
-    "description": "Send NMEA position information (GGA, HDT) to Water Linked UGPS"
+    "description": "Send GNSS compass data to WL UGPS"
 }
