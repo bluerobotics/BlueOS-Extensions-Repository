@@ -2230,15 +2230,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:96cfe2f9ecd1cdece9cdc82f7ea24121c7a56beb4e02d502ecc6b71dca9a1cce"
-                    },
-                    {
-                        "expanded_size": 72798434,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:65115990f649c932a39466fc846aaf671608b441c1e8e8448b8cd4496204d88d"
                     }
                 ],
                 "authors": [
@@ -4974,7 +4965,7 @@
                 "extra_links": {},
                 "tag": "0.0.7",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5047,7 +5038,7 @@
                 "extra_links": {},
                 "tag": "0.0.6",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5120,7 +5111,7 @@
                 "extra_links": {},
                 "tag": "0.0.5",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5193,7 +5184,7 @@
                 "extra_links": {},
                 "tag": "0.0.4",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5266,7 +5257,7 @@
                 "extra_links": {},
                 "tag": "0.0.3",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5338,7 +5329,7 @@
                 "extra_links": {},
                 "tag": "0.0.2",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
@@ -5404,7 +5395,7 @@
                 "extra_links": {},
                 "tag": "0.0.1",
                 "docs": null,
-                "readme": "Could not get readme, expected type to be text/plain but got text/html",
+                "readme": "Cannot connect to host www.jmrobotics.no:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.jmrobotics.no'. (_ssl.c:1006)\")]",
                 "support": "https://www.jmrobotics.no",
                 "requirements": "core >= 1",
                 "company": {
