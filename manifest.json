@@ -3877,15 +3877,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0daea257fead5fe6622ac888910e082b8e9ac4b1263907d128db8d8926753f5d"
-                    },
-                    {
-                        "expanded_size": 139162770,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:73768f50b93360ed53bfa76ca220d06e812af178b40f2bfd0ffe5a75dc2a351e"
                     }
                 ],
                 "authors": [
@@ -7666,6 +7657,48 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "versions": {
+            "1.10.0-beta.2": {
+                "identifier": "49f7acff-9805-55ba-adca-54ddff86a06e",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 219134432,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:49e6708c46f319ca32aef9de290b4b6c47bd470870e1df789ba760341fb83a29"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.10.0-beta.2",
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                }
+            },
             "1.10.0-beta.1": {
                 "identifier": "7b278514-5be9-5a08-951b-4498a58723c9",
                 "type": "device-integration",
@@ -7688,15 +7721,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:85161c073ce12e2097dda21e71e5802b274c470d939ef8ae2a09fd09f0ef2b7c"
-                    },
-                    {
-                        "expanded_size": 51578354,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4ca8c0bafbf52011d4c04020cecf703a90731f329ba37e0120972bc2cf95e82f"
                     }
                 ],
                 "authors": [
