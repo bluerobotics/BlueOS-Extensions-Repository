@@ -453,15 +453,6 @@
                         "digest": "sha256:ecf23276f78e2d9c95f0c0bd694c2d8e319907f9a0eb2b65e7b7d5033fc01e97"
                     },
                     {
-                        "expanded_size": 14548655,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b3c4b67fe74cd670f7c71ac36cbacd208492362e92bbff56c1f8b0fd1378345a"
-                    },
-                    {
                         "expanded_size": 14592647,
                         "platform": {
                             "architecture": "amd64",
