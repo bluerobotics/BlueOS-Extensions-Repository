@@ -2723,13 +2723,31 @@
                 "website": "https://github.com/Williangalvani/Oakd-extension/",
                 "images": [
                     {
-                        "expanded_size": 2026337533,
+                        "expanded_size": 2008095314,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2711ef5531049f45ce98461b006925d04e88c99fbb32b0dbf2bdc51912f47673"
+                    },
+                    {
+                        "expanded_size": 2116665490,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:feec843fadf59cfa34d94b8684354fb9cb6c150b107fd30cff87b6772c0b0295"
+                        "digest": "sha256:69e15553caef6418b63953df8b990cea42a4d6be1f3c9a21b0fbe3ea367fa98e"
+                    },
+                    {
+                        "expanded_size": 1847926932,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:705f85b603c41443d251e59182ee1e8a6091823297985fb0070b860373b9413d"
                     }
                 ],
                 "authors": [
@@ -3021,15 +3039,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:831682262dd736b8844e59d9bb49e479755c6cc0b27b71e4058c91033b7d2a40"
-                    },
-                    {
-                        "expanded_size": 75909226,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e871e75beb335b35ab8b62073c54e4a92309a30e97b1b899a778e81e6c16e8d3"
                     },
                     {
                         "expanded_size": 83870955,
@@ -3603,67 +3612,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -3710,6 +3658,67 @@
                 "tag": "1.0.0",
                 "docs": null,
                 "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
@@ -7704,37 +7713,37 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "versions": {
-            "1.10.0-beta.rai": {
-                "identifier": "56643c60-182e-572f-b1fd-0618017be234",
+            "1.10.0-beta.5": {
+                "identifier": "3891d46c-944e-5dd0-aa43-8ef3423d9201",
                 "type": "device-integration",
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 103008866,
+                        "expanded_size": 103018372,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:cc9518e0fe086092fe31f9c72cfad8fd398a18ea5eb164c45634b76132af8729"
+                        "digest": "sha256:b8c6495e4031fb5eab9641f0c266a7aaf7f1ef907b54d5883a730e96eeade6ae"
                     },
                     {
-                        "expanded_size": 101198260,
+                        "expanded_size": 101205315,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:4355cb4f48778af98e66c422a1bc820048d91ad268e72ccce068921e467256dd"
+                        "digest": "sha256:8fa0cb03edec8552eb104850491165926039a031687de6fd3f8db05cd3b42024"
                     },
                     {
-                        "expanded_size": 103003708,
+                        "expanded_size": 103010712,
                         "platform": {
                             "architecture": "arm64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:0fcdc9cd1914630b3b3589ef5c8859b08b7d693f154780ada821be04528705b8"
+                        "digest": "sha256:c4e286446d505203abdc9572c9613b4ddcebdc0f14683753fc8e58550ad3488c"
                     }
                 ],
                 "authors": [
@@ -7745,7 +7754,7 @@
                 ],
                 "filter_tags": [],
                 "extra_links": {},
-                "tag": "1.10.0-beta.rai",
+                "tag": "1.10.0-beta.5",
                 "docs": null,
                 "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
                 "support": "https://forum.ceruleansonar.com/categories",
