@@ -43,6 +43,12 @@ jobs:
           yarn build
           mv dist/* ../build
 
+      - name: Upload logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: generation-logs
+          path: manifest.log
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
