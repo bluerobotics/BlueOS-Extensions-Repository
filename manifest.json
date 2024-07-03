@@ -122,6 +122,1455 @@
         }
     },
     {
+        "identifier": "bluerobotics.cockpit",
+        "name": "Cockpit",
+        "website": "https://github.com/bluerobotics/cockpit",
+        "docker": "bluerobotics/cockpit",
+        "description": "Blue Robotics' next generation control interface; under development",
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/cockpit/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png",
+        "versions": {
+            "v1.0.0-beta.21": {
+                "identifier": "d9e2c290-30f7-5eb0-8ec5-c6a6ded05644",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15621079,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:75a6bc6627b702f27c18889f786ac2910593944e6406cc327e44d918d4ccfb13"
+                    },
+                    {
+                        "expanded_size": 15835048,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fb27d49ce49a8cf2f9ac00ea0e7524e205bd45d878aafb9fa6831c77b827fbfa"
+                    },
+                    {
+                        "expanded_size": 15869533,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c6a201cb0264f87360eac89d48ff034a1b3c518fdff13391d2936cb2398a76a"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.21",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.20": {
+                "identifier": "6d104a93-7dd0-5e3d-a03b-93923a62c47e",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15821318,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:690181829375f70aaeb4dc884ed8bbd0c7627bfe911880767850b865f8891b78"
+                    },
+                    {
+                        "expanded_size": 15865306,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5508494d94cef80625d817764c7221b0b09d417fb31def22ff25f37ef8fbef42"
+                    },
+                    {
+                        "expanded_size": 15609220,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:cab0c9ea9afb911150f314d1c09ce6a2825b91750ad5c062976748a56d8b272b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.20",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.19": {
+                "identifier": "d5c5b2ac-d106-5382-acf4-ad4fb39fb41f",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15598859,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8466a6aa0fab80d4ee9ace7e95a564777cb1aeb81b541b7b81926ff77422a758"
+                    },
+                    {
+                        "expanded_size": 15810949,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bf829ed4b3756cf975711ebb34159328dc0df1e4580e8615f47031b2ac2b344f"
+                    },
+                    {
+                        "expanded_size": 15854963,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2a42346cd40ed103bfec22f015e51b648377be9208ea10a0a497d75b62ec782b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.19",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.18": {
+                "identifier": "8b87ba8f-8a01-51ca-a4fd-b1d5b21d3f10",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15598779,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0ffe807162f11bc8c8328c5617c254b9d8fbd4d454581b8c638a3492ffb4e0b0"
+                    },
+                    {
+                        "expanded_size": 15810884,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:08d23911f5487bbf628257fc0ad7e4334d4970e47f2de8c8e214f217e3a496d6"
+                    },
+                    {
+                        "expanded_size": 15854889,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:75e10bcbdddd69a6fbe88e8ad6dbab5b7a45ccde730400420873b9850b7133d0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.18",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.17": {
+                "identifier": "ccc287b6-57da-5c9b-bb66-3abcc272082e",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 14336567,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ecf23276f78e2d9c95f0c0bd694c2d8e319907f9a0eb2b65e7b7d5033fc01e97"
+                    },
+                    {
+                        "expanded_size": 14592647,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7b7ff364e09cb83066f0f6f51516d98e69a7850ad61f4ca320593b0a1764a096"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.17",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.16": {
+                "identifier": "c46818b7-e9e0-57a5-8957-7a2368fb7ef2",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 14606254,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:683bf0af571dc98c84af7a722447a3b1afc3e97a808a8295ac5f6c45fe07e2bf"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.16",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.15": {
+                "identifier": "c4d5d465-fa5d-56ef-be9e-03c2cddbeb74",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 14606235,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2d411e8d83f3e1921b429166c1b160c9813a7591d3cfded3a8330255fb651959"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.15",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.14": {
+                "identifier": "05914529-1bd8-5334-8302-7681768f017e",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 14606997,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b492a88758ec5c68bf34229ed769a5bc69e1bc62a7f8568e7fe8a0d843f56c60"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.14",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.13": {
+                "identifier": "48b94329-b61c-5daa-9b62-45fb01a4157c",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 13824987,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3d73bdb4dc25115719f74067678530034fe48944097f3f86457eb26108e37fa1"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.13",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.12": {
+                "identifier": "2dd50e51-2f3c-552b-8e1f-c85a524ca7cb",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 13792434,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ac0f19bc304990816ebacd561d9b07baa797ca2ef64faa24a7f3843bc00d13d9"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.12",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.11": {
+                "identifier": "ec8d7f8b-0b0f-5005-9852-7da496cd5786",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 13785811,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4cc76dda3b08ea31f1f53944c6e45d9a1b7ce5d7d6c961bfdd9eb6d6b37e7f9a"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.11",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.10": {
+                "identifier": "5413b9f9-2fa9-5ed0-a656-bb8cd3536b9b",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 13783998,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8bea448f2cea2512b96b3e71c6a641b6a4eae9df81772b68d29640c9bb31b8de"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.10",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.9": {
+                "identifier": "edb310d9-164a-5e82-9902-7001506c58d9",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 13781349,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2a20c39fed8b7f9ca0f67d29cff774fd87e08a9fcbcf5508a6484149abfd68f8"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.9",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.8": {
+                "identifier": "1cfde611-7f6e-5670-acc8-045a09608c0a",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12559794,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:db32e3c0f690375837db0c38743bcc202e5dc56a5886585a6db5c3cc0a9d50a8"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.8",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.7": {
+                "identifier": "229cbf3f-8010-550b-9b25-3e356a0a9c35",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12517490,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2aa3c3d0560b14003fb3752e2c84d30898a066876af19067333c3d6cb650efd1"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.7",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.6": {
+                "identifier": "ae571bf1-af4d-53a2-9010-c9deab40639f",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12503364,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3fcdc56b311c1bc03201a2e39156a95449474516d483d16d419e4a8ca026a9d4"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.6",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.5": {
+                "identifier": "3c376a78-ad61-562c-a79a-1c76dbdb7832",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12492148,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:30d9e3c0c53b55b2514b24a314b16b4da139ce282cc827bf6931d14d14e525e1"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.5",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.4": {
+                "identifier": "e0a24959-f811-520a-8b49-94aa3f96f963",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12492152,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:847b44ead971ab57cf1614597b6c5b56a00376f5ebc64ef280eac938aeb1947b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.4",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.3": {
+                "identifier": "a8a0fc96-ed4a-5e9b-93ef-5b355450fee3",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12491518,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1da3ab5cf742728b3a2b4d75b2ae1d0776fbb1cc848d08a3851a42d99494ac7b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.3",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.2": {
+                "identifier": "29d51813-1c06-5806-8f6c-ba2d92024994",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12492632,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:283ff9b0d19c35d73b221dcd2284555a7ce7ee0c34bb04f9bb7a6978e90df550"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.2",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.1": {
+                "identifier": "49610330-7739-5e30-b51c-2bd6b80b36fc",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12445691,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3eb6c817a8aa0536b29b67e06578538f0c51d9c1cdd4e926390e726245296cde"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.1",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v0.18.2": {
+                "identifier": "adf8c349-dea5-59d1-b960-f79a26882559",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12446334,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5d453d8dac05c8bba80811acf803cdcf8334add32198d270f6e23b781aa4bdfa"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v0.18.2",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v0.18.1": {
+                "identifier": "ac99f9c9-b59a-5c3a-bab3-d51ae4f7d16c",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12445663,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8943b7c0ef180ddadfd7d6539e58f1c8b5aa7e661f7eba82b750582222d8fe36"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v0.18.1",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
         "identifier": "bluerobotics.water-linked-dvl",
         "name": "Water Linked DVL",
         "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
@@ -2266,67 +3715,6 @@
                     }
                 }
             },
-            "1.0.0": {
-                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "1.0.0",
-                "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "v1.0.0": {
                 "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
                 "type": "example",
@@ -2373,6 +3761,67 @@
                 "tag": "v1.0.0",
                 "docs": null,
                 "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.0": {
+                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
@@ -4699,6 +6148,68 @@
                     ]
                 }
             },
+            "v1.0.1": {
+                "identifier": "32a5efd4-9364-5021-a677-9c6371f90e29",
+                "type": "device-integration",
+                "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
+                "images": [
+                    {
+                        "expanded_size": 44578751,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e0fab510697080cd9c972e1eeb987371fc49f11d64384574a1c80fd72da5c3a6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "short-baseline"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "# WL UGPS External \n\nSend NMEA position information (GGA and HDT) to the [Water Linked UGPS](https://waterlinked.com/underwater-gps-g2) API.\n\n## Typical Configuration\n\nAdd a satellite compass to the topside vessel and connect it to the ROV Ethernet network.\n* It should have a static IP address on the 192.168.2.X subnet\n* It should send GGA and HDT messages via UDP to BlueOS at 192.168.2.2:6200\n\nInstall this extension in [BlueOS](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/):\n* Select _Extensions_ in the sidebar\n* Click on _WL UGPS External_\n* Click _Install_\n\nAfter a few moments you should see the _WL UGPS External_ entry in the sidebar.\nClick on it to see a very simple UI.\n\n## Arguments\n\n* `UGPS_HOST` is the IP address of the WL UGPS G2 box, the default is `http://192.168.2.94`\n* `SEND_RATE` is the rate to send position information to the G2 box, the default is 2Hz\n\n## Caveats\n\n* The G2 box still needs a GPS fix to synchronize its clock.\n\n## Releases\n\n### v1.0.1\n\n* Simplified README\n\n### v1.0.0\n\n* Initial release\n",
+                "support": "https://github.com/clydemcqueen/wl_ugps_external_extension/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Discovery Bay Robotics",
+                    "email": "clyde@mcqueen.net"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {},
+                        "6200:6200/udp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "6200/udp": [
+                                {
+                                    "HostPort": "6200"
+                                }
+                            ],
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "UGPS_HOST=http://192.168.2.94",
+                        "SEND_RATE=2.0"
+                    ]
+                }
+            },
             "v1.0.0": {
                 "identifier": "b0578e4c-ce55-55d4-8f15-6769980b788c",
                 "type": "device-integration",
@@ -5198,6 +6709,64 @@
                             "/usr/blueos/openvscode:/openvscode:rw",
                             "/var/run/docker.sock:/var/run/docker.sock:rw",
                             "/usr/bin/docker:/usr/bin/docker:ro",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.6": {
+                "identifier": "5a5162c2-633a-5578-9e92-f88f52f30baf",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 306628413,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a917f9dc8ea4b6c8c55d2d740d28e034ee0e83e46422a8bb6a40e9fe8b8b5af6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.6",
+                "docs": null,
+                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
                             "/etc/hostname:/etc/hostname:ro",
                             "/:/home/workspace/host:rw"
                         ],
