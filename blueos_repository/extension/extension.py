@@ -237,4 +237,6 @@ class Extension:
             Logger.error(self.identifier, f"Unable to fetch tags for {self.identifier}, error: {error}")
             return
 
+        # We may want to split and process first 5 tags prior to make sure we dont reach limit and always have the
+        # latest ones processed.
         await asyncio.gather(*(self.__process_tag_version(tag) for tag in tags.results))
