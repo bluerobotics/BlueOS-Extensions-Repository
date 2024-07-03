@@ -50,7 +50,7 @@ class DockerAuthAPI:  # pylint: disable=too-few-public-methods
             The token
         """
 
-        payload = {
+        params = {
             "service": "registry.docker.io",
             "scope": f"repository:{repo}:pull",
         }
@@ -59,7 +59,7 @@ class DockerAuthAPI:  # pylint: disable=too-few-public-methods
 
         auth_url = f"{self.__api_url}/token?service=registry.docker.io&scope=repository:{repo}:pull"
         async with aiohttp_retry.RetryClient(retry_options=self.__retry_options) as session:
-            async with session.get(auth_url + "/token", params=payload, headers=headers) as resp:
+            async with session.get(auth_url, params=params, headers=headers) as resp:
                 if resp.status != 200:
                     error_msg = f"Error on Docker Auth API with status {resp.status}"
                     print(error_msg)
