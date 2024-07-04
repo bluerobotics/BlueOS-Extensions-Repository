@@ -1,12 +1,13 @@
 import asyncio
 import uuid
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 import aiohttp
 import json5
 from docker.hub import DockerHub
 from docker.models.blob import Blob
 from docker.models.manifest import ManifestFetch, ManifestPlatform
+from docker.models.repo import RepoInfo
 from docker.models.tag import Tag
 from docker.registry import DockerRegistry
 from extension.models import (
@@ -41,6 +42,7 @@ class Extension:
 
         self.identifier = metadata.identifier
         self.metadata = metadata
+        self.repo_info: Optional[RepoInfo] = None
 
         # Versions
         self.versions: Dict[str, ExtensionVersion] = {}
@@ -233,6 +235,7 @@ class Extension:
 
         try:
             tags = await self.hub.get_tags()
+            self.repo_info = await self.hub.repo_info()
         except Exception as error:  # pylint: disable=broad-except
             Logger.error(self.identifier, f"Unable to fetch tags for {self.identifier}, error: {error}")
             return
