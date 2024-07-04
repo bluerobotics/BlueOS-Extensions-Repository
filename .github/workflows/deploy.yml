@@ -52,6 +52,12 @@ jobs:
           name: generation-logs
           path: manifest.log
 
+      - name: Upload manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: manifest.json
+          path: build/manifest.json
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
