@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import AsyncIterable, Dict, Optional, Tuple
 
 import json5
+from docker.models.repo import RepoInfo
 from docker.registry import DockerRegistry
 from extension import Extension
 from extension.models import ExtensionMetadata, ExtensionVersion
@@ -29,6 +30,7 @@ class RepositoryEntry(ExtensionMetadata):
     """
 
     versions: Dict[str, ExtensionVersion] = dataclasses.field(default_factory=dict)
+    repo_info: Optional[RepoInfo] = None
 
 
 class Consolidator:
@@ -130,7 +132,11 @@ class Consolidator:
         await asyncio.gather(*(ext.inflate() for ext in extensions))
 
         consolidated_data = [
-            RepositoryEntry(**dataclasses.asdict(ext.metadata), versions=ext.sorted_versions)
+            RepositoryEntry(
+                **dataclasses.asdict(ext.metadata),
+                versions=ext.sorted_versions,
+                repo_info=ext.repo_info,
+            )
             for ext in extensions
             if ext.sorted_versions
         ]
