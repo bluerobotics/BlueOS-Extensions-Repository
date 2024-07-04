@@ -2,6 +2,7 @@ from typing import Any, Optional
 
 import aiohttp_retry
 from dataclass_wizard import fromdict
+from docker.models.repo import RepoInfo
 from docker.models.tag import TagList
 
 
@@ -30,6 +31,22 @@ class DockerHub:
 
         self.repository = repository
         self.__retry_options = aiohttp_retry.ExponentialRetry(attempts=max_retries)
+
+    async def repo_info(self) -> RepoInfo:
+        """
+        Get the repository information
+
+        Returns:
+            Dict from Dockerhub repository information
+        """
+
+        route = f"/repositories/{self.repository}/"
+        info = await self.get(route, max_retries=5)
+        return RepoInfo(
+            downloads=info.get("pull_count", 0),
+            last_updated=info.get("last_updated", None),
+            date_registered=info.get("date_registered", None),
+        )
 
     async def get(self, route: str, max_retries: Optional[int] = None, **kwargs: Any) -> Any:
         """
