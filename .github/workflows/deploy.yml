@@ -63,4 +63,6 @@ jobs:
         with:
           branch: gh-pages
           folder: build # The folder the action should deploy.
+          git-config-email: ''
+          git-config-name: 'actions-user'
         if: github.event_name != 'pull_request'
