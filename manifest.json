@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2218,
+            "downloads": 2222,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -321,7 +321,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2959,
+            "downloads": 2963,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -853,7 +853,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14447,
+            "downloads": 14465,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -2084,7 +2084,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8809,
+            "downloads": 8826,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -2174,15 +2174,6 @@
                 "type": "device-integration",
                 "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
                 "images": [
-                    {
-                        "expanded_size": 51589213,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9c87f6fec45bd621c73a25f1af997075aa140d73c45600cf11982ffa26c72a90"
-                    },
                     {
                         "expanded_size": 45696653,
                         "platform": {
@@ -2366,7 +2357,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2630,
+            "downloads": 2638,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -2503,7 +2494,7 @@
             }
         },
         "repo_info": {
-            "downloads": 305,
+            "downloads": 309,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -3651,7 +3642,7 @@
             }
         },
         "repo_info": {
-            "downloads": 24450,
+            "downloads": 24498,
             "last_updated": "2024-07-12T14:42:40.548997Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -3955,7 +3946,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12935,
+            "downloads": 12949,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -4065,7 +4056,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3915,
+            "downloads": 3919,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -4170,7 +4161,7 @@
             }
         },
         "repo_info": {
-            "downloads": 938,
+            "downloads": 942,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -4291,7 +4282,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84237,
+            "downloads": 84241,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -4422,7 +4413,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3089,
+            "downloads": 3092,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -4579,7 +4570,7 @@
             }
         },
         "repo_info": {
-            "downloads": 699,
+            "downloads": 702,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -4749,7 +4740,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40014,
+            "downloads": 40018,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -4870,7 +4861,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87271,
+            "downloads": 87275,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -5011,15 +5002,6 @@
                 "type": "example",
                 "website": null,
                 "images": [
-                    {
-                        "expanded_size": 87951124,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b189e8966331dbaacbd9d21c5583f0bb0c4faf00c9f8c3fd2d6fce2e6b330117"
-                    },
                     {
                         "expanded_size": 100027144,
                         "platform": {
@@ -5243,7 +5225,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1520,
+            "downloads": 1532,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -5364,7 +5346,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79350,
+            "downloads": 79354,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -5674,7 +5656,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42740,
+            "downloads": 42748,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -5823,7 +5805,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131661,
+            "downloads": 131667,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -5950,7 +5932,7 @@
             }
         },
         "repo_info": {
-            "downloads": 81962,
+            "downloads": 81966,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -6224,7 +6206,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4925,
+            "downloads": 4937,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -6880,7 +6862,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15630,
+            "downloads": 15654,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -6944,7 +6926,7 @@
             }
         },
         "repo_info": {
-            "downloads": 729,
+            "downloads": 730,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -7269,7 +7251,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230002,
+            "downloads": 230014,
             "last_updated": "2024-07-11T14:55:05.05076Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -7337,7 +7319,7 @@
             }
         },
         "repo_info": {
-            "downloads": 581,
+            "downloads": 582,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -7410,7 +7392,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1343,
+            "downloads": 1345,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -7520,7 +7502,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1808,
+            "downloads": 1811,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -7769,83 +7751,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.20": {
-                "identifier": "6d104a93-7dd0-5e3d-a03b-93923a62c47e",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 15821318,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:690181829375f70aaeb4dc884ed8bbd0c7627bfe911880767850b865f8891b78"
-                    },
-                    {
-                        "expanded_size": 15865306,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5508494d94cef80625d817764c7221b0b09d417fb31def22ff25f37ef8fbef42"
-                    },
-                    {
-                        "expanded_size": 15609220,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:cab0c9ea9afb911150f314d1c09ce6a2825b91750ad5c062976748a56d8b272b"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.20",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.19": {
                 "identifier": "d5c5b2ac-d106-5382-acf4-ad4fb39fb41f",
                 "type": "other",
@@ -7890,83 +7795,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.19",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.18": {
-                "identifier": "8b87ba8f-8a01-51ca-a4fd-b1d5b21d3f10",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 15598779,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0ffe807162f11bc8c8328c5617c254b9d8fbd4d454581b8c638a3492ffb4e0b0"
-                    },
-                    {
-                        "expanded_size": 15810884,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:08d23911f5487bbf628257fc0ad7e4334d4970e47f2de8c8e214f217e3a496d6"
-                    },
-                    {
-                        "expanded_size": 15854889,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:75e10bcbdddd69a6fbe88e8ad6dbab5b7a45ccde730400420873b9850b7133d0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.18",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -8044,83 +7872,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.17",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.16": {
-                "identifier": "c46818b7-e9e0-57a5-8957-7a2368fb7ef2",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 14606254,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:683bf0af571dc98c84af7a722447a3b1afc3e97a808a8295ac5f6c45fe07e2bf"
-                    },
-                    {
-                        "expanded_size": 14818355,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:fb41f3cf3cec98b01e938578ff471777b6d70d5d54fe59fab186abe48aa67123"
-                    },
-                    {
-                        "expanded_size": 14862351,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c9f489fac4fe5a452ce934d38200dd58a6b7be1636544128426f691188ae7294"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.16",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -8530,83 +8281,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.10": {
-                "identifier": "5413b9f9-2fa9-5ed0-a656-bb8cd3536b9b",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 13783998,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8bea448f2cea2512b96b3e71c6a641b6a4eae9df81772b68d29640c9bb31b8de"
-                    },
-                    {
-                        "expanded_size": 13823538,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f892f0e3906a8486bf743233b8a056df2f18afa07a59fa125e349f1ca074747"
-                    },
-                    {
-                        "expanded_size": 13912744,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4772c90308ef74d9139ef32f5bda47c7fa4025a0595efe2fc1585f85b9f3ed1a"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.10",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.9": {
                 "identifier": "edb310d9-164a-5e82-9902-7001506c58d9",
                 "type": "other",
@@ -8660,160 +8334,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.9",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.8": {
-                "identifier": "1cfde611-7f6e-5670-acc8-045a09608c0a",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12559794,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:db32e3c0f690375837db0c38743bcc202e5dc56a5886585a6db5c3cc0a9d50a8"
-                    },
-                    {
-                        "expanded_size": 12897150,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:830999f377e95a8114793f41fd5ec6099d76744e6cce2aed36a88af05fedec5a"
-                    },
-                    {
-                        "expanded_size": 13000413,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0079d3999c2c5893c7c7121b8b436d2dabcba106e9a6e9374c6cccfe755bd5b0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.8",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.7": {
-                "identifier": "229cbf3f-8010-550b-9b25-3e356a0a9c35",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12517490,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2aa3c3d0560b14003fb3752e2c84d30898a066876af19067333c3d6cb650efd1"
-                    },
-                    {
-                        "expanded_size": 12854834,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ae45f97aa0d7fe6c57bed8eb57e19539a8161f1d341a2fcf0f29e3aac8a8281e"
-                    },
-                    {
-                        "expanded_size": 12958106,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2bb1e2463ac734f0f2924ecdb12ec1f6e4f7e20729a0e99e3670fa1170a898ee"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.7",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -9284,7 +8804,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44921,
+            "downloads": 44968,
             "last_updated": "2024-07-13T00:12:18.93897Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -9600,7 +9120,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5294,
+            "downloads": 5304,
             "last_updated": "2024-04-16T21:48:37.263991Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -9722,7 +9242,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1752,
+            "downloads": 1755,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
