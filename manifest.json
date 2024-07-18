@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2245,
+            "downloads": 2249,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -321,7 +321,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2987,
+            "downloads": 2993,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -853,7 +853,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14555,
+            "downloads": 14573,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -2084,7 +2084,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8920,
+            "downloads": 8939,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -2348,7 +2348,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2678,
+            "downloads": 2686,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -2485,7 +2485,7 @@
             }
         },
         "repo_info": {
-            "downloads": 330,
+            "downloads": 334,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -2701,6 +2701,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:85161c073ce12e2097dda21e71e5802b274c470d939ef8ae2a09fd09f0ef2b7c"
+                    },
+                    {
+                        "expanded_size": 51578354,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4ca8c0bafbf52011d4c04020cecf703a90731f329ba37e0120972bc2cf95e82f"
                     }
                 ],
                 "authors": [
@@ -2812,6 +2821,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:d9521aca36f3adb67a84358499748d9386edfead62f1ca0838dec52ef9422382"
+                    },
+                    {
+                        "expanded_size": 44661283,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:69c793475a75f74f246a000181ddcab97f0e357119137070c692ded072adb26b"
                     }
                 ],
                 "authors": [
@@ -2854,6 +2872,24 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f28eb276d147a8c5b33f766568758ea1262b42a512ba14ecbdd3702a03bf7609"
+                    },
+                    {
+                        "expanded_size": 42853915,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b8b7880f4ce78bab0ab1a28d2bb9aaf92cffc1cf807f905e45de1406885acdd"
+                    },
+                    {
+                        "expanded_size": 44661331,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:72337e56947e2b73521a626f8db1692a17d9b54f95787784edda76236e70ffce"
                     }
                 ],
                 "authors": [
@@ -2896,6 +2932,24 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f813cd7f5be1895be141b816a6f216fde2b191f710a054ce61f8411cd2896af0"
+                    },
+                    {
+                        "expanded_size": 40285609,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4ebbc42072d29c9c40fa1117613187cca80221b90da372b87cd6fc51ce4f6b4b"
+                    },
+                    {
+                        "expanded_size": 42092623,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:22858307b0f0287f3c2e115480bd7abd58215fc3d635d9b0b04ed8c5fe692100"
                     }
                 ],
                 "authors": [
@@ -2947,6 +3001,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0864648de9a0b21141eeb3f6bfd0a7bb065a7b32033ad9c10e01a81504d25272"
+                    },
+                    {
+                        "expanded_size": 37546732,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d428dec7be4272566800de98a95e1ee5d81df08da96f83c543251ca80f20bf53"
                     }
                 ],
                 "authors": [
@@ -3040,6 +3103,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e5fd060a84f428907d131fec6f3db6155a63e26b007549607168590662bd0a6e"
+                    },
+                    {
+                        "expanded_size": 35564484,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0185bd281f703bfd3b3cd58b65cb409acb2a8b0be7a9c1001fa467a599b50836"
                     }
                 ],
                 "authors": [
@@ -3133,6 +3205,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:83485dc7b0da830af6f36335b66b300037bce1a50a8c15539e199bc5b5ae63a2"
+                    },
+                    {
+                        "expanded_size": 35534684,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:17d9369e7c34fb414a82255909e9557e5dba0163cf8e26c7292b37237d521c9e"
                     }
                 ],
                 "authors": [
@@ -3226,6 +3307,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e383cb1e41637b2fbaa30684bbba68373cf655cbe3ca7c4f23fbce15b467a23e"
+                    },
+                    {
+                        "expanded_size": 38382956,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a87422d9b0234f535b942c2882cdb63faec1beaac989b35e9411e05091808dcf"
                     }
                 ],
                 "authors": [
@@ -3268,6 +3358,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e54452a1e20c18535c96f84dd53004ee43f23350c1dc59ce035ca424f327ee62"
+                    },
+                    {
+                        "expanded_size": 38381033,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:71e9f996d9aac3a54f7f28085beed28174859a44750dffe41a68fced8499f59a"
                     }
                 ],
                 "authors": [
@@ -3310,6 +3409,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0b4f1108a4b8dfe4b578340c737a1abdb80390aaac27d9fd1c96a36ef25dfb71"
+                    },
+                    {
+                        "expanded_size": 86911968,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f21019265027e8998964d3aea3ed11f214c7390c9b744f0b769bcd688a083a10"
                     }
                 ],
                 "authors": [
@@ -3352,6 +3460,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:438de8ade5df2138b3cf547eed234d3714363eed3274dbe84afe0c609fbc6dda"
+                    },
+                    {
+                        "expanded_size": 86912704,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8"
                     }
                 ],
                 "authors": [
@@ -3403,6 +3520,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:438de8ade5df2138b3cf547eed234d3714363eed3274dbe84afe0c609fbc6dda"
+                    },
+                    {
+                        "expanded_size": 86912704,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:626fa4b14d82af6abd400955aa7e4e9002f4114ba3fd93bb45a9a8f062157bb8"
                     }
                 ],
                 "authors": [
@@ -3454,6 +3580,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:a0b1e746fa1f084c51c28212fc69702c993c393c952a9c2d4c62bdb323459014"
+                    },
+                    {
+                        "expanded_size": 187477320,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fef50004032bd9ca61d315a383e9446683f168bf33ccfecc090c7bdcaab5ddfb"
                     }
                 ],
                 "authors": [
@@ -3496,6 +3631,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e0a26d7c8cc8a2284f0cb87b91e228a7295f4b49fe2c54b5859f8df53939e1c2"
+                    },
+                    {
+                        "expanded_size": 187765304,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7be93f50ec4ba2996ef729f581d21a13717e707aa19d69c921635c8d3bcd62e7"
                     }
                 ],
                 "authors": [
@@ -3533,6 +3677,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:1b204fba77d384ba749438f336a93bc59c9553c71b92a6a4f6445b2866d42a94"
+                    },
+                    {
+                        "expanded_size": 187768615,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a6f4e3c45d92fba847516c4f7e1496513342bc608ab70659267ace2da1464ef5"
                     }
                 ],
                 "authors": [
@@ -3570,6 +3723,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:04b5b0fb80df9efd4a916458373fbfa1c224aef8aad13d947c63280f3ecda691"
+                    },
+                    {
+                        "expanded_size": 188706649,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6c07467046db1635d5585c2b885c1f717e9647edac9b4e0be82ed1f963dcd5fd"
                     }
                 ],
                 "authors": [
@@ -3607,6 +3769,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0ebec5d7354aef2d54892b93751c8be9400dc75ba807e9748bc9a004dbc20802"
+                    },
+                    {
+                        "expanded_size": 204495494,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7af4687d809af0ef4b2e701613171025cef425fa61d583778dd518227b4d8fbb"
                     }
                 ],
                 "authors": [
@@ -3633,8 +3804,8 @@
             }
         },
         "repo_info": {
-            "downloads": 24746,
-            "last_updated": "2024-07-12T14:42:40.548997Z",
+            "downloads": 24902,
+            "last_updated": "2024-07-17T19:47:13.890621Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
     },
@@ -3937,7 +4108,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13019,
+            "downloads": 13033,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -4047,7 +4218,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3941,
+            "downloads": 3945,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -4074,15 +4245,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5e82e94b39b55a9e2eee865259af83d311dbfbae1470fc304c77a9cc93a0efbe"
-                    },
-                    {
-                        "expanded_size": 161690019,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:bb52f8f92b786a3576e22519059196a401dfdfcb705c989f8d4696ee165d1995"
                     }
                 ],
                 "authors": [
@@ -4152,7 +4314,7 @@
             }
         },
         "repo_info": {
-            "downloads": 966,
+            "downloads": 970,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -4273,7 +4435,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84261,
+            "downloads": 84265,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -4404,7 +4566,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3109,
+            "downloads": 3112,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -4561,7 +4723,7 @@
             }
         },
         "repo_info": {
-            "downloads": 717,
+            "downloads": 723,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -4731,7 +4893,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40040,
+            "downloads": 40047,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -4852,7 +5014,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87295,
+            "downloads": 87301,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -5216,7 +5378,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1606,
+            "downloads": 1627,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -5337,7 +5499,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79378,
+            "downloads": 79382,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -5647,7 +5809,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42778,
+            "downloads": 42786,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -5726,6 +5888,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:4006bc89ee6193e8f973c02858cc91c8482cab78704ea5307912f56058ab59ba"
+                    },
+                    {
+                        "expanded_size": 56660183,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1b63d3d179c9092429d622033862b69d5d36542d5bf1009c99edb9a194fe84f6"
                     }
                 ],
                 "authors": [
@@ -5767,6 +5938,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b84df60bdd753d795c649f5ba2266a3394961da30a94f36a090aea5626ccda53"
+                    },
+                    {
+                        "expanded_size": 56623432,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ca693a1fc97e7937624d08b06c3bd18fba03f22997473cab088ee8a16e4cb213"
                     }
                 ],
                 "authors": [
@@ -5796,7 +5976,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131705,
+            "downloads": 131731,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -5923,7 +6103,7 @@
             }
         },
         "repo_info": {
-            "downloads": 81986,
+            "downloads": 81990,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -6197,7 +6377,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4997,
+            "downloads": 5009,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -6629,6 +6809,63 @@
                     }
                 }
             },
+            "1.0.3": {
+                "identifier": "c1d55fdb-fa51-5c81-931b-02931f7c3461",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 211619864,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5647c270f0f05c688748e58912aa139e1d82b8801ccf23b4997631e13f89abe9"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.3",
+                "docs": null,
+                "readme": "# BlueOS Code Server\n\nBlueOS extension for OpenVSCode Server.\n\nOpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "1.0.2": {
                 "identifier": "acff44bd-868a-5073-8dd0-9de682c36b45",
                 "type": "other",
@@ -6796,7 +7033,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15773,
+            "downloads": 15795,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -6860,7 +7097,7 @@
             }
         },
         "repo_info": {
-            "downloads": 735,
+            "downloads": 738,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -7185,7 +7422,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230084,
+            "downloads": 230096,
             "last_updated": "2024-07-11T14:55:05.05076Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -7253,7 +7490,7 @@
             }
         },
         "repo_info": {
-            "downloads": 589,
+            "downloads": 591,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -7326,7 +7563,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1356,
+            "downloads": 1358,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -7436,7 +7673,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1831,
+            "downloads": 1834,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -8118,6 +8355,83 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.16",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.15": {
+                "identifier": "c4d5d465-fa5d-56ef-be9e-03c2cddbeb74",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 14606235,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2d411e8d83f3e1921b429166c1b160c9813a7591d3cfded3a8330255fb651959"
+                    },
+                    {
+                        "expanded_size": 14818336,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2518c72e3f4fab12cef9d223386823fbe84c32445758414d62037ffcfeb3fc54"
+                    },
+                    {
+                        "expanded_size": 14862357,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:431e2ea212e30a2f549633e5b840fdce27034a1817a97de62ebcce2bdf899877"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.15",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -9127,7 +9441,7 @@
             }
         },
         "repo_info": {
-            "downloads": 45282,
+            "downloads": 45365,
             "last_updated": "2024-07-16T13:54:12.438329Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -9443,7 +9757,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5356,
+            "downloads": 5366,
             "last_updated": "2024-04-16T21:48:37.263991Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -9565,7 +9879,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1771,
+            "downloads": 1776,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
