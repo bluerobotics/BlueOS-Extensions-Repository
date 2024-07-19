@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2249,
+            "downloads": 2255,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -321,7 +321,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2993,
+            "downloads": 2997,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -853,7 +853,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14573,
+            "downloads": 14591,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -2084,7 +2084,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8939,
+            "downloads": 8957,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -2348,7 +2348,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2686,
+            "downloads": 2694,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -2485,7 +2485,7 @@
             }
         },
         "repo_info": {
-            "downloads": 334,
+            "downloads": 338,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -2499,6 +2499,66 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "versions": {
+            "1.10.0-beta.11": {
+                "identifier": "21d0136b-e157-53b9-ab32-fc7af2d8773d",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 103070811,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:828f53fa3d2c70549f0a5f05d0839091499af412ba82138086cdbd38f0a54a8f"
+                    },
+                    {
+                        "expanded_size": 101256004,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:588e8164b3a0b2271228d951dbee79965b3c9689c45b1186a49ce9a80b819c3f"
+                    },
+                    {
+                        "expanded_size": 103061545,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:841be20a747ebd1ce873cb21cb02990f832dc31f88b07e35ed2ab085ef694e23"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.10.0-beta.11",
+                "docs": null,
+                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ]
+                    }
+                }
+            },
             "1.10.0-beta.10": {
                 "identifier": "cea5e538-5147-5706-8e4d-38cbdc320356",
                 "type": "device-integration",
@@ -3755,57 +3815,11 @@
                 "permissions": {
                     "NetworkMode": "host"
                 }
-            },
-            "v1.5.3": {
-                "identifier": "c023a21a-e698-5c5a-b73c-c47ed8a7d191",
-                "type": "other",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 228960777,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0ebec5d7354aef2d54892b93751c8be9400dc75ba807e9748bc9a004dbc20802"
-                    },
-                    {
-                        "expanded_size": 204495494,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7af4687d809af0ef4b2e701613171025cef425fa61d583778dd518227b4d8fbb"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.5.3",
-                "docs": null,
-                "readme": "# SonarView\n\n[Get the latest release here](https://github.com/CeruleanSonar/SonarView/releases/latest)\n",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host"
-                }
             }
         },
         "repo_info": {
-            "downloads": 24902,
-            "last_updated": "2024-07-17T19:47:13.890621Z",
+            "downloads": 24958,
+            "last_updated": "2024-07-18T17:41:47.398377Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
     },
@@ -4108,7 +4122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13033,
+            "downloads": 13049,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -4218,7 +4232,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3945,
+            "downloads": 3951,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -4314,7 +4328,7 @@
             }
         },
         "repo_info": {
-            "downloads": 970,
+            "downloads": 980,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -4435,7 +4449,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84265,
+            "downloads": 84269,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -4566,7 +4580,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3112,
+            "downloads": 3115,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -4723,7 +4737,7 @@
             }
         },
         "repo_info": {
-            "downloads": 723,
+            "downloads": 726,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -4893,7 +4907,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40047,
+            "downloads": 40053,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -5014,7 +5028,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87301,
+            "downloads": 87305,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -5378,7 +5392,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1627,
+            "downloads": 1639,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -5499,7 +5513,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79382,
+            "downloads": 79386,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -5809,7 +5823,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42786,
+            "downloads": 42795,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -5976,7 +5990,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131731,
+            "downloads": 131737,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -6103,7 +6117,7 @@
             }
         },
         "repo_info": {
-            "downloads": 81990,
+            "downloads": 81994,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -6377,7 +6391,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5009,
+            "downloads": 5021,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -7033,7 +7047,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15795,
+            "downloads": 15819,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -7097,7 +7111,7 @@
             }
         },
         "repo_info": {
-            "downloads": 738,
+            "downloads": 743,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -7111,6 +7125,82 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/bluerobotics/company_logo.png",
         "versions": {
+            "v1.0.6": {
+                "identifier": "5b72c3c7-cc68-5c2c-9edd-b400daa9070d",
+                "type": "device-integration",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+                "images": [
+                    {
+                        "expanded_size": 70955108,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5c4cc57ab14bbc3c32fc83aefad9f4ef6ab244411b1f80c4511fd6f70535fb48"
+                    },
+                    {
+                        "expanded_size": 75511816,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f928136f896cc5ba7753901e9031804fff748e4783cc4f1b01aa12a4be7f879f"
+                    },
+                    {
+                        "expanded_size": 77083331,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a1486d8026590c4143410fff474811be8d83bd5ae2c80c2f2509bd858b2b6823"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.6",
+                "docs": null,
+                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.6\n - No longer sets parameters automatically. Users can now change for two modes of operation:\n     - DVL-only, the recommended mode\n     - DVL+GPS, experimental mode which allows fusing (underwater) GPS and DVL data\n\n### v1.0.5\n - Update texts to make support of DVL A125 obvious\n\n### v1.0.4\n - Fix issue introduced in v1.0.3 where the extension was unable to talk to Cable-guy\n\n### v1.0.3\n - Uses an random available port instead of 9001 to avoid conflict\n - Updated menu icon\n\n### v1.0.2\n - Improved style\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Water Linked DVL A50 and A125 driver as a BlueOS Extension.\n\n## Install\n\nInstall it from [BlueOS extensions tab](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/extensions/).\n\nThe service will show in the \"Extension Manager\" section in BlueOS, where there are some configuration options.\n",
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "9001/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "9001/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.5": {
                 "identifier": "d4a8e194-7374-5f38-9e6b-05d689366907",
                 "type": "device-integration",
@@ -7191,6 +7281,24 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f8ee948cb512af09d2cab3cc92cc39de0bc802645f382033ba7c5d5972f7c541"
+                    },
+                    {
+                        "expanded_size": 75812211,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e6aad97e0a6cf384cbfd84fa8c4b13bdf14a46c832458d07070b851a5d855028"
+                    },
+                    {
+                        "expanded_size": 77377333,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f366b363ae588f2e2d0d1b69d7b029c9a6974ff6bd8db0c818cc98c81ca8a7fe"
                     }
                 ],
                 "authors": [
@@ -7249,6 +7357,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:18c4bf17906b278c44e840b40f8561928283ea151f48958ef42dd8ee0d95eb48"
+                    },
+                    {
+                        "expanded_size": 77304661,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5c2dd5704cd10b3cf502f3a47d5f9f0283e846e66d3ebcfa7d8ffe5673eb269f"
                     }
                 ],
                 "authors": [
@@ -7396,6 +7513,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e3e67687861b5d8c4613e35fafe4f13498c9906e6553125b032f6f6ddf075944"
+                    },
+                    {
+                        "expanded_size": 72784115,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:daae2a13f71622da16ae0b2a766c3b17b314cf15d538d00112f4036677dad0de"
                     }
                 ],
                 "authors": [
@@ -7422,8 +7548,8 @@
             }
         },
         "repo_info": {
-            "downloads": 230096,
-            "last_updated": "2024-07-11T14:55:05.05076Z",
+            "downloads": 230163,
+            "last_updated": "2024-07-18T22:37:03.827152Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
     },
@@ -7490,7 +7616,7 @@
             }
         },
         "repo_info": {
-            "downloads": 591,
+            "downloads": 592,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -7563,7 +7689,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1358,
+            "downloads": 1364,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -7673,7 +7799,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1834,
+            "downloads": 1848,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -7745,7 +7871,7 @@
                 "extra_links": {},
                 "tag": "v1.0.0-beta.24",
                 "docs": null,
-                "readme": "<div align=\"center\">\n  <img src=\"./public/images/cockpit-banner.png\"><br>\n</div>\n\n------------------------\n\nAn intuitive and customizable cross-platform ground control station for remote vehicles of all types.\n\n# Development\n\n## Installing Cockpit\nCockpit is typically installed as an Electron application or BlueOS Extension, but for development purposes it is valuable to run it locally.\n\nTo start, clone the repository and its submodules. The submodules are required components for Cockpit to be able to run:\n\n```\ngit clone --recurse-submodules git@github.com:bluerobotics/cockpit.git\n```\n\nNext, [install bun](https://bun.sh/docs/installation). Following their documented instructions is strongly recommended - we have received reports that installing `bun` from alternatives like Snap did not work properly.\n\nWith `bun` installed, you can enter the repository folder and follow the steps below:\n\n```\nbun install\n```\n\nand then run the server locally with:\n\n```\nbun run dev --host\n```\n\nThen you should see a prompt with the local IP and port that can be accessed through a browser, such as `localhost:5173`.\n\n## Installing backend providers\n\nCockpit is currently a frontend-only application. That means it relies on data offered by other backend solutions, which are not built-in.\n\nIf you have a [BlueOS](https://github.com/bluerobotics/BlueOS) instance running, there's no need to install any backend, as BlueOS already provides everything.\n\nIf that's not your case and you want to install the necessary backends, follow the instructions below:\n\n1. Install a MAVLink router. We recommend [mavp2p](https://github.com/bluenviron/mavp2p) or [MAVLink Router](https://github.com/mavlink-router/mavlink-router).\n2. Run the MAVLink router, connecting it to your vehicle or [SITL instance](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).\n3. Install [mavlink2rest](https://github.com/mavlink/mavlink2rest).\n4. Run `mavlink2rest`, pointing it to the endpoint provided by the MAVLink router. Remember to serve the API over the 6040 port by running it with `--server 0.0.0.0:6040`.\n5. [Optional] If you want to work with video streaming, install [Mavlink Camera Manager](https://github.com/mavlink/mavlink-camera-manager).\n\n## Connecting to your vehicle\n\nFollow the instructions provided [here](https://docs.bluerobotics.com/ardusub-zola/software/control-station/Cockpit-1.0/advanced-usage/#general) to connect Cockpit to your vehicle.\n\nIf you're running a BlueOS instance, just put the IP address of it in \"Global vehicle address\" and click the \"apply\" button.\n\nIf you're serving `mavlink2rest` in the same machine as Cockpit, activate the checkmark for \"Mavlink2Rest connection\" and use `ws://127.0.0.1:6040/v1/ws/mavlink` there (if you're running a mavlink2rest version before 0.11.15, omit the `/v1` in the URL).\n\nIf you're serving `mavlink-camera-manager` in the same machine as Cockpit, activate the checkmark for \"WebRTC connection\" and use `ws://127.0.0.1:6020` there.\n\n## Simulating a vehicle\n\nCockpit provides a simulation environments in a docker compose file. There is an environment provided for ArduSub, ArduCopter, ArduRover and ArduPlane. The compose file uses docker compose profiles to allow you to choose which vehicle you want to simulate. The available profiles are `ardusub`, `arducopter`, `ardurover` and `arduplane`. You can run a simulation environment by running the following command:\n\n```\ndocker-compose -f sim.yml --profile ardusub up\n```\n\nAssuming you have run the `bun run dev --host` command, you can access the simulation environment by opening the browser and accessing `localhost:5173`.",
+                "readme": "<div align=\"center\">\n  <img style=\"width: 40%\" src=\"./public/images/cockpit-banner.png\"><br>\n</div>\n<br>\n<br>\n<div align=\"center\">\n  <img style=\"width: 55%\" src=\"./public/images/screen.png\"><br>\n</div>\n<br>\n\n<b>An intuitive and customizable cross-platform ground control station for remote vehicles of all types. [Check it here](https://docs.bluerobotics.com/cockpit)</b>\n\n# Development\n\n## Installing Cockpit\nCockpit is typically installed as an Electron application or BlueOS Extension, but for development purposes it is valuable to run it locally.\n\nTo start, clone the repository and its submodules. The submodules are required components for Cockpit to be able to run:\n\n```\ngit clone --recurse-submodules git@github.com:bluerobotics/cockpit.git\n```\n\nNext, [install bun](https://bun.sh/docs/installation). Following their documented instructions is strongly recommended - we have received reports that installing `bun` from alternatives like Snap did not work properly.\n\nWith `bun` installed, you can enter the repository folder and follow the steps below:\n\n```\nbun install\n```\n\nand then run the server locally with:\n\n```\nbun run dev --host\n```\n\nThen you should see a prompt with the local IP and port that can be accessed through a browser, such as `localhost:5173`.\n\n## Installing backend providers\n\nCockpit is currently a frontend-only application. That means it relies on data offered by other backend solutions, which are not built-in.\n\nIf you have a [BlueOS](https://github.com/bluerobotics/BlueOS) instance running, there's no need to install any backend, as BlueOS already provides everything.\n\nIf that's not your case and you want to install the necessary backends, follow the instructions below:\n\n1. Install a MAVLink router. We recommend [mavp2p](https://github.com/bluenviron/mavp2p) or [MAVLink Router](https://github.com/mavlink-router/mavlink-router).\n2. Run the MAVLink router, connecting it to your vehicle or [SITL instance](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).\n3. Install [mavlink2rest](https://github.com/mavlink/mavlink2rest).\n4. Run `mavlink2rest`, pointing it to the endpoint provided by the MAVLink router. Remember to serve the API over the 6040 port by running it with `--server 0.0.0.0:6040`.\n5. [Optional] If you want to work with video streaming, install [Mavlink Camera Manager](https://github.com/mavlink/mavlink-camera-manager).\n\n## Connecting to your vehicle\n\nFollow the instructions provided [here](https://docs.bluerobotics.com/ardusub-zola/software/control-station/Cockpit-1.0/advanced-usage/#general) to connect Cockpit to your vehicle.\n\nIf you're running a BlueOS instance, just put the IP address of it in \"Global vehicle address\" and click the \"apply\" button.\n\nIf you're serving `mavlink2rest` in the same machine as Cockpit, activate the checkmark for \"Mavlink2Rest connection\" and use `ws://127.0.0.1:6040/v1/ws/mavlink` there (if you're running a mavlink2rest version before 0.11.15, omit the `/v1` in the URL).\n\nIf you're serving `mavlink-camera-manager` in the same machine as Cockpit, activate the checkmark for \"WebRTC connection\" and use `ws://127.0.0.1:6020` there.\n\n## Simulating a vehicle\n\nCockpit provides a simulation environments in a docker compose file. There is an environment provided for ArduSub, ArduCopter, ArduRover and ArduPlane. The compose file uses docker compose profiles to allow you to choose which vehicle you want to simulate. The available profiles are `ardusub`, `arducopter`, `ardurover` and `arduplane`. You can run a simulation environment by running the following command:\n\n```\ndocker-compose -f sim.yml --profile ardusub up\n```\n\nAssuming you have run the `bun run dev --host` command, you can access the simulation environment by opening the browser and accessing `localhost:5173`.",
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
                 "requirements": null,
                 "company": {
@@ -7826,7 +7952,7 @@
                 "extra_links": {},
                 "tag": "v1.0.0-beta.23",
                 "docs": null,
-                "readme": "<div align=\"center\">\n  <img src=\"./public/images/cockpit-banner.png\"><br>\n</div>\n\n------------------------\n\nAn intuitive and customizable cross-platform ground control station for remote vehicles of all types.\n\n# Development\n\n## Installing Cockpit\nCockpit is typically installed as an Electron application or BlueOS Extension, but for development purposes it is valuable to run it locally.\n\nTo start, clone the repository and its submodules. The submodules are required components for Cockpit to be able to run:\n\n```\ngit clone --recurse-submodules git@github.com:bluerobotics/cockpit.git\n```\n\nNext, [install bun](https://bun.sh/docs/installation). Following their documented instructions is strongly recommended - we have received reports that installing `bun` from alternatives like Snap did not work properly.\n\nWith `bun` installed, you can enter the repository folder and follow the steps below:\n\n```\nbun install\n```\n\nand then run the server locally with:\n\n```\nbun run dev --host\n```\n\nThen you should see a prompt with the local IP and port that can be accessed through a browser, such as `localhost:5173`.\n\n## Installing backend providers\n\nCockpit is currently a frontend-only application. That means it relies on data offered by other backend solutions, which are not built-in.\n\nIf you have a [BlueOS](https://github.com/bluerobotics/BlueOS) instance running, there's no need to install any backend, as BlueOS already provides everything.\n\nIf that's not your case and you want to install the necessary backends, follow the instructions below:\n\n1. Install a MAVLink router. We recommend [mavp2p](https://github.com/bluenviron/mavp2p) or [MAVLink Router](https://github.com/mavlink-router/mavlink-router).\n2. Run the MAVLink router, connecting it to your vehicle or [SITL instance](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).\n3. Install [mavlink2rest](https://github.com/mavlink/mavlink2rest).\n4. Run `mavlink2rest`, pointing it to the endpoint provided by the MAVLink router. Remember to serve the API over the 6040 port by running it with `--server 0.0.0.0:6040`.\n5. [Optional] If you want to work with video streaming, install [Mavlink Camera Manager](https://github.com/mavlink/mavlink-camera-manager).\n\n## Connecting to your vehicle\n\nFollow the instructions provided [here](https://docs.bluerobotics.com/ardusub-zola/software/control-station/Cockpit-1.0/advanced-usage/#general) to connect Cockpit to your vehicle.\n\nIf you're running a BlueOS instance, just put the IP address of it in \"Global vehicle address\" and click the \"apply\" button.\n\nIf you're serving `mavlink2rest` in the same machine as Cockpit, activate the checkmark for \"Mavlink2Rest connection\" and use `ws://127.0.0.1:6040/v1/ws/mavlink` there (if you're running a mavlink2rest version before 0.11.15, omit the `/v1` in the URL).\n\nIf you're serving `mavlink-camera-manager` in the same machine as Cockpit, activate the checkmark for \"WebRTC connection\" and use `ws://127.0.0.1:6020` there.\n\n## Simulating a vehicle\n\nCockpit provides a simulation environments in a docker compose file. There is an environment provided for ArduSub, ArduCopter, ArduRover and ArduPlane. The compose file uses docker compose profiles to allow you to choose which vehicle you want to simulate. The available profiles are `ardusub`, `arducopter`, `ardurover` and `arduplane`. You can run a simulation environment by running the following command:\n\n```\ndocker-compose -f sim.yml --profile ardusub up\n```\n\nAssuming you have run the `bun run dev --host` command, you can access the simulation environment by opening the browser and accessing `localhost:5173`.",
+                "readme": "<div align=\"center\">\n  <img style=\"width: 40%\" src=\"./public/images/cockpit-banner.png\"><br>\n</div>\n<br>\n<br>\n<div align=\"center\">\n  <img style=\"width: 55%\" src=\"./public/images/screen.png\"><br>\n</div>\n<br>\n\n<b>An intuitive and customizable cross-platform ground control station for remote vehicles of all types. [Check it here](https://docs.bluerobotics.com/cockpit)</b>\n\n# Development\n\n## Installing Cockpit\nCockpit is typically installed as an Electron application or BlueOS Extension, but for development purposes it is valuable to run it locally.\n\nTo start, clone the repository and its submodules. The submodules are required components for Cockpit to be able to run:\n\n```\ngit clone --recurse-submodules git@github.com:bluerobotics/cockpit.git\n```\n\nNext, [install bun](https://bun.sh/docs/installation). Following their documented instructions is strongly recommended - we have received reports that installing `bun` from alternatives like Snap did not work properly.\n\nWith `bun` installed, you can enter the repository folder and follow the steps below:\n\n```\nbun install\n```\n\nand then run the server locally with:\n\n```\nbun run dev --host\n```\n\nThen you should see a prompt with the local IP and port that can be accessed through a browser, such as `localhost:5173`.\n\n## Installing backend providers\n\nCockpit is currently a frontend-only application. That means it relies on data offered by other backend solutions, which are not built-in.\n\nIf you have a [BlueOS](https://github.com/bluerobotics/BlueOS) instance running, there's no need to install any backend, as BlueOS already provides everything.\n\nIf that's not your case and you want to install the necessary backends, follow the instructions below:\n\n1. Install a MAVLink router. We recommend [mavp2p](https://github.com/bluenviron/mavp2p) or [MAVLink Router](https://github.com/mavlink-router/mavlink-router).\n2. Run the MAVLink router, connecting it to your vehicle or [SITL instance](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).\n3. Install [mavlink2rest](https://github.com/mavlink/mavlink2rest).\n4. Run `mavlink2rest`, pointing it to the endpoint provided by the MAVLink router. Remember to serve the API over the 6040 port by running it with `--server 0.0.0.0:6040`.\n5. [Optional] If you want to work with video streaming, install [Mavlink Camera Manager](https://github.com/mavlink/mavlink-camera-manager).\n\n## Connecting to your vehicle\n\nFollow the instructions provided [here](https://docs.bluerobotics.com/ardusub-zola/software/control-station/Cockpit-1.0/advanced-usage/#general) to connect Cockpit to your vehicle.\n\nIf you're running a BlueOS instance, just put the IP address of it in \"Global vehicle address\" and click the \"apply\" button.\n\nIf you're serving `mavlink2rest` in the same machine as Cockpit, activate the checkmark for \"Mavlink2Rest connection\" and use `ws://127.0.0.1:6040/v1/ws/mavlink` there (if you're running a mavlink2rest version before 0.11.15, omit the `/v1` in the URL).\n\nIf you're serving `mavlink-camera-manager` in the same machine as Cockpit, activate the checkmark for \"WebRTC connection\" and use `ws://127.0.0.1:6020` there.\n\n## Simulating a vehicle\n\nCockpit provides a simulation environments in a docker compose file. There is an environment provided for ArduSub, ArduCopter, ArduRover and ArduPlane. The compose file uses docker compose profiles to allow you to choose which vehicle you want to simulate. The available profiles are `ardusub`, `arducopter`, `ardurover` and `arduplane`. You can run a simulation environment by running the following command:\n\n```\ndocker-compose -f sim.yml --profile ardusub up\n```\n\nAssuming you have run the `bun run dev --host` command, you can access the simulation environment by opening the browser and accessing `localhost:5173`.",
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
                 "requirements": null,
                 "company": {
@@ -8102,6 +8228,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:bf829ed4b3756cf975711ebb34159328dc0df1e4580e8615f47031b2ac2b344f"
+                    },
+                    {
+                        "expanded_size": 15854963,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2a42346cd40ed103bfec22f015e51b648377be9208ea10a0a497d75b62ec782b"
                     }
                 ],
                 "authors": [
@@ -9441,8 +9576,8 @@
             }
         },
         "repo_info": {
-            "downloads": 45365,
-            "last_updated": "2024-07-16T13:54:12.438329Z",
+            "downloads": 45516,
+            "last_updated": "2024-07-19T01:41:32.062998Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -9757,7 +9892,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5366,
+            "downloads": 5378,
             "last_updated": "2024-04-16T21:48:37.263991Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -9879,7 +10014,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1776,
+            "downloads": 1781,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
