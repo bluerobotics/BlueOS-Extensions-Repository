@@ -27,13 +27,13 @@ jobs:
       - name: Install
         run: |
           sudo apt install -y yarn
-          python -m pip install --upgrade poetry
+          python -m pip install --editable .
+          rm -rf blueos_extensions_repository.egg-info
           mkdir build
 
       - name: Build manifest
         run: |
-          poetry install
-          poetry run blueos_repository/consolidate.py
+          python blueos_repository/consolidate.py
           mv manifest.json build/
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
