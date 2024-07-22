@@ -11,3 +11,6 @@ website/public
 __pycache__/
 *.py[cod]
 *$py.class
+
+### Build Info ###
+blueos_extensions_repository.egg-info/

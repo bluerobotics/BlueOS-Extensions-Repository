@@ -1,27 +1,37 @@
 # This file is used only for setting up CI. no deployment is done with it
 
-[tool.poetry]
+[project]
 name = "blueos-extensions-repository"
 version = "0.0.1"
 description = "Blue Robotics BlueOS Extensions Repository"
-authors = ["Blue Robotics <software@bluerobotics.com>"]
-license = "MIT"
-packages = [{include = "blueos_repository"}]
+authors = [
+  {name = "Blue Robotics", email = "software@bluerobotics.com"},
+]
+license = {text = "MIT License"}
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp==3.7.4",
+    "aiohttp-retry==2.8.3",
+    "json-five==1.1.1",
+    "semver>=2.13.0",
+    "dataclass-wizard==0.22.3",
+]
 
-[tool.poetry.dependencies]
-aiohttp = "3.7.4"
-aiohttp-retry = "2.8.3"
-json-five = "1.1.1"
-python = "^3.10"
-semver = "^2.13.0"
-dataclass-wizard = "^0.22.3"
+[project.optional-dependencies]
+dev = [
+    "black==22.3.0",
+    "isort==5.10.1",
+    "mypy==0.941",
+    "pydantic==1.9.0",
+    "pylint==2.14.5",
+]
 
-[tool.poetry.dev-dependencies]
-black = "22.3.0"
-isort = "5.10.1"
-mypy = "0.941"
-pydantic = "1.9.0"
-pylint = "2.14.5"
+[tool.setuptools]
+packages = [
+  "blueos_repository",
+  "blueos_repository.docker",
+  "blueos_repository.extension"
+]
 
 [tool.black]
 line-length = 120
@@ -29,21 +39,20 @@ line-length = 120
 [tool.isort]
 profile = "black"
 
-[tool.pylint]
-    [tool.pylint.master]
-    enable = "all"
-    disable = [
-        "line-too-long", # We already have this in black.
-        "locally-disabled", # We know what we are doing, necessary to load plugins in runtime
-        "missing-class-docstring",
-        "missing-function-docstring",
-        "missing-module-docstring",
-        "suppressed-message",
-        "wrong-import-position",
-        ]
+[tool.pylint.master]
+enable = "all"
+disable = [
+    "line-too-long", # We already have this in black.
+    "locally-disabled", # We know what we are doing, necessary to load plugins in runtime
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "suppressed-message",
+    "wrong-import-position",
+]
 
-    [tool.pylint.miscellaneous]
-    notes = [ "FIXME" ] # TODO is removed for internal development
+[tool.pylint.miscellaneous]
+notes = ["FIXME"] # TODO is removed for internal development
 
 [tool.mypy]
 allow_untyped_decorators = true
