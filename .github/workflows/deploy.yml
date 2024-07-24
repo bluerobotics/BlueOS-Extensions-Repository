@@ -35,6 +35,7 @@ jobs:
         run: |
           python blueos_repository/consolidate.py
           mv manifest.json build/
+          mv manifest.log build/
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
