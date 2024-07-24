@@ -224,14 +224,20 @@ class Extension:
                 f"Failed to generate version {tag_name} for extension {self.identifier}, error: {error}",
             )
 
-    async def inflate(self) -> None:
+    async def inflate(self, tag: Optional[Tag] = None) -> None:
         """
         Inflate extension data, this will fetch all the necessary data from docker hub, registry, etc.
         And store it in the object to allow manifest formation after.
 
+        Args:
+            tag (Optional[Tag]): Tag to inflate, if not provided all tags will be inflated.
+
         Returns:
             None
         """
+
+        if tag:
+            return await self.__process_tag_version(tag)
 
         try:
             tags = await self.hub.get_tags()
