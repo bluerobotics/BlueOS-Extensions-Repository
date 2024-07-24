@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2278,
+            "downloads": 2288,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -321,7 +321,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3022,
+            "downloads": 3033,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -853,7 +853,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14681,
+            "downloads": 14699,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -2084,7 +2084,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9045,
+            "downloads": 9062,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -2348,7 +2348,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2738,
+            "downloads": 2746,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -2476,7 +2476,7 @@
             }
         },
         "repo_info": {
-            "downloads": 358,
+            "downloads": 362,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -3809,7 +3809,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25212,
+            "downloads": 25276,
             "last_updated": "2024-07-18T17:41:47.398377Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -4113,7 +4113,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13123,
+            "downloads": 13146,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -4223,7 +4223,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3971,
+            "downloads": 3975,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -4319,7 +4319,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1002,
+            "downloads": 1006,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -4440,7 +4440,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84289,
+            "downloads": 84293,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -4571,7 +4571,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3130,
+            "downloads": 3133,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -4728,7 +4728,7 @@
             }
         },
         "repo_info": {
-            "downloads": 742,
+            "downloads": 745,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -4898,7 +4898,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40073,
+            "downloads": 40077,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -5019,7 +5019,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87325,
+            "downloads": 87329,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -5180,67 +5180,6 @@
                     }
                 }
             },
-            "1.0.0": {
-                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "1.0.0",
-                "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "v1.0.0": {
                 "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
                 "type": "example",
@@ -5287,6 +5226,67 @@
                 "tag": "v1.0.0",
                 "docs": null,
                 "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.0": {
+                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
@@ -5356,7 +5356,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1706,
+            "downloads": 1720,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -5477,7 +5477,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79411,
+            "downloads": 79415,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -5787,7 +5787,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42827,
+            "downloads": 42833,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -5954,7 +5954,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131775,
+            "downloads": 131781,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -6081,7 +6081,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82016,
+            "downloads": 82020,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -6355,7 +6355,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5083,
+            "downloads": 5097,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -7011,7 +7011,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15950,
+            "downloads": 15982,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -7075,7 +7075,7 @@
             }
         },
         "repo_info": {
-            "downloads": 749,
+            "downloads": 752,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -7512,7 +7512,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230240,
+            "downloads": 230287,
             "last_updated": "2024-07-18T22:37:03.827152Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -7580,7 +7580,7 @@
             }
         },
         "repo_info": {
-            "downloads": 597,
+            "downloads": 598,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -7653,7 +7653,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1376,
+            "downloads": 1378,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -7763,7 +7763,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1875,
+            "downloads": 1878,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -9566,7 +9566,7 @@
             }
         },
         "repo_info": {
-            "downloads": 45932,
+            "downloads": 46044,
             "last_updated": "2024-07-23T17:32:11.961613Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -9882,7 +9882,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5428,
+            "downloads": 5439,
             "last_updated": "2024-04-16T21:48:37.263991Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -10004,7 +10004,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1805,
+            "downloads": 1808,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
