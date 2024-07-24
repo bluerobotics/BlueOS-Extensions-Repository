@@ -209,6 +209,8 @@ class Extension:
             blob = await self.registry.get_manifest_blob(embedded_digest)
 
             self.versions[tag_name] = await self.__create_version_from_tag_blob(tag, blob)
+
+            Logger.info(self.identifier, f"Generated version entry {tag_name} for extension {self.identifier}")
         except ValueError as error:
             Logger.error(
                 self.identifier, f"Invalid tag name {tag_name} for extension {self.identifier}, error: {error}"
