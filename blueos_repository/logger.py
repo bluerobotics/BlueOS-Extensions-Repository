@@ -48,7 +48,16 @@ class Logger:
     Simple logger class to consolidate logs and generate a manifest.log
     """
 
+    enabled: bool = True
     log_buffer: ManifestLog = ManifestLog()
+
+    @staticmethod
+    def disable() -> None:
+        Logger.enabled = False
+
+    @staticmethod
+    def enable() -> None:
+        Logger.enabled = True
 
     @staticmethod
     def start_docker_rate_limit(rate_limit: RateLimit) -> None:
@@ -80,6 +89,9 @@ class Logger:
 
     @staticmethod
     def log(entry: str, message: str, level: LogEntryStatus) -> None:
+        if not Logger.enabled:
+            return
+
         Logger._check_and_init_entry(entry)
         Logger.log_buffer.extensions[entry].append(LogEntry(level, message))
 
