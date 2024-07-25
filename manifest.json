@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2300,
+            "downloads": 2304,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -691,6 +691,160 @@
                     }
                 }
             },
+            "v1.0.0-beta.19": {
+                "identifier": "d5c5b2ac-d106-5382-acf4-ad4fb39fb41f",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15598859,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8466a6aa0fab80d4ee9ace7e95a564777cb1aeb81b541b7b81926ff77422a758"
+                    },
+                    {
+                        "expanded_size": 15810949,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bf829ed4b3756cf975711ebb34159328dc0df1e4580e8615f47031b2ac2b344f"
+                    },
+                    {
+                        "expanded_size": 15854963,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2a42346cd40ed103bfec22f015e51b648377be9208ea10a0a497d75b62ec782b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.19",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.18": {
+                "identifier": "8b87ba8f-8a01-51ca-a4fd-b1d5b21d3f10",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15598779,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0ffe807162f11bc8c8328c5617c254b9d8fbd4d454581b8c638a3492ffb4e0b0"
+                    },
+                    {
+                        "expanded_size": 15810884,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:08d23911f5487bbf628257fc0ad7e4334d4970e47f2de8c8e214f217e3a496d6"
+                    },
+                    {
+                        "expanded_size": 15854889,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:75e10bcbdddd69a6fbe88e8ad6dbab5b7a45ccde730400420873b9850b7133d0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.18",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.17": {
                 "identifier": "ccc287b6-57da-5c9b-bb66-3abcc272082e",
                 "type": "other",
@@ -975,6 +1129,83 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.14",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.13": {
+                "identifier": "48b94329-b61c-5daa-9b62-45fb01a4157c",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 13824987,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3d73bdb4dc25115719f74067678530034fe48944097f3f86457eb26108e37fa1"
+                    },
+                    {
+                        "expanded_size": 13864533,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:300df6a7226a6c0ece286bff1ee334eff62465538ee17d922f6383afd5b997d3"
+                    },
+                    {
+                        "expanded_size": 13953728,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7deb8669f07fe8365d32a969d249094b6a860c8eaf7d1c6931e74ef0d42ff257"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.13",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -1384,6 +1615,83 @@
                     }
                 }
             },
+            "v1.0.0-beta.7": {
+                "identifier": "229cbf3f-8010-550b-9b25-3e356a0a9c35",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12517490,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2aa3c3d0560b14003fb3752e2c84d30898a066876af19067333c3d6cb650efd1"
+                    },
+                    {
+                        "expanded_size": 12854834,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ae45f97aa0d7fe6c57bed8eb57e19539a8161f1d341a2fcf0f29e3aac8a8281e"
+                    },
+                    {
+                        "expanded_size": 12958106,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2bb1e2463ac734f0f2924ecdb12ec1f6e4f7e20729a0e99e3670fa1170a898ee"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.7",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.6": {
                 "identifier": "ae571bf1-af4d-53a2-9010-c9deab40639f",
                 "type": "other",
@@ -1617,8 +1925,8 @@
             }
         },
         "repo_info": {
-            "downloads": 46207,
-            "last_updated": "2024-07-25T00:12:21.655092Z",
+            "downloads": 46292,
+            "last_updated": "2024-07-25T20:43:39.78164Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -1727,7 +2035,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1891,
+            "downloads": 1894,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -2383,7 +2691,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16027,
+            "downloads": 16049,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -2447,7 +2755,7 @@
             }
         },
         "repo_info": {
-            "downloads": 754,
+            "downloads": 755,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -2763,7 +3071,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5460,
+            "downloads": 5470,
             "last_updated": "2024-04-16T21:48:37.263991Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -2836,7 +3144,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1385,
+            "downloads": 1387,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -3273,7 +3581,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230322,
+            "downloads": 230338,
             "last_updated": "2024-07-18T22:37:03.827152Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3341,7 +3649,7 @@
             }
         },
         "repo_info": {
-            "downloads": 600,
+            "downloads": 601,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3463,7 +3771,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1814,
+            "downloads": 1817,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -3717,66 +4025,6 @@
                     }
                 }
             },
-            "1.0.1": {
-                "identifier": "45bcca1a-93dc-5556-885e-70cf737f4c66",
-                "type": "device-integration",
-                "website": "https://github.com/nortekgroup/nucleus_driver/tree/main/blueos_extension",
-                "images": [
-                    {
-                        "expanded_size": 67134167,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6ca7ff490e0537ea5b733e17f2cde35ab9df44ce623873e7524424d83f8c3bbc"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Martin Bergene Johansen",
-                        "email": "martin.johansen@nortekgroup.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "doppler-velocity-log",
-                    "water-tracking",
-                    "current-profiling"
-                ],
-                "extra_links": {},
-                "tag": "1.0.1",
-                "docs": null,
-                "readme": "\n# BlueOS extension\n\nThis is a Nucleus extension for the BlueOS software running on BlueROV2. \n\nIt works by wrapping the Nucleus Driver in a docker image, with a script that feeds velocity data from the Nucleus device into the ArduSub control system through mavlink commands.\n\nThis allows the user to utilize the \"position hold\" functionality in the ROV\n\n## Nortek Nucleus integration\n\nTo mount the Nucleus unto the BlueROV2 and connect it to its network, refer Nortek's [Nucleus integration guide](https://support.nortekgroup.com/hc/en-us/articles/8246995934748-Nucleus-integration-with-BlueROV2).\n\n## setup\n\n### BlueOS\n\nBlueOS needs to be of version 1.1.0-beta18 or newer in order to support the adding of third party extensions.\n\n### ArduSub\n\nArduSub needs to be of version 4.1.0 or newer for it to support the VISUAL_POSITION_DELTA packets used to send velocity data to the ROV.\n\n### Nucleus\n\nThis extension assumes that the Nucleus is connected to the network of the ROV through an ethernet connection. It is therefore necessary to set a static IP in the Nucleus.\n\nThe network prefix of the BlueROV2 is 192.168.2.0, with a netmask of 255.255.255.0. The Nucleus' static IP must therefore be set to a fitting value, i.e. 192.168.2.201. \n\nIn the GUI that comes with the extension the user must specify this IP address to establish a connection with the Nucleus device. The user is therefore not limited to using this IP address, but is at the same time responsible of selecting an IP address that is not already in use on the network.\n\n## Adding extension to BlueROV2\n\nThe extension can be added to the BlueROV2 either through the BlueOS software, or by creating the docker image on the onboard computer and running the docker container directly.\n\nIt is recommended to add the extension through BlueOS as it is both easier and the intended way for this extension to be added. The two different approaches are covered in the following subsections.\n\n### BlueOS\n\n#### Installation\nThe extension can be added through BlueOS' extensions menu.\n\nNavigate to Extensions > Extensions Manager.\n\n![blueos_menu](docs/blueos_menu.png)\n\nLocate Nortek Nucleus under the tab \"STORE\" and open it.\n\n![nortek_nucleus_store](docs/nortek_nucleus_store.png)\n\nWhen the Nortek Nucleus extension is opened the user will be presented with this README, as well as information about the extensions creator, a link to this github repository, the settings in the docker image of the extension and the option of installing the extension.\n\nTo install the extension, select the newest available version in the drop down menu (the newest version should be the default) and push install. BlueOS will the pull the nucleus extension docker image and install it in its extensions.\n\n![nortek_nucleus_install](docs/nortek_nucleus_install.png)\n\n#### Usage\n\nAfter the installation has been completed. The extension can be located in Extensions > Extensions Manager, under the tab \"INSTALLED\".\n\n![nortek_nucleus_installed](docs/nortek_nucleus_installed.png)\n\nHere the user have the option to edit sittings, uninstall, disable and restart the extension. It is also possible to view the output logs from the docker container that runs the extension which can serve as a good debugging tool.\n\nThe extension itself can be opened in the menu by navigating to Extensions > Nucleus: Position hold. \n\n![blueos_menu_nucleus](docs/blueos_menu_nucleus.png)\n\nOpening this will present the user with the GUI for the Nucleus extension which is covered in [Using the extension](#using-the-extension)\n\n### Docker\n\nTo set this extension up manually, ssh into the Raspberry Pi on the BlueROV2 (or access via red-pill in [BlueOS terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)).\n\n**N.B.** The docker image available on dockerhub is set to use port 80 for its user interface which allows BlueOS to handle which port this user interface should be available at. For the manual approach it is therefore necessary to build the docker image with a different port if you wish to have access to the user interface.\n\n**N.B.** In the current version of the extension it is necessary to have access to the GUI as it is required for establishing the connection to the Nucleus.\n\nOn the onboard computer, clone this repo in your preferred path with the following command:\n\n```\ngit clone git@github.com:nortekgroup/nucleus_driver.git\n```\n\nNavigate to the blueos_extension folder (the folder containing the Dockerfile) and build the docker image with the following command:\n\n```\ndocker build . -t nucleus_driver\n```\n\nThe GUI of the extension is by default on port 5000. \n\nIf another port is preferred for the GUI the image can be build with the preferred port as an argument with the following command\n\n```\ndocker build . -t nucleus_driver --build-arg PORT=5000\n```\n\nwith the value following \"`PORT=`\" being your preferred port.\n\nThe docker container can be executed with the following command\n\n```\ndocker run --net=host -v /root/.config/blueos:/root/.config --name=nucleus_driver --restart=unless-stopped nucleus_driver\n```\n\n`--net=host` allows the container to share the network of the ROV which is necessary for it to communicate with the ROV and make the GUI available\n\n`-v /root/.config/blueos:/root/.config` maps the volume \"/root/.config/blueos\" from the Raspberry Pi into \"/root/.config\" in the container. This allows the container the store configuration data in-between runs.\n\n`--name=Nucleus-Driver` is the preferred name of the container.\n\n`--restart=unless-stopped` allows the extension to automatically start when the ROV is powered up\n\nWith the docker container running, the GUI can be accessed in a browser by navigating to `blueos.local:<port>` (or `192.168.2.2:<port>`), where `<port>` is the specified port from the image creation. See [Using the extension](#using-the-extension) to learn about how to use the GUI.\n\n## Using the extension\n\n**N.B.** In order for the extension to work it is necessary to change certain controller parameters. Refer to \"Controller parameters\" section for more info\n\n**N.B.** In order for the \"position hold\" algorithm to perform well it might be necessary to change the ROV's PID parameters. Refer to \"PID parameters\" section for more info\n\nWith the extension added, its user interface (GUI) can be found by navigating to Extensions -> Nucleus: Position hold in the BlueOS menu.\n\nIn the case of a manual installation through docker, the GUI can be found y navigating to `blueos.local:<port>` where `<port>` is he port specified when the docker image was created. \n\nThe GUI presents the user with a home page and two pages for parametrization. These pages can be navigated in-between using the navigation banner at the top of the GUI\n\n### Home\n\nThe home screen presents the user with a status field which displays the results of various checks performed during the startup of the ROV. It is necessary for all of these checks to pass in order for extension to work. Some easy troubleshooting is presented in the home screen in case any of these checks were to fail\n\nThe Nucleus hostname field is used to set the IP address used to connect to the Nucleus device. This IP address should be the same as the static IP configured on the Nucleus device.\n\nIt is also a field which allows the user to decide whether the driver is enabled. The driver must be enabled for it to feed velocity data to the ROV. If it is not enabled the driver is still running and extracting data from the Nucleus, but the velocity is not sent to the ROV.\n\nThe packet counter field displays how many velocity data packets has been handled by the extension. Sent packages refers to packages that has been sent to the ROV, Failed packets refers to packets that for some reason failed to be sent, and Skipped packets are packets that were in good condition and ready to be sent, but weren't due to the driver not being enabled.\n\n### PID parameters\n\n**N.B.** Adjusting any of these parameters **WILL** change the behavior of the ROV\n\n**N.B.** Neither the extension nor the ROV will remember the original values of these parameters in case they are changed. It is therefore the users responsibility to remember the original values in case they wish to revert back to the original parameterization.\n\nThe PID parameters page gives the user opportunity to modify selected PID parameters in the controller. Good parameterization is necessary for a good performance of the ROV. The correct parameters varies from vehicle to vehicle as the physical attributes of the ROV has an impact on its behavior. However, recommended parameters for a standard BlueROV2 with only the Nucleus being the third party installation is presented on this page.\n\n### Controller parameters\n\n**N.B.** Adjusting any of these parameters may change the behavior of the ROV\n\n**N.B.** Neither the extension nor the ROV will remember the original values of these parameters in case they are changed. It is therefore the users responsibility to remember the original values in case they wish to revert back to the original parameterization.\n\nIn order for the controller to accept and utilize the velocity packets sent from the Nucleus, certain parameters has to be changed. The parameters and their required values are presented on this page. \n\nAfter these parameters has been changed it is necessary to power cycle the vehicle for these parameters to take effect\n\n",
-                "support": "https://support.nortekgroup.com/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Nortek",
-                    "email": ""
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "36b22160-b9ae-5dd7-813c-af6e0654135a",
                 "type": "other",
@@ -3995,7 +4243,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14735,
+            "downloads": 14753,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -4259,7 +4507,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2762,
+            "downloads": 2770,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4387,7 +4635,7 @@
             }
         },
         "repo_info": {
-            "downloads": 371,
+            "downloads": 375,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -4586,7 +4834,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3043,
+            "downloads": 3048,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -5919,7 +6167,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25372,
+            "downloads": 25422,
             "last_updated": "2024-07-18T17:41:47.398377Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -6029,7 +6277,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3983,
+            "downloads": 3987,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -6333,7 +6581,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13174,
+            "downloads": 13188,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -7564,7 +7812,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9097,
+            "downloads": 9114,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7691,7 +7939,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82028,
+            "downloads": 82032,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -7812,7 +8060,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87337,
+            "downloads": 87341,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -8122,7 +8370,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42849,
+            "downloads": 42855,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -8218,7 +8466,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1014,
+            "downloads": 1018,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8385,7 +8633,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131797,
+            "downloads": 131805,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8555,7 +8803,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40086,
+            "downloads": 40090,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -8716,67 +8964,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -8823,6 +9010,67 @@
                 "tag": "1.0.0",
                 "docs": null,
                 "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
@@ -8892,7 +9140,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1752,
+            "downloads": 1769,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -9013,7 +9261,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84301,
+            "downloads": 84305,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9170,7 +9418,7 @@
             }
         },
         "repo_info": {
-            "downloads": 751,
+            "downloads": 754,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -9301,7 +9549,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3139,
+            "downloads": 3142,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -9422,7 +9670,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79423,
+            "downloads": 79427,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -9696,7 +9944,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5125,
+            "downloads": 5137,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
