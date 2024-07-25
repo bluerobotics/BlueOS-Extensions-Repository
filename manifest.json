@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2292,
+            "downloads": 2300,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -691,160 +691,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.19": {
-                "identifier": "d5c5b2ac-d106-5382-acf4-ad4fb39fb41f",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 15598859,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8466a6aa0fab80d4ee9ace7e95a564777cb1aeb81b541b7b81926ff77422a758"
-                    },
-                    {
-                        "expanded_size": 15810949,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:bf829ed4b3756cf975711ebb34159328dc0df1e4580e8615f47031b2ac2b344f"
-                    },
-                    {
-                        "expanded_size": 15854963,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2a42346cd40ed103bfec22f015e51b648377be9208ea10a0a497d75b62ec782b"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.19",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.18": {
-                "identifier": "8b87ba8f-8a01-51ca-a4fd-b1d5b21d3f10",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 15598779,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0ffe807162f11bc8c8328c5617c254b9d8fbd4d454581b8c638a3492ffb4e0b0"
-                    },
-                    {
-                        "expanded_size": 15810884,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:08d23911f5487bbf628257fc0ad7e4334d4970e47f2de8c8e214f217e3a496d6"
-                    },
-                    {
-                        "expanded_size": 15854889,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:75e10bcbdddd69a6fbe88e8ad6dbab5b7a45ccde730400420873b9850b7133d0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.18",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.17": {
                 "identifier": "ccc287b6-57da-5c9b-bb66-3abcc272082e",
                 "type": "other",
@@ -1129,83 +975,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.14",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.13": {
-                "identifier": "48b94329-b61c-5daa-9b62-45fb01a4157c",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 13824987,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3d73bdb4dc25115719f74067678530034fe48944097f3f86457eb26108e37fa1"
-                    },
-                    {
-                        "expanded_size": 13864533,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:300df6a7226a6c0ece286bff1ee334eff62465538ee17d922f6383afd5b997d3"
-                    },
-                    {
-                        "expanded_size": 13953728,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7deb8669f07fe8365d32a969d249094b6a860c8eaf7d1c6931e74ef0d42ff257"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.13",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -1615,83 +1384,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.7": {
-                "identifier": "229cbf3f-8010-550b-9b25-3e356a0a9c35",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12517490,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2aa3c3d0560b14003fb3752e2c84d30898a066876af19067333c3d6cb650efd1"
-                    },
-                    {
-                        "expanded_size": 12854834,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ae45f97aa0d7fe6c57bed8eb57e19539a8161f1d341a2fcf0f29e3aac8a8281e"
-                    },
-                    {
-                        "expanded_size": 12958106,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2bb1e2463ac734f0f2924ecdb12ec1f6e4f7e20729a0e99e3670fa1170a898ee"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.7",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.6": {
                 "identifier": "ae571bf1-af4d-53a2-9010-c9deab40639f",
                 "type": "other",
@@ -1925,8 +1617,8 @@
             }
         },
         "repo_info": {
-            "downloads": 46113,
-            "last_updated": "2024-07-23T17:32:11.961613Z",
+            "downloads": 46207,
+            "last_updated": "2024-07-25T00:12:21.655092Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -2035,7 +1727,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1886,
+            "downloads": 1891,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -2691,7 +2383,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16005,
+            "downloads": 16027,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -2755,7 +2447,7 @@
             }
         },
         "repo_info": {
-            "downloads": 753,
+            "downloads": 754,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -3071,7 +2763,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5449,
+            "downloads": 5460,
             "last_updated": "2024-04-16T21:48:37.263991Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -3144,7 +2836,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1383,
+            "downloads": 1385,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -3581,7 +3273,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230308,
+            "downloads": 230322,
             "last_updated": "2024-07-18T22:37:03.827152Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3649,7 +3341,7 @@
             }
         },
         "repo_info": {
-            "downloads": 599,
+            "downloads": 600,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3771,7 +3463,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1811,
+            "downloads": 1814,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -4303,7 +3995,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14717,
+            "downloads": 14735,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -4567,7 +4259,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2754,
+            "downloads": 2762,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4695,7 +4387,7 @@
             }
         },
         "repo_info": {
-            "downloads": 366,
+            "downloads": 371,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -4894,7 +4586,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3039,
+            "downloads": 3043,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -6227,7 +5919,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25324,
+            "downloads": 25372,
             "last_updated": "2024-07-18T17:41:47.398377Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -6337,7 +6029,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3979,
+            "downloads": 3983,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -6641,7 +6333,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13160,
+            "downloads": 13174,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -6753,6 +6445,80 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "0.1.6",
+                "docs": null,
+                "readme": "# JM Robotics, JM-Connect Extension.\n\nThis extension is for connecting your ROV to the JM Connect Ecosystem.\nIt also allows controlling focus-level of JM Robotics focus-cameras. \n\nIn addition you can stream audio from the rpi's camera at http://<rov-ip>:8137 (beta)\n\n",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "0.1.5": {
+                "identifier": "daf1d7e7-6dc5-5812-b6fe-67232ff1b411",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 136304617,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:002194270ed9fbbe8cac68fa8c7d66e65e96bf5f0ca882afc1c739c4bedba43c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.1.5",
                 "docs": null,
                 "readme": "# JM Robotics, JM-Connect Extension.\n\nThis extension is for connecting your ROV to the JM Connect Ecosystem.\nIt also allows controlling focus-level of JM Robotics focus-cameras. \n\nIn addition you can stream audio from the rpi's camera at http://<rov-ip>:8137 (beta)\n\n",
                 "support": "https://www.jmrobotics.no",
@@ -7798,7 +7564,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9079,
+            "downloads": 9097,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7925,7 +7691,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82024,
+            "downloads": 82028,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -8046,7 +7812,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87333,
+            "downloads": 87337,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -8356,7 +8122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42839,
+            "downloads": 42849,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -8452,7 +8218,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1010,
+            "downloads": 1014,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8619,7 +8385,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131787,
+            "downloads": 131797,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8789,7 +8555,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40081,
+            "downloads": 40086,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -9126,7 +8892,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1735,
+            "downloads": 1752,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -9247,7 +9013,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84297,
+            "downloads": 84301,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9404,7 +9170,7 @@
             }
         },
         "repo_info": {
-            "downloads": 748,
+            "downloads": 751,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -9535,7 +9301,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3136,
+            "downloads": 3139,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -9656,7 +9422,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79419,
+            "downloads": 79423,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -9930,7 +9696,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5109,
+            "downloads": 5125,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
