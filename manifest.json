@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2304,
+            "downloads": 2308,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -217,87 +217,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.25": {
-                "identifier": "cdbc206b-4db8-5bdc-b0be-01444f60e2b4",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 17167357,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ff09f0d4b531c0ff5c6a9470e9c1d0cfcfe9556e4c3ee4d23a22e13bcee37b3a"
-                    },
-                    {
-                        "expanded_size": 17381319,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a46b0e351be0b43589d76bbd242e174f698b194481f21d0f2fca19643ca4d5c8"
-                    },
-                    {
-                        "expanded_size": 17424449,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:aca21a4dcb545eb9cf53b05a330ffa3b6b9f8c224dac14b0284f3e240119d0fe"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    },
-                    {
-                        "name": "Arturo Manzoli",
-                        "email": "arturo@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.25",
-                "docs": null,
-                "readme": "<div align=\"center\">\n  <img style=\"width: 40%\" src=\"./public/images/cockpit-banner.png\"><br>\n</div>\n<br>\n<br>\n<div align=\"center\">\n  <img style=\"width: 55%\" src=\"./public/images/screen.png\"><br>\n</div>\n<br>\n\n<b>An intuitive and customizable cross-platform ground control station for remote vehicles of all types. [Check it here](https://docs.bluerobotics.com/cockpit)</b>\n\n# Development\n\n## Installing Cockpit\nCockpit is typically installed as an Electron application or BlueOS Extension, but for development purposes it is valuable to run it locally.\n\nTo start, clone the repository and its submodules. The submodules are required components for Cockpit to be able to run:\n\n```\ngit clone --recurse-submodules git@github.com:bluerobotics/cockpit.git\n```\n\nNext, [install bun](https://bun.sh/docs/installation). Following their documented instructions is strongly recommended - we have received reports that installing `bun` from alternatives like Snap did not work properly.\n\nWith `bun` installed, you can enter the repository folder and follow the steps below:\n\n```\nbun install\n```\n\nand then run the server locally with:\n\n```\nbun run dev --host\n```\n\nThen you should see a prompt with the local IP and port that can be accessed through a browser, such as `localhost:5173`.\n\n## Installing backend providers\n\nCockpit is currently a frontend-only application. That means it relies on data offered by other backend solutions, which are not built-in.\n\nIf you have a [BlueOS](https://github.com/bluerobotics/BlueOS) instance running, there's no need to install any backend, as BlueOS already provides everything.\n\nIf that's not your case and you want to install the necessary backends, follow the instructions below:\n\n1. Install a MAVLink router. We recommend [mavp2p](https://github.com/bluenviron/mavp2p) or [MAVLink Router](https://github.com/mavlink-router/mavlink-router).\n2. Run the MAVLink router, connecting it to your vehicle or [SITL instance](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).\n3. Install [mavlink2rest](https://github.com/mavlink/mavlink2rest).\n4. Run `mavlink2rest`, pointing it to the endpoint provided by the MAVLink router. Remember to serve the API over the 6040 port by running it with `--server 0.0.0.0:6040`.\n5. [Optional] If you want to work with video streaming, install [Mavlink Camera Manager](https://github.com/mavlink/mavlink-camera-manager).\n\n## Connecting to your vehicle\n\nFollow the instructions provided [here](https://docs.bluerobotics.com/ardusub-zola/software/control-station/Cockpit-1.0/advanced-usage/#general) to connect Cockpit to your vehicle.\n\nIf you're running a BlueOS instance, just put the IP address of it in \"Global vehicle address\" and click the \"apply\" button.\n\nIf you're serving `mavlink2rest` in the same machine as Cockpit, activate the checkmark for \"Mavlink2Rest connection\" and use `ws://127.0.0.1:6040/v1/ws/mavlink` there (if you're running a mavlink2rest version before 0.11.15, omit the `/v1` in the URL).\n\nIf you're serving `mavlink-camera-manager` in the same machine as Cockpit, activate the checkmark for \"WebRTC connection\" and use `ws://127.0.0.1:6020` there.\n\n## Simulating a vehicle\n\nCockpit provides a simulation environments in a docker compose file. There is an environment provided for ArduSub, ArduCopter, ArduRover and ArduPlane. The compose file uses docker compose profiles to allow you to choose which vehicle you want to simulate. The available profiles are `ardusub`, `arducopter`, `ardurover` and `arduplane`. You can run a simulation environment by running the following command:\n\n```\ndocker-compose -f sim.yml --profile ardusub up\n```\n\nAssuming you have run the `bun run dev --host` command, you can access the simulation environment by opening the browser and accessing `localhost:5173`.",
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.24": {
                 "identifier": "ac639614-2af7-542b-b3c9-ca1e9b6fad49",
                 "type": "other",
@@ -355,87 +274,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.24",
-                "docs": null,
-                "readme": "<div align=\"center\">\n  <img style=\"width: 40%\" src=\"./public/images/cockpit-banner.png\"><br>\n</div>\n<br>\n<br>\n<div align=\"center\">\n  <img style=\"width: 55%\" src=\"./public/images/screen.png\"><br>\n</div>\n<br>\n\n<b>An intuitive and customizable cross-platform ground control station for remote vehicles of all types. [Check it here](https://docs.bluerobotics.com/cockpit)</b>\n\n# Development\n\n## Installing Cockpit\nCockpit is typically installed as an Electron application or BlueOS Extension, but for development purposes it is valuable to run it locally.\n\nTo start, clone the repository and its submodules. The submodules are required components for Cockpit to be able to run:\n\n```\ngit clone --recurse-submodules git@github.com:bluerobotics/cockpit.git\n```\n\nNext, [install bun](https://bun.sh/docs/installation). Following their documented instructions is strongly recommended - we have received reports that installing `bun` from alternatives like Snap did not work properly.\n\nWith `bun` installed, you can enter the repository folder and follow the steps below:\n\n```\nbun install\n```\n\nand then run the server locally with:\n\n```\nbun run dev --host\n```\n\nThen you should see a prompt with the local IP and port that can be accessed through a browser, such as `localhost:5173`.\n\n## Installing backend providers\n\nCockpit is currently a frontend-only application. That means it relies on data offered by other backend solutions, which are not built-in.\n\nIf you have a [BlueOS](https://github.com/bluerobotics/BlueOS) instance running, there's no need to install any backend, as BlueOS already provides everything.\n\nIf that's not your case and you want to install the necessary backends, follow the instructions below:\n\n1. Install a MAVLink router. We recommend [mavp2p](https://github.com/bluenviron/mavp2p) or [MAVLink Router](https://github.com/mavlink-router/mavlink-router).\n2. Run the MAVLink router, connecting it to your vehicle or [SITL instance](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).\n3. Install [mavlink2rest](https://github.com/mavlink/mavlink2rest).\n4. Run `mavlink2rest`, pointing it to the endpoint provided by the MAVLink router. Remember to serve the API over the 6040 port by running it with `--server 0.0.0.0:6040`.\n5. [Optional] If you want to work with video streaming, install [Mavlink Camera Manager](https://github.com/mavlink/mavlink-camera-manager).\n\n## Connecting to your vehicle\n\nFollow the instructions provided [here](https://docs.bluerobotics.com/ardusub-zola/software/control-station/Cockpit-1.0/advanced-usage/#general) to connect Cockpit to your vehicle.\n\nIf you're running a BlueOS instance, just put the IP address of it in \"Global vehicle address\" and click the \"apply\" button.\n\nIf you're serving `mavlink2rest` in the same machine as Cockpit, activate the checkmark for \"Mavlink2Rest connection\" and use `ws://127.0.0.1:6040/v1/ws/mavlink` there (if you're running a mavlink2rest version before 0.11.15, omit the `/v1` in the URL).\n\nIf you're serving `mavlink-camera-manager` in the same machine as Cockpit, activate the checkmark for \"WebRTC connection\" and use `ws://127.0.0.1:6020` there.\n\n## Simulating a vehicle\n\nCockpit provides a simulation environments in a docker compose file. There is an environment provided for ArduSub, ArduCopter, ArduRover and ArduPlane. The compose file uses docker compose profiles to allow you to choose which vehicle you want to simulate. The available profiles are `ardusub`, `arducopter`, `ardurover` and `arduplane`. You can run a simulation environment by running the following command:\n\n```\ndocker-compose -f sim.yml --profile ardusub up\n```\n\nAssuming you have run the `bun run dev --host` command, you can access the simulation environment by opening the browser and accessing `localhost:5173`.",
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.23": {
-                "identifier": "00d2c6c8-11c0-5a9b-8846-f8f55e84128c",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 15626938,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:d44ff813f672610417ef1df365088f184d35da7be68e784d346f48664f949490"
-                    },
-                    {
-                        "expanded_size": 15840907,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c0a31d76860be4d2a25c06197ecd6827cc1610add299ea87f3b3a6846232aba1"
-                    },
-                    {
-                        "expanded_size": 15884042,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f06a50591ab73c03e515fbaeaf80331c6263342e75c3de07be0cfa454b809c8e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    },
-                    {
-                        "name": "Arturo Manzoli",
-                        "email": "arturo@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.23",
                 "docs": null,
                 "readme": "<div align=\"center\">\n  <img style=\"width: 40%\" src=\"./public/images/cockpit-banner.png\"><br>\n</div>\n<br>\n<br>\n<div align=\"center\">\n  <img style=\"width: 55%\" src=\"./public/images/screen.png\"><br>\n</div>\n<br>\n\n<b>An intuitive and customizable cross-platform ground control station for remote vehicles of all types. [Check it here](https://docs.bluerobotics.com/cockpit)</b>\n\n# Development\n\n## Installing Cockpit\nCockpit is typically installed as an Electron application or BlueOS Extension, but for development purposes it is valuable to run it locally.\n\nTo start, clone the repository and its submodules. The submodules are required components for Cockpit to be able to run:\n\n```\ngit clone --recurse-submodules git@github.com:bluerobotics/cockpit.git\n```\n\nNext, [install bun](https://bun.sh/docs/installation). Following their documented instructions is strongly recommended - we have received reports that installing `bun` from alternatives like Snap did not work properly.\n\nWith `bun` installed, you can enter the repository folder and follow the steps below:\n\n```\nbun install\n```\n\nand then run the server locally with:\n\n```\nbun run dev --host\n```\n\nThen you should see a prompt with the local IP and port that can be accessed through a browser, such as `localhost:5173`.\n\n## Installing backend providers\n\nCockpit is currently a frontend-only application. That means it relies on data offered by other backend solutions, which are not built-in.\n\nIf you have a [BlueOS](https://github.com/bluerobotics/BlueOS) instance running, there's no need to install any backend, as BlueOS already provides everything.\n\nIf that's not your case and you want to install the necessary backends, follow the instructions below:\n\n1. Install a MAVLink router. We recommend [mavp2p](https://github.com/bluenviron/mavp2p) or [MAVLink Router](https://github.com/mavlink-router/mavlink-router).\n2. Run the MAVLink router, connecting it to your vehicle or [SITL instance](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).\n3. Install [mavlink2rest](https://github.com/mavlink/mavlink2rest).\n4. Run `mavlink2rest`, pointing it to the endpoint provided by the MAVLink router. Remember to serve the API over the 6040 port by running it with `--server 0.0.0.0:6040`.\n5. [Optional] If you want to work with video streaming, install [Mavlink Camera Manager](https://github.com/mavlink/mavlink-camera-manager).\n\n## Connecting to your vehicle\n\nFollow the instructions provided [here](https://docs.bluerobotics.com/ardusub-zola/software/control-station/Cockpit-1.0/advanced-usage/#general) to connect Cockpit to your vehicle.\n\nIf you're running a BlueOS instance, just put the IP address of it in \"Global vehicle address\" and click the \"apply\" button.\n\nIf you're serving `mavlink2rest` in the same machine as Cockpit, activate the checkmark for \"Mavlink2Rest connection\" and use `ws://127.0.0.1:6040/v1/ws/mavlink` there (if you're running a mavlink2rest version before 0.11.15, omit the `/v1` in the URL).\n\nIf you're serving `mavlink-camera-manager` in the same machine as Cockpit, activate the checkmark for \"WebRTC connection\" and use `ws://127.0.0.1:6020` there.\n\n## Simulating a vehicle\n\nCockpit provides a simulation environments in a docker compose file. There is an environment provided for ArduSub, ArduCopter, ArduRover and ArduPlane. The compose file uses docker compose profiles to allow you to choose which vehicle you want to simulate. The available profiles are `ardusub`, `arducopter`, `ardurover` and `arduplane`. You can run a simulation environment by running the following command:\n\n```\ndocker-compose -f sim.yml --profile ardusub up\n```\n\nAssuming you have run the `bun run dev --host` command, you can access the simulation environment by opening the browser and accessing `localhost:5173`.",
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -768,83 +606,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.18": {
-                "identifier": "8b87ba8f-8a01-51ca-a4fd-b1d5b21d3f10",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 15598779,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0ffe807162f11bc8c8328c5617c254b9d8fbd4d454581b8c638a3492ffb4e0b0"
-                    },
-                    {
-                        "expanded_size": 15810884,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:08d23911f5487bbf628257fc0ad7e4334d4970e47f2de8c8e214f217e3a496d6"
-                    },
-                    {
-                        "expanded_size": 15854889,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:75e10bcbdddd69a6fbe88e8ad6dbab5b7a45ccde730400420873b9850b7133d0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.18",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.17": {
                 "identifier": "ccc287b6-57da-5c9b-bb66-3abcc272082e",
                 "type": "other",
@@ -898,83 +659,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.17",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.16": {
-                "identifier": "c46818b7-e9e0-57a5-8957-7a2368fb7ef2",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 14606254,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:683bf0af571dc98c84af7a722447a3b1afc3e97a808a8295ac5f6c45fe07e2bf"
-                    },
-                    {
-                        "expanded_size": 14818355,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:fb41f3cf3cec98b01e938578ff471777b6d70d5d54fe59fab186abe48aa67123"
-                    },
-                    {
-                        "expanded_size": 14862351,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c9f489fac4fe5a452ce934d38200dd58a6b7be1636544128426f691188ae7294"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.16",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -1076,160 +760,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.14": {
-                "identifier": "05914529-1bd8-5334-8302-7681768f017e",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 14606997,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b492a88758ec5c68bf34229ed769a5bc69e1bc62a7f8568e7fe8a0d843f56c60"
-                    },
-                    {
-                        "expanded_size": 14819085,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:98e6a964eada966421abb7b1f5f8e7d2544943ebd6fab900b2a8be23bf804a96"
-                    },
-                    {
-                        "expanded_size": 14863090,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8aa06572b20c18da52fe51e28519ef0de5246083db66e28f8245c58cd0d327e8"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.14",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.13": {
-                "identifier": "48b94329-b61c-5daa-9b62-45fb01a4157c",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 13824987,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3d73bdb4dc25115719f74067678530034fe48944097f3f86457eb26108e37fa1"
-                    },
-                    {
-                        "expanded_size": 13864533,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:300df6a7226a6c0ece286bff1ee334eff62465538ee17d922f6383afd5b997d3"
-                    },
-                    {
-                        "expanded_size": 13953728,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7deb8669f07fe8365d32a969d249094b6a860c8eaf7d1c6931e74ef0d42ff257"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.13",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.12": {
                 "identifier": "2dd50e51-2f3c-552b-8e1f-c85a524ca7cb",
                 "type": "other",
@@ -1283,83 +813,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.12",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.11": {
-                "identifier": "ec8d7f8b-0b0f-5005-9852-7da496cd5786",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 13785811,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4cc76dda3b08ea31f1f53944c6e45d9a1b7ce5d7d6c961bfdd9eb6d6b37e7f9a"
-                    },
-                    {
-                        "expanded_size": 13825336,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:56d63b11a5cb92e5e01bec57774f94ec9c40c26ad7bb8e86beb95e1b8d5099fe"
-                    },
-                    {
-                        "expanded_size": 13914553,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:42a44fec9b02e63eac91c66ec2e154a5dd507cbf69827ebba74295fcdb816afe"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.11",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -1538,160 +991,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.8": {
-                "identifier": "1cfde611-7f6e-5670-acc8-045a09608c0a",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12559794,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:db32e3c0f690375837db0c38743bcc202e5dc56a5886585a6db5c3cc0a9d50a8"
-                    },
-                    {
-                        "expanded_size": 12897150,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:830999f377e95a8114793f41fd5ec6099d76744e6cce2aed36a88af05fedec5a"
-                    },
-                    {
-                        "expanded_size": 13000413,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0079d3999c2c5893c7c7121b8b436d2dabcba106e9a6e9374c6cccfe755bd5b0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.8",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.7": {
-                "identifier": "229cbf3f-8010-550b-9b25-3e356a0a9c35",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12517490,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2aa3c3d0560b14003fb3752e2c84d30898a066876af19067333c3d6cb650efd1"
-                    },
-                    {
-                        "expanded_size": 12854834,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ae45f97aa0d7fe6c57bed8eb57e19539a8161f1d341a2fcf0f29e3aac8a8281e"
-                    },
-                    {
-                        "expanded_size": 12958106,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2bb1e2463ac734f0f2924ecdb12ec1f6e4f7e20729a0e99e3670fa1170a898ee"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.7",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.6": {
                 "identifier": "ae571bf1-af4d-53a2-9010-c9deab40639f",
                 "type": "other",
@@ -1845,87 +1144,10 @@
                         }
                     }
                 }
-            },
-            "v1.0.0-beta.4": {
-                "identifier": "e0a24959-f811-520a-8b49-94aa3f96f963",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 12492152,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:847b44ead971ab57cf1614597b6c5b56a00376f5ebc64ef280eac938aeb1947b"
-                    },
-                    {
-                        "expanded_size": 12829498,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:edbb03b015636c846fafaee3fcf07b146e19cc3d920320a40a8147697491dcc2"
-                    },
-                    {
-                        "expanded_size": 12932781,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:dfba1b94c33d7241e78eb25f8e7e84244c89a5a58b00327c6601fb5d6f5891fc"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.4",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 46292,
+            "downloads": 46383,
             "last_updated": "2024-07-25T20:43:39.78164Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -2035,7 +1257,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1894,
+            "downloads": 1901,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -2691,7 +1913,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16049,
+            "downloads": 16071,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -2755,7 +1977,7 @@
             }
         },
         "repo_info": {
-            "downloads": 755,
+            "downloads": 756,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -3071,7 +2293,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5470,
+            "downloads": 5480,
             "last_updated": "2024-04-16T21:48:37.263991Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -3144,7 +2366,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1387,
+            "downloads": 1389,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -3581,7 +2803,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230338,
+            "downloads": 230356,
             "last_updated": "2024-07-18T22:37:03.827152Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3649,7 +2871,7 @@
             }
         },
         "repo_info": {
-            "downloads": 601,
+            "downloads": 602,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3771,7 +2993,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1817,
+            "downloads": 1820,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -4025,6 +3247,66 @@
                     }
                 }
             },
+            "1.0.1": {
+                "identifier": "45bcca1a-93dc-5556-885e-70cf737f4c66",
+                "type": "device-integration",
+                "website": "https://github.com/nortekgroup/nucleus_driver/tree/main/blueos_extension",
+                "images": [
+                    {
+                        "expanded_size": 67134167,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6ca7ff490e0537ea5b733e17f2cde35ab9df44ce623873e7524424d83f8c3bbc"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Martin Bergene Johansen",
+                        "email": "martin.johansen@nortekgroup.com"
+                    }
+                ],
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log",
+                    "water-tracking",
+                    "current-profiling"
+                ],
+                "extra_links": {},
+                "tag": "1.0.1",
+                "docs": null,
+                "readme": "\n# BlueOS extension\n\nThis is a Nucleus extension for the BlueOS software running on BlueROV2. \n\nIt works by wrapping the Nucleus Driver in a docker image, with a script that feeds velocity data from the Nucleus device into the ArduSub control system through mavlink commands.\n\nThis allows the user to utilize the \"position hold\" functionality in the ROV\n\n## Nortek Nucleus integration\n\nTo mount the Nucleus unto the BlueROV2 and connect it to its network, refer Nortek's [Nucleus integration guide](https://support.nortekgroup.com/hc/en-us/articles/8246995934748-Nucleus-integration-with-BlueROV2).\n\n## setup\n\n### BlueOS\n\nBlueOS needs to be of version 1.1.0-beta18 or newer in order to support the adding of third party extensions.\n\n### ArduSub\n\nArduSub needs to be of version 4.1.0 or newer for it to support the VISUAL_POSITION_DELTA packets used to send velocity data to the ROV.\n\n### Nucleus\n\nThis extension assumes that the Nucleus is connected to the network of the ROV through an ethernet connection. It is therefore necessary to set a static IP in the Nucleus.\n\nThe network prefix of the BlueROV2 is 192.168.2.0, with a netmask of 255.255.255.0. The Nucleus' static IP must therefore be set to a fitting value, i.e. 192.168.2.201. \n\nIn the GUI that comes with the extension the user must specify this IP address to establish a connection with the Nucleus device. The user is therefore not limited to using this IP address, but is at the same time responsible of selecting an IP address that is not already in use on the network.\n\n## Adding extension to BlueROV2\n\nThe extension can be added to the BlueROV2 either through the BlueOS software, or by creating the docker image on the onboard computer and running the docker container directly.\n\nIt is recommended to add the extension through BlueOS as it is both easier and the intended way for this extension to be added. The two different approaches are covered in the following subsections.\n\n### BlueOS\n\n#### Installation\nThe extension can be added through BlueOS' extensions menu.\n\nNavigate to Extensions > Extensions Manager.\n\n![blueos_menu](docs/blueos_menu.png)\n\nLocate Nortek Nucleus under the tab \"STORE\" and open it.\n\n![nortek_nucleus_store](docs/nortek_nucleus_store.png)\n\nWhen the Nortek Nucleus extension is opened the user will be presented with this README, as well as information about the extensions creator, a link to this github repository, the settings in the docker image of the extension and the option of installing the extension.\n\nTo install the extension, select the newest available version in the drop down menu (the newest version should be the default) and push install. BlueOS will the pull the nucleus extension docker image and install it in its extensions.\n\n![nortek_nucleus_install](docs/nortek_nucleus_install.png)\n\n#### Usage\n\nAfter the installation has been completed. The extension can be located in Extensions > Extensions Manager, under the tab \"INSTALLED\".\n\n![nortek_nucleus_installed](docs/nortek_nucleus_installed.png)\n\nHere the user have the option to edit sittings, uninstall, disable and restart the extension. It is also possible to view the output logs from the docker container that runs the extension which can serve as a good debugging tool.\n\nThe extension itself can be opened in the menu by navigating to Extensions > Nucleus: Position hold. \n\n![blueos_menu_nucleus](docs/blueos_menu_nucleus.png)\n\nOpening this will present the user with the GUI for the Nucleus extension which is covered in [Using the extension](#using-the-extension)\n\n### Docker\n\nTo set this extension up manually, ssh into the Raspberry Pi on the BlueROV2 (or access via red-pill in [BlueOS terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)).\n\n**N.B.** The docker image available on dockerhub is set to use port 80 for its user interface which allows BlueOS to handle which port this user interface should be available at. For the manual approach it is therefore necessary to build the docker image with a different port if you wish to have access to the user interface.\n\n**N.B.** In the current version of the extension it is necessary to have access to the GUI as it is required for establishing the connection to the Nucleus.\n\nOn the onboard computer, clone this repo in your preferred path with the following command:\n\n```\ngit clone git@github.com:nortekgroup/nucleus_driver.git\n```\n\nNavigate to the blueos_extension folder (the folder containing the Dockerfile) and build the docker image with the following command:\n\n```\ndocker build . -t nucleus_driver\n```\n\nThe GUI of the extension is by default on port 5000. \n\nIf another port is preferred for the GUI the image can be build with the preferred port as an argument with the following command\n\n```\ndocker build . -t nucleus_driver --build-arg PORT=5000\n```\n\nwith the value following \"`PORT=`\" being your preferred port.\n\nThe docker container can be executed with the following command\n\n```\ndocker run --net=host -v /root/.config/blueos:/root/.config --name=nucleus_driver --restart=unless-stopped nucleus_driver\n```\n\n`--net=host` allows the container to share the network of the ROV which is necessary for it to communicate with the ROV and make the GUI available\n\n`-v /root/.config/blueos:/root/.config` maps the volume \"/root/.config/blueos\" from the Raspberry Pi into \"/root/.config\" in the container. This allows the container the store configuration data in-between runs.\n\n`--name=Nucleus-Driver` is the preferred name of the container.\n\n`--restart=unless-stopped` allows the extension to automatically start when the ROV is powered up\n\nWith the docker container running, the GUI can be accessed in a browser by navigating to `blueos.local:<port>` (or `192.168.2.2:<port>`), where `<port>` is the specified port from the image creation. See [Using the extension](#using-the-extension) to learn about how to use the GUI.\n\n## Using the extension\n\n**N.B.** In order for the extension to work it is necessary to change certain controller parameters. Refer to \"Controller parameters\" section for more info\n\n**N.B.** In order for the \"position hold\" algorithm to perform well it might be necessary to change the ROV's PID parameters. Refer to \"PID parameters\" section for more info\n\nWith the extension added, its user interface (GUI) can be found by navigating to Extensions -> Nucleus: Position hold in the BlueOS menu.\n\nIn the case of a manual installation through docker, the GUI can be found y navigating to `blueos.local:<port>` where `<port>` is he port specified when the docker image was created. \n\nThe GUI presents the user with a home page and two pages for parametrization. These pages can be navigated in-between using the navigation banner at the top of the GUI\n\n### Home\n\nThe home screen presents the user with a status field which displays the results of various checks performed during the startup of the ROV. It is necessary for all of these checks to pass in order for extension to work. Some easy troubleshooting is presented in the home screen in case any of these checks were to fail\n\nThe Nucleus hostname field is used to set the IP address used to connect to the Nucleus device. This IP address should be the same as the static IP configured on the Nucleus device.\n\nIt is also a field which allows the user to decide whether the driver is enabled. The driver must be enabled for it to feed velocity data to the ROV. If it is not enabled the driver is still running and extracting data from the Nucleus, but the velocity is not sent to the ROV.\n\nThe packet counter field displays how many velocity data packets has been handled by the extension. Sent packages refers to packages that has been sent to the ROV, Failed packets refers to packets that for some reason failed to be sent, and Skipped packets are packets that were in good condition and ready to be sent, but weren't due to the driver not being enabled.\n\n### PID parameters\n\n**N.B.** Adjusting any of these parameters **WILL** change the behavior of the ROV\n\n**N.B.** Neither the extension nor the ROV will remember the original values of these parameters in case they are changed. It is therefore the users responsibility to remember the original values in case they wish to revert back to the original parameterization.\n\nThe PID parameters page gives the user opportunity to modify selected PID parameters in the controller. Good parameterization is necessary for a good performance of the ROV. The correct parameters varies from vehicle to vehicle as the physical attributes of the ROV has an impact on its behavior. However, recommended parameters for a standard BlueROV2 with only the Nucleus being the third party installation is presented on this page.\n\n### Controller parameters\n\n**N.B.** Adjusting any of these parameters may change the behavior of the ROV\n\n**N.B.** Neither the extension nor the ROV will remember the original values of these parameters in case they are changed. It is therefore the users responsibility to remember the original values in case they wish to revert back to the original parameterization.\n\nIn order for the controller to accept and utilize the velocity packets sent from the Nucleus, certain parameters has to be changed. The parameters and their required values are presented on this page. \n\nAfter these parameters has been changed it is necessary to power cycle the vehicle for these parameters to take effect\n\n",
+                "support": "https://support.nortekgroup.com/",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Nortek",
+                    "email": ""
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "1.0.0": {
                 "identifier": "36b22160-b9ae-5dd7-813c-af6e0654135a",
                 "type": "other",
@@ -4243,7 +3525,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14753,
+            "downloads": 14771,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -4507,7 +3789,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2770,
+            "downloads": 2778,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4635,7 +3917,7 @@
             }
         },
         "repo_info": {
-            "downloads": 375,
+            "downloads": 379,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -4834,7 +4116,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3048,
+            "downloads": 3052,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -6167,7 +5449,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25422,
+            "downloads": 25476,
             "last_updated": "2024-07-18T17:41:47.398377Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -6277,7 +5559,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3987,
+            "downloads": 3991,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -6581,7 +5863,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13188,
+            "downloads": 13202,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -7812,7 +7094,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9114,
+            "downloads": 9131,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7939,7 +7221,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82032,
+            "downloads": 82036,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -8060,7 +7342,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87341,
+            "downloads": 87345,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -8370,7 +7652,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42855,
+            "downloads": 42861,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -8466,7 +7748,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1018,
+            "downloads": 1022,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8633,7 +7915,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131805,
+            "downloads": 131811,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8803,7 +8085,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40090,
+            "downloads": 40094,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -9140,7 +8422,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1769,
+            "downloads": 1793,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -9261,7 +8543,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84305,
+            "downloads": 84309,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9418,7 +8700,7 @@
             }
         },
         "repo_info": {
-            "downloads": 754,
+            "downloads": 759,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -9549,7 +8831,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3142,
+            "downloads": 3145,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -9670,7 +8952,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79427,
+            "downloads": 79431,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -9944,7 +9226,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5137,
+            "downloads": 5149,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
