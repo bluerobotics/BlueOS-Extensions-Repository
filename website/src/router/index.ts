@@ -1,25 +1,30 @@
 // Composables
 import { createRouter, createWebHistory } from 'vue-router'
+const DefaultLayout = () => import('@/layouts/default/Default.vue')
+
+const childRoutes = [
+  {
+    path: 'logs',
+    name: 'Logs',
+    component: () => import(/* webpackChunkName: "logs" */ '@/views/Logs.vue'),
+  },
+  {
+    path: '',
+    name: 'Home',
+    component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
+  },
+]
 
 const routes = [
   {
-    path: '/dist|BlueOS-Extensions-Repository|',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: 'Home',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
-      },
-      {
-        path: 'logs',
-        name: 'Logs',
-        component: () => import(/* webpackChunkName: "logs" */ '@/views/Logs.vue'),
-      },
-    ],
+    path: '/dist',
+    component: DefaultLayout,
+    children: childRoutes,
+  },
+  {
+    path: '/BlueOS-Extensions-Repository',
+    component: DefaultLayout,
+    children: childRoutes,
   },
 ]
 

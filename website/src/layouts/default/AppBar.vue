@@ -4,21 +4,22 @@
       BlueOS Store Apps
     </v-app-bar-title>
     <v-spacer></v-spacer>
-    <v-btn :to="buttonRoute">{{ buttonText }}</v-btn>
+    <v-btn @click="navigateTo">{{ buttonText }}</v-btn>
   </v-app-bar>
 </template>
 
 <script lang="ts" setup>
 import { computed } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 
 const route = useRoute()
+const router = useRouter()
+
+const navigateTo = () => {
+  router.push(route.path.endsWith('/logs') ? './' : './logs')
+}
 
 const buttonText = computed(() => {
-  return route.path === '/logs' ? 'Home' : 'Logs'
-})
-
-const buttonRoute = computed(() => {
-  return route.path === '/logs' ? '/' : '/logs'
+  return route.path.endsWith('/logs') ? 'Home' : 'Logs'
 })
 </script>
