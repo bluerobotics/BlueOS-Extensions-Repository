@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row 
+    <v-row
       v-for="(section, index) in sections"
       :key="index"
     >
