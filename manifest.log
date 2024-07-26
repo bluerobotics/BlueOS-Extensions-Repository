@@ -1,0 +1,1158 @@
+{
+    "extensions": {
+        "bluerobotics.blueos-bb": [
+            {
+                "message": "Starting metadata processing for bluerobotics.blueos-bb",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.blueos-bb",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension bluerobotics.blueos-bb, error: Invalid version naming: master",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.cockpit": [
+            {
+                "message": "Starting metadata processing for bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension bluerobotics.cockpit, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name interface-rework for extension bluerobotics.cockpit, error: Invalid version naming: interface-rework",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.14 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.22 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.5 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.4 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.18 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.7 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.17 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.10 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.21 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.19 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.20 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.16 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.12 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.13 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.15 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.8 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.6 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.9 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.11 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.23 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.25 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.26 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.24 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            }
+        ],
+        "bluerobotics.jupyter": [
+            {
+                "message": "Starting metadata processing for bluerobotics.jupyter",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.jupyter",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.1.0 for extension bluerobotics.jupyter",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.0 for extension bluerobotics.jupyter",
+                "status": "INFO"
+            }
+        ],
+        "bluerobotics.navigator-webassistant": [
+            {
+                "message": "Starting metadata processing for bluerobotics.navigator-webassistant",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.navigator-webassistant",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.navigator-webassistant, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry 0.0.0 for extension bluerobotics.navigator-webassistant",
+                "status": "INFO"
+            }
+        ],
+        "bluerobotics.node-red": [
+            {
+                "message": "Starting metadata processing for bluerobotics.node-red",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.node-red",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name update-node-red for extension bluerobotics.node-red, error: Invalid version naming: update-node-red",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry 1.0.0 for extension bluerobotics.node-red",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.3 for extension bluerobotics.node-red",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.2 for extension bluerobotics.node-red",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.1 for extension bluerobotics.node-red",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.1.0 for extension bluerobotics.node-red",
+                "status": "INFO"
+            }
+        ],
+        "bluerobotics.openvscode": [
+            {
+                "message": "Starting metadata processing for bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.openvscode, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry 1.1.0 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.1 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.5 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.1.1 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.0 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.2 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.7 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.6 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.3 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.4 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.1.2 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            }
+        ],
+        "bluerobotics.power-switch-calibration": [
+            {
+                "message": "Starting metadata processing for bluerobotics.power-switch-calibration",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.power-switch-calibration",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.power-switch-calibration, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension bluerobotics.power-switch-calibration",
+                "status": "INFO"
+            }
+        ],
+        "bluerobotics.ros": [
+            {
+                "message": "Starting metadata processing for bluerobotics.ros",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.ros",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.ros, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry 0.0.1 for extension bluerobotics.ros",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.2 for extension bluerobotics.ros",
+                "status": "INFO"
+            }
+        ],
+        "bluerobotics.water-linked-dvl": [
+            {
+                "message": "Starting metadata processing for bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension bluerobotics.water-linked-dvl, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name v1.0 for extension bluerobotics.water-linked-dvl, error: Invalid version naming: v1.0",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.water-linked-dvl, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.2 for extension bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.3 for extension bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.5 for extension bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.4 for extension bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.6 for extension bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            }
+        ],
+        "bluerobotics.yacht": [
+            {
+                "message": "Starting metadata processing for bluerobotics.yacht",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.yacht",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.0 for extension bluerobotics.yacht",
+                "status": "INFO"
+            }
+        ],
+        "ceruleansonar.cerulean-docs": [
+            {
+                "message": "Starting metadata processing for ceruleansonar.cerulean-docs",
+                "status": "INFO"
+            },
+            {
+                "message": "Extension logo not found for ceruleansonar.cerulean-docs, trying to use company logo as alternative",
+                "status": "WARNING"
+            },
+            {
+                "message": "Finished metadata processing for ceruleansonar.cerulean-docs",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension ceruleansonar.cerulean-docs, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension ceruleansonar.cerulean-docs",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.1.0 for extension ceruleansonar.cerulean-docs",
+                "status": "INFO"
+            }
+        ],
+        "ceruleansonar.cerulean-dvl": [
+            {
+                "message": "Starting metadata processing for ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Extension logo not found for ceruleansonar.cerulean-dvl, trying to use company logo as alternative",
+                "status": "WARNING"
+            },
+            {
+                "message": "Finished metadata processing for ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension ceruleansonar.cerulean-dvl, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.5 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.2 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.6 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.7 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.4 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.8 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            }
+        ],
+        "ceruleansonar.sonarview": [
+            {
+                "message": "Starting metadata processing for ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Extension logo not found for ceruleansonar.sonarview, trying to use company logo as alternative",
+                "status": "WARNING"
+            },
+            {
+                "message": "Finished metadata processing for ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name 1.10.0_dev.11 for extension ceruleansonar.sonarview, error: Invalid version naming: 1.10.0_dev.11",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry 1.9.10-beta for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.10.0-beta.5 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.7.0 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.10.0-beta.4 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.9.12-beta.9 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.9.5-beta for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.8.3 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.10.0-beta.10 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.10.0-beta.11 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.8.4 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.9.12-beta.7 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.9.4-beta for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.10.0-beta.1 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.8.9 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.9.12-beta.8 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.8.0 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.9.8 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.9.7 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.8.6 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.5.6 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.6.0 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.8.8 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.8.7 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.9.12 for extension ceruleansonar.sonarview",
+                "status": "INFO"
+            }
+        ],
+        "clydemcqueen.surftrak_fixit": [
+            {
+                "message": "Starting metadata processing for clydemcqueen.surftrak_fixit",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for clydemcqueen.surftrak_fixit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.2 for extension clydemcqueen.surftrak_fixit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0-beta.1 for extension clydemcqueen.surftrak_fixit",
+                "status": "INFO"
+            }
+        ],
+        "clydemcqueen.wl_ugps_external": [
+            {
+                "message": "Starting metadata processing for clydemcqueen.wl_ugps_external",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for clydemcqueen.wl_ugps_external",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension clydemcqueen.wl_ugps_external, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension clydemcqueen.wl_ugps_external",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.2 for extension clydemcqueen.wl_ugps_external",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.3 for extension clydemcqueen.wl_ugps_external",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension clydemcqueen.wl_ugps_external",
+                "status": "INFO"
+            }
+        ],
+        "jmrobotics.jm-connect": [
+            {
+                "message": "Starting metadata processing for jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name jm-connect-blueos-extension for extension jmrobotics.jm-connect, error: Invalid version naming: jm-connect-blueos-extension",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry 0.1.6 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.1.1 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.1.4 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.1.2 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.1.7 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got text/html",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.0.7 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got text/html",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.0.4 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got text/html",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.0.3 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got text/html",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.0.1 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got text/html",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.0.6 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got text/html",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.0.2 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.1.3 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.1.5 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.1.0 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.8 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.9 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got text/html",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.0.5 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            }
+        ],
+        "nortekgroup.nucleus": [
+            {
+                "message": "Starting metadata processing for nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Extension logo not found for nortekgroup.nucleus, trying to use company logo as alternative",
+                "status": "WARNING"
+            },
+            {
+                "message": "Finished metadata processing for nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension nortekgroup.nucleus, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry 1.0.0 for extension nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.1 for extension nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.8 for extension nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.7 for extension nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.2 for extension nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.6 for extension nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.1.0 for extension nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.4 for extension nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.2.0 for extension nortekgroup.nucleus",
+                "status": "INFO"
+            }
+        ],
+        "vshie.pingSurvey": [
+            {
+                "message": "Starting metadata processing for vshie.pingSurvey",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for vshie.pingSurvey",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name main for extension vshie.pingSurvey, error: Invalid version naming: main",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension vshie.pingSurvey",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension vshie.pingSurvey",
+                "status": "INFO"
+            }
+        ],
+        "waterlinked.ugps": [
+            {
+                "message": "Starting metadata processing for waterlinked.ugps",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for waterlinked.ugps",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension waterlinked.ugps, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.4 for extension waterlinked.ugps",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.7-beta.1 for extension waterlinked.ugps",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.7-beta.2 for extension waterlinked.ugps",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.6 for extension waterlinked.ugps",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.blueos-proxy": [
+            {
+                "message": "Starting metadata processing for williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension williangalvani.blueos-proxy, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name iframes for extension williangalvani.blueos-proxy, error: Invalid version naming: iframes",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name nocache for extension williangalvani.blueos-proxy, error: Invalid version naming: nocache",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name websockets for extension williangalvani.blueos-proxy, error: Invalid version naming: websockets",
+                "status": "ERROR"
+            },
+            {
+                "message": "Could not get readme https://raw.githubusercontent.com/Williangalvani/BlueOS-examples/v0.0.1/example4-vue-backend/Readme.md: status: 404: 404: Not Found",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry v0.0.1 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.4 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.3 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.2 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.example1": [
+            {
+                "message": "Starting metadata processing for williangalvani.example1",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example1",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.example1",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.example1",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.example2": [
+            {
+                "message": "Starting metadata processing for williangalvani.example2",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example2",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.example2",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.example2",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.example3": [
+            {
+                "message": "Starting metadata processing for williangalvani.example3",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example3",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.example3",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.example3",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.example4": [
+            {
+                "message": "Starting metadata processing for williangalvani.example4",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example4",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.example4",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.example4",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.example5": [
+            {
+                "message": "Starting metadata processing for williangalvani.example5",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example5",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.example5",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.example5",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.network-scanner": [
+            {
+                "message": "Starting metadata processing for williangalvani.network-scanner",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.network-scanner",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension williangalvani.network-scanner, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.network-scanner",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.network-scanner",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.oakd": [
+            {
+                "message": "Starting metadata processing for williangalvani.oakd",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.oakd",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.oakd",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme https://raw.githubusercontent.com/Williangalvani/Oakd-extension/v1.0.1/Readme.md: status: 404: 404: Not Found",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.oakd",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme https://raw.githubusercontent.com/Williangalvani/Oakd-extension/v1.0.1-heta.1/Readme.md: status: 404: 404: Not Found",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry v1.0.1-heta.1 for extension williangalvani.oakd",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.plc-diagnostics": [
+            {
+                "message": "Starting metadata processing for williangalvani.plc-diagnostics",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.plc-diagnostics",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 1.0.0 for extension williangalvani.plc-diagnostics",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.1/README.md: status: 404: 404: Not Found",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 1.0.1 for extension williangalvani.plc-diagnostics",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.plc-diagnostics",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme https://raw.githubusercontent.com/williangalvani/plc-extension/0.0.5/README.md: status: 404: 404: Not Found",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.0.5 for extension williangalvani.plc-diagnostics",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.3 for extension williangalvani.plc-diagnostics",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.2 for extension williangalvani.plc-diagnostics",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.usbip": [
+            {
+                "message": "Starting metadata processing for williangalvani.usbip",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.usbip",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name test for extension williangalvani.usbip, error: Invalid version naming: test",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.usbip",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.2 for extension williangalvani.usbip",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.3 for extension williangalvani.usbip",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.usbip",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.virtualhere": [
+            {
+                "message": "Starting metadata processing for williangalvani.virtualhere",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.virtualhere",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.3 for extension williangalvani.virtualhere",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.virtualhere",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.2 for extension williangalvani.virtualhere",
+                "status": "INFO"
+            }
+        ],
+        "williangalvani.zerotier": [
+            {
+                "message": "Starting metadata processing for williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name test for extension williangalvani.zerotier, error: Invalid version naming: test",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name teste for extension williangalvani.zerotier, error: Invalid version naming: teste",
+                "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.12.3 for extension williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.12.1 for extension williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.14.0 for extension williangalvani.zerotier",
+                "status": "INFO"
+            }
+        ]
+    },
+    "final_docker_rate_limit": {
+        "interval_seconds": 0,
+        "limit": 0,
+        "remaining": 0,
+        "source_ip": "ffa7421b-24f8-4a2b-81da-d206b7c7d662"
+    },
+    "start_docker_rate_limit": {
+        "interval_seconds": 0,
+        "limit": 0,
+        "remaining": 0,
+        "source_ip": "ffa7421b-24f8-4a2b-81da-d206b7c7d662"
+    }
+}
