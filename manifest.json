@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2329,
+            "downloads": 2335,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -298,37 +298,37 @@
                     }
                 }
             },
-            "v1.0.0-beta.24": {
-                "identifier": "ac639614-2af7-542b-b3c9-ca1e9b6fad49",
+            "v1.0.0-beta.25": {
+                "identifier": "cdbc206b-4db8-5bdc-b0be-01444f60e2b4",
                 "type": "other",
                 "website": null,
                 "images": [
                     {
-                        "expanded_size": 15628001,
+                        "expanded_size": 17167357,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:660e3aca530a85a5e685d4c102a78e5907c3642da5be7addf683e33142ecd6ab"
+                        "digest": "sha256:ff09f0d4b531c0ff5c6a9470e9c1d0cfcfe9556e4c3ee4d23a22e13bcee37b3a"
                     },
                     {
-                        "expanded_size": 15841967,
+                        "expanded_size": 17381319,
                         "platform": {
                             "architecture": "arm64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:951dc4494d66b99be9b7c6041f3a55e9c192dd71006906c66e118786f907bfaa"
+                        "digest": "sha256:a46b0e351be0b43589d76bbd242e174f698b194481f21d0f2fca19643ca4d5c8"
                     },
                     {
-                        "expanded_size": 15885112,
+                        "expanded_size": 17424449,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:9faa910bc3e1269fe8d147545856014591ed8a6da1143f0ba983bb6b7a75ac4d"
+                        "digest": "sha256:aca21a4dcb545eb9cf53b05a330ffa3b6b9f8c224dac14b0284f3e240119d0fe"
                     }
                 ],
                 "authors": [
@@ -354,7 +354,7 @@
                     "mission-planning"
                 ],
                 "extra_links": {},
-                "tag": "v1.0.0-beta.24",
+                "tag": "v1.0.0-beta.25",
                 "docs": null,
                 "readme": "<div align=\"center\">\n  <img style=\"width: 40%\" src=\"./public/images/cockpit-banner.png\"><br>\n</div>\n<br>\n<br>\n<div align=\"center\">\n  <img style=\"width: 55%\" src=\"./public/images/screen.png\"><br>\n</div>\n<br>\n\n<b>An intuitive and customizable cross-platform ground control station for remote vehicles of all types. [Check it here](https://docs.bluerobotics.com/cockpit)</b>\n\n# Development\n\n## Installing Cockpit\nCockpit is typically installed as an Electron application or BlueOS Extension, but for development purposes it is valuable to run it locally.\n\nTo start, clone the repository and its submodules. The submodules are required components for Cockpit to be able to run:\n\n```\ngit clone --recurse-submodules git@github.com:bluerobotics/cockpit.git\n```\n\nNext, [install bun](https://bun.sh/docs/installation). Following their documented instructions is strongly recommended - we have received reports that installing `bun` from alternatives like Snap did not work properly.\n\nWith `bun` installed, you can enter the repository folder and follow the steps below:\n\n```\nbun install\n```\n\nand then run the server locally with:\n\n```\nbun run dev --host\n```\n\nThen you should see a prompt with the local IP and port that can be accessed through a browser, such as `localhost:5173`.\n\n## Installing backend providers\n\nCockpit is currently a frontend-only application. That means it relies on data offered by other backend solutions, which are not built-in.\n\nIf you have a [BlueOS](https://github.com/bluerobotics/BlueOS) instance running, there's no need to install any backend, as BlueOS already provides everything.\n\nIf that's not your case and you want to install the necessary backends, follow the instructions below:\n\n1. Install a MAVLink router. We recommend [mavp2p](https://github.com/bluenviron/mavp2p) or [MAVLink Router](https://github.com/mavlink-router/mavlink-router).\n2. Run the MAVLink router, connecting it to your vehicle or [SITL instance](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).\n3. Install [mavlink2rest](https://github.com/mavlink/mavlink2rest).\n4. Run `mavlink2rest`, pointing it to the endpoint provided by the MAVLink router. Remember to serve the API over the 6040 port by running it with `--server 0.0.0.0:6040`.\n5. [Optional] If you want to work with video streaming, install [Mavlink Camera Manager](https://github.com/mavlink/mavlink-camera-manager).\n\n## Connecting to your vehicle\n\nFollow the instructions provided [here](https://docs.bluerobotics.com/ardusub-zola/software/control-station/Cockpit-1.0/advanced-usage/#general) to connect Cockpit to your vehicle.\n\nIf you're running a BlueOS instance, just put the IP address of it in \"Global vehicle address\" and click the \"apply\" button.\n\nIf you're serving `mavlink2rest` in the same machine as Cockpit, activate the checkmark for \"Mavlink2Rest connection\" and use `ws://127.0.0.1:6040/v1/ws/mavlink` there (if you're running a mavlink2rest version before 0.11.15, omit the `/v1` in the URL).\n\nIf you're serving `mavlink-camera-manager` in the same machine as Cockpit, activate the checkmark for \"WebRTC connection\" and use `ws://127.0.0.1:6020` there.\n\n## Simulating a vehicle\n\nCockpit provides a simulation environments in a docker compose file. There is an environment provided for ArduSub, ArduCopter, ArduRover and ArduPlane. The compose file uses docker compose profiles to allow you to choose which vehicle you want to simulate. The available profiles are `ardusub`, `arducopter`, `ardurover` and `arduplane`. You can run a simulation environment by running the following command:\n\n```\ndocker-compose -f sim.yml --profile ardusub up\n```\n\nAssuming you have run the `bun run dev --host` command, you can access the simulation environment by opening the browser and accessing `localhost:5173`.",
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -379,37 +379,37 @@
                     }
                 }
             },
-            "v1.0.0-beta.22": {
-                "identifier": "72805ca0-6fa2-5f28-bc9e-36f60243e932",
+            "v1.0.0-beta.23": {
+                "identifier": "00d2c6c8-11c0-5a9b-8846-f8f55e84128c",
                 "type": "other",
                 "website": null,
                 "images": [
                     {
-                        "expanded_size": 15625696,
+                        "expanded_size": 15626938,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:883f7a31d7bb21c6880663905ce147daf5bb358e7472943c825a1959df1d552f"
+                        "digest": "sha256:d44ff813f672610417ef1df365088f184d35da7be68e784d346f48664f949490"
                     },
                     {
-                        "expanded_size": 15839663,
+                        "expanded_size": 15840907,
                         "platform": {
                             "architecture": "arm64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:d1723f145f48fbf7700ae822242b8219def8a4894bc72449f41484529c724ea5"
+                        "digest": "sha256:c0a31d76860be4d2a25c06197ecd6827cc1610add299ea87f3b3a6846232aba1"
                     },
                     {
-                        "expanded_size": 15882783,
+                        "expanded_size": 15884042,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:5126a1cee337f1180760b57fa9e76275ac95fe438bd59a7ba209e95c508960a7"
+                        "digest": "sha256:f06a50591ab73c03e515fbaeaf80331c6263342e75c3de07be0cfa454b809c8e"
                     }
                 ],
                 "authors": [
@@ -420,6 +420,10 @@
                     {
                         "name": "Patrick Jos\u00e9 Pereira",
                         "email": "patrick@bluerobotics.com"
+                    },
+                    {
+                        "name": "Arturo Manzoli",
+                        "email": "arturo@bluerobotics.com"
                     }
                 ],
                 "filter_tags": [
@@ -431,86 +435,9 @@
                     "mission-planning"
                 ],
                 "extra_links": {},
-                "tag": "v1.0.0-beta.22",
+                "tag": "v1.0.0-beta.23",
                 "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0-beta.21": {
-                "identifier": "d9e2c290-30f7-5eb0-8ec5-c6a6ded05644",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 15621079,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:75a6bc6627b702f27c18889f786ac2910593944e6406cc327e44d918d4ccfb13"
-                    },
-                    {
-                        "expanded_size": 15835048,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:fb27d49ce49a8cf2f9ac00ea0e7524e205bd45d878aafb9fa6831c77b827fbfa"
-                    },
-                    {
-                        "expanded_size": 15869533,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9c6a201cb0264f87360eac89d48ff034a1b3c518fdff13391d2936cb2398a76a"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.21",
-                "docs": null,
-                "readme": null,
+                "readme": "<div align=\"center\">\n  <img style=\"width: 40%\" src=\"./public/images/cockpit-banner.png\"><br>\n</div>\n<br>\n<br>\n<div align=\"center\">\n  <img style=\"width: 55%\" src=\"./public/images/screen.png\"><br>\n</div>\n<br>\n\n<b>An intuitive and customizable cross-platform ground control station for remote vehicles of all types. [Check it here](https://docs.bluerobotics.com/cockpit)</b>\n\n# Development\n\n## Installing Cockpit\nCockpit is typically installed as an Electron application or BlueOS Extension, but for development purposes it is valuable to run it locally.\n\nTo start, clone the repository and its submodules. The submodules are required components for Cockpit to be able to run:\n\n```\ngit clone --recurse-submodules git@github.com:bluerobotics/cockpit.git\n```\n\nNext, [install bun](https://bun.sh/docs/installation). Following their documented instructions is strongly recommended - we have received reports that installing `bun` from alternatives like Snap did not work properly.\n\nWith `bun` installed, you can enter the repository folder and follow the steps below:\n\n```\nbun install\n```\n\nand then run the server locally with:\n\n```\nbun run dev --host\n```\n\nThen you should see a prompt with the local IP and port that can be accessed through a browser, such as `localhost:5173`.\n\n## Installing backend providers\n\nCockpit is currently a frontend-only application. That means it relies on data offered by other backend solutions, which are not built-in.\n\nIf you have a [BlueOS](https://github.com/bluerobotics/BlueOS) instance running, there's no need to install any backend, as BlueOS already provides everything.\n\nIf that's not your case and you want to install the necessary backends, follow the instructions below:\n\n1. Install a MAVLink router. We recommend [mavp2p](https://github.com/bluenviron/mavp2p) or [MAVLink Router](https://github.com/mavlink-router/mavlink-router).\n2. Run the MAVLink router, connecting it to your vehicle or [SITL instance](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).\n3. Install [mavlink2rest](https://github.com/mavlink/mavlink2rest).\n4. Run `mavlink2rest`, pointing it to the endpoint provided by the MAVLink router. Remember to serve the API over the 6040 port by running it with `--server 0.0.0.0:6040`.\n5. [Optional] If you want to work with video streaming, install [Mavlink Camera Manager](https://github.com/mavlink/mavlink-camera-manager).\n\n## Connecting to your vehicle\n\nFollow the instructions provided [here](https://docs.bluerobotics.com/ardusub-zola/software/control-station/Cockpit-1.0/advanced-usage/#general) to connect Cockpit to your vehicle.\n\nIf you're running a BlueOS instance, just put the IP address of it in \"Global vehicle address\" and click the \"apply\" button.\n\nIf you're serving `mavlink2rest` in the same machine as Cockpit, activate the checkmark for \"Mavlink2Rest connection\" and use `ws://127.0.0.1:6040/v1/ws/mavlink` there (if you're running a mavlink2rest version before 0.11.15, omit the `/v1` in the URL).\n\nIf you're serving `mavlink-camera-manager` in the same machine as Cockpit, activate the checkmark for \"WebRTC connection\" and use `ws://127.0.0.1:6020` there.\n\n## Simulating a vehicle\n\nCockpit provides a simulation environments in a docker compose file. There is an environment provided for ArduSub, ArduCopter, ArduRover and ArduPlane. The compose file uses docker compose profiles to allow you to choose which vehicle you want to simulate. The available profiles are `ardusub`, `arducopter`, `ardurover` and `arduplane`. You can run a simulation environment by running the following command:\n\n```\ndocker-compose -f sim.yml --profile ardusub up\n```\n\nAssuming you have run the `bun run dev --host` command, you can access the simulation environment by opening the browser and accessing `localhost:5173`.",
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
                 "requirements": null,
                 "company": {
@@ -995,83 +922,6 @@
                     }
                 }
             },
-            "v1.0.0-beta.14": {
-                "identifier": "05914529-1bd8-5334-8302-7681768f017e",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 14606997,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b492a88758ec5c68bf34229ed769a5bc69e1bc62a7f8568e7fe8a0d843f56c60"
-                    },
-                    {
-                        "expanded_size": 14819085,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:98e6a964eada966421abb7b1f5f8e7d2544943ebd6fab900b2a8be23bf804a96"
-                    },
-                    {
-                        "expanded_size": 14863090,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8aa06572b20c18da52fe51e28519ef0de5246083db66e28f8245c58cd0d327e8"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Rafael Araujo Lehmkuhl",
-                        "email": "rafael@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrick@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "vehicle-control",
-                    "control-station",
-                    "ground-station",
-                    "navigation",
-                    "joystick",
-                    "mission-planning"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.14",
-                "docs": null,
-                "readme": null,
-                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8000/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "8000/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0-beta.13": {
                 "identifier": "48b94329-b61c-5daa-9b62-45fb01a4157c",
                 "type": "other",
@@ -1457,6 +1307,83 @@
                     }
                 }
             },
+            "v1.0.0-beta.8": {
+                "identifier": "1cfde611-7f6e-5670-acc8-045a09608c0a",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 12559794,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:db32e3c0f690375837db0c38743bcc202e5dc56a5886585a6db5c3cc0a9d50a8"
+                    },
+                    {
+                        "expanded_size": 12897150,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:830999f377e95a8114793f41fd5ec6099d76744e6cce2aed36a88af05fedec5a"
+                    },
+                    {
+                        "expanded_size": 13000413,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0079d3999c2c5893c7c7121b8b436d2dabcba106e9a6e9374c6cccfe755bd5b0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.8",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0-beta.7": {
                 "identifier": "229cbf3f-8010-550b-9b25-3e356a0a9c35",
                 "type": "other",
@@ -1690,7 +1617,7 @@
             }
         },
         "repo_info": {
-            "downloads": 46701,
+            "downloads": 46757,
             "last_updated": "2024-07-26T13:56:12.423101Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -1800,7 +1727,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1921,
+            "downloads": 1926,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -2456,7 +2383,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16183,
+            "downloads": 16217,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -2520,7 +2447,7 @@
             }
         },
         "repo_info": {
-            "downloads": 761,
+            "downloads": 762,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -2836,7 +2763,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5530,
+            "downloads": 5540,
             "last_updated": "2024-04-16T21:48:37.263991Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -2909,7 +2836,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1399,
+            "downloads": 1401,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -3346,7 +3273,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230434,
+            "downloads": 230450,
             "last_updated": "2024-07-18T22:37:03.827152Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3414,7 +3341,7 @@
             }
         },
         "repo_info": {
-            "downloads": 607,
+            "downloads": 608,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3536,7 +3463,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1836,
+            "downloads": 1839,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -4068,7 +3995,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14862,
+            "downloads": 14880,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -4332,7 +4259,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2818,
+            "downloads": 2827,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4460,7 +4387,7 @@
             }
         },
         "repo_info": {
-            "downloads": 399,
+            "downloads": 405,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -4659,7 +4586,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3072,
+            "downloads": 3077,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -5992,7 +5919,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25727,
+            "downloads": 25777,
             "last_updated": "2024-07-18T17:41:47.398377Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -6102,7 +6029,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4011,
+            "downloads": 4015,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -6406,7 +6333,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13276,
+            "downloads": 13290,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -7637,7 +7564,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9216,
+            "downloads": 9234,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7764,7 +7691,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82056,
+            "downloads": 82060,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -7885,7 +7812,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87365,
+            "downloads": 87369,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -8195,7 +8122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42891,
+            "downloads": 42897,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -8291,7 +8218,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1042,
+            "downloads": 1047,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8458,7 +8385,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131845,
+            "downloads": 131851,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8628,7 +8555,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40114,
+            "downloads": 40118,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -8965,7 +8892,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1859,
+            "downloads": 1873,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -9086,7 +9013,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84329,
+            "downloads": 84333,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9243,7 +9170,7 @@
             }
         },
         "repo_info": {
-            "downloads": 774,
+            "downloads": 777,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -9374,7 +9301,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3160,
+            "downloads": 3163,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -9495,7 +9422,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79451,
+            "downloads": 79455,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -9769,7 +9696,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5210,
+            "downloads": 5222,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
