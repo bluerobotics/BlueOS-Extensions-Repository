@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2339,
+            "downloads": 2343,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -1929,7 +1929,7 @@
             }
         },
         "repo_info": {
-            "downloads": 46822,
+            "downloads": 46906,
             "last_updated": "2024-07-26T13:56:12.423101Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -2039,7 +2039,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1929,
+            "downloads": 1934,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -2695,7 +2695,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16249,
+            "downloads": 16275,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -2759,7 +2759,7 @@
             }
         },
         "repo_info": {
-            "downloads": 763,
+            "downloads": 765,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -2785,7 +2785,7 @@
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:3c60af81b15b762638e9de6b66252522513788274ba947a2fa73449022ed764b"
+                        "digest": "sha256:7fd15626dafae013f3d3bfd8dde4a11003bbd9c1c1c1d9e63edaa765fba77542"
                     }
                 ],
                 "authors": [
@@ -3075,8 +3075,8 @@
             }
         },
         "repo_info": {
-            "downloads": 5550,
-            "last_updated": "2024-04-16T21:48:37.263991Z",
+            "downloads": 5624,
+            "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
     },
@@ -3148,7 +3148,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1403,
+            "downloads": 1405,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -3585,7 +3585,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230474,
+            "downloads": 230506,
             "last_updated": "2024-07-18T22:37:03.827152Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3653,7 +3653,7 @@
             }
         },
         "repo_info": {
-            "downloads": 610,
+            "downloads": 611,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3775,7 +3775,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1844,
+            "downloads": 1847,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -4307,7 +4307,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14898,
+            "downloads": 14916,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -4571,7 +4571,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2835,
+            "downloads": 2843,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4699,7 +4699,7 @@
             }
         },
         "repo_info": {
-            "downloads": 409,
+            "downloads": 413,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -4898,7 +4898,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3081,
+            "downloads": 3086,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -6231,9 +6231,119 @@
             }
         },
         "repo_info": {
-            "downloads": 25827,
+            "downloads": 25890,
             "last_updated": "2024-07-18T17:41:47.398377Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
+        }
+    },
+    {
+        "identifier": "ceruleansonar.cerulean-docs",
+        "name": "Cerulean Docs",
+        "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-Docs/",
+        "docker": "nicknothom/blueos-cerulean-docs",
+        "description": "Offline access for Cerulean Documentation",
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
+        "versions": {
+            "v1.1.0": {
+                "identifier": "d50945d9-c307-5261-b40d-1f260ac0b6a4",
+                "type": "other",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 175566507,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bd71575157ca09fdb6a1b2f8072d56ea27ff0ef9176375d789d893f70cfa7a50"
+                    },
+                    {
+                        "expanded_size": 170030192,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bb85774c6ced6dae9b9b75cc66a3c0f2aeb20c61b5cb5ad37e393f688c93e843"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.1.0",
+                "docs": null,
+                "readme": "# BlueOS Cerulean Docs\n\nHosts a mirror of the [Cerulean Docs](https://docs.ceruleaonsonar.com) on the ROV so they can be viewed offline. ",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": "core >  1",
+                "company": {
+                    "about": "",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host"
+                }
+            },
+            "v1.0.0": {
+                "identifier": "e6424a8a-3f3c-5312-9511-6d58f284e9fe",
+                "type": "other",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 175622566,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:16039d43f4823cf408e2a44d93438c33caf6d00f4b716e4028b2e3314d04b40e"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "# BlueOS Cerulean Docs\n\nHosts a mirror of the [Cerulean Docs](https://docs.ceruleaonsonar.com) on the ROV so they can be viewed offline. ",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": "core >  1",
+                "company": {
+                    "about": "",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 4023,
+            "last_updated": "2023-03-15T20:41:07.344116Z",
+            "date_registered": "2023-03-02T18:19:41.09439Z"
         }
     },
     {
@@ -6245,6 +6355,57 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "versions": {
+            "v1.0.8": {
+                "identifier": "aa686520-e5f6-5cfb-ac69-b414de3e694a",
+                "type": "other",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 109619325,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:40bdaa212803402e97dcd013000c5991ddc950ce4120a93bdd8e30b876e26324"
+                    },
+                    {
+                        "expanded_size": 100085882,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e208ec461095ed3491a3c38ab7913afe855d9850b4f29f13e620c4f71715bc8c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.8",
+                "docs": null,
+                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/root/.config/cerulean:/root/.config"
+                        ]
+                    }
+                }
+            },
             "v1.0.7": {
                 "identifier": "8f856745-ea5b-56a3-87fe-c893f0bf2a9a",
                 "type": "other",
@@ -6484,7 +6645,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13306,
+            "downloads": 13320,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -7715,7 +7876,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9251,
+            "downloads": 9268,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7842,7 +8003,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82064,
+            "downloads": 82068,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -7869,15 +8030,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:6fb2d75b10ba570f679fe19d5352d6bc86ec3ddcf81d44ab62e98e48fd68fc17"
-                    },
-                    {
-                        "expanded_size": 43257229,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2ea73258ad7653091c56983f2b3484d3239ac1a13009cb5f8f337ba509162b29"
                     }
                 ],
                 "authors": [
@@ -7963,7 +8115,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87373,
+            "downloads": 87377,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -8273,7 +8425,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42905,
+            "downloads": 42911,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -8369,7 +8521,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1051,
+            "downloads": 1055,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8536,7 +8688,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131857,
+            "downloads": 131863,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8706,7 +8858,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40122,
+            "downloads": 40126,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -8867,67 +9019,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -8974,6 +9065,67 @@
                 "tag": "1.0.0",
                 "docs": null,
                 "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
@@ -9043,9 +9195,130 @@
             }
         },
         "repo_info": {
-            "downloads": 1885,
+            "downloads": 1899,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
+        }
+    },
+    {
+        "identifier": "williangalvani.example2",
+        "name": "Example 2",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "docker": "williangalvani/blueos-example2",
+        "description": "Static HTML plus MAVLink data",
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "versions": {
+            "v1.0.1": {
+                "identifier": "39888870-c652-52f0-9ead-0640b21526bc",
+                "type": "example",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "images": [
+                    {
+                        "expanded_size": 46802665,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:49131f6972848dea860471a4215687166319a4b105422aa1dd6b75a74610d588"
+                    },
+                    {
+                        "expanded_size": 41255976,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0b5b5c4341d46ae89398405d5eef61fed9ed6f86923451ff0135c855f53a247a"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "76dbd22b-c7a4-566e-9342-5871c558bd88",
+                "type": "other",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "images": [
+                    {
+                        "expanded_size": 47259138,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:330ef2defbb59580f2c5324d03c968b7f43e4073c3a3cc3e4c9620d5ce9d4781"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 84341,
+            "last_updated": "2023-05-02T10:58:10.407395Z",
+            "date_registered": "2022-09-19T20:25:33.201236Z"
         }
     },
     {
@@ -9200,7 +9473,7 @@
             }
         },
         "repo_info": {
-            "downloads": 780,
+            "downloads": 783,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -9331,7 +9604,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3166,
+            "downloads": 3169,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -9452,7 +9725,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79459,
+            "downloads": 79463,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -9726,7 +9999,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5234,
+            "downloads": 5246,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
