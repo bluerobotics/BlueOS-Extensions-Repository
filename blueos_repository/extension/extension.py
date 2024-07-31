@@ -17,6 +17,7 @@ from extension.models import (
     Image,
     Platform,
 )
+from extension.utils.markdown_img_encoder import MarkdownImageEncoder
 from logger import Logger
 from utils import valid_semver
 
@@ -73,6 +74,11 @@ class Extension:
                 if resp.content_type != "text/plain":
                     raise Exception(f"Could not get readme, expected type to be text/plain but got {resp.content_type}")
                 return await resp.text()
+
+    @staticmethod
+    async def process_readme_md(readme: str, resources_url: str) -> str:
+        encoder = MarkdownImageEncoder(readme, resources_url)
+        return str(await encoder.get_processed_markdown())
 
     def __extract_images_from_tag(self, tag: Tag) -> List[Image]:
         active_images = [
@@ -156,9 +162,14 @@ class Extension:
 
         readme = labels.get("readme", None)
         if readme is not None:
-            readme = readme.replace(r"{tag}", version_tag.name)
+            url = readme.replace(r"{tag}", version_tag.name)
             try:
-                readme = await Extension.fetch_readme(readme)
+                readme = await Extension.fetch_readme(url)
+                try:
+                    url = url.rsplit("/", 1)[0]
+                    readme = await Extension.process_readme_md(readme, url)
+                except Exception as error:  # pylint: disable=broad-except
+                    Logger.warning(self.identifier, str(error))
             except Exception as error:  # pylint: disable=broad-except
                 Logger.warning(self.identifier, str(error))
                 readme = str(error)
