@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2343,
+            "downloads": 2347,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -1929,8 +1929,8 @@
             }
         },
         "repo_info": {
-            "downloads": 46906,
-            "last_updated": "2024-07-26T13:56:12.423101Z",
+            "downloads": 46993,
+            "last_updated": "2024-07-31T00:10:44.382663Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -1989,57 +1989,10 @@
                         "NetworkMode": "host"
                     }
                 }
-            },
-            "0.0.1": {
-                "identifier": "e5208a5f-f0e7-5baf-a9b3-d193cc19f3f0",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 369666474,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9b159ab65e4d0b1d541460865aab4cabf9173de7163221d229522cb47a4ae381"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "ros",
-                    "robot"
-                ],
-                "extra_links": {},
-                "tag": "0.0.1",
-                "docs": null,
-                "readme": "# BlueOS ROS extension\r\n\r\nThis extension makes possible to communicate with the vehicle via ROS\r\n\r\nTo connect, you just need to run the following commands:\r\n```sh\r\nexport ROS_MASTER_URI=http://blueos.local:11311\r\n# or export ROS_MASTER_URI=http://<vehicle-ip>:11311\r\nrostopic list # Done, you already have access to it!\r\n```\r\n\r\nYou can also access the data via [roslibjs]([url](http://wiki.ros.org/roslibjs)http://wiki.ros.org/roslibjs).\r\n\r\n```html\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta charset=\"utf-8\" />\r\n\r\n<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/roslibjs/1.1.0/roslib.min.js\"></script>\r\n\r\n<script type=\"text/javascript\" type=\"text/javascript\">\r\n  var ros = new ROSLIB.Ros({\r\n    url : 'ws://blueos.local:8889' // Change if necessary for your vehicle ip\r\n  });\r\n\r\n  ros.on('connection', function() {\r\n    document.getElementById(\"status\").innerHTML = \"Connected\";\r\n  });\r\n\r\n  ros.on('error', function(error) {\r\n    document.getElementById(\"status\").innerHTML = \"Error\";\r\n  });\r\n\r\n  ros.on('close', function() {\r\n    document.getElementById(\"status\").innerHTML = \"Closed\";\r\n  });\r\n\r\n  var txt_listener = new ROSLIB.Topic({\r\n    ros : ros,\r\n    name : '/mavros/vfr_hud',\r\n    messageType : 'mavros_msgs/VFR_HUD'\r\n  });\r\n\r\n  txt_listener.subscribe(function(m) {\r\n    document.getElementById(\"msg\").innerHTML = JSON.stringify(m);\r\n  });\r\n</script>\r\n</head>\r\n\r\n<body>\r\n  <h1>Simple ROS User Interface</h1>\r\n  <p>Connection status: <span id=\"status\"></span></p>\r\n  <p>Last /mavros/vfr_hud received: <span id=\"msg\"></span></p>\r\n</body>\r\n</html>\r\n```\r\n\r\n## Use a different ROS master origin\r\n\r\nIt's possible to change ROS master for the extension using BlueOS on pirate mode and configuring ROS environments variables under the extension configuration menu.\r\n\r\nA valid configurtion wouyld look like this:\r\n\r\n```json5\r\n{\r\n  \"NetworkMode\": \"host\",\r\n  \"HostConfig\": {\r\n  \"Binds\": [\r\n    \"/dev:/dev:rw\"\r\n  ],\r\n    \"Privileged\": true,\r\n    \"NetworkMode\": \"host\"\r\n  },\r\n  \"Env\": [\r\n    \"ROS_HOSTNAME=192.168.2.2\",\r\n    \"ROS_MASTER_URI=http://192.168.2.3:11311\",\r\n    \"ROS_IP=192.168.2.2\"\r\n  ]\r\n}\r\n```\r\n\r\nFor more information about it, check [BlueOS documentation](https://blueos.cloud/docs/blueos/1.1/development/extensions/).\r\n",
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Binds": [
-                            "/dev:/dev:rw"
-                        ],
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 1934,
+            "downloads": 1937,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -2695,7 +2648,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16275,
+            "downloads": 16303,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -2759,7 +2712,7 @@
             }
         },
         "repo_info": {
-            "downloads": 765,
+            "downloads": 767,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -3075,7 +3028,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5624,
+            "downloads": 5642,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -3148,7 +3101,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1405,
+            "downloads": 1407,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -3585,7 +3538,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230506,
+            "downloads": 230523,
             "last_updated": "2024-07-18T22:37:03.827152Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3653,7 +3606,7 @@
             }
         },
         "repo_info": {
-            "downloads": 611,
+            "downloads": 613,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3775,7 +3728,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1847,
+            "downloads": 1850,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -4307,7 +4260,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14916,
+            "downloads": 14934,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -4571,137 +4524,9 @@
             }
         },
         "repo_info": {
-            "downloads": 2843,
+            "downloads": 2851,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
-        }
-    },
-    {
-        "identifier": "clydemcqueen.surftrak_fixit",
-        "name": "Surftrak Fixit",
-        "website": "https://github.com/clydemcqueen/surftrak_fixit",
-        "docker": "clydemcqueen/surftrak_fixit",
-        "description": "Find and fix common Surftrak problems",
-        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/surftrak_fixit/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/company_logo.png",
-        "versions": {
-            "v1.0.0-beta.2": {
-                "identifier": "4ecee07e-b90d-5881-b8a1-2e8c8cb188ce",
-                "type": "tool",
-                "website": "https://github.com/clydemcqueen/surftrak_fixit",
-                "images": [
-                    {
-                        "expanded_size": 331368598,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7974dbabcfbe92c237617c431b666fc24732cf9fd3c5423f069ec752c20aa827"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Clyde McQueen",
-                        "email": "clyde@mcqueen.net"
-                    }
-                ],
-                "filter_tags": [
-                    "surftrak"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.2",
-                "docs": null,
-                "readme": "# Surftrak Fixit\n\n_Surftrak_ is a new flight mode in [ArduSub 4.5](https://www.ardusub.com/).\n\n_Surftrak Fixit_ is a [BlueOS](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/) extension that can diagnose and fix Surftrak problems.\n\n## Install\n\n* Select _Extensions_ in the sidebar\n* Click on _Surftrak Fixit_\n* Click _Install_\n\n## Releases\n\n### v1.0.0-beta.2\n\n* Display DISTANCE_SENSOR messages from well-known sources\n* Check for bad RNGFND1_TYPE\n* Add FIX IT buttons for some problems\n* UI improvements, works in dark mode\n\n### v1.0.0-beta.1\n\n* First version\n\n## Developer Notes\n\n### Install a custom version\n\n* Select _Extensions_ in the sidebar, then the _Installed_ tab\n* Click on the + icon in the lower right\n* Enter the following information, modifying as necessary\n* Click _Create_\n\n_Extension Identifier_\n~~~\nclydemcqueen.surftrak_fixit\n~~~\n\n_Extension Name_\n~~~\nsurftrak_fixit\n~~~\n\n_Docker image_\n~~~\nclydemcqueen/surftrak_fixit\n~~~\n\n_Docker tag_\n~~~\nv1.0.0-beta.2\n~~~\n\n_Custom settings_\n~~~\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"ExtraHosts\": [\"host.docker.internal:host-gateway\"],\n    \"PortBindings\": {\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  },\n  \"Env\": [\"MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1\"]\n}\n~~~\n\n\n### Testing with ArduSub SITL\n\n_Surftrak Fixit_ looks only at MAVLink messages, so it can be tested against ArduSub SITL and\n[mavlink2rest](https://github.com/mavlink/mavlink2rest/).\n\nSee [these instructions](https://ardupilot.org/dev/docs/building-the-code.html) to set up ArduSub SITL.\n\nTerminal 1: run SITL\n~~~\ncd $ARDUPILOT_HOME\nmkdir run_sim\ncd run_sim\nnice ../Tools/autotest/sim_vehicle.py -G -D -l 47.6302,-122.3982391,-0.1,270 -v Sub -f vectored --out \"127.0.0.1:14551\"\n~~~\n\nTerminal 2: run mavlink2rest in a docker container\n~~~\ndocker build --build-arg TARGET_ARCH=x86_64-unknown-linux-musl -t mavlink/mavlink2rest .\ndocker run --rm --init -p 8088:8088 -p 14550:14550/udp --name mavlink2rest mavlink/mavlink2rest\n~~~\n\nTerminal 3: run _Surftrak Fixit_\n~~~\n./main.py --mavlink2rest_url http://localhost:8088/v1\n~~~\n\nTerminal 4: emulate a MAVLink rangefinder\n~~~\n./fake_rf.py --ping\n~~~\n\nYou can see the extension UI at http://localhost:8080/\n",
-                "support": "https://github.com/clydemcqueen/surftrak_fixit/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Discovery Bay",
-                    "email": "clyde@mcqueen.net"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {}
-                    },
-                    "HostConfig": {
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    },
-                    "Env": [
-                        "MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1"
-                    ]
-                }
-            },
-            "v1.0.0-beta.1": {
-                "identifier": "284c6155-4ffc-50aa-98dd-c7eae198eac5",
-                "type": "tool",
-                "website": "https://github.com/clydemcqueen/surftrak_fixit",
-                "images": [
-                    {
-                        "expanded_size": 313220600,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9cf0c02c92ef84c1964878116dd349fb923c0e220abb7a0a86583e6672213b73"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Clyde McQueen",
-                        "email": "clyde@mcqueen.net"
-                    }
-                ],
-                "filter_tags": [
-                    "surftrak"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0-beta.1",
-                "docs": null,
-                "readme": "# Surftrak Fixit \n\n_Surftrak_ is a new flight mode in [ArduSub 4.5](https://www.ardusub.com/).\n\n_Surftrak Fixit_ is a [BlueOS](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/)\nextension that can diagnose and suggest fixes for some common Surftrak problems.\n\n## Install\n\nTo install this extension in BlueOS:\n* Select _Extensions_ in the sidebar, then the _Installed_ tab\n* Click on the + icon in the lower right\n* Enter the following information, then click _Create_\n\n_Extension Identifier_\n~~~\nclydemcqueen.surftrak_fixit\n~~~\n\n_Extension Name_\n~~~\nsurftrak_fixit\n~~~\n\n_Docker image_\n~~~\nclydemcqueen/surftrak_fixit\n~~~\n\n_Docker tag_\n~~~\nv1.0.0-beta.1\n~~~\n\n_Custom settings_\n~~~\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"ExtraHosts\": [\"host.docker.internal:host-gateway\"],\n    \"PortBindings\": {\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  },\n  \"Env\": [\"MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1\"]\n}\n~~~\n",
-                "support": "https://github.com/clydemcqueen/surftrak_fixit/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Discovery Bay",
-                    "email": "clyde@mcqueen.net"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {}
-                    },
-                    "HostConfig": {
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    },
-                    "Env": [
-                        "MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1"
-                    ]
-                }
-            }
-        },
-        "repo_info": {
-            "downloads": 413,
-            "last_updated": "2024-06-23T16:01:49.148109Z",
-            "date_registered": "2024-06-08T17:31:16.936347Z"
         }
     },
     {
@@ -4898,7 +4723,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3086,
+            "downloads": 3090,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -6231,7 +6056,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25890,
+            "downloads": 25940,
             "last_updated": "2024-07-18T17:41:47.398377Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -6341,7 +6166,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4023,
+            "downloads": 4027,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -6532,80 +6357,6 @@
                     }
                 }
             },
-            "v1.0.4": {
-                "identifier": "2056eda3-d739-511c-a708-054d2ef830c2",
-                "type": "other",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 109534449,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:43fac24a1199fe0c9bcf5b61df0278f56197b744285cf30d8316bf7d1065e983"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.4",
-                "docs": null,
-                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host"
-                }
-            },
-            "v1.0.2": {
-                "identifier": "57d15a76-04cd-515d-a297-58a4bb60088e",
-                "type": "other",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 109912487,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9c14841b20f85887b029071ae14592ac0235ed0764256743b1db398b294a727b"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "# BlueOS-Cerulean-DVL\n\nCerulean DVL driver, compatible with Blue Robotics BlueOS.\n\n## Manual Installation: \n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host"
-                }
-            },
             "v1.0.1": {
                 "identifier": "5fda492f-72b4-54c0-bd0f-fca4761a0bfd",
                 "type": "other",
@@ -6645,7 +6396,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13320,
+            "downloads": 13334,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -7876,7 +7627,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9268,
+            "downloads": 9287,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -8003,7 +7754,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82068,
+            "downloads": 82072,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -8115,7 +7866,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87377,
+            "downloads": 87381,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -8129,73 +7880,6 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
         "versions": {
-            "v1.14.0": {
-                "identifier": "1c7ef7f2-05d3-5efb-815f-de4c075ca8d9",
-                "type": "other",
-                "website": "https://github.com/Williangalvani/zerotierone",
-                "images": [
-                    {
-                        "expanded_size": 67417026,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:831682262dd736b8844e59d9bb49e479755c6cc0b27b71e4058c91033b7d2a40"
-                    },
-                    {
-                        "expanded_size": 83870955,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:d5da9ed246a39fc0f849107530931bd87ae1156b2da776855483bbb092010e9e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "communication"
-                ],
-                "extra_links": {},
-                "tag": "v1.14.0",
-                "docs": null,
-                "readme": ">**NOTE:** This is a [BlueOS Extension](https://blueos.cloud/docs/blueos/1.1/extensions/) for using the [ZeroTier](https://www.zerotier.com/) service on a BlueOS device. It sets up a VPN to access your device from anywhere with an internet connection.\n## Initial Setup\n\n1. Install [the ZeroTier extension](https://docs.bluerobotics.com/BlueOS-Extensions-Repository/#:~:text=ZeroTier,Maintainer) on your vehicle\n1. [Download ZeroTier](https://www.zerotier.com/download/) on the device(s) you want to connect with\n1. [Log In](https://my.zerotier.com/login) to ZeroTier online\n    - create an account if you haven't used ZeroTier before)\n1. Create a new network and copy the generated network ID\n1. Join the network (using the ID) from the BlueOS ZeroTier Extension page, as well as through the ZeroTier interface on your device(s)\n1. If using a private network, return to the online ZeroTier interface, scroll down to the \"Members\" section, and allow each device access to the network by checking the \"Auth?\" checkbox beside its listing\n    - For ease of future management, it may help to give meaningful names and/or descriptions to the devices in the table\n1. You should now be able to access the BlueOS web interface through the ZeroTier connection\n    - You can use the **vehicle**'s mDNS address (e.g. http://blueos.local, by default), or the **vehicle**'s \"Managed IP\" shown in ZeroTier's online interface (in the \"Members\" section)\n    - Connecting through ZeroTier requires both ends of the connection to be on the same ZeroTier network and connected to the internet\n1. Configure the desired endpoints (for MAVLink telemetry, video streams, serial, etc) to point to the intended recipient\n    - Setting up a video stream requires setting up a stream endpoint for it in the [Video Streams](https://blueos.cloud/docs/blueos/1.1/advanced-usage/#video-streams) page\n        - Creating a new stream endpoint while connected to BlueOS through the ZeroTier connection will automatically use the connected **device**'s IP address\n        - You can also get the relevant **device** IP address(es) through the ZeroTier online interface (in the \"Managed IPs\" column)\n        - BlueOS video streams can provide multiple endpoints of the same type, to send to multiple devices\n            - You can edit a stream to add more endpoints\n    - Vehicle telemetry+control through QGroundControl is generally handled via a UDP Client link set up in BlueOS's [MAVLink Endpoints](https://blueos.cloud/docs/blueos/1.1/advanced-usage/#mavlink-endpoints) page\n        - Creating a new UDP Client endpoint while connected through the ZeroTier connection will automatically use the connected **device**'s IP address\n        - You can also get the relevant **device** IP address through the ZeroTier online interface (in the \"Managed IPs\" column)\n    - It is technically also possible to set up a MAVLink connection using BlueOS's GCS Server Link, although it may be less robust\n        - Doing this requires adding a \"Comm Link\" in QGroundControl's Application Settings (instead of creating a new endpoint in BlueOS)\n            - you can add the server as the **vehicle**'s mDNS address (e.g. `blueos.local`) or the **vehicle**'s IP address, and leave the port as `14550`\n        - Make sure the GCS Server Link is enabled in BlueOS\n\n## General Usage\n\nOnce the network and endpoints have been configured it should be possible to reconnect at will, whenever the vehicle and a device are both connected to the internet, and connected to a ZeroTier network they're both authorised on.\n\nIf a device leaves a ZeroTier network (or is not connected to the internet) then it will not be accessible to the rest of the network. ZeroTier's online manager can be used to de-authorise devices and/or remove them from the network entirely.\n\n## Troubleshooting\n\n- If the ZeroTier Status is showing as `ACCESS_DENIED`, you're connected to a privately configured ZeroTier network and the network owner (likely yourself) needs to authorise your device through the \"Members\" section of ZeroTier's online interface for that network\n- If the connection is not working it can help to check the \"Last Seen\" column of the \"Members\" section of ZeroTier's online interface, to determine whether one or multiple of your devices is not currently connected to the ZeroTier network (it may be having internet connectivity issues, or may just need to connect to the network through its ZeroTier interface)\n    - If you can't find your device's ZeroTier interface, it may be an icon in your taskbar / menubar\n- Determining which device is which in ZeroTier's online interface requires knowing which order they attempted to join the network, or having access to the devices so you can identify them by disconnecting them from the network (or the internet) and seeing which one changes in the \"Last Seen\" column\n- If the connection is working but some of the endpoints aren't, make sure the endpoints are configured to use the correct IP address\n    - Something on the vehicle sending/connecting to a device (e.g. video, GCS MAVLink UDP client link for telemetry, etc) needs to be directed towards the **device**'s IP address\n    - Using a device to connect to the vehicle (e.g. to access the BlueOS web interface, or connect to a GCS server link for telemetry) needs to use the **vehicle**'s IP or mDNS address",
-                "support": "https://github.com/Williangalvani/zerotierone/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "CapAdd": [
-                            "SYS_ADMIN",
-                            "NET_ADMIN"
-                        ],
-                        "Binds": [
-                            "/usr/blueos/extensions/zerotier:/var/lib/zerotier-one",
-                            "/var/lib/zerotier-one:/old-settings"
-                        ],
-                        "Devices": [
-                            {
-                                "PathOnHost": "/dev/net/tun",
-                                "PathInContainer": "/dev/net/tun",
-                                "CgroupPermissions": "rwm"
-                            }
-                        ]
-                    }
-                }
-            },
             "v1.12.3": {
                 "identifier": "d8da95f8-29ff-5b64-a4ac-3e4425d890f4",
                 "type": "other",
@@ -8425,7 +8109,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42911,
+            "downloads": 42923,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -8521,7 +8205,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1055,
+            "downloads": 1059,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8688,7 +8372,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131863,
+            "downloads": 131873,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8858,7 +8542,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40126,
+            "downloads": 40130,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -9019,67 +8703,6 @@
                     }
                 }
             },
-            "1.0.0": {
-                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "1.0.0",
-                "docs": null,
-                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "v1.0.0": {
                 "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
                 "type": "example",
@@ -9126,6 +8749,67 @@
                 "tag": "v1.0.0",
                 "docs": null,
                 "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/v1.0.0/README.md: status: 404: 404: Not Found",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.0": {
+                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.0",
+                "docs": null,
+                "readme": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
@@ -9195,7 +8879,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1899,
+            "downloads": 1911,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -9316,7 +9000,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84341,
+            "downloads": 84347,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9473,7 +9157,7 @@
             }
         },
         "repo_info": {
-            "downloads": 783,
+            "downloads": 786,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -9604,7 +9288,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3169,
+            "downloads": 3172,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -9618,63 +9302,6 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
         "versions": {
-            "v1.0.1": {
-                "identifier": "bf421443-99eb-57ac-8de4-190157c0c680",
-                "type": "example",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "images": [
-                    {
-                        "expanded_size": 46802192,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:34d8e4576adb26c8db7a338b595cf01857da21c3a67f14796f0e503b4f0edfbd"
-                    },
-                    {
-                        "expanded_size": 41255503,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:268ee547e87fc7b4c8c6dbd360a1e8a1c10228164e2458d9220b6a06155a8951"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "support": "https://github.com/Williangalvani/BlueOS-examples/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0": {
                 "identifier": "f01e3e89-4f93-5c96-8b6a-5526699bebb1",
                 "type": "other",
@@ -9725,7 +9352,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79463,
+            "downloads": 79469,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -9739,178 +9366,6 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/blueos-proxy/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
         "versions": {
-            "v1.0.4": {
-                "identifier": "46c43d44-b4e5-5705-9850-a1fdac70a0ef",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
-                "images": [
-                    {
-                        "expanded_size": 84850534,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:fd1b9813bd070ed908eedd1893a4384bb326c4810822fa90559cf4cb9c27742e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.4",
-                "docs": null,
-                "readme": "# Blueos Proxy Extension\n\nThis allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.",
-                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {},
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
-                        ],
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "v1.0.3": {
-                "identifier": "0f5fa5df-187c-52c9-91f7-59550a1f923d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
-                "images": [
-                    {
-                        "expanded_size": 84759554,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a5f4b1f8bacfcb91b79e43880c2d4130854f8b84850450e5b3342628b7ad078a"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.3",
-                "docs": null,
-                "readme": "# Blueos Proxy Extension\n\nThis allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.",
-                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {},
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
-                        ],
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "v1.0.2": {
-                "identifier": "a0cacf66-8f2c-58d5-b730-1cead219d628",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
-                "images": [
-                    {
-                        "expanded_size": 84749977,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:558d5fd76d64ebf386f9d3b999e735f06d5c5e5083185bb8eee43da06fb21160"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "# Blueos Proxy Extension\n\nThis allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.",
-                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {},
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
-                        ],
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "v1.0.1": {
-                "identifier": "7a4a7012-1030-5396-a25f-f9feb4bee516",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
-                "images": [
-                    {
-                        "expanded_size": 84582989,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:403797eeef9396e67001caa71d638c64e10a8e27aad5f16838208de4c7ae5c47"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "# Blueos Proxy Extension\n\nThis allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.",
-                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {},
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
-                        ],
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "v1.0.0": {
                 "identifier": "ecdb7a22-1823-574b-9165-0fc25d948f3b",
                 "type": "example",
@@ -9999,7 +9454,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5246,
+            "downloads": 5258,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
