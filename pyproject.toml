@@ -10,11 +10,15 @@ authors = [
 license = {text = "MIT License"}
 requires-python = ">=3.10"
 dependencies = [
+    "aiocache==0.12.2",
     "aiohttp==3.7.4",
     "aiohttp-retry==2.8.3",
-    "json-five==1.1.1",
-    "semver>=2.13.0",
+    "beautifulsoup4==4.12.3",
     "dataclass-wizard==0.22.3",
+    "json-five==1.1.1",
+    "markdown==3.6",
+    "pillow==10.4.0",
+    "semver>=2.13.0",
 ]
 
 [project.optional-dependencies]
@@ -24,6 +28,7 @@ dev = [
     "mypy==0.941",
     "pydantic==1.9.0",
     "pylint==2.14.5",
+    "types-Markdown==3.6.0.20240316",
 ]
 
 [tool.setuptools]
