@@ -122,7 +122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2351,
+            "downloads": 2355,
             "last_updated": "2024-02-02T17:20:22.289289Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -671,6 +671,83 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.0-beta.21",
+                "docs": null,
+                "readme": null,
+                "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0-beta.20": {
+                "identifier": "6d104a93-7dd0-5e3d-a03b-93923a62c47e",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 15821318,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:690181829375f70aaeb4dc884ed8bbd0c7627bfe911880767850b865f8891b78"
+                    },
+                    {
+                        "expanded_size": 15865306,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5508494d94cef80625d817764c7221b0b09d417fb31def22ff25f37ef8fbef42"
+                    },
+                    {
+                        "expanded_size": 15609220,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:cab0c9ea9afb911150f314d1c09ce6a2825b91750ad5c062976748a56d8b272b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Rafael Araujo Lehmkuhl",
+                        "email": "rafael@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrick@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "vehicle-control",
+                    "control-station",
+                    "ground-station",
+                    "navigation",
+                    "joystick",
+                    "mission-planning"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.20",
                 "docs": null,
                 "readme": null,
                 "support": "https://discuss.bluerobotics.com/c/bluerobotics-software",
@@ -1852,8 +1929,8 @@
             }
         },
         "repo_info": {
-            "downloads": 47099,
-            "last_updated": "2024-07-31T18:13:38.070971Z",
+            "downloads": 47156,
+            "last_updated": "2024-08-01T00:13:15.183039Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -1962,7 +2039,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1940,
+            "downloads": 1943,
             "last_updated": "2024-02-05T11:45:01.761497Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -2618,7 +2695,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16327,
+            "downloads": 16349,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -2682,7 +2759,7 @@
             }
         },
         "repo_info": {
-            "downloads": 768,
+            "downloads": 770,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -2998,7 +3075,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5651,
+            "downloads": 5660,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -3071,7 +3148,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1409,
+            "downloads": 1411,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -3508,7 +3585,7 @@
             }
         },
         "repo_info": {
-            "downloads": 230537,
+            "downloads": 230567,
             "last_updated": "2024-07-18T22:37:03.827152Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3576,7 +3653,7 @@
             }
         },
         "repo_info": {
-            "downloads": 614,
+            "downloads": 615,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3698,7 +3775,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1853,
+            "downloads": 1857,
             "last_updated": "2024-04-23T11:44:14.777434Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -4230,7 +4307,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15024,
+            "downloads": 15042,
             "last_updated": "2023-07-31T13:20:08.25399Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -4368,68 +4445,6 @@
                     ]
                 }
             },
-            "v1.0.1": {
-                "identifier": "32a5efd4-9364-5021-a677-9c6371f90e29",
-                "type": "device-integration",
-                "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
-                "images": [
-                    {
-                        "expanded_size": 44578751,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e0fab510697080cd9c972e1eeb987371fc49f11d64384574a1c80fd72da5c3a6"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Clyde McQueen",
-                        "email": "clyde@mcqueen.net"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "short-baseline"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "# WL UGPS External \n\nSend NMEA position information (GGA and HDT) to the [Water Linked UGPS](https://waterlinked.com/underwater-gps-g2) API.\n\n## Typical Configuration\n\nAdd a satellite compass to the topside vessel and connect it to the ROV Ethernet network.\n* It should have a static IP address on the 192.168.2.X subnet\n* It should send GGA and HDT messages via UDP to BlueOS at 192.168.2.2:6200\n\nInstall this extension in [BlueOS](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/):\n* Select _Extensions_ in the sidebar\n* Click on _WL UGPS External_\n* Click _Install_\n\nAfter a few moments you should see the _WL UGPS External_ entry in the sidebar.\nClick on it to see a very simple UI.\n\n## Arguments\n\n* `UGPS_HOST` is the IP address of the WL UGPS G2 box, the default is `http://192.168.2.94`\n* `SEND_RATE` is the rate to send position information to the G2 box, the default is 2Hz\n\n## Caveats\n\n* The G2 box still needs a GPS fix to synchronize its clock.\n\n## Releases\n\n### v1.0.1\n\n* Simplified README\n\n### v1.0.0\n\n* Initial release\n",
-                "support": "https://github.com/clydemcqueen/wl_ugps_external_extension/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Discovery Bay Robotics",
-                    "email": "clyde@mcqueen.net"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {},
-                        "6200:6200/udp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "6200/udp": [
-                                {
-                                    "HostPort": "6200"
-                                }
-                            ],
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    },
-                    "Env": [
-                        "UGPS_HOST=http://192.168.2.94",
-                        "SEND_RATE=2.0"
-                    ]
-                }
-            },
             "v1.0.0": {
                 "identifier": "b0578e4c-ce55-55d4-8f15-6769980b788c",
                 "type": "device-integration",
@@ -4494,7 +4509,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2859,
+            "downloads": 2867,
             "last_updated": "2024-06-14T16:05:45.734394Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4622,7 +4637,7 @@
             }
         },
         "repo_info": {
-            "downloads": 421,
+            "downloads": 425,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -4821,7 +4836,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3095,
+            "downloads": 3102,
             "last_updated": "2023-10-26T13:16:24.81287Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -6154,7 +6169,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25994,
+            "downloads": 26042,
             "last_updated": "2024-07-18T17:41:47.398377Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -6264,7 +6279,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4031,
+            "downloads": 4035,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -6568,7 +6583,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13348,
+            "downloads": 13362,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -7799,7 +7814,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9306,
+            "downloads": 9325,
             "last_updated": "2024-06-19T08:36:07.572052Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7926,7 +7941,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82076,
+            "downloads": 82080,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -8038,7 +8053,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87385,
+            "downloads": 87389,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -8348,7 +8363,7 @@
             }
         },
         "repo_info": {
-            "downloads": 42929,
+            "downloads": 42939,
             "last_updated": "2024-05-12T04:54:48.388629Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -8444,7 +8459,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1063,
+            "downloads": 1067,
             "last_updated": "2024-05-11T05:26:47.323174Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8611,7 +8626,7 @@
             }
         },
         "repo_info": {
-            "downloads": 131879,
+            "downloads": 131885,
             "last_updated": "2023-05-18T15:14:34.292175Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8781,7 +8796,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40134,
+            "downloads": 40138,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -9118,7 +9133,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1925,
+            "downloads": 1937,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -9239,7 +9254,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84351,
+            "downloads": 84355,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9396,7 +9411,7 @@
             }
         },
         "repo_info": {
-            "downloads": 789,
+            "downloads": 792,
             "last_updated": "2024-06-28T11:53:31.838581Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -9527,7 +9542,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3175,
+            "downloads": 3178,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -9648,7 +9663,7 @@
             }
         },
         "repo_info": {
-            "downloads": 79473,
+            "downloads": 79477,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -9922,7 +9937,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5270,
+            "downloads": 5282,
             "last_updated": "2024-05-05T03:21:37.27099Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
