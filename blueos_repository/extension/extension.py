@@ -172,7 +172,7 @@ class Extension:
                     Logger.warning(self.identifier, str(error))
             except Exception as error:  # pylint: disable=broad-except
                 Logger.warning(self.identifier, str(error))
-                readme = str(error)
+                readme = "No README available"
 
         images = self.__extract_images_from_tag(version_tag)
         if not images:
