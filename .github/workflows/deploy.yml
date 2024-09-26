@@ -36,6 +36,7 @@ jobs:
           python blueos_repository/consolidate.py
           mv manifest.json build/
           mv manifest.log build/
+          gzip build/manifest.json --best --keep
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
@@ -58,6 +59,12 @@ jobs:
         with:
           name: manifest.json
           path: build/manifest.json
+
+      - name: Upload manifest gz
+        uses: actions/upload-artifact@v4
+        with:
+          name: manifest.json.gz
+          path: build/manifest.json.gz
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
