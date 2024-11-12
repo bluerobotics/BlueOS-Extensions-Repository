@@ -112,7 +112,7 @@ class Extension:
             bool: True if compatible, False otherwise.
         """
 
-        return bool(platform.os == "linux" and platform.architecture == "arm")
+        return bool(platform.os == "linux" and "arm" in platform.architecture)
 
     async def __extract_valid_embedded_digest(self, fetch: ManifestFetch) -> str:
         """
