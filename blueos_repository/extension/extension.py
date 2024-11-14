@@ -137,8 +137,9 @@ class Extension:
         # Manifest list
         valid_manifests = [entry for entry in fetch.manifest.manifests if self.__is_compatible(entry.platform)]
         if len(valid_manifests) != 1:
-            raise RuntimeError(
-                f"Expected one valid manifest for target embedded arch but found: {len(valid_manifests)}"
+            Logger.warning(
+                self.identifier,
+                f"Expected one valid manifest for target embedded arch but found: {len(valid_manifests)}",
             )
 
         # Needs to refetch because it was a manifest list
