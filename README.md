@@ -22,7 +22,7 @@ For publishing a new extension, open a pull request to this repository with the 
 }
 ```
 
-/repos/yourcompany/yourextension/company_logo.png
+/repos/yourcompany/company_logo.png
 Your company logo
 
 /repos/yourcompany/yourextension/extension_logo.png
