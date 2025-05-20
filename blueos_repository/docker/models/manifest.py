@@ -15,7 +15,7 @@ class ManifestPlatform:
     """
 
     architecture: str
-    os: str  # pylint: disable=invalid-name
+    os: str
     variant: Optional[str] = None
     features: Optional[List[str]] = None
 
