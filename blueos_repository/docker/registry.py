@@ -127,9 +127,9 @@ class DockerRegistry:
         manifest = await self.get(route, headers=header)
 
         if "config" in manifest:
-            return ManifestFetch(is_image_manifest=True, manifest=fromdict(ImageManifest, manifest))
+            return ManifestFetch(manifest=fromdict(ImageManifest, manifest))
 
-        return ManifestFetch(is_image_manifest=False, manifest=fromdict(ManifestList, manifest))
+        return ManifestFetch(manifest=fromdict(ManifestList, manifest))
 
     async def get_manifest_blob(self, digest: str) -> Blob:
         """
