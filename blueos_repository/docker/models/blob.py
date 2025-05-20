@@ -30,4 +30,4 @@ class Blob:
 
     config: BlobConfig
     architecture: Optional[str] = None
-    os: Optional[str] = None  # pylint: disable=invalid-name
+    os: Optional[str] = None
