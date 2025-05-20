@@ -27,7 +27,7 @@ dev = [
     "isort==5.10.1",
     "mypy==0.981",
     "pydantic==1.9.0",
-    "pylint==2.14.5",
+    "pylint==3.3.7",
     "types-Markdown==3.6.0.20240316",
 ]
 
