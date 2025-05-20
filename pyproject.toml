@@ -47,6 +47,7 @@ profile = "black"
 [tool.pylint.master]
 enable = "all"
 disable = [
+    "broad-exception-raised",
     "line-too-long", # We already have this in black.
     "locally-disabled", # We know what we are doing, necessary to load plugins in runtime
     "missing-class-docstring",
