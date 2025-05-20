@@ -1,7 +1,7 @@
 import base64
 import math
 import re
-from io import BytesIO  # pylint: disable=no-name-in-module
+from io import BytesIO
 from typing import Optional, Tuple
 
 import aiohttp
