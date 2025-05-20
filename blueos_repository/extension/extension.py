@@ -6,7 +6,7 @@ import aiohttp
 import json5
 from docker.hub import DockerHub
 from docker.models.blob import Blob
-from docker.models.manifest import ManifestFetch, ManifestPlatform
+from docker.models.manifest import ImageManifest, ManifestFetch, ManifestPlatform
 from docker.models.repo import RepoInfo
 from docker.models.tag import Tag
 from docker.registry import DockerRegistry
@@ -131,7 +131,7 @@ class Extension:
         """
 
         # Regular images/ OCI images
-        if fetch.is_image_manifest:
+        if isinstance(fetch.manifest, ImageManifest):
             return str(fetch.manifest.config.digest)
 
         # Manifest list
@@ -145,7 +145,7 @@ class Extension:
         # Needs to refetch because it was a manifest list
         manifest_fetch = await self.registry.get_manifest(valid_manifests[0].digest)
 
-        if manifest_fetch.is_image_manifest:
+        if isinstance(manifest_fetch.manifest, ImageManifest):
             return str(manifest_fetch.manifest.config.digest)
 
         raise RuntimeError(f"Expected to have a valid image manifest but got a manifest list: {manifest_fetch}")
@@ -186,7 +186,7 @@ class Extension:
         return ExtensionVersion(
             identifier=tag_identifier,
             tag=version_tag.name,
-            type=labels.get("type", ExtensionType.OTHER),
+            type=ExtensionType(labels.get("type", ExtensionType.OTHER.value)),
             website=links.pop("website", labels.get("website", None)),
             readme=readme,
             support=links.pop("support", labels.get("support", None)),
