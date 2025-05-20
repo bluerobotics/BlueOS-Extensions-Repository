@@ -41,7 +41,7 @@ class TagImage:  # pylint: disable=too-many-instance-attributes
     architecture: str
     features: str
     variant: str
-    os: str  # pylint: disable=invalid-name
+    os: str
     os_features: str
     size: int
     status: str
@@ -81,7 +81,7 @@ class Tag:  # pylint: disable=too-many-instance-attributes
         tag_last_pushed (Optional[str]): The timestamp of the last time the tag was pushed.
     """
 
-    id: int  # pylint: disable=invalid-name
+    id: int
     images: List[TagImage]
     creator: int
     last_updater: int
@@ -89,7 +89,7 @@ class Tag:  # pylint: disable=too-many-instance-attributes
     name: str
     repository: int
     full_size: int
-    v2: str  # pylint: disable=invalid-name
+    v2: str
     last_updated: Optional[str] = None
     tag_last_pulled: Optional[str] = None
     tag_last_pushed: Optional[str] = None
