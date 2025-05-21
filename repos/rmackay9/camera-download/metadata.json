@@ -1,0 +1,6 @@
+{
+    "name": "Camera Download",
+    "website": "https://github.com/rmackay9/blueos-camera-download",
+    "docker": "rmackay9/blueos-camera-download",
+    "description": "Download images and videos from camera gimbals connected via Ethernet"
+}
