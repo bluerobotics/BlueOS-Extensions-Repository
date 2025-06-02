@@ -1,0 +1,20 @@
+name: Comment on PR creation
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment on new PR
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            🚀 Thanks sending the PR @${{ github.event.pull_request.user.login }}!
+            It'll be reviewed by the team soon.
+            If you have any questions, please feel free to ask.
+            Thanks!
