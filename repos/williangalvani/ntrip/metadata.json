@@ -1,0 +1,6 @@
+{
+    "name": "Ntrip",
+    "website": "https://github.com/Williangalvani/BlueOS-Ntrip-extension",
+    "docker": "williangalvani/blueos-ntrip-extension",
+    "description": "Ntrip extension for BlueOS"
+}
