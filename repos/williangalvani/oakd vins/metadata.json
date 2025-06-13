@@ -1,0 +1,6 @@
+{
+    "name": "Oak-D Visual Odometry",
+    "website": "https://github.com/Williangalvani/Blueos-oakd-vins",
+    "docker": "williangalvani/blueos-oakd-vins",
+    "description": "Visual Odometry using Oak-D cameras"
+}
