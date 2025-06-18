@@ -20,6 +20,7 @@ class ExtensionType(StrEnum):
     THEME = "theme"
     OTHER = "other"
     TOOL = "tool"
+    EDUCATION = "education"
 
 
 @dataclasses.dataclass
