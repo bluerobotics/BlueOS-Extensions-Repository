@@ -17,7 +17,7 @@ MANIFEST_FILE = "manifest.json"
 
 MANIFEST_LOG = "manifest.log"
 
-REPO_ROOT_URL = "https://bluerobotics.github.io/BlueOS-Extensions-Repository/repos"
+REPO_ROOT_URL = "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos"
 
 
 @dataclasses.dataclass
