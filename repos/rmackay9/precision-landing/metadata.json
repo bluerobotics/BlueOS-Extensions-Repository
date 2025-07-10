@@ -1,0 +1,6 @@
+{
+    "name": "Precision Landing",
+    "website": "https://github.com/rmackay9/blueos-precision-landing",
+    "docker": "rmackay9/blueos-precision-landing",
+    "description": "Precision landing on an AprilTag using a camera gimbal connected via Ethernet"
+}
