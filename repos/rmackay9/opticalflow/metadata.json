@@ -1,0 +1,6 @@
+{
+    "name": "OpticalFlow",
+    "website": "https://github.com/rmackay9/blueos-opticalflow",
+    "docker": "rmackay9/blueos-opticalflow",
+    "description": "Optical Flow using a camera gimbal connected via Ethernet"
+}
