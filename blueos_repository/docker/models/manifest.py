@@ -15,7 +15,7 @@ class ManifestPlatform:
     """
 
     architecture: str
-    os: str  # pylint: disable=invalid-name
+    os: str
     variant: Optional[str] = None
     features: Optional[List[str]] = None
 
@@ -115,9 +115,7 @@ class ManifestFetch:
     Represents a manifest fetch response.
 
     Attributes:
-        is_image_manifest (bool): True if the manifest is an image manifest, False if is a ManifestList.
         manifest (Manifest | ManifestList | ImageManifest): The manifest object.
     """
 
-    is_image_manifest: bool
     manifest: ManifestList | ImageManifest

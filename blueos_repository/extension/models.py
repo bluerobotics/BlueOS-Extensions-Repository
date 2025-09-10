@@ -20,6 +20,7 @@ class ExtensionType(StrEnum):
     THEME = "theme"
     OTHER = "other"
     TOOL = "tool"
+    EDUCATION = "education"
 
 
 @dataclasses.dataclass
@@ -49,7 +50,7 @@ class Platform:
 
     architecture: str
     variant: Optional[str] = None
-    os: Optional[str] = None  # pylint: disable=invalid-name
+    os: Optional[str] = None
 
 
 @dataclasses.dataclass

@@ -116,7 +116,7 @@ class Logger:
             file_name (str): The file name to dump the log buffer
         """
 
-        with open(file_name, "w") as log_file:
+        with open(file_name, "w", encoding="utf-8") as log_file:
             log_file.write(
                 json.dumps(dataclasses.asdict(Logger.log_buffer), indent=4, sort_keys=True, cls=EnhancedJSONEncoder)
             )

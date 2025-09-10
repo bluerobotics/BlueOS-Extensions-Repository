@@ -32,9 +32,9 @@ class DockerAuthAPI:  # pylint: disable=too-few-public-methods
 
         if username and password:
             self.__auth_header = f"Basic {base64.b64encode(f'{username}:{password}'.encode()).decode()}"
-        elif "DOCKER_USERNAME" in os.environ and "DOCKER_PASSWORD" in os.environ:  # pylint: disable=no-member
-            username = os.environ["DOCKER_USERNAME"]  # pylint: disable=no-member
-            password = os.environ["DOCKER_PASSWORD"]  # pylint: disable=no-member
+        elif "DOCKER_USERNAME" in os.environ and "DOCKER_PASSWORD" in os.environ:
+            username = os.environ["DOCKER_USERNAME"]
+            password = os.environ["DOCKER_PASSWORD"]
             self.__auth_header = f"Basic {base64.b64encode(f'{username}:{password}'.encode()).decode()}"
 
         self.__retry_options = aiohttp_retry.ExponentialRetry(attempts=max_retries)
