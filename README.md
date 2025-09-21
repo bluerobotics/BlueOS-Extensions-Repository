@@ -5,7 +5,7 @@
 
 This is a repository for metadata of BlueOS Extensions.
 
-- [Documentation](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/extensions)
+- [Documentation](https://blueos.cloud/docs/latest/development/extensions/)
 - [Available Extensions](https://docs.bluerobotics.com/BlueOS-Extensions-Repository)
 
 For publishing a new extension, open a pull request to this repository with the following structure:
