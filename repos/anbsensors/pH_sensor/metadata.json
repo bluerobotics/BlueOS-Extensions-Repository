@@ -1,0 +1,6 @@
+{
+    "name": "ANB Sensors GUI",
+    "website": "https://github.com/dbtuna/BlueOS-UI",
+    "docker": "dbtuna/anbsensors-gui",
+    "description": "BlueOS extension for ANB Sensors pH Sensor"
+}
