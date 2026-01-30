@@ -1,8 +1,5 @@
 # BlueOS-Extensions-Repository
 
-> **Warning**
-> This is still very experimental and subject to changes!
-
 This is a repository for metadata of BlueOS Extensions.
 
 - [Documentation](https://blueos.cloud/docs/latest/development/extensions/)
