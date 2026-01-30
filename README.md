@@ -4,6 +4,7 @@ This is a repository for metadata of BlueOS Extensions.
 
 - [Documentation](https://blueos.cloud/docs/latest/development/extensions/)
 - [Available Extensions](https://docs.bluerobotics.com/BlueOS-Extensions-Repository)
+- [Community Extensions, Tools, and Examples](https://github.com/BlueOS-Community/)
 
 For publishing a new extension, open a pull request to this repository with the following structure:
 
