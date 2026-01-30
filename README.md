@@ -6,29 +6,28 @@ This is a repository for metadata of BlueOS Extensions.
 - [Available Extensions](https://docs.bluerobotics.com/BlueOS-Extensions-Repository)
 - [Community Extensions, Tools, and Examples](https://github.com/BlueOS-Community/)
 
+---
+
 For publishing a new extension, open a pull request to this repository with the following structure:
 
 ## Data in this repository
 
-/repos/yourcompany/yourextension/metadata.json
-```json
-{
-    "name": "The Name of Your Extension",
-    "website": "https://your.extension.website.com/",
-    "docker": "your-dockerhub-user/your-extension-docker",
-    "description": "A brief description of your extension. This will be shown in the store card."
-}
-```
+1. Extension registration metadata: `/repos/yourcompany/yourextension/metadata.json`
+    ```json
+    {
+        "name": "The Name of Your Extension",
+        "website": "https://your.extension.website.com/",
+        "docker": "your-dockerhub-user/your-extension-docker",
+        "description": "A brief description of your extension. This will be shown in the store card."
+    }
+    ```
+1. Your Extension logo: `/repos/yourcompany/yourextension/extension_logo.png`
+1. Your company logo: `/repos/yourcompany/company_logo.png`
+    - You only need to add this the first time you add an Extension
 
-/repos/yourcompany/company_logo.png
-Your company logo
+## Data in DockerHub
 
-/repos/yourcompany/yourextension/extension_logo.png
-Your extension logo
-
-## Data in dockerhub
-
-Additionally, we have versioned data. This data should be in each of your dockerhub tags, and use the following format:
+Additionally, we have versioned data. This data should be in each of your DockerHub tags, and use the following format:
 
 ```Dockerfile
 LABEL version="1.0.0"
@@ -79,7 +78,7 @@ LABEL tags='[\
  - `type` is a primary categorisation of the extension, and should be one of:
     - "device-integration"
     - "example"
-    - "theme"
+    - "tool"
     - "other"
 - `tags` is a collection of relevant tags for filtering, which should be lowercase alpha-numeric with dashes
     - limit of 10 per extension
@@ -89,7 +88,7 @@ Some additional information and examples are available in the
 
  ## How this repo works
 
- Every time this repo changes, a Github Action runs and goes through all the .json files in here. For each of them, it reaches out to dockerhub and fetches all the available tags, extracting the metadata in LABELS and crafting a complete `manifest.json`, which is stored in this repo's `gh-pages` branch.
+Every time this repo changes, a Github Action runs and goes through all the `.json` files in here. For each of them, it reaches out to DockerHub and fetches all the available tags, extracting the metadata in LABELS and crafting a complete `manifest.json`, which is stored in this repo's `gh-pages` branch.
 
 There is also a [website](https://docs.bluerobotics.com/BlueOS-Extensions-Repository) that gets generated, to show which extensions are currently available in the store.
 
