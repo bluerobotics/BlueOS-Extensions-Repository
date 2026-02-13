@@ -76,7 +76,7 @@ class DockerAuthAPI:  # pylint: disable=too-few-public-methods
 
         headers = {"Authorization": self.__auth_header} if self.__auth_header else {}
 
-        auth_url = f"{self.__api_url}/token?service=registry.docker.io&scope=repository:{repo}:pull"
+        auth_url = f"{self.__api_url}/token"
         async with aiohttp_retry.RetryClient(retry_options=self.__retry_options) as session:
             async with session.get(auth_url, params=params, headers=headers) as resp:
                 if resp.status != 200:
