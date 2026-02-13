@@ -1,0 +1,6 @@
+{
+    "name": "DORIS",
+    "website": "https://github.com/bluerobotics/blueos-doris-extension",
+    "docker": "bluerobotics/blueos-doris",
+    "description": "DORIS - Deep Ocean Research and Imaging System"
+}
