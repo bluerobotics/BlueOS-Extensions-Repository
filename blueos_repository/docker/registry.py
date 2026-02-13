@@ -178,12 +178,31 @@ class DockerRegistry:  # pylint: disable=too-many-instance-attributes
         route = f"{self.repository}/blobs/{digest}"
         header = {
             "Authorization": f"Bearer {self.__token.token if self.__token else ''}",
-            "Accept": "application/vnd.docker.distribution.manifest.v2+json,application/vnd.oci.image.manifest.v1+json,application/vnd.oci.image.index.v1+json",
+            "Accept": "application/vnd.oci.image.config.v1+json,application/json",
         }
 
         blob = await self.get(route, headers=header)
 
         return fromdict(Blob, blob)
+
+    async def list_tags(self) -> List[str]:
+        """
+        List all tags for the repository using the standard V2 tag listing API.
+
+        This is the registry-agnostic way to discover tags; it works on any
+        OCI-compliant registry (Docker Hub, GHCR, Quay, etc.).
+
+        Returns:
+            A list of tag name strings.
+        """
+
+        await self.__check_token()
+
+        route = f"{self.repository}/tags/list"
+        header = {"Authorization": f"Bearer {self.__token.token if self.__token else ''}"}
+
+        data = await self.get(route, headers=header)
+        return list(data.get("tags", []) or [])
 
     async def get_rate_limit(self) -> RateLimit:
 
