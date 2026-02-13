@@ -88,7 +88,7 @@ class Extension:
             if (image.status == "active" and image.architecture != "unknown" and image.os != "unknown")
         ]
 
-        images = [
+        return [
             Image(
                 digest=image.digest if image.digest else None,
                 expanded_size=image.size,
@@ -100,7 +100,6 @@ class Extension:
             )
             for image in active_images
         ]
-        return images
 
     def __is_compatible(self, platform: ManifestPlatform) -> bool:
         """
