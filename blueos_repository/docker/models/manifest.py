@@ -48,13 +48,13 @@ class ManifestList:
 
     Attributes:
         schemaVersion (int): This field specifies the image manifest schema version as an integer. This schema uses the version 2.
-        mediaType (str): The MIME type of the manifest list. This should be set to application/vnd.docker.distribution.manifest.list.v2+json.
         manifests (List[Manifest]): The manifests field contains a list of manifests for specific platforms.
+        mediaType (Optional[str]): The MIME type of the manifest list.
     """
 
     schemaVersion: int  # pylint: disable=invalid-name
-    mediaType: str  # pylint: disable=invalid-name
     manifests: List[Manifest]
+    mediaType: Optional[str] = None  # pylint: disable=invalid-name
 
 
 @dataclasses.dataclass
@@ -98,15 +98,15 @@ class ImageManifest:
 
     Attributes:
         schemaVersion (int): The image manifest schema version as an integer, version 2 is expected.
-        mediaType (str): MIME type of the manifest, expected to be application/vnd.docker.distribution.manifest.v2+json.
+        mediaType (Optional[str]): MIME type of the manifest. Optional per OCI spec.
         config (ConfigObject): The configuration object for a container by digest.
         layers (List[Layer]): Ordered list of layers starting from the base image.
     """
 
     schemaVersion: int  # pylint: disable=invalid-name
-    mediaType: str  # pylint: disable=invalid-name
     config: ConfigReference
     layers: List[ManifestLayer]
+    mediaType: Optional[str] = None  # pylint: disable=invalid-name  # Optional per OCI spec
 
 
 @dataclasses.dataclass
