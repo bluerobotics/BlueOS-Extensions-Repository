@@ -80,7 +80,8 @@ class Extension:
         encoder = MarkdownImageEncoder(readme, resources_url)
         return str(await encoder.get_processed_markdown())
 
-    def __extract_images_from_tag(self, tag: Tag) -> List[Image]:
+    @staticmethod
+    def __extract_images_from_tag(tag: Tag) -> List[Image]:
         active_images = [
             image
             for image in tag.images
