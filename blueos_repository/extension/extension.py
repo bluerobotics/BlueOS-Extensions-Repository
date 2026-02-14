@@ -5,6 +5,7 @@ from typing import Dict, List, Optional
 import aiohttp
 import json5
 from docker.hub import DockerHub
+from docker.image_ref import DockerImageRef
 from docker.models.blob import Blob
 from docker.models.manifest import ImageManifest, ManifestFetch, ManifestPlatform
 from docker.models.repo import RepoInfo
@@ -48,9 +49,23 @@ class Extension:
         # Versions
         self.versions: Dict[str, ExtensionVersion] = {}
 
-        # Docker API
-        self.hub: DockerHub = DockerHub(metadata.docker)
-        self.registry: DockerRegistry = DockerRegistry(metadata.docker)
+        # Parse docker image reference to determine registry
+        self.image_ref: DockerImageRef = DockerImageRef.parse(metadata.docker)
+
+        # Docker Registry V2 API (works for any OCI-compliant registry)
+        self.registry: DockerRegistry = DockerRegistry(
+            self.image_ref.repository,
+            registry_url=self.image_ref.registry_url,
+            auth_url=self.image_ref.auth_url,
+            auth_service=self.image_ref.auth_service,
+        )
+
+        # Docker Hub has a proprietary REST API that provides richer tag
+        # metadata (ordering, pull counts, per-image details).  For other
+        # registries we fall back to the standard V2 tag list on self.registry.
+        self.docker_hub: Optional[DockerHub] = (
+            DockerHub(self.image_ref.repository) if self.image_ref.is_dockerhub else None
+        )
 
     @property
     def sorted_versions(self) -> Dict[str, ExtensionVersion]:
@@ -80,14 +95,15 @@ class Extension:
         encoder = MarkdownImageEncoder(readme, resources_url)
         return str(await encoder.get_processed_markdown())
 
-    def __extract_images_from_tag(self, tag: Tag) -> List[Image]:
+    @staticmethod
+    def __extract_images_from_tag(tag: Tag) -> List[Image]:
         active_images = [
             image
             for image in tag.images
             if (image.status == "active" and image.architecture != "unknown" and image.os != "unknown")
         ]
 
-        images = [
+        return [
             Image(
                 digest=image.digest if image.digest else None,
                 expanded_size=image.size,
@@ -99,7 +115,51 @@ class Extension:
             )
             for image in active_images
         ]
-        return images
+
+    @staticmethod
+    def __extract_images_from_manifest(manifest_fetch: ManifestFetch, blob: Blob) -> List[Image]:
+        """
+        Derive per-platform image information directly from a registry manifest.
+
+        This is the registry-agnostic path used when the Docker Hub tag API is
+        not available (e.g. GHCR, Quay, or any other OCI registry).
+
+        Args:
+            manifest_fetch: The fetched manifest (may be a single image or a manifest list / OCI index).
+            blob: The blob config for the embedded (ARM) image — used for
+                  platform info when the manifest is a single image.
+
+        Returns:
+            List of Image objects.
+        """
+
+        if isinstance(manifest_fetch.manifest, ImageManifest):
+            return [
+                Image(
+                    digest=manifest_fetch.manifest.config.digest,
+                    expanded_size=sum(layer.size for layer in manifest_fetch.manifest.layers),
+                    platform=Platform(
+                        architecture=blob.architecture or "unknown",
+                        variant=None,
+                        os=blob.os or "unknown",
+                    ),
+                )
+            ]
+
+        # ManifestList / OCI Index — entry.size is the manifest document
+        # size, NOT the image layer size, so we report 0 (unknown) instead.
+        return [
+            Image(
+                digest=entry.digest,
+                expanded_size=0,
+                platform=Platform(
+                    architecture=entry.platform.architecture,
+                    variant=entry.platform.variant if entry.platform.variant else None,
+                    os=entry.platform.os if entry.platform.os else None,
+                ),
+            )
+            for entry in manifest_fetch.manifest.manifests
+        ]
 
     def __is_compatible(self, platform: ManifestPlatform) -> bool:
         """
@@ -150,7 +210,25 @@ class Extension:
 
         raise RuntimeError(f"Expected to have a valid image manifest but got a manifest list: {manifest_fetch}")
 
-    async def __create_version_from_tag_blob(self, version_tag: Tag, blob: Blob) -> ExtensionVersion:
+    async def __create_version(  # pylint: disable=too-many-locals
+        self,
+        tag_name: str,
+        blob: Blob,
+        manifest: ManifestFetch,
+        hub_tag: Optional[Tag] = None,
+    ) -> ExtensionVersion:
+        """
+        Build an :class:`ExtensionVersion` from the blob labels, manifest, and
+        (optionally) Docker Hub tag metadata.
+
+        Args:
+            tag_name: The semver tag string (e.g. ``"1.2.3"``).
+            blob: The config blob for the embedded ARM image.
+            manifest: The top-level manifest fetch for this tag.
+            hub_tag: If available, the Docker Hub ``Tag`` object that provides
+                     rich per-image metadata (sizes, architecture, status).
+        """
+
         labels = blob.config.Labels
 
         authors = labels.get("authors", "[]")
@@ -163,7 +241,7 @@ class Extension:
 
         readme = labels.get("readme", None)
         if readme is not None:
-            url = readme.replace(r"{tag}", version_tag.name)
+            url = readme.replace(r"{tag}", tag_name)
             try:
                 readme = await Extension.fetch_readme(url)
                 try:
@@ -175,17 +253,23 @@ class Extension:
                 Logger.warning(self.identifier, str(error))
                 readme = "No README available"
 
-        images = self.__extract_images_from_tag(version_tag)
+        # Prefer Docker Hub's rich per-image data when available; otherwise
+        # derive the image list from the manifest (works for any registry).
+        images: List[Image] = []
+        if hub_tag:
+            images = self.__extract_images_from_tag(hub_tag)
+        if not images:
+            images = self.__extract_images_from_manifest(manifest, blob)
         if not images:
             Logger.error(
                 self.identifier,
-                f"Could not find images associated with tag {version_tag.name} for extension {self.identifier}",
+                f"Could not find images associated with tag {tag_name} for extension {self.identifier}",
             )
 
-        tag_identifier = str(uuid.uuid5(uuid.NAMESPACE_DNS, f"{self.identifier}.{version_tag.name}"))
+        tag_identifier = str(uuid.uuid5(uuid.NAMESPACE_DNS, f"{self.identifier}.{tag_name}"))
         return ExtensionVersion(
             identifier=tag_identifier,
-            tag=version_tag.name,
+            tag=tag_name,
             type=ExtensionType(labels.get("type", ExtensionType.OTHER.value)),
             website=links.pop("website", labels.get("website", None)),
             readme=readme,
@@ -197,19 +281,19 @@ class Extension:
             docs=json5.loads(docs_raw) if docs_raw else None,
             company=json5.loads(company_raw) if company_raw else None,
             permissions=json5.loads(permissions_raw) if permissions_raw else None,
-            images=self.__extract_images_from_tag(version_tag),
+            images=images,
         )
 
-    async def __process_tag_version(self, tag: Tag) -> None:
+    async def __process_tag(self, tag_name: str, hub_tag: Optional[Tag] = None) -> None:
         """
-        Process a tag and create a version object for it and store it in the versions
-        dictionary property.
+        Fetch the manifest and blob for *tag_name*, build an
+        :class:`ExtensionVersion`, and store it in ``self.versions``.
 
         Args:
-            tag (Tag): Tag to process.
+            tag_name: The tag string to process.
+            hub_tag: Optional Docker Hub ``Tag`` object for richer metadata.
         """
 
-        tag_name = tag.name
         try:
             if not valid_semver(tag_name):
                 raise ValueError(f"Invalid version naming: {tag_name}")
@@ -220,7 +304,7 @@ class Extension:
             embedded_digest = await self.__extract_valid_embedded_digest(manifest)
             blob = await self.registry.get_manifest_blob(embedded_digest)
 
-            self.versions[tag_name] = await self.__create_version_from_tag_blob(tag, blob)
+            self.versions[tag_name] = await self.__create_version(tag_name, blob, manifest, hub_tag)
 
             Logger.info(self.identifier, f"Generated version entry {tag_name} for extension {self.identifier}")
         except ValueError as error:
@@ -251,15 +335,20 @@ class Extension:
         """
 
         if tag:
-            return await self.__process_tag_version(tag)
+            return await self.__process_tag(tag.name, hub_tag=tag)
 
         try:
-            tags = await self.hub.get_tags()
-            self.repo_info = await self.hub.repo_info()
+            if self.docker_hub:
+                # Docker Hub: use its proprietary API for ordered results,
+                # rich per-image metadata, and download stats.
+                hub_tags = await self.docker_hub.get_tags()
+                self.repo_info = await self.docker_hub.repo_info()
+
+                await asyncio.gather(*(self.__process_tag(t.name, hub_tag=t) for t in hub_tags.results))
+            else:
+                # Any other OCI registry: use the standard V2 tag list.
+                tag_names = await self.registry.list_tags()
+
+                await asyncio.gather(*(self.__process_tag(name) for name in tag_names))
         except Exception as error:  # pylint: disable=broad-except
             Logger.error(self.identifier, f"Unable to fetch tags for {self.identifier}, error: {error}")
-            return
-
-        # We may want to split and process first 5 tags prior to make sure we dont reach limit and always have the
-        # latest ones processed.
-        await asyncio.gather(*(self.__process_tag_version(tag) for tag in tags.results))
