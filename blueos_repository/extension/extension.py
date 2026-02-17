@@ -157,7 +157,7 @@ class Extension:
         links = json5.loads(labels.get("links", "{}"))
         filter_tags = json5.loads(labels.get("tags", "[]"))
 
-        docs_raw = links.pop("docs", links.pop("documentation", labels.get("docs", None)))
+        docs_link = links.pop("docs", links.pop("documentation", labels.get("docs", None)))
         company_raw = labels.get("company", None)
         permissions_raw = labels.get("permissions", None)
 
@@ -194,7 +194,7 @@ class Extension:
             extra_links=links,
             authors=json5.loads(authors),
             filter_tags=ExtensionVersion.validate_filter_tags(filter_tags),
-            docs=json5.loads(docs_raw) if docs_raw else None,
+            docs=docs_link,
             company=json5.loads(company_raw) if company_raw else None,
             permissions=json5.loads(permissions_raw) if permissions_raw else None,
             images=self.__extract_images_from_tag(version_tag),
