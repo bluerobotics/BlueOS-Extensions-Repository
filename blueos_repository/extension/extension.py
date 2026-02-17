@@ -158,7 +158,7 @@ class Extension:
         filter_tags = json5.loads(labels.get("tags", "[]"))
 
         docs_link = links.pop("docs", links.pop("documentation", labels.get("docs", None)))
-        company_raw = labels.get("company", None)
+        company_raw = labels.get("company", labels.get("maintainer", None))
         permissions_raw = labels.get("permissions", None)
 
         readme = labels.get("readme", None)
