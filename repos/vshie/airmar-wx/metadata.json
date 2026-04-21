@@ -1,0 +1,6 @@
+{
+    "name": "Airmar WX",
+    "website": "https://github.com/vshie/Airmar-WX",
+    "docker": "vshie/blueos-airmar-wx",
+    "description": "Interface for Airmar WX-series WeatherStations (300WX, 200WX, etc.) over NMEA 0183. Auto-negotiates the serial baud rate, enables required sentences, shows a live dashboard with wind, atmospheric, GPS and attitude data, streams WIMWV (or GPS+heading) to ArduPilot over UDP, and publishes wind/GPS/heading to Cockpit via WebSocket."
+}
