@@ -1,0 +1,6 @@
+{
+    "name": "Airmar WX",
+    "website": "https://github.com/vshie/Airmar-WX",
+    "docker": "vshie/blueos-airmar-wx",
+    "description": "Interface for Airmar WX-series WeatherStations (300WX, 200WX) over NMEA 0183 \u2014 live dashboard, ArduPilot UDP, and Cockpit WebSocket output."
+}
