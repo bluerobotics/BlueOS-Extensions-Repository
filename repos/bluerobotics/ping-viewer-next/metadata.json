@@ -1,5 +1,5 @@
 {
-    "name": "Ping Viewer Next",
+    "name": "Ping Viewer",
     "website": "https://github.com/bluerobotics/ping-viewer-next",
     "docker": "bluerobotics/blueos-ping-viewer-next",
     "description": "Use PingProtocol devices through webservices."
