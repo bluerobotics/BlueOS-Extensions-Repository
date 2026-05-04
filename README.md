@@ -96,7 +96,7 @@ There is also a [website](https://docs.bluerobotics.com/BlueOS-Extensions-Reposi
 
 ```bash
 # clone and enter the repo
-git clone --single-branch ...
+git clone --single-branch https://github.com/bluerobotics/BlueOS-Extensions-Repository
 cd BlueOS-Extensions-Repository
 # install yarn if necessary (`brew install yarn` on mac)
 sudo apt install -y yarn
