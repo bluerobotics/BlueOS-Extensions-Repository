@@ -1,0 +1,6 @@
+{
+ "name": "SubReels: AUV",
+ "website": "https://github.com/vshie/SubReels",
+ "docker": "vshie/blueos-subreels",
+ "description": "Onboard video recording and automated dive-mission control for hovering AUVs running BlueOS / ArduSub. Includes an HTTP recording service and an ArduPilot Lua script for switch-triggered dive sequences."
+}
