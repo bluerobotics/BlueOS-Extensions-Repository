@@ -1,0 +1,6 @@
+{
+    "name": "Mikrotik Monitor",
+    "website": "https://github.com/vshie/Mikrotik-Monitor",
+    "docker": "vshie/blueos-mikrotik-monitor",
+    "description": "Live wireless link metrics from a MikroTik RouterOS station (SNR, signal, TX/RX rate) read over the RouterOS API, with great-circle distance and true compass bearing from a saved reference point to the BlueBoat — CSV logging on a persistent volume plus per-metric NAMED_VALUE_FLOAT bursts (MTK_SNR / MTK_TXDB / MTK_RXDB / MTK_DISTM / MTK_BRNG) to the autopilot for Cockpit, dashboards and ArduPilot .BIN logs."
+}
