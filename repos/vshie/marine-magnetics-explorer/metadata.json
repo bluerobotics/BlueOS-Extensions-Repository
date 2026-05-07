@@ -1,0 +1,6 @@
+{
+    "name": "Marine Magnetics Explorer",
+    "website": "https://github.com/vshie/BlueOS-Marine-Magnetics-Explorer",
+    "docker": "vshie/blueos-marine-magnetics-explorer",
+    "description": "Marine Magnetics Explorer magnetometer logging and live monitoring — CSV + raw NMEA logs, deviation alarm, layback estimation, and NAMED_VALUE_FLOAT bursts to the autopilot."
+}
