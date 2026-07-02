@@ -2,5 +2,5 @@
     "name": "Ping Viewer 2",
     "website": "https://github.com/bluerobotics/ping-viewer-next",
     "docker": "bluerobotics/blueos-ping-viewer-next",
-    "description": "Use PingProtocol devices through webservices."
+    "description": "New Ping-Viewer version for ping family devices."
 }
