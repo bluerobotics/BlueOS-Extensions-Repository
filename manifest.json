@@ -240,7 +240,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15582,
+            "downloads": 15654,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -311,7 +311,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8587,
+            "downloads": 8616,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -597,7 +597,7 @@
             }
         },
         "repo_info": {
-            "downloads": 149025,
+            "downloads": 149059,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -1068,7 +1068,7 @@
             }
         },
         "repo_info": {
-            "downloads": 63695,
+            "downloads": 63726,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -1380,7 +1380,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5508,
+            "downloads": 5524,
             "last_updated": "2025-10-06T16:30:12.858404Z",
             "date_registered": "2025-06-05T16:32:39.297165Z"
         }
@@ -1610,7 +1610,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51092,
+            "downloads": 51119,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -1845,7 +1845,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7279,
+            "downloads": 7320,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -1920,7 +1920,7 @@
             }
         },
         "repo_info": {
-            "downloads": 663,
+            "downloads": 666,
             "last_updated": "2025-06-13T02:53:50.603427Z",
             "date_registered": "2025-06-13T02:53:50.53734Z"
         }
@@ -2050,7 +2050,7 @@
             }
         },
         "repo_info": {
-            "downloads": 93209,
+            "downloads": 93217,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -2186,7 +2186,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87933,
+            "downloads": 87941,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -2672,7 +2672,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31146,
+            "downloads": 31196,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -2838,7 +2838,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10127,
+            "downloads": 10140,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -2968,64 +2968,6 @@
                     }
                 }
             },
-            "v1.0.2": {
-                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135356970,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
-                    },
-                    {
-                        "expanded_size": 157816879,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
-                    },
-                    {
-                        "expanded_size": 162273079,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.2": {
                 "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
                 "type": "tool",
@@ -3068,6 +3010,64 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    },
+                    {
+                        "expanded_size": 157816879,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -3202,7 +3202,7 @@
             }
         },
         "repo_info": {
-            "downloads": 20981,
+            "downloads": 21043,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -3584,7 +3584,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23443,
+            "downloads": 23481,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -3714,7 +3714,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90190,
+            "downloads": 90198,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -3844,7 +3844,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85369,
+            "downloads": 85377,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -3975,7 +3975,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8999,
+            "downloads": 9007,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -4410,7 +4410,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14126,
+            "downloads": 14161,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -4570,7 +4570,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1299,
+            "downloads": 1327,
             "last_updated": "2026-06-18T00:07:09.416225Z",
             "date_registered": "2026-03-19T23:17:28.363758Z"
         }
@@ -4924,7 +4924,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1407,
+            "downloads": 1446,
             "last_updated": "2026-05-09T02:34:52.365761Z",
             "date_registered": "2026-05-03T17:08:01.170819Z"
         }
@@ -5148,7 +5148,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1125,
+            "downloads": 1176,
             "last_updated": "2026-07-13T20:29:38.086079Z",
             "date_registered": "2026-04-21T05:42:59.559841Z"
         }
@@ -5248,7 +5248,7 @@
             }
         },
         "repo_info": {
-            "downloads": 805,
+            "downloads": 830,
             "last_updated": "2026-05-23T22:11:28.77981Z",
             "date_registered": "2026-05-01T00:37:28.632276Z"
         }
@@ -5635,7 +5635,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15400,
+            "downloads": 15435,
             "last_updated": "2026-04-29T18:55:15.405134Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -5873,7 +5873,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1780,
+            "downloads": 1811,
             "last_updated": "2026-05-05T13:55:31.828605Z",
             "date_registered": "2025-05-20T15:43:22.289812Z"
         }
@@ -7749,7 +7749,7 @@
             }
         },
         "repo_info": {
-            "downloads": 60153,
+            "downloads": 60240,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7824,7 +7824,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1174,
+            "downloads": 1206,
             "last_updated": "2025-07-10T10:12:35.559561Z",
             "date_registered": "2025-06-09T11:02:45.219651Z"
         }
@@ -8047,7 +8047,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2957,
+            "downloads": 2994,
             "last_updated": "2025-10-01T05:57:10.274174Z",
             "date_registered": "2025-05-10T01:56:01.193452Z"
         }
@@ -8124,7 +8124,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1059,
+            "downloads": 1092,
             "last_updated": "2025-07-15T10:40:44.978177Z",
             "date_registered": "2025-06-30T11:16:48.313135Z"
         }
@@ -8271,7 +8271,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1407,
+            "downloads": 1414,
             "last_updated": "2026-01-30T21:25:13.839149Z",
             "date_registered": "2026-01-30T20:31:13.810756Z"
         }
@@ -9574,7 +9574,7 @@
             }
         },
         "repo_info": {
-            "downloads": 70052,
+            "downloads": 70168,
             "last_updated": "2026-04-30T09:10:10.908744Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -9647,7 +9647,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3526,
+            "downloads": 3529,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -9736,7 +9736,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1409,
+            "downloads": 1411,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -10392,7 +10392,7 @@
             }
         },
         "repo_info": {
-            "downloads": 57439,
+            "downloads": 57528,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -12243,7 +12243,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10327,
+            "downloads": 10400,
             "last_updated": "2026-04-11T03:13:17.09333Z",
             "date_registered": "2026-02-12T13:43:54.707847Z"
         }
@@ -12307,7 +12307,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3274,
+            "downloads": 3310,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -13747,7 +13747,7 @@
             }
         },
         "repo_info": {
-            "downloads": 19078,
+            "downloads": 19146,
             "last_updated": "2026-06-09T15:46:54.797931Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -15383,7 +15383,7 @@
             }
         },
         "repo_info": {
-            "downloads": 165325,
+            "downloads": 165441,
             "last_updated": "2026-07-19T00:35:02.213081Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -15460,7 +15460,7 @@
             }
         },
         "repo_info": {
-            "downloads": 821,
+            "downloads": 823,
             "last_updated": "2025-06-18T16:58:38.273351Z",
             "date_registered": "2025-06-18T15:58:12.81427Z"
         }
@@ -15776,7 +15776,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23436,
+            "downloads": 23463,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -16366,7 +16366,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12182,
+            "downloads": 12229,
             "last_updated": "2026-04-13T19:24:51.71125Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -16485,7 +16485,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8797,
+            "downloads": 8830,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -18249,7 +18249,7 @@
             }
         },
         "repo_info": {
-            "downloads": 27612,
+            "downloads": 27705,
             "last_updated": "2026-06-24T18:32:27.766447Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
@@ -19008,7 +19008,7 @@
             }
         },
         "repo_info": {
-            "downloads": 268211,
+            "downloads": 268264,
             "last_updated": "2025-11-26T18:24:22.732171Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -19192,7 +19192,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12404,
+            "downloads": 12442,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -19433,7 +19433,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7896,
+            "downloads": 7914,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -19725,7 +19725,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1869,
+            "downloads": 1877,
             "last_updated": "2026-02-14T11:38:51.179098Z",
             "date_registered": "2026-02-13T23:36:10.488489Z"
         }
@@ -19956,7 +19956,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12089,
+            "downloads": 12132,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -20314,7 +20314,7 @@
             }
         },
         "repo_info": {
-            "downloads": 38559,
+            "downloads": 38654,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -20433,7 +20433,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10405,
+            "downloads": 10435,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -22009,7 +22009,7 @@
             }
         },
         "repo_info": {
-            "downloads": 122624,
+            "downloads": 122828,
             "last_updated": "2026-07-15T19:15:46.451184Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -22975,7 +22975,7 @@
             }
         },
         "repo_info": {
-            "downloads": 33679,
+            "downloads": 33773,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -23280,7 +23280,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16630,
+            "downloads": 16651,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -23426,7 +23426,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6434,
+            "downloads": 6443,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -23502,7 +23502,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13034,
+            "downloads": 13061,
             "last_updated": "2026-06-04T21:04:02.975406Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -23883,7 +23883,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11966,
+            "downloads": 12009,
             "last_updated": "2026-05-29T18:35:56.02999Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -24202,7 +24202,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9109,
+            "downloads": 9132,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -24432,7 +24432,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8319,
+            "downloads": 8329,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
