@@ -232,7 +232,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2113,
+            "downloads": 2154,
             "last_updated": "2026-05-05T13:55:31.828605Z",
             "date_registered": "2025-05-20T15:43:22.289812Z"
         }
@@ -1535,7 +1535,7 @@
             }
         },
         "repo_info": {
-            "downloads": 71247,
+            "downloads": 71721,
             "last_updated": "2026-04-30T09:10:10.908744Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -2191,7 +2191,7 @@
             }
         },
         "repo_info": {
-            "downloads": 58358,
+            "downloads": 58563,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -2781,7 +2781,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12659,
+            "downloads": 12719,
             "last_updated": "2026-04-13T19:24:51.71125Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -2965,7 +2965,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12849,
+            "downloads": 12937,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -4601,7 +4601,7 @@
             }
         },
         "repo_info": {
-            "downloads": 167178,
+            "downloads": 167753,
             "last_updated": "2026-07-25T00:36:39.399587Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -4674,7 +4674,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3553,
+            "downloads": 3565,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -6525,7 +6525,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10982,
+            "downloads": 11071,
             "last_updated": "2026-04-11T03:13:17.09333Z",
             "date_registered": "2026-02-12T13:43:54.707847Z"
         }
@@ -6614,7 +6614,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1434,
+            "downloads": 1436,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -6691,7 +6691,7 @@
             }
         },
         "repo_info": {
-            "downloads": 853,
+            "downloads": 858,
             "last_updated": "2025-06-18T16:58:38.273351Z",
             "date_registered": "2025-06-18T15:58:12.81427Z"
         }
@@ -7450,7 +7450,7 @@
             }
         },
         "repo_info": {
-            "downloads": 268742,
+            "downloads": 268992,
             "last_updated": "2025-11-26T18:24:22.732171Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -7569,7 +7569,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9185,
+            "downloads": 9249,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -7885,7 +7885,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23680,
+            "downloads": 23786,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -9325,7 +9325,7 @@
             }
         },
         "repo_info": {
-            "downloads": 19637,
+            "downloads": 19709,
             "last_updated": "2026-06-09T15:46:54.797931Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -9339,6 +9339,86 @@
         "extension_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/bluerobotics/radcam-manager/extension_logo.png",
         "company_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
         "versions": {
+            "0.2.3": {
+                "identifier": "049ef3d9-d63d-5f90-8600-e3c0ebe3cfdd",
+                "type": "device-integration",
+                "website": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
+                "images": [
+                    {
+                        "expanded_size": 59452134,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:238bbb4adcb0db1c2086ff395207e25ec52403bcacd6a5fea93d063d489a87a1"
+                    },
+                    {
+                        "expanded_size": 63830899,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0c571a52c1b2f36af23155b4c0356e8cf3cb9c0e1be5d8d2281ce59d0db7d35c"
+                    },
+                    {
+                        "expanded_size": 64479023,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:785138292cacb75786f20eadfc9903bd78391444ccd4a27d1998987c89b640ce"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
+                        "email": "joao.maker@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "rov",
+                    "camera",
+                    "cam",
+                    "radcam",
+                    "control"
+                ],
+                "extra_links": {},
+                "tag": "0.2.3",
+                "docs": null,
+                "readme": "<h1>RadCam Manager</h1>\n<p>This is the official RadCam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
+                "support": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
+                "requirements": "[ \"core >= 1.4.3\", \"cockpit >= 1.7\" ]",
+                "company": {
+                    "about": "RadCam's official management interface",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/var/logs/blueos/extensions/radcam-manager:/logs",
+                            "/usr/blueos/extensions/radcam-manager:/app",
+                            "/root/.config/blueos/ardupilot-manager/firmware/scripts:/scripts"
+                        ],
+                        "ExtraHosts": [
+                            "blueos.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.2": {
                 "identifier": "d0c2f72f-cefb-59ed-9726-099356f2dce0",
                 "type": "device-integration",
@@ -11091,86 +11171,11 @@
                         }
                     }
                 }
-            },
-            "0.1.2": {
-                "identifier": "ba3214c2-03e3-533a-84ec-41aba5cc8ccd",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "images": [
-                    {
-                        "expanded_size": 54336039,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:91239451d73a67476b3a348a29c008e45def18801aff6bef2d574d5837725bff"
-                    },
-                    {
-                        "expanded_size": 58605864,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:d2dce576e9ebf39423261b048ce9accbc04a10424806f667ab91e4349d9d61d4"
-                    },
-                    {
-                        "expanded_size": 58976404,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4f8bd482d8debbc6e56044a3c764d755ec7a8dd0bce8c85db9714e2bad515a47"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
-                        "email": "joao.maker@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "rov",
-                    "camera",
-                    "cam",
-                    "radcam",
-                    "control"
-                ],
-                "extra_links": {},
-                "tag": "0.1.2",
-                "docs": null,
-                "readme": "<h1>RadCam Manager</h1>\n<p>This is the official RadCam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "requirements": "[ \"core >= 1.4\", \"cockpit >= 1.7\" ]",
-                "company": {
-                    "about": "RadCam's official management interface",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {}
-                    },
-                    "HostConfig": {
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 28797,
-            "last_updated": "2026-07-24T18:00:19.321221Z",
+            "downloads": 28984,
+            "last_updated": "2026-07-28T04:05:25.104623Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
     },
@@ -11233,7 +11238,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3605,
+            "downloads": 3666,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -11304,7 +11309,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8901,
+            "downloads": 8942,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -11550,7 +11555,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16328,
+            "downloads": 16471,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -13426,7 +13431,7 @@
             }
         },
         "repo_info": {
-            "downloads": 60988,
+            "downloads": 61410,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -13780,7 +13785,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1813,
+            "downloads": 1855,
             "last_updated": "2026-05-09T02:34:52.365761Z",
             "date_registered": "2026-05-03T17:08:01.170819Z"
         }
@@ -13958,7 +13963,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1651,
+            "downloads": 1688,
             "last_updated": "2026-06-18T00:07:09.416225Z",
             "date_registered": "2026-03-19T23:17:28.363758Z"
         }
@@ -14419,7 +14424,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15957,
+            "downloads": 16099,
             "last_updated": "2026-07-24T11:12:02.444273Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -14643,7 +14648,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1772,
+            "downloads": 1850,
             "last_updated": "2026-07-13T20:29:38.086079Z",
             "date_registered": "2026-04-21T05:42:59.559841Z"
         }
@@ -14743,7 +14748,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1157,
+            "downloads": 1193,
             "last_updated": "2026-05-23T22:11:28.77981Z",
             "date_registered": "2026-05-01T00:37:28.632276Z"
         }
@@ -15035,7 +15040,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1940,
+            "downloads": 1947,
             "last_updated": "2026-02-14T11:38:51.179098Z",
             "date_registered": "2026-02-13T23:36:10.488489Z"
         }
@@ -15276,7 +15281,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8039,
+            "downloads": 8057,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -15507,7 +15512,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12563,
+            "downloads": 12608,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -15527,24 +15532,6 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 355634142,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2299c2823fb654d96287c9cd7eebd75c8ed2380da2283b40cf7cb3eeefe713d6"
-                    },
-                    {
-                        "expanded_size": 344500878,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2bbc13bca2eaaa4650797c9a605c940b88f48202d1e5ce98d382f80b95168c77"
-                    },
-                    {
                         "expanded_size": 322871560,
                         "platform": {
                             "architecture": "arm",
@@ -15561,6 +15548,24 @@
                             "os": "linux"
                         },
                         "digest": "sha256:6d8f2766f4f8d8adcfe1047db8ef4e164c0e21e8395f4f8790e0c64c62e2f52b"
+                    },
+                    {
+                        "expanded_size": 355634142,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2299c2823fb654d96287c9cd7eebd75c8ed2380da2283b40cf7cb3eeefe713d6"
+                    },
+                    {
+                        "expanded_size": 344500878,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2bbc13bca2eaaa4650797c9a605c940b88f48202d1e5ce98d382f80b95168c77"
                     }
                 ],
                 "authors": [
@@ -15615,15 +15620,6 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 359823688,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5cec900d5a78a0b66b424305f05288dc9f0f847f5d9d9a399dd4c60e19ff8bf4"
-                    },
-                    {
                         "expanded_size": 326153248,
                         "platform": {
                             "architecture": "arm",
@@ -15640,6 +15636,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:77dc04bf8a94b6094daca84d1e89581efaa6b654533531ec722723e0fd7aeaa4"
+                    },
+                    {
+                        "expanded_size": 359823688,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5cec900d5a78a0b66b424305f05288dc9f0f847f5d9d9a399dd4c60e19ff8bf4"
                     }
                 ],
                 "authors": [
@@ -15694,15 +15699,6 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 734876911,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:93107377ac320ccdd1c11106025e7d1d3fa8dc164fec6b5c1b6c25c1549ccf5c"
-                    },
-                    {
                         "expanded_size": 687453125,
                         "platform": {
                             "architecture": "arm",
@@ -15719,6 +15715,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e38a76e1c7cb366151a42ccf2148c9dbdcd21c67b343fb95f4fd9ecde56132c9"
+                    },
+                    {
+                        "expanded_size": 734876911,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:93107377ac320ccdd1c11106025e7d1d3fa8dc164fec6b5c1b6c25c1549ccf5c"
                     }
                 ],
                 "authors": [
@@ -15773,13 +15778,13 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 579809042,
+                        "expanded_size": 550240488,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:e56302ce656c6e4f09f560f2aea5d2ea340be69ec97a0b17e39b03e993c1ccab"
+                        "digest": "sha256:c4f7b5de29b423fdc57713525bf15968716de88d80dae000949947b4adef5ea2"
                     },
                     {
                         "expanded_size": 564014391,
@@ -15791,13 +15796,13 @@
                         "digest": "sha256:f094c40df5262fa2632cfbe64f12b3d74e7bcb4529ba0cb733e47d4628aee5ae"
                     },
                     {
-                        "expanded_size": 550240488,
+                        "expanded_size": 579809042,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:c4f7b5de29b423fdc57713525bf15968716de88d80dae000949947b4adef5ea2"
+                        "digest": "sha256:e56302ce656c6e4f09f560f2aea5d2ea340be69ec97a0b17e39b03e993c1ccab"
                     }
                 ],
                 "authors": [
@@ -15852,13 +15857,13 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 581063638,
+                        "expanded_size": 550721782,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:d56a22d957b00e417fa7dd7a540889d4d23161216cbe2814de2176e8eec04924"
+                        "digest": "sha256:8a8f30f7b9c8c2640fcfd3ef1626c10fa3f0d3a3b6d9d0275ee9c860dd9c7ed5"
                     },
                     {
                         "expanded_size": 564201748,
@@ -15870,13 +15875,13 @@
                         "digest": "sha256:5f602f289e90a3271012076544f8791500543b20b656d193479e9b922183d677"
                     },
                     {
-                        "expanded_size": 550721782,
+                        "expanded_size": 581063638,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:8a8f30f7b9c8c2640fcfd3ef1626c10fa3f0d3a3b6d9d0275ee9c860dd9c7ed5"
+                        "digest": "sha256:d56a22d957b00e417fa7dd7a540889d4d23161216cbe2814de2176e8eec04924"
                     }
                 ],
                 "authors": [
@@ -15931,13 +15936,13 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 573073438,
+                        "expanded_size": 543935068,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:36bcf2800f4d9ef5d970e53c647898671cd78175a43aa82f9b1ecc11b5061431"
+                        "digest": "sha256:09406e970a2bc715b3e383b396fd4b03dd6b083247168fe666b3a48b8a9ea472"
                     },
                     {
                         "expanded_size": 557308877,
@@ -15949,13 +15954,13 @@
                         "digest": "sha256:0d35f9e0b0cee572a1a815de6aa744f85b67842bd3a0d33308c148e2e20aca11"
                     },
                     {
-                        "expanded_size": 543935068,
+                        "expanded_size": 573073438,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:09406e970a2bc715b3e383b396fd4b03dd6b083247168fe666b3a48b8a9ea472"
+                        "digest": "sha256:36bcf2800f4d9ef5d970e53c647898671cd78175a43aa82f9b1ecc11b5061431"
                     }
                 ],
                 "authors": [
@@ -16010,13 +16015,13 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 573014975,
+                        "expanded_size": 543876880,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:4316ddf7c214e90636d2b84e3350ff1395dfaba20fc5920c904a6fb7c2fd1cf5"
+                        "digest": "sha256:f19c446693d4f581c9c4f419572a90cdaa3ab53efd62c31e44c3227ca2168d12"
                     },
                     {
                         "expanded_size": 557304774,
@@ -16028,13 +16033,13 @@
                         "digest": "sha256:1d20c095a811e48724e50c70003e729cfa710d113bdc30659f77a8ebf588d81f"
                     },
                     {
-                        "expanded_size": 543876880,
+                        "expanded_size": 573014975,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:f19c446693d4f581c9c4f419572a90cdaa3ab53efd62c31e44c3227ca2168d12"
+                        "digest": "sha256:4316ddf7c214e90636d2b84e3350ff1395dfaba20fc5920c904a6fb7c2fd1cf5"
                     }
                 ],
                 "authors": [
@@ -16089,13 +16094,13 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 573029012,
+                        "expanded_size": 543868925,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:19c7ba226a9fed80cc401aef0483e85346664430b17ecbcd4e36cf8d5bd63a27"
+                        "digest": "sha256:208e65a722024e93143a194a3002af2e488b0e3b74a5d2051a2db832ac7e1cb3"
                     },
                     {
                         "expanded_size": 557287579,
@@ -16107,13 +16112,13 @@
                         "digest": "sha256:9ed2221422a828912ce848048821cb6d6d9e8d4dbae465dffe3fe24009447039"
                     },
                     {
-                        "expanded_size": 543868925,
+                        "expanded_size": 573029012,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:208e65a722024e93143a194a3002af2e488b0e3b74a5d2051a2db832ac7e1cb3"
+                        "digest": "sha256:19c7ba226a9fed80cc401aef0483e85346664430b17ecbcd4e36cf8d5bd63a27"
                     }
                 ],
                 "authors": [
@@ -16168,13 +16173,13 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 573010895,
+                        "expanded_size": 543867774,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:64ac8ba3d889896bec419d2bf09d52af507d43b4c0ac77452f861e7a8b37fd8d"
+                        "digest": "sha256:78beaabd0a70d25ef5bc85157e1122421ef9f8c421f9869096e9b73e8e57eedd"
                     },
                     {
                         "expanded_size": 557268813,
@@ -16186,13 +16191,13 @@
                         "digest": "sha256:12670a0f7b0ed6e9c17ad44049e1f64837f95b0e410f59e3b6fb5007982384b1"
                     },
                     {
-                        "expanded_size": 543867774,
+                        "expanded_size": 573010895,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:78beaabd0a70d25ef5bc85157e1122421ef9f8c421f9869096e9b73e8e57eedd"
+                        "digest": "sha256:64ac8ba3d889896bec419d2bf09d52af507d43b4c0ac77452f861e7a8b37fd8d"
                     }
                 ],
                 "authors": [
@@ -16247,13 +16252,13 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 573055046,
+                        "expanded_size": 543881443,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:76d2a668ec8d8fdbbc82e0807a3b54b1002bed73f6a2a65f8d0d46dadce21987"
+                        "digest": "sha256:41d260710ff0cdbb41f2ff5469518b8870823a069578601b9a9b0bbec475721b"
                     },
                     {
                         "expanded_size": 557323967,
@@ -16265,13 +16270,13 @@
                         "digest": "sha256:0840f1d861197945db98b0ca17c2211dca2b039494b18ec259f6866400a5be68"
                     },
                     {
-                        "expanded_size": 543881443,
+                        "expanded_size": 573055046,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:41d260710ff0cdbb41f2ff5469518b8870823a069578601b9a9b0bbec475721b"
+                        "digest": "sha256:76d2a668ec8d8fdbbc82e0807a3b54b1002bed73f6a2a65f8d0d46dadce21987"
                     }
                 ],
                 "authors": [
@@ -16326,13 +16331,13 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 573060500,
+                        "expanded_size": 543877988,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:aa8af326413f95815ed47cd54d3d994c156c9a3526a932dcd25cd609c061498f"
+                        "digest": "sha256:c363af047b2c531181ed31c09b9d5b5a971b1e16400a5bac1691de08d265064b"
                     },
                     {
                         "expanded_size": 557310517,
@@ -16344,13 +16349,13 @@
                         "digest": "sha256:dee41c5e5aa8ab7cab546fe9ec34113afc0ba430a05a10be8d45e513ad7372d5"
                     },
                     {
-                        "expanded_size": 543877988,
+                        "expanded_size": 573060500,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:c363af047b2c531181ed31c09b9d5b5a971b1e16400a5bac1691de08d265064b"
+                        "digest": "sha256:aa8af326413f95815ed47cd54d3d994c156c9a3526a932dcd25cd609c061498f"
                     }
                 ],
                 "authors": [
@@ -16405,13 +16410,13 @@
                 "website": "https://www.sonardyne.com/",
                 "images": [
                     {
-                        "expanded_size": 573012492,
+                        "expanded_size": 543897122,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:de68358f2fa038a061a4bee76cf40350a9792c4b67407bbe3227932cb656a3c9"
+                        "digest": "sha256:4eca4dbd894c55822394eebc93cf01070157dc57d1e5b754cd01562eb42efb4a"
                     },
                     {
                         "expanded_size": 557289517,
@@ -16423,13 +16428,13 @@
                         "digest": "sha256:a57c264ea0ae503e12c83db1cc3e599454600d5800e8513aad9aff54210a2ba8"
                     },
                     {
-                        "expanded_size": 543897122,
+                        "expanded_size": 573012492,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:4eca4dbd894c55822394eebc93cf01070157dc57d1e5b754cd01562eb42efb4a"
+                        "digest": "sha256:de68358f2fa038a061a4bee76cf40350a9792c4b67407bbe3227932cb656a3c9"
                     }
                 ],
                 "authors": [
@@ -16473,7 +16478,7 @@
             }
         },
         "repo_info": {
-            "downloads": 34510,
+            "downloads": 34614,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -18049,7 +18054,7 @@
             }
         },
         "repo_info": {
-            "downloads": 123904,
+            "downloads": 124497,
             "last_updated": "2026-07-15T19:15:46.451184Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -18407,7 +18412,7 @@
             }
         },
         "repo_info": {
-            "downloads": 39528,
+            "downloads": 39766,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -18526,7 +18531,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10796,
+            "downloads": 10870,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -18673,7 +18678,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1476,
+            "downloads": 1485,
             "last_updated": "2026-01-30T21:25:13.839149Z",
             "date_registered": "2026-01-30T20:31:13.810756Z"
         }
@@ -18903,7 +18908,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8410,
+            "downloads": 8420,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -19222,7 +19227,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9265,
+            "downloads": 9283,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -19298,7 +19303,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13393,
+            "downloads": 13426,
             "last_updated": "2026-06-04T21:04:02.975406Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -19521,7 +19526,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3329,
+            "downloads": 3389,
             "last_updated": "2025-10-01T05:57:10.274174Z",
             "date_registered": "2025-05-10T01:56:01.193452Z"
         }
@@ -19598,7 +19603,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1383,
+            "downloads": 1429,
             "last_updated": "2025-07-15T10:40:44.978177Z",
             "date_registered": "2025-06-30T11:16:48.313135Z"
         }
@@ -19673,7 +19678,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1525,
+            "downloads": 1566,
             "last_updated": "2025-07-10T10:12:35.559561Z",
             "date_registered": "2025-06-09T11:02:45.219651Z"
         }
@@ -19819,7 +19824,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6506,
+            "downloads": 6515,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -20124,7 +20129,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16813,
+            "downloads": 16901,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -20432,7 +20437,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12580,
+            "downloads": 12650,
             "last_updated": "2026-07-24T16:54:58.515822Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -20662,7 +20667,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51280,
+            "downloads": 51361,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -21097,7 +21102,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14352,
+            "downloads": 14382,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -21263,7 +21268,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10246,
+            "downloads": 10302,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -21392,58 +21397,6 @@
                     }
                 }
             },
-            "1.11.2": {
-                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 406148810,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:88c929c2632255edf3584e78099a0d0f169506d1c2674785679020c3902630ac"
-                    },
-                    {
-                        "expanded_size": 400044021,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09e3adf3d735b5939a558f4dc0cd0b983b42132aeda85bb775bc6de7b2b5766e"
-                    },
-                    {
-                        "expanded_size": 377758539,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "v1.11.2": {
                 "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
                 "type": "other",
@@ -21495,10 +21448,62 @@
                         ]
                     }
                 }
+            },
+            "1.11.2": {
+                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 406148810,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:88c929c2632255edf3584e78099a0d0f169506d1c2674785679020c3902630ac"
+                    },
+                    {
+                        "expanded_size": 400044021,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09e3adf3d735b5939a558f4dc0cd0b983b42132aeda85bb775bc6de7b2b5766e"
+                    },
+                    {
+                        "expanded_size": 377758539,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
+                    }
+                ],
+                "authors": [],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.11.2",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
+                        ]
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 7741,
+            "downloads": 7798,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -21634,7 +21639,7 @@
             }
         },
         "repo_info": {
-            "downloads": 88008,
+            "downloads": 88044,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -21654,13 +21659,13 @@
                 "website": "https://github.com/Williangalvani/zerotierone",
                 "images": [
                     {
-                        "expanded_size": 82667925,
+                        "expanded_size": 66127769,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:84354908f25dc03e798f959ca3a61b4b909eaeb6dfe8e32ae70931780af38078"
+                        "digest": "sha256:2b3326b44dfc7d86e5bf07699c53dd6da8ad99a829e86feababcdbdfd7f38881"
                     },
                     {
                         "expanded_size": 74405442,
@@ -21672,13 +21677,13 @@
                         "digest": "sha256:fda146009388e3940cbfe48c6f0e8323e0fd3fa632ea4003320d67617d824658"
                     },
                     {
-                        "expanded_size": 66127769,
+                        "expanded_size": 82667925,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:2b3326b44dfc7d86e5bf07699c53dd6da8ad99a829e86feababcdbdfd7f38881"
+                        "digest": "sha256:84354908f25dc03e798f959ca3a61b4b909eaeb6dfe8e32ae70931780af38078"
                     }
                 ],
                 "authors": [
@@ -21730,13 +21735,13 @@
                 "website": "https://github.com/Williangalvani/zerotierone",
                 "images": [
                     {
-                        "expanded_size": 82740513,
+                        "expanded_size": 66196576,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:4f14f2364ce85ddf0690838a897d0241939a5f23f7edd88e1c96578949f93093"
+                        "digest": "sha256:a51989fad182fd33e0712e88b4977a69589d12f5c28347a89a14e893dd365d18"
                     },
                     {
                         "expanded_size": 74474451,
@@ -21748,13 +21753,13 @@
                         "digest": "sha256:4971108e54998199bfb26e922dd544a770e047e6fbb33d98ae708228766d015c"
                     },
                     {
-                        "expanded_size": 66196576,
+                        "expanded_size": 82740513,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:a51989fad182fd33e0712e88b4977a69589d12f5c28347a89a14e893dd365d18"
+                        "digest": "sha256:4f14f2364ce85ddf0690838a897d0241939a5f23f7edd88e1c96578949f93093"
                     }
                 ],
                 "authors": [
@@ -21806,13 +21811,13 @@
                 "website": "https://github.com/Williangalvani/zerotierone",
                 "images": [
                     {
-                        "expanded_size": 83870955,
+                        "expanded_size": 67417026,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:d5da9ed246a39fc0f849107530931bd87ae1156b2da776855483bbb092010e9e"
+                        "digest": "sha256:831682262dd736b8844e59d9bb49e479755c6cc0b27b71e4058c91033b7d2a40"
                     },
                     {
                         "expanded_size": 75909226,
@@ -21824,13 +21829,13 @@
                         "digest": "sha256:e871e75beb335b35ab8b62073c54e4a92309a30e97b1b899a778e81e6c16e8d3"
                     },
                     {
-                        "expanded_size": 67417026,
+                        "expanded_size": 83870955,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:831682262dd736b8844e59d9bb49e479755c6cc0b27b71e4058c91033b7d2a40"
+                        "digest": "sha256:d5da9ed246a39fc0f849107530931bd87ae1156b2da776855483bbb092010e9e"
                     }
                 ],
                 "authors": [
@@ -22105,7 +22110,7 @@
             }
         },
         "repo_info": {
-            "downloads": 63998,
+            "downloads": 64132,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -22391,7 +22396,7 @@
             }
         },
         "repo_info": {
-            "downloads": 149271,
+            "downloads": 149380,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -22522,7 +22527,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9078,
+            "downloads": 9114,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -22652,7 +22657,7 @@
             }
         },
         "repo_info": {
-            "downloads": 93288,
+            "downloads": 93324,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -23138,7 +23143,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31527,
+            "downloads": 31708,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -23268,7 +23273,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90264,
+            "downloads": 90300,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -23398,7 +23403,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85445,
+            "downloads": 85481,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -23762,7 +23767,7 @@
             }
         },
         "repo_info": {
-            "downloads": 21527,
+            "downloads": 21590,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -24074,7 +24079,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5606,
+            "downloads": 5616,
             "last_updated": "2025-10-06T16:30:12.858404Z",
             "date_registered": "2025-06-05T16:32:39.297165Z"
         }
@@ -24149,7 +24154,7 @@
             }
         },
         "repo_info": {
-            "downloads": 676,
+            "downloads": 677,
             "last_updated": "2025-06-13T02:53:50.603427Z",
             "date_registered": "2025-06-13T02:53:50.53734Z"
         }
@@ -24531,7 +24536,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23716,
+            "downloads": 23749,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
