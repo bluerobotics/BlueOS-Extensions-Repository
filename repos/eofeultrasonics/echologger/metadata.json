@@ -1,0 +1,6 @@
+{
+    "name": "Echologger",
+    "website": "https://github.com/Echologger/BlueOS-Echologger-extension",
+    "docker": "dfultrasonics/blueos-echologger",
+    "description": "Echosounders configuration and data logging"
+}
