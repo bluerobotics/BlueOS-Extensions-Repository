@@ -1,6 +1,6 @@
 {
-    "name": "RadCam Manager",
-    "website": "https://github.com/bluerobotics/radcam-manager",
-    "docker": "bluerobotics/blueos-radcam-manager",
-    "description": "RadCam's official management interface"
+    "name": "4K Cam Manager",
+    "website": "https://github.com/bluerobotics/br4kcam-manager",
+    "docker": "bluerobotics/blueos-br4kcam-manager",
+    "description": "The official management interface for 4K Cam"
 }
