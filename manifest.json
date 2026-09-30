@@ -104,7 +104,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13542,
+            "downloads": 13586,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -1683,7 +1683,7 @@
             }
         },
         "repo_info": {
-            "downloads": 167619,
+            "downloads": 167899,
             "last_updated": "2026-09-25T19:04:08.97743Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -2023,7 +2023,7 @@
             }
         },
         "repo_info": {
-            "downloads": 50780,
+            "downloads": 50873,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -2331,7 +2331,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13972,
+            "downloads": 13983,
             "last_updated": "2026-07-24T16:54:58.515822Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -2572,7 +2572,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9292,
+            "downloads": 9309,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -2864,7 +2864,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2842,
+            "downloads": 2849,
             "last_updated": "2026-02-14T11:38:51.179098Z",
             "date_registered": "2026-02-13T23:36:10.488489Z"
         }
@@ -3095,7 +3095,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13875,
+            "downloads": 13887,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -3266,7 +3266,7 @@
             }
         },
         "repo_info": {
-            "downloads": 725,
+            "downloads": 728,
             "last_updated": "2026-07-31T14:10:32.245795Z",
             "date_registered": "2026-07-29T04:48:40.816934Z"
         }
@@ -3560,7 +3560,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9618,
+            "downloads": 9660,
             "last_updated": "2026-08-31T21:56:31.290058Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -3865,7 +3865,7 @@
             }
         },
         "repo_info": {
-            "downloads": 22616,
+            "downloads": 22675,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4276,7 +4276,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2280,
+            "downloads": 2289,
             "last_updated": "2026-09-09T21:49:20.904697Z",
             "date_registered": "2026-08-11T18:32:15.403879Z"
         }
@@ -4376,7 +4376,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1567,
+            "downloads": 1568,
             "last_updated": "2026-05-23T22:11:28.77981Z",
             "date_registered": "2026-05-01T00:37:28.632276Z"
         }
@@ -4757,7 +4757,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2879,
+            "downloads": 2888,
             "last_updated": "2026-05-09T02:34:52.365761Z",
             "date_registered": "2026-05-03T17:08:01.170819Z"
         }
@@ -4935,7 +4935,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2203,
+            "downloads": 2206,
             "last_updated": "2026-06-18T00:07:09.416225Z",
             "date_registered": "2026-03-19T23:17:28.363758Z"
         }
@@ -5396,7 +5396,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25132,
+            "downloads": 25199,
             "last_updated": "2026-07-24T11:12:02.444273Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -5410,6 +5410,146 @@
         "extension_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/vshie/airmar-wx/extension_logo.png",
         "company_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/vshie/company_logo.png",
         "versions": {
+            "1.1.3": {
+                "identifier": "a4da7bd6-3752-5587-a8d4-59dfe277deea",
+                "type": "tool",
+                "website": "https://bluerobotics.com",
+                "images": [
+                    {
+                        "expanded_size": 70129509,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fe535b74472573d6ddbbd2a9e1107b45ead41653a09ecd814def136a404d71c7"
+                    },
+                    {
+                        "expanded_size": 69674140,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bfc7c9f05302d4b729ce17bf59e6d9f5c744b6d315e49046ee28aff748e85ac1"
+                    },
+                    {
+                        "expanded_size": 64353020,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:99b81c94b4699d4ae70da6f57f3cab31dc3dece3176f3181407fccf839dfcf94"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Tony White",
+                        "email": "tony@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/vshie/Airmar-WX"
+                },
+                "tag": "1.1.3",
+                "docs": null,
+                "readme": "<h1>Airmar 300WX WeatherStation - BlueOS Extension</h1>\n<p>A BlueOS extension for the Airmar 300WX WeatherStation. Connects via NMEA 0183 serial, auto-negotiates <strong>115200</strong> baud (with <code>$PAMTC,BAUD,...,CFG</code> so the default persists across power cycles), and streams wind data to Cockpit via WebSocket.</p>\n<h2>Features</h2>\n<ul>\n<li>Automatic serial port detection and baud rate negotiation (4800 \u2192 115200, default saved on device)</li>\n<li><strong>Auto-reconnect on extension restart</strong>: the last serial port (by its stable <code>/dev/serial/by-id</code> name), baud hint, and \u201cstay at 4800\u201d preference are stored in <code>state.json</code> under the mounted logs directory; a background thread reconnects to that port at startup without using the UI. Other ports are never scanned automatically, so a GPS or other device on another USB port is left alone. On first install, after <strong>Disconnect</strong>, or if the saved device is unplugged, pick the port in the UI and click <strong>Connect</strong>.</li>\n<li>Real-time dashboard with wind, heading, atmosphere, GPS, and attitude data (including apparent/true wind roses and speed\u2013time heatmaps)</li>\n<li>Sparkline history graphs for all sensor channels</li>\n<li>Per-sentence enable/disable and transmission interval control</li>\n<li>Bandwidth usage indicator (percentage of serial bus capacity)</li>\n<li>Raw message view with one card per message type and live Hz rate</li>\n<li>Dual UDP streams to ArduPilot \u2014 wind on <code>27001</code> and GPS + heading on <code>27002</code>, each enabled by its own checkbox (both off by default)</li>\n<li>One-click ArduRover parameter setup (SERIAL X/Y, wind vane + GPS NMEA + optional GPS-yaw source) with drift detection and restore/ignore</li>\n<li>Cockpit data-lake WebSocket streaming of wind, GPS, and heading data</li>\n<li>Persistent NMEA message and application logs with download/delete</li>\n</ul>\n<h2>Installation</h2>\n<h3>From BlueOS Extensions Manager</h3>\n<ol>\n<li>Open BlueOS web interface</li>\n<li>Navigate to Extensions Manager</li>\n<li>Search for \"Airmar 300WX\"</li>\n<li>Click Install</li>\n</ol>\n<h3>Manual Install</h3>\n<ol>\n<li>In BlueOS, go to Extensions Manager &gt; Installed &gt; \"+\"</li>\n<li>Enter:</li>\n<li><strong>Extension Identifier</strong>: <code>bluerobotics.airmar-300wx</code></li>\n<li><strong>Extension Name</strong>: <code>Airmar 300WX</code></li>\n<li><strong>Docker image</strong>: <code>vshie/blueos-airmar-wx</code></li>\n<li><strong>Docker tag</strong>: <code>main</code></li>\n</ol>\n<h2>Custom Settings (Permissions)</h2>\n<p>When manually installing, paste this into the <strong>Custom settings</strong> field:</p>\n<p><code>json\n{\n  \"ExposedPorts\": {\n    \"6436/tcp\": {},\n    \"8765/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"CpuPeriod\": 100000,\n    \"CpuQuota\": 100000,\n    \"Binds\": [\n      \"/usr/blueos/extensions/300WX:/app/logs\",\n      \"/dev:/dev\"\n    ],\n    \"NetworkMode\": \"host\",\n    \"Privileged\": true\n  }\n}</code></p>\n<blockquote>\n<p><strong>Networking note.</strong> <code>NetworkMode: host</code> is required so the two NMEA UDP\nfeeds (<code>27001</code> wind, <code>27002</code> GPS + heading) can be sent from <code>127.0.0.1</code>\nto the autopilot's <code>udpin</code> sockets. The earlier design routed via the\ndocker bridge (<code>host.docker.internal</code> / 172.18.0.1); ArduPilot's\n<code>UDPDevice::read()</code> calls <code>socket.connect()</code> on the first datagram's\nsource address, which was 192.168.2.12 (the host's LAN address). After\nthat, every subsequent datagram \u2014 still addressed to 172.18.0.1 \u2014 was\nsilently dropped as \"not from the connected peer\". Sending from the\nloopback keeps the source address stable and works because\n<code>NetworkMode: host</code> makes the container share the host's <code>lo</code>. The\n<code>ExtraHosts</code> mapping for <code>host.docker.internal</code> is no longer required\nand has been removed.</p>\n<p>ArduPilot pins the sender's UDP source <strong>port</strong> as well as its address.\nThe extension therefore binds its sender to the fixed endpoint\n<code>127.0.0.1:27100</code>; both destination routes use that source. This keeps\nwind and GPS working across extension-only restarts instead of changing\nto a new ephemeral source port. After upgrading from 1.1.6 or earlier,\nrestart the autopilot once to clear its previously pinned peer.</p>\n</blockquote>\n<h2>ArduPilot UDP Streaming (dual routes)</h2>\n<p>The extension can forward NMEA sentences to the autopilot via <strong>two</strong> UDP ports at the same time so both the wind vane driver and the GPS/heading driver can be fed simultaneously (each ArduPilot serial has a single <code>SERIALx_PROTOCOL</code>, so one port cannot serve both drivers).</p>\n<p>Each route has its own checkbox under <strong>Send to ArduPilot over UDP</strong> in the connection panel, and <strong>both are off by default</strong> \u2014 nothing is sent to the autopilot until you tick one. The choice is saved and applies on every connect and restart. Connecting or disconnecting the sensor does not change it. Ticking <strong>GPS + heading</strong> also raises <code>$GPGGA</code>, <code>$GPRMC</code>, <code>$GPVTG</code>, and <code>$HCHDT</code> from 1 Hz to the 10 Hz ArduPilot's NMEA GPS driver needs (at 115200 baud only; at 4800 baud they stay at 1 Hz), and unticking it puts back the rates you had before: whatever you set for them on the <strong>Sentences</strong> tab, or 1 Hz if you never changed them. When upgrading from 1.1.9 or earlier, an install that has already applied the ArduRover parameter setup keeps both routes on; otherwise both start off.</p>\n<p>| Route | UDP port | Sentences | ArduPilot driver |\n|---|---|---|---|\n| Wind    | <code>27001</code> | <code>$WIMWV</code>                                | <code>AP_WindVane_NMEA</code> (<code>WNDVN_TYPE = 4</code>) |\n| GPS + heading | <code>27002</code> | <code>$GPGGA</code>, <code>$GPRMC</code>, <code>$GPVTG</code>, <code>$HCHDT</code> | <code>AP_GPS</code> NMEA driver on <strong>GPS2</strong> (<code>GPS2_TYPE = 5</code>); onboard GPS stays on <code>GPS1_TYPE = 1</code> (AUTO) |</p>\n<h3>One-click setup (Navigator boards)</h3>\n<p>On Linux autopilot boards (Navigator, Navigator64, Argonot) the extension can do the whole setup itself. In <strong>Setup \u2192 Step 2</strong>, pick the SERIAL port for each stream and click <strong>Set up</strong>:</p>\n<ol>\n<li><strong>Preview.</strong> A dialog lists every change before anything is written: each BlueOS serial port (now \u2192 after) and each ArduRover parameter (now \u2192 after). Entries that replace something already on the target port, or that move our UDP port off another serial, are highlighted.</li>\n<li><strong>Confirm.</strong> The extension saves the BlueOS serial list (through BlueOS's <code>ardupilot-manager</code> API, the same one the Autopilot Firmware page uses), writes the parameters, restarts ArduPilot once so both take effect, waits for it to come back, and verifies. Progress and a results table are shown on the card. It refuses to start, or to restart ArduPilot, while the vehicle is armed.</li>\n<li><strong>Undo serial and parameter setup</strong> appears once setup has changed something. It shows the same kind of preview and puts back the serial ports and parameters exactly as they were before the first setup, then restarts ArduPilot. A serial port you changed yourself since setup is left alone, and a parameter whose original value couldn't be read is left as it is (both are listed).</li>\n</ol>\n<p>Only SERIAL1\u20137 can be set this way (BlueOS's own limit). BlueOS won't save a serial list containing a <code>/dev</code> device that is no longer connected, so the preview lists any such entries and asks before removing them. On other boards (Pixhawk over USB, SITL) the button isn't shown and the manual steps below apply.</p>\n<h3>BlueOS serial port configuration (manual)</h3>\n<p>Open <strong>BlueOS \u2192 Autopilot Firmware \u2192 Serial port configuration</strong> and set the <code>udpin</code> device string for each stream you want, then Save and Restart the autopilot:</p>\n<ul>\n<li><strong>SERIAL6</strong> \u2192 <code>udpin:0.0.0.0:27001</code> \u2014 wind vane</li>\n<li><strong>SERIAL7</strong> \u2192 <code>udpin:0.0.0.0:27002</code> \u2014 GPS/heading source</li>\n</ul>\n<p>You only need the one(s) you plan to use. Do NOT overwrite the on-board GPS serial. The extension surfaces both strings with a click-to-copy button under <strong>Setup \u2192 Step 2a</strong> next to the serial-config screenshot.</p>\n<h3>ArduRover parameter setup (from the extension)</h3>\n<p>In <strong>Setup \u2192 Step 2b</strong>, pick the SERIAL port for each stream (<code>SERIAL6</code> for wind, <code>SERIAL7</code> for GPS), or <strong>Not used</strong> to skip one, and click <strong>Apply parameters</strong>. Wind only, GPS only, or both can be set up; the rows for a stream set to <strong>Not used</strong> are not written. The extension writes the following values via mavlink2rest, verified by a fresh <code>PARAM_VALUE</code> echo per param. The first three rows belong to the wind stream, the rest to GPS:</p>\n<p>| Param                        | Value | Purpose |\n|---|---|---|\n| <code>SERIAL{X}_PROTOCOL</code>         | <code>21</code> | Wind serial \u2192 WindVane |\n| <code>WNDVN_TYPE</code>                 | <code>4</code>  | NMEA wind vane |\n| <code>WNDVN_SPEED_TYPE</code>           | <code>4</code>  | NMEA wind speed (else speed defaults to none) |\n| <code>SERIAL{Y}_PROTOCOL</code>         | <code>5</code>  | GPS serial \u2192 GPS |\n| <code>GPS1_TYPE</code> (or <code>GPS_TYPE</code>)  | <code>1</code>  | <strong>AUTO</strong> \u2014 leaves the BlueBoat's onboard u-Blox on GPS1. Legacy <code>GPS_TYPE</code> synonym used if <code>GPS1_TYPE</code> is absent. |\n| <code>GPS2_TYPE</code>                  | <code>5</code>  | NMEA \u2014 the Airmar's NMEA-over-UDP stream becomes GPS2. |\n| <code>EK3_SRC2_YAW</code>               | <code>2</code>  | Alternate EKF source set uses GPS yaw |\n| <code>EK3_SRC2_POSXY</code>             | <code>3</code>  | Alternate EKF source set uses GPS for horizontal position |\n| <code>EK3_SRC2_VELXY</code>             | <code>3</code>  | Alternate EKF source set uses GPS for horizontal velocity |\n| <code>EK3_SRC1_YAW</code> <em>(opt-in)</em>    | <code>3</code>  | Optional: promote Airmar HDT to primary yaw source with compass fallback |</p>\n<blockquote>\n<p><strong>Why GPS1 stays on AUTO, not NMEA.</strong> ArduPilot's <code>AUTO</code> (<code>1</code>) probes\nu-Blox, SBP, SiRF, and ERB, which covers the BlueBoat's stock GPS.\n<code>AUTO</code> explicitly does <em>not</em> probe NMEA, so the Airmar must be on\n<code>GPS2_TYPE = 5</code>. Earlier versions of this extension wrote\n<code>GPS1_TYPE = 5</code>, which disabled the onboard GPS; on install of 1.1.6+\nthe persisted <code>expected</code> snapshot is migrated to the two-GPS contract\nand the drift banner surfaces so the operator can re-Apply.</p>\n</blockquote>\n<p>Notes:</p>\n<ul>\n<li><strong>Apply-once model.</strong> Parameters are only written when you click Apply. A background check compares live values against the applied snapshot every 30 s; if any drift is detected, the UI offers <strong>Restore</strong> (re-apply) or <strong>Ignore</strong> (persist a per-selection \"never nag again\" flag). Changing the SERIAL indexes or the yaw fallback checkbox counts as a new setup and clears the ignore flag.</li>\n<li><strong>UDPIN ignores <code>SERIALx_BAUD</code>.</strong> The extension does not write baud so a wired UART on the same index is not silently reconfigured.</li>\n<li><strong>Missing firmware params are skipped</strong>, not treated as failures \u2014 the setup still succeeds on a build without wind-vane support, and the UI reports which rows were unavailable.</li>\n<li><strong>Parameters only</strong> (or <strong>Apply parameters</strong> on boards without one-click setup) does not write the BlueOS serial device string: paste the two <code>udpin</code> strings manually and reboot the autopilot after Save.</li>\n<li><strong>Restart the autopilot</strong> after applying parameters with <strong>Parameters only</strong> that change <code>SERIALx_PROTOCOL</code>, <code>GPS1_TYPE</code>, <code>GPS2_TYPE</code>, or <code>WNDVN_TYPE</code> \u2014 those are read at boot.</li>\n</ul>\n<p>See <a href=\"https://ardupilot.org/rover/docs/wind-vane.html\">ArduRover Wind Vane docs</a>, <a href=\"https://ardupilot.org/copter/docs/common-gps-how-it-works.html\">ArduPilot NMEA GPS</a>, and <a href=\"https://ardupilot.org/copter/docs/common-ekf-sources.html\">EKF Source Selection</a> for autopilot-side background.</p>\n<h4>Autopilot addressing (MAV_SYSID)</h4>\n<p>The extension does <strong>not</strong> assume the autopilot is at MAVLink system 1. It queries <code>GET /mavlink2rest/mavlink/vehicles</code> and picks the component whose <code>HEARTBEAT</code> reports a real autopilot (<code>MAV_AUTOPILOT_ARDUPILOTMEGA</code> or <code>MAV_AUTOPILOT_PX4</code>), preferring surface-boat / ground-rover vehicle types when several are visible. BlueOS's own onboard-controller heartbeat and this extension's <code>NAMED_VALUE_FLOAT</code> publishers are ignored.</p>\n<p>This matters because <code>MAV_SYSID</code> (<code>SYSID_THISMAV</code> on firmware before 4.6) is operator-settable. On a BlueBoat it is commonly <strong>2</strong>, with system 1 holding only BlueOS's companion-computer heartbeat. Addressing <code>PARAM_SET</code> to the wrong system is silently ignored by the autopilot and is indistinguishable from \"the parameter does not exist\" \u2014 the discovered address is logged at startup:</p>\n<p><code>INFO:app:Autopilot discovered at system 2 component 1</code></p>\n<p>Discovery is refreshed at the start of every Apply, and retried automatically if a read stops returning, so changing <code>MAV_SYSID</code> and rebooting does not require reinstalling the extension.</p>\n<h2>ArduPilot mavlink2rest NVF Streaming</h2>\n<p>Independent of the UDP NMEA stream above, the extension also publishes the latest wind values as <code>NAMED_VALUE_FLOAT</code> MAVLink messages via the BlueOS mavlink2rest endpoint at 1 Hz. These appear in the autopilot's DataFlash <code>.BIN</code> log as <code>NVF</code> rows and in the BlueOS MAVLink inspector, side-by-side with <code>MTK_*</code> / <code>ODO_*</code> etc. from other extensions.</p>\n<p>| NVF Name | Source | Description |\n|---|---|---|\n| <code>WX_AppDir</code> | <code>$WIMWV</code> (R) | Apparent wind direction, bow-relative (deg) |\n| <code>WX_AppSpd</code> | <code>$WIMWV</code> (R) | Apparent wind speed (knots) |\n| <code>WX_TruDir</code> | <code>$WIMWD</code> if present, else <code>$WIMWV</code> (T) | True wind direction (deg, north-ref when from <code>$WIMWD</code>) |\n| <code>WX_TruSpd</code> | <code>$WIMWD</code> / <code>$WIMWV</code> (T) | True wind speed (knots) |</p>\n<h3>Why <code>WX_*</code> and not <code>AppWndSpd</code> / <code>AppWndDir</code>?</h3>\n<p>ArduPilot's <code>AP_WindVane::send_wind()</code> itself emits <code>AppWndSpd</code> and <code>AppWndDir</code> as NAMED_VALUE_FLOAT whenever the wind-vane subsystem is enabled \u2014 driven by whatever feeds <code>AP_WindVane_NMEA</code> (i.e. <code>$WIMWV</code> arriving on the autopilot's NMEA serial / UDP). If that pipeline is misconfigured (e.g. <code>WNDVN_TYPE</code> / <code>WNDVN_SPEED_TYPE</code> not set to <code>4</code> for NMEA, wrong serial port, etc.) the autopilot still emits <code>AppWndSpd</code> / <code>AppWndDir</code> \u2014 but stuck at <code>0.0</code>. That is exactly the failure mode visible in earlier <code>.BIN</code> logs.</p>\n<p>Using the <code>WX_*</code> prefix here gives the extension its own NVF namespace, so both streams co-exist in the log:</p>\n<ul>\n<li><strong><code>WX_*</code></strong>  \u2192 ground truth from the 300WX, independent of the autopilot wind-vane subsystem</li>\n<li><strong><code>AppWnd*</code></strong> \u2192 what the autopilot's wind-vane subsystem actually sees</li>\n</ul>\n<p>Post-flight, comparing the two answers a single diagnostic question: did <code>$WIMWV</code> actually reach the wind-vane driver? If <code>WX_AppSpd</code> is non-zero and <code>AppWndSpd</code> is zero, the autopilot is misconfigured; fix <code>WNDVN_TYPE = 4</code> and the NMEA serial routing.</p>\n<h3>Implementation notes</h3>\n<ul>\n<li>Values are only published when the underlying NMEA parse is fresh (&lt; 5 s old). Stale or missing values are skipped, <strong>not</strong> sent as zero.</li>\n<li>Each NVF uses its own MAVLink <code>component_id</code> (<code>WX_AppDir</code>=70, <code>WX_AppSpd</code>=71, <code>WX_TruDir</code>=72, <code>WX_TruSpd</code>=73, all under <code>system_id=255</code>). mavlink-server's GET cache stores by <code>(system_id, component_id, message_type)</code>, so distinct component IDs are required for all four values to remain visible in the BlueOS MAVLink inspector. The autopilot logs every NVF it receives regardless.</li>\n<li>Publishing is always-on while the extension is running; it does <strong>not</strong> depend on the UDP wind / GPS checkboxes.</li>\n<li>Diagnostics: <code>GET http://&lt;vehicle&gt;:6436/api/mavlink/nvf_status</code> returns publish count, planned component IDs, and the timestamp of the last successful POST.</li>\n</ul>\n<h2>Cockpit WebSocket Streaming</h2>\n<p>The extension streams live wind, GPS, and heading data to Cockpit's data-lake via WebSocket (port 8765). All variables are sent <strong>regardless of the ArduPilot UDP streaming state</strong>.</p>\n<h3>Variables Streamed</h3>\n<p>| Variable | Source | Description |\n|---|---|---|\n| <code>wind-direction-true</code> | <code>$WIMWD</code> | True wind direction relative to north (degrees) |\n| <code>wind-speed-kts</code> | <code>$WIMWD</code> | True wind speed (knots) |\n| <code>heading-true</code> | <code>$HCHDT</code> | True heading from compass (degrees) |\n| <code>gps-latitude</code> | <code>$GPGGA</code> | GPS latitude (decimal degrees) |\n| <code>gps-longitude</code> | <code>$GPGGA</code> | GPS longitude (decimal degrees) |\n| <code>gps-altitude-m</code> | <code>$GPGGA</code> | GPS altitude (metres) |\n| <code>gps-satellites</code> | <code>$GPGGA</code> | Number of GPS satellites in use |\n| <code>gps-fix-quality</code> | <code>$GPGGA</code> | GPS fix quality (0=none, 1=GPS, 2=DGPS) |\n| <code>gps-course-true</code> | <code>$GPVTG</code> | Course over ground (degrees true) |\n| <code>gps-speed-kts</code> | <code>$GPVTG</code> | Speed over ground (knots) |</p>\n<h3>Setting Up Cockpit Connection</h3>\n<ol>\n<li>Open <strong>Cockpit &gt; Menu &gt; Settings &gt; General</strong></li>\n<li>Scroll to <strong>Generic WebSocket connections</strong></li>\n<li>Add the URL: <code>ws://{{ vehicle-address }}:8765</code>\n   (e.g., <code>ws://192.168.2.2:8765</code>)</li>\n</ol>\n<p>Once connected, all variables appear in Cockpit's data-lake and can be assigned to any widget, mini-widget, or HUD overlay.</p>\n<h2>Log Files</h2>\n<p>Log files are stored in the BlueOS extensions directory:</p>\n<ul>\n<li>Location: <code>/usr/blueos/extensions/300WX/</code></li>\n<li>Files:</li>\n<li><code>nmea_messages.log</code> \u2014 Raw NMEA message history</li>\n<li><code>300wx.log</code> \u2014 Application operational log</li>\n</ul>\n<p>These logs persist across container restarts and can be managed from the Logs tab in the extension UI.</p>\n<h2>Usage</h2>\n<ol>\n<li>Open the Airmar 300WX extension from the BlueOS sidebar</li>\n<li>The extension auto-connects to the last used serial port on startup (it does not scan other ports)</li>\n<li>On first use, select a serial port from the dropdown or device identification list</li>\n<li>Click \"Connect\" \u2014 the extension negotiates 115200 baud automatically and stores that as the sensor default</li>\n<li>View live sensor data on the Dashboard tab</li>\n<li>Configure sentence enable/disable on the Sentences tab</li>\n<li>View per-message-type data and Hz rates on the Raw Messages tab</li>\n</ol>\n<h2>Development</h2>\n<h3>Building from Source</h3>\n<p><code>bash\ngit clone https://github.com/vshie/Airmar-WX.git\ncd Airmar-WX\ndocker build -t vshie/blueos-airmar-wx:latest .</code></p>\n<h3>GitHub Actions</h3>\n<p>The CI/CD pipeline requires these GitHub Secrets and Variables:</p>\n<p><strong>Secrets:</strong>\n- <code>DOCKER_USERNAME</code> \u2014 Docker Hub username\n- <code>DOCKER_PASSWORD</code> \u2014 Docker Hub access token (Read &amp; Write)</p>\n<p><strong>Variables:</strong>\n- <code>IMAGE_NAME</code> \u2014 Docker repository name (default: <code>airmar-wx</code>)\n- <code>MY_NAME</code> \u2014 Author name\n- <code>MY_EMAIL</code> \u2014 Author email\n- <code>ORG_NAME</code> \u2014 Maintainer organization name\n- <code>ORG_EMAIL</code> \u2014 Maintainer organization email</p>\n<h2>License</h2>\n<p>MIT License - see LICENSE file for details</p>",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "Airmar WX-series WeatherStation interface for BlueOS",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "6436/tcp": {},
+                        "8765/tcp": {}
+                    },
+                    "HostConfig": {
+                        "CpuPeriod": 100000,
+                        "CpuQuota": 100000,
+                        "Binds": [
+                            "/usr/blueos/extensions/300WX:/app/logs",
+                            "/dev:/dev"
+                        ],
+                        "NetworkMode": "host",
+                        "Privileged": true
+                    }
+                }
+            },
+            "1.1.0": {
+                "identifier": "7e5f89bb-dbc0-55cd-91c6-af460df5f351",
+                "type": "tool",
+                "website": "https://bluerobotics.com",
+                "images": [
+                    {
+                        "expanded_size": 70113967,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:441bb14f7a6c8b9f75a1277ed55700408cb8e70a1d69618bea587cc8bb940ef1"
+                    },
+                    {
+                        "expanded_size": 69658350,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:887be58f50a3a4ffb9f0694cac415b726a91f6882d2c42665e507f683b7742d3"
+                    },
+                    {
+                        "expanded_size": 64337257,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b4c7dc3e3638563f28eb8e4ec709fc03f7e5b94779a07e475fa28baa37e277fa"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Tony White",
+                        "email": "tony@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/vshie/Airmar-WX"
+                },
+                "tag": "1.1.0",
+                "docs": null,
+                "readme": "<h1>Airmar 300WX WeatherStation - BlueOS Extension</h1>\n<p>A BlueOS extension for the Airmar 300WX WeatherStation. Connects via NMEA 0183 serial, auto-negotiates <strong>115200</strong> baud (with <code>$PAMTC,BAUD,...,CFG</code> so the default persists across power cycles), and streams wind data to Cockpit via WebSocket.</p>\n<h2>Features</h2>\n<ul>\n<li>Automatic serial port detection and baud rate negotiation (4800 \u2192 115200, default saved on device)</li>\n<li><strong>Auto-reconnect on extension restart</strong>: the last serial port (by its stable <code>/dev/serial/by-id</code> name), baud hint, and \u201cstay at 4800\u201d preference are stored in <code>state.json</code> under the mounted logs directory; a background thread reconnects to that port at startup without using the UI. Other ports are never scanned automatically, so a GPS or other device on another USB port is left alone. On first install, after <strong>Disconnect</strong>, or if the saved device is unplugged, pick the port in the UI and click <strong>Connect</strong>.</li>\n<li>Real-time dashboard with wind, heading, atmosphere, GPS, and attitude data (including apparent/true wind roses and speed\u2013time heatmaps)</li>\n<li>Sparkline history graphs for all sensor channels</li>\n<li>Per-sentence enable/disable and transmission interval control</li>\n<li>Bandwidth usage indicator (percentage of serial bus capacity)</li>\n<li>Raw message view with one card per message type and live Hz rate</li>\n<li>Dual UDP streams to ArduPilot \u2014 wind on <code>27001</code> and GPS + heading on <code>27002</code>, each enabled by its own checkbox (both off by default)</li>\n<li>One-click ArduRover parameter setup (SERIAL X/Y, wind vane + GPS NMEA + optional GPS-yaw source) with drift detection and restore/ignore</li>\n<li>Cockpit data-lake WebSocket streaming of wind, GPS, and heading data</li>\n<li>Persistent NMEA message and application logs with download/delete</li>\n</ul>\n<h2>Installation</h2>\n<h3>From BlueOS Extensions Manager</h3>\n<ol>\n<li>Open BlueOS web interface</li>\n<li>Navigate to Extensions Manager</li>\n<li>Search for \"Airmar 300WX\"</li>\n<li>Click Install</li>\n</ol>\n<h3>Manual Install</h3>\n<ol>\n<li>In BlueOS, go to Extensions Manager &gt; Installed &gt; \"+\"</li>\n<li>Enter:</li>\n<li><strong>Extension Identifier</strong>: <code>bluerobotics.airmar-300wx</code></li>\n<li><strong>Extension Name</strong>: <code>Airmar 300WX</code></li>\n<li><strong>Docker image</strong>: <code>vshie/blueos-airmar-wx</code></li>\n<li><strong>Docker tag</strong>: <code>main</code></li>\n</ol>\n<h2>Custom Settings (Permissions)</h2>\n<p>When manually installing, paste this into the <strong>Custom settings</strong> field:</p>\n<p><code>json\n{\n  \"ExposedPorts\": {\n    \"6436/tcp\": {},\n    \"8765/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"CpuPeriod\": 100000,\n    \"CpuQuota\": 100000,\n    \"Binds\": [\n      \"/usr/blueos/extensions/300WX:/app/logs\",\n      \"/dev:/dev\"\n    ],\n    \"NetworkMode\": \"host\",\n    \"Privileged\": true\n  }\n}</code></p>\n<blockquote>\n<p><strong>Networking note.</strong> <code>NetworkMode: host</code> is required so the two NMEA UDP\nfeeds (<code>27001</code> wind, <code>27002</code> GPS + heading) can be sent from <code>127.0.0.1</code>\nto the autopilot's <code>udpin</code> sockets. The earlier design routed via the\ndocker bridge (<code>host.docker.internal</code> / 172.18.0.1); ArduPilot's\n<code>UDPDevice::read()</code> calls <code>socket.connect()</code> on the first datagram's\nsource address, which was 192.168.2.12 (the host's LAN address). After\nthat, every subsequent datagram \u2014 still addressed to 172.18.0.1 \u2014 was\nsilently dropped as \"not from the connected peer\". Sending from the\nloopback keeps the source address stable and works because\n<code>NetworkMode: host</code> makes the container share the host's <code>lo</code>. The\n<code>ExtraHosts</code> mapping for <code>host.docker.internal</code> is no longer required\nand has been removed.</p>\n<p>ArduPilot pins the sender's UDP source <strong>port</strong> as well as its address.\nThe extension therefore binds its sender to the fixed endpoint\n<code>127.0.0.1:27100</code>; both destination routes use that source. This keeps\nwind and GPS working across extension-only restarts instead of changing\nto a new ephemeral source port. After upgrading from 1.1.6 or earlier,\nrestart the autopilot once to clear its previously pinned peer.</p>\n</blockquote>\n<h2>ArduPilot UDP Streaming (dual routes)</h2>\n<p>The extension can forward NMEA sentences to the autopilot via <strong>two</strong> UDP ports at the same time so both the wind vane driver and the GPS/heading driver can be fed simultaneously (each ArduPilot serial has a single <code>SERIALx_PROTOCOL</code>, so one port cannot serve both drivers).</p>\n<p>Each route has its own checkbox under <strong>Send to ArduPilot over UDP</strong> in the connection panel, and <strong>both are off by default</strong> \u2014 nothing is sent to the autopilot until you tick one. The choice is saved and applies on every connect and restart. Connecting or disconnecting the sensor does not change it. Ticking <strong>GPS + heading</strong> also raises <code>$GPGGA</code>, <code>$GPRMC</code>, <code>$GPVTG</code>, and <code>$HCHDT</code> from 1 Hz to the 10 Hz ArduPilot's NMEA GPS driver needs (at 115200 baud only; at 4800 baud they stay at 1 Hz), and unticking it puts back the rates you had before: whatever you set for them on the <strong>Sentences</strong> tab, or 1 Hz if you never changed them. When upgrading from 1.1.9 or earlier, an install that has already applied the ArduRover parameter setup keeps both routes on; otherwise both start off.</p>\n<p>| Route | UDP port | Sentences | ArduPilot driver |\n|---|---|---|---|\n| Wind    | <code>27001</code> | <code>$WIMWV</code>                                | <code>AP_WindVane_NMEA</code> (<code>WNDVN_TYPE = 4</code>) |\n| GPS + heading | <code>27002</code> | <code>$GPGGA</code>, <code>$GPRMC</code>, <code>$GPVTG</code>, <code>$HCHDT</code> | <code>AP_GPS</code> NMEA driver on <strong>GPS2</strong> (<code>GPS2_TYPE = 5</code>); onboard GPS stays on <code>GPS1_TYPE = 1</code> (AUTO) |</p>\n<h3>BlueOS serial port configuration (manual)</h3>\n<p>Open <strong>BlueOS \u2192 Autopilot Firmware \u2192 Serial port configuration</strong> and set the <code>udpin</code> device string for each stream you want, then Save and Restart the autopilot:</p>\n<ul>\n<li><strong>SERIAL6</strong> \u2192 <code>udpin:0.0.0.0:27001</code> \u2014 wind vane</li>\n<li><strong>SERIAL7</strong> \u2192 <code>udpin:0.0.0.0:27002</code> \u2014 GPS/heading source</li>\n</ul>\n<p>You only need the one(s) you plan to use. Do NOT overwrite the on-board GPS serial. The extension surfaces both strings with a click-to-copy button under <strong>Setup \u2192 Step 2a</strong> next to the serial-config screenshot.</p>\n<h3>ArduRover parameter setup (from the extension)</h3>\n<p>In <strong>Setup \u2192 Step 2b</strong>, pick the SERIAL port for each stream (<code>SERIAL6</code> for wind, <code>SERIAL7</code> for GPS), or <strong>Not used</strong> to skip one, and click <strong>Apply parameters</strong>. Wind only, GPS only, or both can be set up; the rows for a stream set to <strong>Not used</strong> are not written. The extension writes the following values via mavlink2rest, verified by a fresh <code>PARAM_VALUE</code> echo per param. The first three rows belong to the wind stream, the rest to GPS:</p>\n<p>| Param                        | Value | Purpose |\n|---|---|---|\n| <code>SERIAL{X}_PROTOCOL</code>         | <code>21</code> | Wind serial \u2192 WindVane |\n| <code>WNDVN_TYPE</code>                 | <code>4</code>  | NMEA wind vane |\n| <code>WNDVN_SPEED_TYPE</code>           | <code>4</code>  | NMEA wind speed (else speed defaults to none) |\n| <code>SERIAL{Y}_PROTOCOL</code>         | <code>5</code>  | GPS serial \u2192 GPS |\n| <code>GPS1_TYPE</code> (or <code>GPS_TYPE</code>)  | <code>1</code>  | <strong>AUTO</strong> \u2014 leaves the BlueBoat's onboard u-Blox on GPS1. Legacy <code>GPS_TYPE</code> synonym used if <code>GPS1_TYPE</code> is absent. |\n| <code>GPS2_TYPE</code>                  | <code>5</code>  | NMEA \u2014 the Airmar's NMEA-over-UDP stream becomes GPS2. |\n| <code>EK3_SRC2_YAW</code>               | <code>2</code>  | Alternate EKF source set uses GPS yaw |\n| <code>EK3_SRC2_POSXY</code>             | <code>3</code>  | Alternate EKF source set uses GPS for horizontal position |\n| <code>EK3_SRC2_VELXY</code>             | <code>3</code>  | Alternate EKF source set uses GPS for horizontal velocity |\n| <code>EK3_SRC1_YAW</code> <em>(opt-in)</em>    | <code>3</code>  | Optional: promote Airmar HDT to primary yaw source with compass fallback |</p>\n<blockquote>\n<p><strong>Why GPS1 stays on AUTO, not NMEA.</strong> ArduPilot's <code>AUTO</code> (<code>1</code>) probes\nu-Blox, SBP, SiRF, and ERB, which covers the BlueBoat's stock GPS.\n<code>AUTO</code> explicitly does <em>not</em> probe NMEA, so the Airmar must be on\n<code>GPS2_TYPE = 5</code>. Earlier versions of this extension wrote\n<code>GPS1_TYPE = 5</code>, which disabled the onboard GPS; on install of 1.1.6+\nthe persisted <code>expected</code> snapshot is migrated to the two-GPS contract\nand the drift banner surfaces so the operator can re-Apply.</p>\n</blockquote>\n<p>Notes:</p>\n<ul>\n<li><strong>Apply-once model.</strong> Parameters are only written when you click Apply. A background check compares live values against the applied snapshot every 30 s; if any drift is detected, the UI offers <strong>Restore</strong> (re-apply) or <strong>Ignore</strong> (persist a per-selection \"never nag again\" flag). Changing the SERIAL indexes or the yaw fallback checkbox counts as a new setup and clears the ignore flag.</li>\n<li><strong>UDPIN ignores <code>SERIALx_BAUD</code>.</strong> The extension does not write baud so a wired UART on the same index is not silently reconfigured.</li>\n<li><strong>Missing firmware params are skipped</strong>, not treated as failures \u2014 the setup still succeeds on a build without wind-vane support, and the UI reports which rows were unavailable.</li>\n<li><strong>The extension does not write the BlueOS serial device string.</strong> That mapping lives in BlueOS, not in ArduPilot parameters \u2014 you still paste the two <code>udpin</code> strings manually and reboot the autopilot after Save.</li>\n<li><strong>Restart the autopilot</strong> after applying parameters that change <code>SERIALx_PROTOCOL</code>, <code>GPS1_TYPE</code>, <code>GPS2_TYPE</code>, or <code>WNDVN_TYPE</code> \u2014 those are read at boot.</li>\n</ul>\n<p>See <a href=\"https://ardupilot.org/rover/docs/wind-vane.html\">ArduRover Wind Vane docs</a>, <a href=\"https://ardupilot.org/copter/docs/common-gps-how-it-works.html\">ArduPilot NMEA GPS</a>, and <a href=\"https://ardupilot.org/copter/docs/common-ekf-sources.html\">EKF Source Selection</a> for autopilot-side background.</p>\n<h4>Autopilot addressing (MAV_SYSID)</h4>\n<p>The extension does <strong>not</strong> assume the autopilot is at MAVLink system 1. It queries <code>GET /mavlink2rest/mavlink/vehicles</code> and picks the component whose <code>HEARTBEAT</code> reports a real autopilot (<code>MAV_AUTOPILOT_ARDUPILOTMEGA</code> or <code>MAV_AUTOPILOT_PX4</code>), preferring surface-boat / ground-rover vehicle types when several are visible. BlueOS's own onboard-controller heartbeat and this extension's <code>NAMED_VALUE_FLOAT</code> publishers are ignored.</p>\n<p>This matters because <code>MAV_SYSID</code> (<code>SYSID_THISMAV</code> on firmware before 4.6) is operator-settable. On a BlueBoat it is commonly <strong>2</strong>, with system 1 holding only BlueOS's companion-computer heartbeat. Addressing <code>PARAM_SET</code> to the wrong system is silently ignored by the autopilot and is indistinguishable from \"the parameter does not exist\" \u2014 the discovered address is logged at startup:</p>\n<p><code>INFO:app:Autopilot discovered at system 2 component 1</code></p>\n<p>Discovery is refreshed at the start of every Apply, and retried automatically if a read stops returning, so changing <code>MAV_SYSID</code> and rebooting does not require reinstalling the extension.</p>\n<h2>ArduPilot mavlink2rest NVF Streaming</h2>\n<p>Independent of the UDP NMEA stream above, the extension also publishes the latest wind values as <code>NAMED_VALUE_FLOAT</code> MAVLink messages via the BlueOS mavlink2rest endpoint at 1 Hz. These appear in the autopilot's DataFlash <code>.BIN</code> log as <code>NVF</code> rows and in the BlueOS MAVLink inspector, side-by-side with <code>MTK_*</code> / <code>ODO_*</code> etc. from other extensions.</p>\n<p>| NVF Name | Source | Description |\n|---|---|---|\n| <code>WX_AppDir</code> | <code>$WIMWV</code> (R) | Apparent wind direction, bow-relative (deg) |\n| <code>WX_AppSpd</code> | <code>$WIMWV</code> (R) | Apparent wind speed (knots) |\n| <code>WX_TruDir</code> | <code>$WIMWD</code> if present, else <code>$WIMWV</code> (T) | True wind direction (deg, north-ref when from <code>$WIMWD</code>) |\n| <code>WX_TruSpd</code> | <code>$WIMWD</code> / <code>$WIMWV</code> (T) | True wind speed (knots) |</p>\n<h3>Why <code>WX_*</code> and not <code>AppWndSpd</code> / <code>AppWndDir</code>?</h3>\n<p>ArduPilot's <code>AP_WindVane::send_wind()</code> itself emits <code>AppWndSpd</code> and <code>AppWndDir</code> as NAMED_VALUE_FLOAT whenever the wind-vane subsystem is enabled \u2014 driven by whatever feeds <code>AP_WindVane_NMEA</code> (i.e. <code>$WIMWV</code> arriving on the autopilot's NMEA serial / UDP). If that pipeline is misconfigured (e.g. <code>WNDVN_TYPE</code> / <code>WNDVN_SPEED_TYPE</code> not set to <code>4</code> for NMEA, wrong serial port, etc.) the autopilot still emits <code>AppWndSpd</code> / <code>AppWndDir</code> \u2014 but stuck at <code>0.0</code>. That is exactly the failure mode visible in earlier <code>.BIN</code> logs.</p>\n<p>Using the <code>WX_*</code> prefix here gives the extension its own NVF namespace, so both streams co-exist in the log:</p>\n<ul>\n<li><strong><code>WX_*</code></strong>  \u2192 ground truth from the 300WX, independent of the autopilot wind-vane subsystem</li>\n<li><strong><code>AppWnd*</code></strong> \u2192 what the autopilot's wind-vane subsystem actually sees</li>\n</ul>\n<p>Post-flight, comparing the two answers a single diagnostic question: did <code>$WIMWV</code> actually reach the wind-vane driver? If <code>WX_AppSpd</code> is non-zero and <code>AppWndSpd</code> is zero, the autopilot is misconfigured; fix <code>WNDVN_TYPE = 4</code> and the NMEA serial routing.</p>\n<h3>Implementation notes</h3>\n<ul>\n<li>Values are only published when the underlying NMEA parse is fresh (&lt; 5 s old). Stale or missing values are skipped, <strong>not</strong> sent as zero.</li>\n<li>Each NVF uses its own MAVLink <code>component_id</code> (<code>WX_AppDir</code>=70, <code>WX_AppSpd</code>=71, <code>WX_TruDir</code>=72, <code>WX_TruSpd</code>=73, all under <code>system_id=255</code>). mavlink-server's GET cache stores by <code>(system_id, component_id, message_type)</code>, so distinct component IDs are required for all four values to remain visible in the BlueOS MAVLink inspector. The autopilot logs every NVF it receives regardless.</li>\n<li>Publishing is always-on while the extension is running; it does <strong>not</strong> depend on the UDP wind / GPS checkboxes.</li>\n<li>Diagnostics: <code>GET http://&lt;vehicle&gt;:6436/api/mavlink/nvf_status</code> returns publish count, planned component IDs, and the timestamp of the last successful POST.</li>\n</ul>\n<h2>Cockpit WebSocket Streaming</h2>\n<p>The extension streams live wind, GPS, and heading data to Cockpit's data-lake via WebSocket (port 8765). All variables are sent <strong>regardless of the ArduPilot UDP streaming state</strong>.</p>\n<h3>Variables Streamed</h3>\n<p>| Variable | Source | Description |\n|---|---|---|\n| <code>wind-direction-true</code> | <code>$WIMWD</code> | True wind direction relative to north (degrees) |\n| <code>wind-speed-kts</code> | <code>$WIMWD</code> | True wind speed (knots) |\n| <code>heading-true</code> | <code>$HCHDT</code> | True heading from compass (degrees) |\n| <code>gps-latitude</code> | <code>$GPGGA</code> | GPS latitude (decimal degrees) |\n| <code>gps-longitude</code> | <code>$GPGGA</code> | GPS longitude (decimal degrees) |\n| <code>gps-altitude-m</code> | <code>$GPGGA</code> | GPS altitude (metres) |\n| <code>gps-satellites</code> | <code>$GPGGA</code> | Number of GPS satellites in use |\n| <code>gps-fix-quality</code> | <code>$GPGGA</code> | GPS fix quality (0=none, 1=GPS, 2=DGPS) |\n| <code>gps-course-true</code> | <code>$GPVTG</code> | Course over ground (degrees true) |\n| <code>gps-speed-kts</code> | <code>$GPVTG</code> | Speed over ground (knots) |</p>\n<h3>Setting Up Cockpit Connection</h3>\n<ol>\n<li>Open <strong>Cockpit &gt; Menu &gt; Settings &gt; General</strong></li>\n<li>Scroll to <strong>Generic WebSocket connections</strong></li>\n<li>Add the URL: <code>ws://{{ vehicle-address }}:8765</code>\n   (e.g., <code>ws://192.168.2.2:8765</code>)</li>\n</ol>\n<p>Once connected, all variables appear in Cockpit's data-lake and can be assigned to any widget, mini-widget, or HUD overlay.</p>\n<h2>Log Files</h2>\n<p>Log files are stored in the BlueOS extensions directory:</p>\n<ul>\n<li>Location: <code>/usr/blueos/extensions/300WX/</code></li>\n<li>Files:</li>\n<li><code>nmea_messages.log</code> \u2014 Raw NMEA message history</li>\n<li><code>300wx.log</code> \u2014 Application operational log</li>\n</ul>\n<p>These logs persist across container restarts and can be managed from the Logs tab in the extension UI.</p>\n<h2>Usage</h2>\n<ol>\n<li>Open the Airmar 300WX extension from the BlueOS sidebar</li>\n<li>The extension auto-connects to the last used serial port on startup (it does not scan other ports)</li>\n<li>On first use, select a serial port from the dropdown or device identification list</li>\n<li>Click \"Connect\" \u2014 the extension negotiates 115200 baud automatically and stores that as the sensor default</li>\n<li>View live sensor data on the Dashboard tab</li>\n<li>Configure sentence enable/disable on the Sentences tab</li>\n<li>View per-message-type data and Hz rates on the Raw Messages tab</li>\n</ol>\n<h2>Development</h2>\n<h3>Building from Source</h3>\n<p><code>bash\ngit clone https://github.com/vshie/Airmar-WX.git\ncd Airmar-WX\ndocker build -t vshie/blueos-airmar-wx:latest .</code></p>\n<h3>GitHub Actions</h3>\n<p>The CI/CD pipeline requires these GitHub Secrets and Variables:</p>\n<p><strong>Secrets:</strong>\n- <code>DOCKER_USERNAME</code> \u2014 Docker Hub username\n- <code>DOCKER_PASSWORD</code> \u2014 Docker Hub access token (Read &amp; Write)</p>\n<p><strong>Variables:</strong>\n- <code>IMAGE_NAME</code> \u2014 Docker repository name (default: <code>airmar-wx</code>)\n- <code>MY_NAME</code> \u2014 Author name\n- <code>MY_EMAIL</code> \u2014 Author email\n- <code>ORG_NAME</code> \u2014 Maintainer organization name\n- <code>ORG_EMAIL</code> \u2014 Maintainer organization email</p>\n<h2>License</h2>\n<p>MIT License - see LICENSE file for details</p>",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "Airmar WX-series WeatherStation interface for BlueOS",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "6436/tcp": {},
+                        "8765/tcp": {}
+                    },
+                    "HostConfig": {
+                        "CpuPeriod": 100000,
+                        "CpuQuota": 100000,
+                        "Binds": [
+                            "/usr/blueos/extensions/300WX:/app/logs",
+                            "/dev:/dev"
+                        ],
+                        "NetworkMode": "host",
+                        "Privileged": true
+                    }
+                }
+            },
             "1.0.1": {
                 "identifier": "af3cf2e7-30fb-5afb-ba5b-4fded98f9ca0",
                 "type": "tool",
@@ -5620,8 +5760,8 @@
             }
         },
         "repo_info": {
-            "downloads": 3830,
-            "last_updated": "2026-09-29T00:58:47.930983Z",
+            "downloads": 4407,
+            "last_updated": "2026-09-29T23:40:57.498411Z",
             "date_registered": "2026-04-21T05:42:59.559841Z"
         }
     },
@@ -5765,7 +5905,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14105,
+            "downloads": 14113,
             "last_updated": "2026-09-25T22:10:24.006651Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -6524,7 +6664,7 @@
             }
         },
         "repo_info": {
-            "downloads": 286378,
+            "downloads": 286510,
             "last_updated": "2026-09-21T23:06:20.353381Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -6708,7 +6848,7 @@
             }
         },
         "repo_info": {
-            "downloads": 17417,
+            "downloads": 17459,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -7364,7 +7504,7 @@
             }
         },
         "repo_info": {
-            "downloads": 75851,
+            "downloads": 75965,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -9215,7 +9355,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16356,
+            "downloads": 16401,
             "last_updated": "2026-04-11T03:13:17.09333Z",
             "date_registered": "2026-02-12T13:43:54.707847Z"
         }
@@ -9531,7 +9671,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31287,
+            "downloads": 31349,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -9604,7 +9744,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4422,
+            "downloads": 4451,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -10194,7 +10334,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15463,
+            "downloads": 15488,
             "last_updated": "2026-04-13T19:24:51.71125Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -10258,7 +10398,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4850,
+            "downloads": 4886,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -10377,7 +10517,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12203,
+            "downloads": 12240,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -11953,7 +12093,7 @@
             }
         },
         "repo_info": {
-            "downloads": 26391,
+            "downloads": 26461,
             "last_updated": "2026-08-29T20:47:19.22739Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -12779,7 +12919,7 @@
             }
         },
         "repo_info": {
-            "downloads": 212367,
+            "downloads": 212759,
             "last_updated": "2026-09-28T14:07:16.356301Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -12868,7 +13008,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1817,
+            "downloads": 1822,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -12945,7 +13085,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1048,
+            "downloads": 1049,
             "last_updated": "2025-06-18T16:58:38.273351Z",
             "date_registered": "2025-06-18T15:58:12.81427Z"
         }
@@ -13376,7 +13516,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2028,
+            "downloads": 2043,
             "last_updated": "2026-09-08T18:01:23.767499Z",
             "date_registered": "2026-08-10T23:39:28.481455Z"
         }
@@ -13605,7 +13745,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3132,
+            "downloads": 3137,
             "last_updated": "2026-05-05T13:55:31.828605Z",
             "date_registered": "2025-05-20T15:43:22.289812Z"
         }
@@ -13835,7 +13975,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9172,
+            "downloads": 9180,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -14154,7 +14294,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10899,
+            "downloads": 10919,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -14225,7 +14365,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9304,
+            "downloads": 9306,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -14471,7 +14611,7 @@
             }
         },
         "repo_info": {
-            "downloads": 21829,
+            "downloads": 21895,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -16358,7 +16498,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87232,
+            "downloads": 87551,
             "last_updated": "2026-08-14T10:50:23.663125Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -16608,7 +16748,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4010,
+            "downloads": 4016,
             "last_updated": "2025-10-01T05:57:10.274174Z",
             "date_registered": "2025-05-10T01:56:01.193452Z"
         }
@@ -16683,7 +16823,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1866,
+            "downloads": 1867,
             "last_updated": "2025-07-10T10:12:35.559561Z",
             "date_registered": "2025-06-09T11:02:45.219651Z"
         }
@@ -16760,7 +16900,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1720,
+            "downloads": 1721,
             "last_updated": "2025-07-15T10:40:44.978177Z",
             "date_registered": "2025-06-30T11:16:48.313135Z"
         }
@@ -18063,7 +18203,7 @@
             }
         },
         "repo_info": {
-            "downloads": 102063,
+            "downloads": 102273,
             "last_updated": "2026-04-30T09:10:10.908744Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -18193,7 +18333,7 @@
             }
         },
         "repo_info": {
-            "downloads": 88010,
+            "downloads": 88043,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -18268,7 +18408,7 @@
             }
         },
         "repo_info": {
-            "downloads": 771,
+            "downloads": 773,
             "last_updated": "2025-06-13T02:53:50.603427Z",
             "date_registered": "2025-06-13T02:53:50.53734Z"
         }
@@ -18554,7 +18694,7 @@
             }
         },
         "repo_info": {
-            "downloads": 156980,
+            "downloads": 157038,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -18720,7 +18860,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14252,
+            "downloads": 14297,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -19206,7 +19346,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44264,
+            "downloads": 44377,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -19342,7 +19482,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90533,
+            "downloads": 90569,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -19472,7 +19612,7 @@
             }
         },
         "repo_info": {
-            "downloads": 92786,
+            "downloads": 92823,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -19836,7 +19976,7 @@
             }
         },
         "repo_info": {
-            "downloads": 30597,
+            "downloads": 30660,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -20071,7 +20211,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9515,
+            "downloads": 9529,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -20506,7 +20646,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16879,
+            "downloads": 16924,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -20888,7 +21028,7 @@
             }
         },
         "repo_info": {
-            "downloads": 32949,
+            "downloads": 33005,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -21019,7 +21159,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11608,
+            "downloads": 11646,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -21490,7 +21630,7 @@
             }
         },
         "repo_info": {
-            "downloads": 73179,
+            "downloads": 73266,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -21620,7 +21760,7 @@
             }
         },
         "repo_info": {
-            "downloads": 95814,
+            "downloads": 95848,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -21932,7 +22072,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6681,
+            "downloads": 6696,
             "last_updated": "2025-10-06T16:30:12.858404Z",
             "date_registered": "2025-06-05T16:32:39.297165Z"
         }
@@ -22162,7 +22302,7 @@
             }
         },
         "repo_info": {
-            "downloads": 57137,
+            "downloads": 57192,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -23128,7 +23268,7 @@
             }
         },
         "repo_info": {
-            "downloads": 38301,
+            "downloads": 38347,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -23275,7 +23415,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1976,
+            "downloads": 1981,
             "last_updated": "2026-01-30T21:25:13.839149Z",
             "date_registered": "2026-01-30T20:31:13.810756Z"
         }
