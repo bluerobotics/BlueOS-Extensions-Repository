@@ -1,0 +1,6 @@
+{
+    "name": "DroneCAN GUI",
+    "website": "https://github.com/Williangalvani/blueos-dronecan-gui",
+    "docker": "williangalvani/blueos-dronecan-gui",
+    "description": "Configure DroneCAN nodes through the autopilot over MAVLink."
+}
