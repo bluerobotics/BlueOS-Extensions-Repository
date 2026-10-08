@@ -113,7 +113,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13698,
+            "downloads": 13701,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -1692,7 +1692,7 @@
             }
         },
         "repo_info": {
-            "downloads": 169027,
+            "downloads": 169081,
             "last_updated": "2026-09-25T19:04:08.97743Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -2050,7 +2050,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51146,
+            "downloads": 51159,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -2358,7 +2358,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14087,
+            "downloads": 14094,
             "last_updated": "2026-07-24T16:54:58.515822Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -2599,7 +2599,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9457,
+            "downloads": 9466,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -2891,7 +2891,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3046,
+            "downloads": 3053,
             "last_updated": "2026-02-14T11:38:51.179098Z",
             "date_registered": "2026-02-13T23:36:10.488489Z"
         }
@@ -3122,7 +3122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14033,
+            "downloads": 14039,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -3284,7 +3284,7 @@
             }
         },
         "repo_info": {
-            "downloads": 759,
+            "downloads": 762,
             "last_updated": "2026-07-31T14:10:32.245795Z",
             "date_registered": "2026-07-29T04:48:40.816934Z"
         }
@@ -3578,7 +3578,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9817,
+            "downloads": 9824,
             "last_updated": "2026-08-31T21:56:31.290058Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -3883,7 +3883,7 @@
             }
         },
         "repo_info": {
-            "downloads": 22836,
+            "downloads": 22843,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4373,7 +4373,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2603,
+            "downloads": 2614,
             "last_updated": "2026-10-05T12:55:18.774255Z",
             "date_registered": "2026-08-11T18:32:15.403879Z"
         }
@@ -4473,7 +4473,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1589,
+            "downloads": 1590,
             "last_updated": "2026-05-23T22:11:28.77981Z",
             "date_registered": "2026-05-01T00:37:28.632276Z"
         }
@@ -4854,7 +4854,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2969,
+            "downloads": 2978,
             "last_updated": "2026-05-09T02:34:52.365761Z",
             "date_registered": "2026-05-03T17:08:01.170819Z"
         }
@@ -5032,7 +5032,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2252,
+            "downloads": 2261,
             "last_updated": "2026-06-18T00:07:09.416225Z",
             "date_registered": "2026-03-19T23:17:28.363758Z"
         }
@@ -5493,7 +5493,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25429,
+            "downloads": 25440,
             "last_updated": "2026-07-24T11:12:02.444273Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -5927,7 +5927,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4720,
+            "downloads": 4731,
             "last_updated": "2026-09-30T17:35:34.342171Z",
             "date_registered": "2026-04-21T05:42:59.559841Z"
         }
@@ -6072,7 +6072,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14174,
+            "downloads": 14177,
             "last_updated": "2026-09-25T22:10:24.006651Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -6394,15 +6394,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:02b1b004172e7f53009bda575ce76f17b02d02352d195bc7d1caacd9a052ada8"
-                    },
-                    {
-                        "expanded_size": 75531366,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:59d11ef8c3ed038eb679580d0d724883f65286dceff3afd6e87b28c493946fd3"
                     },
                     {
                         "expanded_size": 70965287,
@@ -6889,7 +6880,7 @@
             }
         },
         "repo_info": {
-            "downloads": 287139,
+            "downloads": 287162,
             "last_updated": "2026-09-30T15:38:32.458882Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -7073,7 +7064,7 @@
             }
         },
         "repo_info": {
-            "downloads": 17656,
+            "downloads": 17661,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -7729,7 +7720,7 @@
             }
         },
         "repo_info": {
-            "downloads": 76421,
+            "downloads": 76442,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -9580,7 +9571,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16827,
+            "downloads": 16872,
             "last_updated": "2026-04-11T03:13:17.09333Z",
             "date_registered": "2026-02-12T13:43:54.707847Z"
         }
@@ -9896,7 +9887,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31586,
+            "downloads": 31595,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -9969,7 +9960,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4517,
+            "downloads": 4518,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -10559,7 +10550,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15730,
+            "downloads": 15755,
             "last_updated": "2026-04-13T19:24:51.71125Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -10623,7 +10614,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4964,
+            "downloads": 4967,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -10742,7 +10733,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12366,
+            "downloads": 12369,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -12318,7 +12309,7 @@
             }
         },
         "repo_info": {
-            "downloads": 27086,
+            "downloads": 27137,
             "last_updated": "2026-08-29T20:47:19.22739Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -13225,7 +13216,7 @@
             }
         },
         "repo_info": {
-            "downloads": 215346,
+            "downloads": 215373,
             "last_updated": "2026-10-07T16:26:14.756985Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -13314,7 +13305,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1873,
+            "downloads": 1874,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -13391,7 +13382,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1068,
+            "downloads": 1069,
             "last_updated": "2025-06-18T16:58:38.273351Z",
             "date_registered": "2025-06-18T15:58:12.81427Z"
         }
@@ -13405,6 +13396,89 @@
         "extension_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/bluerobotics/radcam-manager/extension_logo.png",
         "company_logo": "https://docs.bluerobotics.com/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
         "versions": {
+            "0.3.4": {
+                "identifier": "50c0b5fc-6686-5fd0-9a5f-751f4e9289e0",
+                "type": "device-integration",
+                "website": "https://raw.githubusercontent.com/bluerobotics/br4kcam-manager/",
+                "images": [
+                    {
+                        "expanded_size": 65169448,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3ca48b81dd72515215219186548c5e74a1de7cb68020551a5176499f3bfd31b8"
+                    },
+                    {
+                        "expanded_size": 64506311,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:cd8b3f75cc166f67ceb8c2de7eb48aae44ca0b79ed844eb0b14d1bd87da8d2b7"
+                    },
+                    {
+                        "expanded_size": 60359483,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1889b8a61bb8f4d2a2e690ff095ca9986d2ea69e1b6179e9e7e83db739daee81"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
+                        "email": "joao.maker@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "rov",
+                    "camera",
+                    "cam",
+                    "br4kcam",
+                    "control"
+                ],
+                "extra_links": {},
+                "tag": "0.3.4",
+                "docs": null,
+                "readme": "<h1>4K Cam Manager</h1>\n<p>This is the official 4K Cam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
+                "support": "https://raw.githubusercontent.com/bluerobotics/br4kcam-manager/",
+                "requirements": "[ \"core >= 1.4.4\", \"cockpit >= 1.7\" ]",
+                "company": {
+                    "about": "4K Cam's official management interface",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/var/logs/blueos/extensions/br4kcam-manager:/logs",
+                            "/usr/blueos/extensions/br4kcam-manager:/app",
+                            "/root/.config/blueos/ardupilot-manager/firmware/scripts:/scripts"
+                        ],
+                        "ExtraHosts": [
+                            "blueos.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        },
+                        "RestartPolicy": {
+                            "Name": "unless-stopped"
+                        }
+                    }
+                }
+            },
             "0.3.3": {
                 "identifier": "00a81858-8459-591d-9b1f-0356254c8104",
                 "type": "device-integration",
@@ -13905,8 +13979,8 @@
             }
         },
         "repo_info": {
-            "downloads": 2850,
-            "last_updated": "2026-10-08T04:39:46.048543Z",
+            "downloads": 2878,
+            "last_updated": "2026-10-08T14:08:59.311755Z",
             "date_registered": "2026-08-10T23:39:28.481455Z"
         }
     },
@@ -14134,7 +14208,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3189,
+            "downloads": 3194,
             "last_updated": "2026-05-05T13:55:31.828605Z",
             "date_registered": "2025-05-20T15:43:22.289812Z"
         }
@@ -14364,7 +14438,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9282,
+            "downloads": 9287,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -14683,7 +14757,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11088,
+            "downloads": 11098,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -14754,7 +14828,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9326,
+            "downloads": 9327,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -15000,7 +15074,7 @@
             }
         },
         "repo_info": {
-            "downloads": 22099,
+            "downloads": 22105,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -16887,7 +16961,7 @@
             }
         },
         "repo_info": {
-            "downloads": 88570,
+            "downloads": 88603,
             "last_updated": "2026-08-14T10:50:23.663125Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -16906,6 +16980,15 @@
                 "type": "device-integration",
                 "website": null,
                 "images": [
+                    {
+                        "expanded_size": 99535604,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a0cff36cb61f4319a7ed5e4a11a2d6b62d9ed69aef5a42fb79a73f011010328a"
+                    },
                     {
                         "expanded_size": 94804153,
                         "platform": {
@@ -16976,6 +17059,15 @@
                 "website": null,
                 "images": [
                     {
+                        "expanded_size": 99212913,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8b928a304f0c8ab34190db0e427d025b7a06ccf29d9f0741bbb757e0cabec457"
+                    },
+                    {
                         "expanded_size": 85016217,
                         "platform": {
                             "architecture": "arm",
@@ -17036,6 +17128,15 @@
                 "website": null,
                 "images": [
                     {
+                        "expanded_size": 99242317,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:125053b71c5eb2f309577304ae14569a3dd4964458138317c03c4bd9b5380b75"
+                    },
+                    {
                         "expanded_size": 85090703,
                         "platform": {
                             "architecture": "arm",
@@ -17092,7 +17193,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4064,
+            "downloads": 4073,
             "last_updated": "2025-10-01T05:57:10.274174Z",
             "date_registered": "2025-05-10T01:56:01.193452Z"
         }
@@ -17167,7 +17268,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1879,
+            "downloads": 1882,
             "last_updated": "2025-07-10T10:12:35.559561Z",
             "date_registered": "2025-06-09T11:02:45.219651Z"
         }
@@ -17244,7 +17345,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1733,
+            "downloads": 1736,
             "last_updated": "2025-07-15T10:40:44.978177Z",
             "date_registered": "2025-06-30T11:16:48.313135Z"
         }
@@ -18547,7 +18648,7 @@
             }
         },
         "repo_info": {
-            "downloads": 103111,
+            "downloads": 103148,
             "last_updated": "2026-04-30T09:10:10.908744Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -18677,7 +18778,7 @@
             }
         },
         "repo_info": {
-            "downloads": 88148,
+            "downloads": 88151,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -18752,7 +18853,7 @@
             }
         },
         "repo_info": {
-            "downloads": 785,
+            "downloads": 786,
             "last_updated": "2025-06-13T02:53:50.603427Z",
             "date_registered": "2025-06-13T02:53:50.53734Z"
         }
@@ -19038,7 +19139,7 @@
             }
         },
         "repo_info": {
-            "downloads": 157336,
+            "downloads": 157345,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -19204,7 +19305,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14458,
+            "downloads": 14463,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -19690,7 +19791,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44783,
+            "downloads": 44798,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -19826,7 +19927,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90675,
+            "downloads": 90678,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -19956,7 +20057,7 @@
             }
         },
         "repo_info": {
-            "downloads": 92929,
+            "downloads": 92932,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -20320,7 +20421,7 @@
             }
         },
         "repo_info": {
-            "downloads": 30987,
+            "downloads": 30998,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -20555,7 +20656,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9723,
+            "downloads": 9730,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -20990,7 +21091,7 @@
             }
         },
         "repo_info": {
-            "downloads": 17254,
+            "downloads": 17272,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -21372,7 +21473,7 @@
             }
         },
         "repo_info": {
-            "downloads": 33282,
+            "downloads": 33293,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -21503,7 +21604,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11752,
+            "downloads": 11755,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -21974,7 +22075,7 @@
             }
         },
         "repo_info": {
-            "downloads": 73559,
+            "downloads": 73571,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -22104,7 +22205,7 @@
             }
         },
         "repo_info": {
-            "downloads": 95952,
+            "downloads": 95955,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -22274,7 +22375,7 @@
             }
         },
         "repo_info": {
-            "downloads": 209,
+            "downloads": 212,
             "last_updated": "2026-10-02T21:20:52.428424Z",
             "date_registered": "2026-10-01T19:30:24.583076Z"
         }
@@ -22586,7 +22687,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6864,
+            "downloads": 6873,
             "last_updated": "2025-10-06T16:30:12.858404Z",
             "date_registered": "2025-06-05T16:32:39.297165Z"
         }
@@ -22816,7 +22917,7 @@
             }
         },
         "repo_info": {
-            "downloads": 57409,
+            "downloads": 57416,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -23782,7 +23883,7 @@
             }
         },
         "repo_info": {
-            "downloads": 38997,
+            "downloads": 39026,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -23929,7 +24030,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2025,
+            "downloads": 2030,
             "last_updated": "2026-01-30T21:25:13.839149Z",
             "date_registered": "2026-01-30T20:31:13.810756Z"
         }
