@@ -1,0 +1,6 @@
+{
+    "name": "Vibration Analyzer",
+    "website": "https://github.com/rafaellehmkuhl/blueos-vibration-analyzer",
+    "docker": "rafaellehmkuhl/blueos-vibration-analyzer",
+    "description": "Live and log-based vibration analysis for ArduPilot vehicles: vibration levels and clipping, FFT and spectrogram, harmonic notch filter lab and a 3D vehicle view."
+}
