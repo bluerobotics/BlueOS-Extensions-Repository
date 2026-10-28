@@ -1,0 +1,6 @@
+{
+    "name": "Tailscale",
+    "website": "https://github.com/vshie/BlueOS-Tailscale",
+    "docker": "vshie/blueos-tailscale",
+    "description": "Tailscale VPN for BlueOS — join your tailnet from the UI (login link or auth key) and reach the vehicle's web interface, SSH, MAVLink and video at its Tailscale IP from anywhere with internet. Optional subnet routing for devices behind the vehicle."
+}
