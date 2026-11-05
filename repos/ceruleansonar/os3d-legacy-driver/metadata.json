@@ -1,0 +1,6 @@
+{
+    "name": "Omniscan 3D Legacy Driver",
+    "website": "https://docs.ceruleansonar.com/c/omniscan3d/getting-started/quick-start-upgrade-kit",
+    "docker": "nicknothom/os3d-legacy-driver",
+    "description": "Driver for the discontinued Omniscan 3D Upgrade kit. Not compatible with Omniscan 3D All-in-one unit."
+}
