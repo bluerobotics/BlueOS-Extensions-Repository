@@ -1,6 +1,6 @@
 {
-    "name": "Cerulean DVL",
+    "name": "DVL-75 (Legacy)",
     "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-DVL/",
     "docker": "nicknothom/blueos-cerulean-dvl",
-    "description": "BlueOS extension for Cerulean DVL"
+    "description": "Driver for the old Cerulean Sonar DVL-75. Not compatible with the Tracker 650."
 }
