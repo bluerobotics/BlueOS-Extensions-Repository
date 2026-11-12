@@ -25,3 +25,7 @@ jobs:
     - name: Run tests
       run: |
         ./.hooks/pre-push
+
+    - name: Check extensions metadata
+      run: |
+        python blueos_repository/check_metadata.py
