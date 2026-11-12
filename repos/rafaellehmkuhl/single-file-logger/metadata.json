@@ -1,0 +1,6 @@
+{
+    "name": "Single File Logger",
+    "website": "https://github.com/rafaellehmkuhl/blueos-complete-data-logger",
+    "docker": "rafaellehmkuhl/blueos-complete-data-logger",
+    "description": "Records everything the vehicle knows into one MCAP file per run: all MAVLink, the state of every BlueOS service, kernel messages and the logs of every service and container, on a monotonic timeline with external time sync."
+}
