@@ -1,5 +1,5 @@
 {
-    "name": "Data Streaming to Cockpit via WebSocket (Example Extension)",
+    "name": "Data Streaming to Cockpit",
     "website": "https://github.com/rafaellehmkuhl/BlueOS-WebSocket-Server-For-Cockpit-Extension",
     "docker": "rafaellehmkuhl/blueos-websocket-server-for-cockpit",
     "description": "Example extension demonstrating how to create a WebSocket server that streams data-lake variables to Cockpit.",
