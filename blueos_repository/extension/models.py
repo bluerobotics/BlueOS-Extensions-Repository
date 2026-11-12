@@ -151,3 +151,10 @@ class ExtensionMetadata:
     description: str
     extension_logo: Optional[str] = None
     company_logo: Optional[str] = None
+
+    def __post_init__(self) -> None:
+        """
+        Post-initialization processing to enforce constraints
+        """
+        if len(self.name) > 25:
+            raise ValueError(f"Name must be at most 25 characters, not {len(self.name)}: {self.name}")
