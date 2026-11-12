@@ -20,4 +20,7 @@ pylint $(git ls-files '*.py')
 echo "Running mypy.."
 git ls-files '*.py' | xargs --max-lines=1 mypy
 
+echo "Running pytest.."
+pytest tests/ -vs
+
 exit 0
