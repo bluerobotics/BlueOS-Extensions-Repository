@@ -1,0 +1,6 @@
+{
+    "name": "Odometer",
+    "website": "https://github.com/vshie/Odometer",
+    "docker": "vshie/blueos-odometer",
+    "description": "Vehicle odometer and service record for BlueOS: tracks total, armed and per-mode hours, energy, distance, battery swaps and per-thruster run hours, flags hard-use sessions, keeps a maintenance log (with BlueOS Self Test runs imported automatically), and adds a Cockpit widget."
+}
