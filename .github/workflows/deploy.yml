@@ -24,14 +24,11 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Install node 🟢
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install
         run: |
-          npm install --global yarn@1
           python -m pip install --editable .
           rm -rf blueos_extensions_repository.egg-info
           mkdir build
@@ -53,8 +50,8 @@ jobs:
       - name: Build website
         run: |
           cd website
-          yarn install --frozen-lockfile
-          yarn build
+          bun install --frozen-lockfile
+          bun run build
           mv dist/* ../build
 
       - name: Upload logs
