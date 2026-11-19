@@ -98,8 +98,8 @@ There is also a [website](https://docs.bluerobotics.com/BlueOS-Extensions-Reposi
 # clone and enter the repo
 git clone --single-branch https://github.com/bluerobotics/BlueOS-Extensions-Repository
 cd BlueOS-Extensions-Repository
-# install yarn if necessary (`brew install yarn` on mac)
-sudo apt install -y yarn
+# install bun if necessary (`brew install bun` on mac)
+curl -fsSL https://bun.sh/install | bash
 # install Python dependencies
 python -m pip install --upgrade poetry
 python -m poetry install
@@ -109,8 +109,8 @@ python -m poetry run blueos_repository/consolidate.py
 mv manifest.json website/public/
 # install website dependencies
 cd website
-yarn install --frozen-lockfile
+bun install --frozen-lockfile
 # generate and serve the website locally, in development mode
-yarn dev
+bun run dev
 ... # go to http://localhost:3000/ in your browser (may need to refresh if it's not working)
 ```
