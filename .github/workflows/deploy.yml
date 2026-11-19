@@ -24,9 +24,14 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: Install node 🟢
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Install
         run: |
-          sudo apt install -y yarn
+          npm install --global yarn@1
           python -m pip install --editable .
           rm -rf blueos_extensions_repository.egg-info
           mkdir build
