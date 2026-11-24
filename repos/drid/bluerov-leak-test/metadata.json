@@ -1,0 +1,6 @@
+{
+    "name": "BlueROV2 Leak Test",
+    "website": "https://gitlab.com/drid/bluerov-leak-test",
+    "docker": "hydrobotik/bluerov-leak-test",
+    "description": "Vacuum leak test for the BlueROV2 enclosure. Reads the internal barometer, plots pressure live and gives a pass/fail result, with PNG, SVG and CSV export."
+}
