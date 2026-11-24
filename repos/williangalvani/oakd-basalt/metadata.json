@@ -1,0 +1,6 @@
+{
+    "name": "OAK-D VIO",
+    "website": "https://github.com/Williangalvani/Blueos-Oakd-Basalt",
+    "docker": "williangalvani/blueos-oakd-basalt",
+    "description": "Visual odometry from a Luxonis OAK-D for ArduPilot/ArduSub: stereo depth and feature tracking on the camera, VISION_POSITION_DELTA to the autopilot."
+}
